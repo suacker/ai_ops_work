@@ -1,0 +1,50 @@
+- generic [ref=e1]:
+  - dialog "Cookie 同意横幅" [ref=e2]:
+    - button "关闭此对话框" [active] [ref=e3] [cursor=pointer]:
+      - img "关闭此对话框" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: 本网站利用 Cookie 等技术来启用基本网站功能以及 分析、个性化定制 和 有针对性的广告。 要了解更多信息，请查看以下链接：
+      - link "隐私政策" [ref=e7] [cursor=pointer]:
+        - /url: https://sensortower.com/privacy
+    - button "设定偏好" [ref=e9] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - heading "We've Been Acquired by Sensor Tower" [level=1] [ref=e15]
+        - link "了解详情" [ref=e16] [cursor=pointer]:
+          - /url: https://sensortower.com/blog/data-ai-joins-sensor-tower?utm_source=website&utm_medium=website&utm_campaign=data-ai-joins-sensor-tower&utm_content=blog&utm_term=march18
+          - generic [ref=e17]: 了解详情
+      - generic [ref=e18]:
+        - img [ref=e20]
+        - generic [ref=e25]:
+          - generic [ref=e27]:
+            - textbox "电子邮件" [ref=e29]
+            - textbox "密码" [ref=e31]
+            - generic [ref=e33]:
+              - checkbox "在 14 天之内记住我" [ref=e34] [cursor=pointer]
+              - generic [ref=e35]: 在 14 天之内记住我
+            - button "登录" [ref=e36] [cursor=pointer]
+          - generic [ref=e37]:
+            - button "使用SSO登录" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: 使用SSO登录
+            - link "忘记密码？" [ref=e41] [cursor=pointer]:
+              - /url: /account/password-reset
+              - generic [ref=e42]: 忘记密码？
+          - link "Create an account with Sensor Tower" [ref=e44] [cursor=pointer]:
+            - /url: https://app.sensortower.com/users/sign_up?utm_medium=login-page&utm_source=data.ai
+            - generic [ref=e46]:
+              - generic [ref=e47]: Create an account with
+              - img "Sensor Tower" [ref=e48]
+    - generic [ref=e53]:
+      - button "中文(简体)" [ref=e56] [cursor=pointer]:
+        - img [ref=e57]
+        - generic [ref=e61]: 中文(简体)
+        - img [ref=e63]
+      - generic [ref=e65]:
+        - generic [ref=e66]: © 2026 data.ai, a Sensor Tower company
+        - link "| 使用条款" [ref=e67] [cursor=pointer]:
+          - /url: https://sensortower.com/tos/
+        - link "| 隐私政策" [ref=e68] [cursor=pointer]:
+          - /url: https://sensortower.com/privacy/
+  - alert [ref=e69]
+  - generic [ref=e70]: mmmmmmmmmmlli

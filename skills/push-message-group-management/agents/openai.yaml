@@ -1,0 +1,3 @@
+interface:
+  display_name: "Push消息组管理"
+  short_description: "在消息库中创建消息组并新增 English 消息后应用"

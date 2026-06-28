@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A101 PhotoArt 买量计划 ROI 日报</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --ink: #14212b;
+      --muted: #5c6b78;
+      --line: #d8e0e7;
+      --brand: #1f6f8b;
+      --good: #1f8a5b;
+      --warn: #b86d00;
+      --bad: #b42318;
+      --soft: #e6f2f7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "SF Pro Text", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+    .container { width: min(1280px, 94vw); margin: 28px auto 42px; }
+    .header {
+      color: #fff;
+      background: linear-gradient(120deg, #123746 0%, #1f6f8b 58%, #2e8c77 100%);
+      border-radius: 14px;
+      padding: 24px 26px;
+      box-shadow: 0 8px 24px rgba(16, 24, 40, 0.08);
+    }
+    h1 { margin: 0; font-size: 28px; letter-spacing: 0; }
+    .subtitle { margin: 8px 0 0; color: #dceff5; font-size: 14px; }
+    .section {
+      margin-top: 16px;
+      padding: 18px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(16, 24, 40, 0.06);
+    }
+    h2 { margin: 0 0 12px; font-size: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    .metric { padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; }
+    .metric .k { color: var(--muted); font-size: 12px; }
+    .metric .v { margin-top: 6px; font-size: 22px; font-weight: 750; }
+    .note {
+      margin: 0 0 12px;
+      padding: 10px 12px;
+      border-left: 4px solid var(--brand);
+      background: var(--soft);
+      color: #164457;
+      border-radius: 8px;
+      font-size: 13px;
+    }
+    .chart-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+    }
+    svg { display: block; min-width: 980px; width: 100%; height: auto; }
+    .axis { stroke: #9aa9b5; stroke-width: 1; }
+    .grid-line { stroke: #e7edf2; stroke-width: 1; }
+    .label { fill: var(--muted); font-size: 12px; }
+    .legend { display: flex; flex-wrap: wrap; gap: 10px 16px; margin-top: 12px; color: var(--muted); font-size: 13px; }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .swatch { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .table-wrap { overflow: auto; border: 1px solid var(--line); border-radius: 10px; }
+    table { width: 100%; min-width: 980px; border-collapse: collapse; background: #fff; }
+    th, td { border-bottom: 1px solid var(--line); padding: 9px 10px; text-align: left; font-size: 13px; vertical-align: top; }
+    th { background: #f3f8fb; color: #1f4f63; white-space: nowrap; }
+    tr:last-child td { border-bottom: 0; }
+    .mono { font-variant-numeric: tabular-nums; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .right { text-align: right; }
+    .good { color: var(--good); font-weight: 700; }
+    .warn { color: var(--warn); font-weight: 700; }
+    .bad { color: var(--bad); font-weight: 700; }
+    .footer { margin: 18px 0 0; color: var(--muted); font-size: 12px; }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+      h1 { font-size: 22px; }
+      .section { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>A101 PhotoArt 买量计划 ROI 日报</h1>
+      <p class="subtitle">Snowball MCP · 2026-05-03 至 2026-05-07 · 按天展示 / 按买量计划拆分</p>
+    </header>
+
+    <section class="section">
+      <h2>核心 KPI</h2>
+      <div class="grid">
+        <div class="metric"><div class="k">总花费</div><div class="v mono">$4,876.54</div></div>
+        <div class="metric"><div class="k">日均花费</div><div class="v mono">$975.31</div></div>
+        <div class="metric"><div class="k">总安装</div><div class="v mono">44,254</div></div>
+        <div class="metric"><div class="k">整体 CPI</div><div class="v mono">$0.1102</div></div>
+        <div class="metric"><div class="k">整体 ROI0</div><div class="v mono">44.44%</div></div>
+        <div class="metric"><div class="k">整体 ROI1</div><div class="v mono">49.88%</div></div>
+        <div class="metric"><div class="k">整体 ROI3</div><div class="v mono">60.27%</div></div>
+        <div class="metric"><div class="k">主力计划花费占比</div><div class="v mono">97.86%</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>ROI0 按日趋势</h2>
+      <p class="note">线图展示各买量计划每日 ROI0。小样本计划波动较大，ID / DE / JP 建议作为探索趋势观察。</p>
+      <div class="chart-wrap">
+        <svg viewBox="0 0 1120 420" role="img" aria-label="ROI0 按日趋势线图">
+          <line class="axis" x1="70" y1="330" x2="1040" y2="330" />
+          <line class="axis" x1="70" y1="40" x2="70" y2="330" />
+          <g>
+            <line class="grid-line" x1="70" y1="330" x2="1040" y2="330" /><text class="label" x="26" y="334">0%</text>
+            <line class="grid-line" x1="70" y1="257.5" x2="1040" y2="257.5" /><text class="label" x="20" y="261">20%</text>
+            <line class="grid-line" x1="70" y1="185" x2="1040" y2="185" /><text class="label" x="20" y="189">40%</text>
+            <line class="grid-line" x1="70" y1="112.5" x2="1040" y2="112.5" /><text class="label" x="20" y="116">60%</text>
+            <line class="grid-line" x1="70" y1="40" x2="1040" y2="40" /><text class="label" x="20" y="44">80%</text>
+          </g>
+          <g class="label">
+            <text x="58" y="356">05-03</text><text x="301" y="356">05-04</text><text x="543" y="356">05-05</text><text x="786" y="356">05-06</text><text x="1028" y="356">05-07</text>
+          </g>
+          <polyline fill="none" stroke="#1f6f8b" stroke-width="3" points="70,190.8 312.5,140.5 555,165.6 797.5,180.1 1040,200.4" />
+          <polyline fill="none" stroke="#2e8c77" stroke-width="3" points="70,103.7 312.5,144.1 555,172.6 797.5,178.4 1040,187.2" />
+          <polyline fill="none" stroke="#b86d00" stroke-width="3" points="70,163.5 312.5,146.6 555,145.1 797.5,154.5 1040,183.6" />
+          <polyline fill="none" stroke="#6f5bd7" stroke-width="3" points="70,170.5 312.5,229.6 555,267.2 797.5,246.9 1040,274.1" />
+          <polyline fill="none" stroke="#d65f5f" stroke-width="3" points="70,277.7 312.5,299.1 555,284.2 797.5,262.0 1040,277.8" />
+          <polyline fill="none" stroke="#596b7a" stroke-width="3" points="70,293.7 312.5,252.6 555,320.6 797.5,319.0 1040,316.8" />
+          <polyline fill="none" stroke="#c05aa0" stroke-width="3" points="70,220.4 312.5,280.6 555,224.4 797.5,244.4 1040,279.0" />
+        </svg>
+      </div>
+      <div class="legend">
+        <span><i class="swatch" style="background:#1f6f8b"></i>SouthA</span>
+        <span><i class="swatch" style="background:#2e8c77"></i>US</span>
+        <span><i class="swatch" style="background:#b86d00"></i>BR</span>
+        <span><i class="swatch" style="background:#6f5bd7"></i>ID</span>
+        <span><i class="swatch" style="background:#d65f5f"></i>DE</span>
+        <span><i class="swatch" style="background:#596b7a"></i>JP</span>
+        <span><i class="swatch" style="background:#c05aa0"></i>T1-EN</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>5 天花费分布</h2>
+      <div class="chart-wrap">
+        <svg viewBox="0 0 1120 360" role="img" aria-label="5 天买量计划花费分布柱状图">
+          <line class="axis" x1="80" y1="300" x2="1040" y2="300" />
+          <line class="axis" x1="80" y1="40" x2="80" y2="300" />
+          <g>
+            <rect x="110" y="40" width="95" height="260" fill="#1f6f8b" /><text class="label" x="105" y="323">SouthA</text><text class="label" x="113" y="34">$1,874</text>
+            <rect x="245" y="67" width="95" height="233" fill="#2e8c77" /><text class="label" x="255" y="323">US</text><text class="label" x="254" y="61">$1,679</text>
+            <rect x="380" y="131" width="95" height="169" fill="#b86d00" /><text class="label" x="390" y="323">BR</text><text class="label" x="389" y="125">$1,219</text>
+            <rect x="515" y="295" width="95" height="5" fill="#6f5bd7" /><text class="label" x="522" y="323">ID</text><text class="label" x="522" y="289">$34</text>
+            <rect x="650" y="296" width="95" height="4" fill="#c05aa0" /><text class="label" x="650" y="323">T1-EN</text><text class="label" x="657" y="290">$28</text>
+            <rect x="785" y="297" width="95" height="3" fill="#d65f5f" /><text class="label" x="792" y="323">DE</text><text class="label" x="792" y="291">$23</text>
+            <rect x="920" y="297" width="95" height="3" fill="#596b7a" /><text class="label" x="927" y="323">JP</text><text class="label" x="927" y="291">$19</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>买量计划汇总表</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>买量计划</th><th class="right">5天花费</th><th class="right">安装</th><th class="right">CPI</th><th class="right">ROI0</th><th class="right">ROI1</th><th class="right">ROI3</th><th class="right">ROI7*</th><th class="right">ROI14*</th><th class="right">ROI0变化</th></tr>
+          </thead>
+          <tbody class="mono">
+            <tr><td>SouthA-3.0-th-rev-260109</td><td class="right">$1,874.04</td><td class="right">26,118</td><td class="right">$0.0718</td><td class="right warn">42.43%</td><td class="right">45.65%</td><td class="right">49.63%</td><td class="right">54.44%</td><td class="right">58.19%</td><td class="right">-2.64pp</td></tr>
+            <tr><td>US-3.0-th-rev-250422</td><td class="right">$1,679.35</td><td class="right">3,038</td><td class="right">$0.5528</td><td class="right good">46.56%</td><td class="right">49.34%</td><td class="right">56.19%</td><td class="right">58.18%</td><td class="right">60.28%</td><td class="right bad">-23.05pp</td></tr>
+            <tr><td>BR-3.0-th-rev-260109</td><td class="right">$1,218.87</td><td class="right">14,723</td><td class="right">$0.0828</td><td class="right good">46.84%</td><td class="right">50.63%</td><td class="right">53.80%</td><td class="right">60.35%</td><td class="right">64.63%</td><td class="right">-5.54pp</td></tr>
+            <tr><td>ID-3.0-th-rev-260319</td><td class="right">$34.09</td><td class="right">257</td><td class="right">$0.1326</td><td class="right bad">24.48%</td><td class="right">26.99%</td><td class="right">31.09%</td><td class="right">32.91%</td><td class="right">34.14%</td><td class="right bad">-28.58pp</td></tr>
+            <tr><td>T1-EN-3.0-th-rev-260318</td><td class="right">$28.07</td><td class="right">32</td><td class="right">$0.8771</td><td class="right bad">22.61%</td><td class="right">26.35%</td><td class="right">34.82%</td><td class="right">54.10%</td><td class="right">57.73%</td><td class="right bad">-16.16pp</td></tr>
+            <tr><td>DE-th-rev-260429</td><td class="right">$23.18</td><td class="right">57</td><td class="right">$0.4067</td><td class="right bad">14.40%</td><td class="right">16.34%</td><td class="right">17.06%</td><td class="right">17.33%</td><td class="right">17.33%</td><td class="right">-0.02pp</td></tr>
+            <tr><td>JP-th-rev-260429</td><td class="right">$18.93</td><td class="right">29</td><td class="right">$0.6529</td><td class="right bad">7.72%</td><td class="right">9.07%</td><td class="right">9.99%</td><td class="right">9.99%</td><td class="right">9.99%</td><td class="right">-6.38pp</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>按日明细表</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>日期</th><th>买量计划</th><th class="right">花费</th><th class="right">安装</th><th class="right">CPI</th><th class="right">ROI0</th><th class="right">ROI1</th><th class="right">ROI3</th><th class="right">ROI7*</th><th class="right">ROI14*</th></tr>
+          </thead>
+          <tbody class="mono">
+            <tr><td>2026-05-03</td><td>SouthA-3.0-th-rev-260109</td><td class="right">$388.82</td><td class="right">5,370</td><td class="right">$0.0720</td><td class="right">38.39%</td><td class="right">41.69%</td><td class="right">51.12%</td><td class="right">55.88%</td><td class="right">59.42%</td></tr>
+            <tr><td>2026-05-03</td><td>US-3.0-th-rev-250422</td><td class="right">$246.97</td><td class="right">518</td><td class="right">$0.4770</td><td class="right">62.43%</td><td class="right">66.78%</td><td class="right">70.46%</td><td class="right">74.93%</td><td class="right">77.63%</td></tr>
+            <tr><td>2026-05-03</td><td>BR-3.0-th-rev-260109</td><td class="right">$234.01</td><td class="right">2,892</td><td class="right">$0.0810</td><td class="right">45.95%</td><td class="right">49.95%</td><td class="right">52.18%</td><td class="right">60.07%</td><td class="right">63.64%</td></tr>
+            <tr><td>2026-05-03</td><td>ID-3.0-th-rev-260319</td><td class="right">$6.09</td><td class="right">50</td><td class="right">$0.1220</td><td class="right">43.99%</td><td class="right">47.88%</td><td class="right">63.44%</td><td class="right">66.06%</td><td class="right">67.40%</td></tr>
+            <tr><td>2026-05-03</td><td>JP-th-rev-260429</td><td class="right">$4.65</td><td class="right">5</td><td class="right">$0.9300</td><td class="right">10.01%</td><td class="right">10.01%</td><td class="right">10.28%</td><td class="right">10.28%</td><td class="right">10.28%</td></tr>
+            <tr><td>2026-05-03</td><td>DE-th-rev-260429</td><td class="right">$3.87</td><td class="right">10</td><td class="right">$0.3870</td><td class="right">14.43%</td><td class="right">16.97%</td><td class="right">17.48%</td><td class="right">19.09%</td><td class="right">19.09%</td></tr>
+            <tr><td>2026-05-03</td><td>T1-EN-3.0-th-rev-260318</td><td class="right">$3.75</td><td class="right">6</td><td class="right">$0.6260</td><td class="right">30.23%</td><td class="right">30.23%</td><td class="right">30.23%</td><td class="right">83.41%</td><td class="right">89.61%</td></tr>
+            <tr><td>2026-05-04</td><td>SouthA-3.0-th-rev-260109</td><td class="right">$365.47</td><td class="right">5,350</td><td class="right">$0.0680</td><td class="right">52.28%</td><td class="right">55.21%</td><td class="right">57.05%</td><td class="right">63.59%</td><td class="right">67.56%</td></tr>
+            <tr><td>2026-05-04</td><td>US-3.0-th-rev-250422</td><td class="right">$286.30</td><td class="right">548</td><td class="right">$0.5220</td><td class="right">51.27%</td><td class="right">55.27%</td><td class="right">81.51%</td><td class="right">81.51%</td><td class="right">81.51%</td></tr>
+            <tr><td>2026-05-04</td><td>BR-3.0-th-rev-260109</td><td class="right">$207.18</td><td class="right">2,762</td><td class="right">$0.0750</td><td class="right">50.61%</td><td class="right">54.02%</td><td class="right">56.02%</td><td class="right">65.70%</td><td class="right">69.81%</td></tr>
+            <tr><td>2026-05-04</td><td>ID-3.0-th-rev-260319</td><td class="right">$4.67</td><td class="right">35</td><td class="right">$0.1330</td><td class="right">27.70%</td><td class="right">28.60%</td><td class="right">29.76%</td><td class="right">32.37%</td><td class="right">33.71%</td></tr>
+            <tr><td>2026-05-04</td><td>DE-th-rev-260429</td><td class="right">$4.06</td><td class="right">14</td><td class="right">$0.2900</td><td class="right">8.53%</td><td class="right">13.52%</td><td class="right">15.04%</td><td class="right">15.04%</td><td class="right">15.04%</td></tr>
+            <tr><td>2026-05-04</td><td>T1-EN-3.0-th-rev-260318</td><td class="right">$3.43</td><td class="right">4</td><td class="right">$0.8570</td><td class="right">13.64%</td><td class="right">15.06%</td><td class="right">15.06%</td><td class="right">101.43%</td><td class="right">107.45%</td></tr>
+            <tr><td>2026-05-04</td><td>JP-th-rev-260429</td><td class="right">$2.99</td><td class="right">7</td><td class="right">$0.4270</td><td class="right">21.36%</td><td class="right">21.36%</td><td class="right">22.23%</td><td class="right">22.23%</td><td class="right">22.23%</td></tr>
+            <tr><td>2026-05-05</td><td>SouthA-3.0-th-rev-260109</td><td class="right">$350.29</td><td class="right">4,934</td><td class="right">$0.0710</td><td class="right">45.36%</td><td class="right">48.59%</td><td class="right">52.75%</td><td class="right">57.35%</td><td class="right">61.35%</td></tr>
+            <tr><td>2026-05-05</td><td>US-3.0-th-rev-250422</td><td class="right">$329.21</td><td class="right">595</td><td class="right">$0.5530</td><td class="right">43.41%</td><td class="right">46.58%</td><td class="right">51.70%</td><td class="right">54.31%</td><td class="right">56.72%</td></tr>
+            <tr><td>2026-05-05</td><td>BR-3.0-th-rev-260109</td><td class="right">$210.78</td><td class="right">2,671</td><td class="right">$0.0790</td><td class="right">51.01%</td><td class="right">54.84%</td><td class="right">60.26%</td><td class="right">64.02%</td><td class="right">67.44%</td></tr>
+            <tr><td>2026-05-05</td><td>T1-EN-3.0-th-rev-260318</td><td class="right">$7.37</td><td class="right">11</td><td class="right">$0.6700</td><td class="right">29.13%</td><td class="right">32.51%</td><td class="right">48.84%</td><td class="right">51.82%</td><td class="right">55.60%</td></tr>
+            <tr><td>2026-05-05</td><td>ID-3.0-th-rev-260319</td><td class="right">$5.20</td><td class="right">39</td><td class="right">$0.1330</td><td class="right">17.32%</td><td class="right">21.66%</td><td class="right">24.61%</td><td class="right">26.20%</td><td class="right">27.49%</td></tr>
+            <tr><td>2026-05-05</td><td>DE-th-rev-260429</td><td class="right">$3.20</td><td class="right">9</td><td class="right">$0.3560</td><td class="right">12.64%</td><td class="right">13.03%</td><td class="right">13.03%</td><td class="right">13.03%</td><td class="right">13.03%</td></tr>
+            <tr><td>2026-05-05</td><td>JP-th-rev-260429</td><td class="right">$2.71</td><td class="right">8</td><td class="right">$0.3390</td><td class="right">2.58%</td><td class="right">9.44%</td><td class="right">9.68%</td><td class="right">9.68%</td><td class="right">9.68%</td></tr>
+            <tr><td>2026-05-06</td><td>US-3.0-th-rev-250422</td><td class="right">$402.98</td><td class="right">665</td><td class="right">$0.6060</td><td class="right">43.42%</td><td class="right">46.94%</td><td class="right">50.38%</td><td class="right">53.04%</td><td class="right">55.41%</td></tr>
+            <tr><td>2026-05-06</td><td>SouthA-3.0-th-rev-260109</td><td class="right">$372.15</td><td class="right">4,984</td><td class="right">$0.0750</td><td class="right">41.34%</td><td class="right">44.86%</td><td class="right">47.57%</td><td class="right">53.34%</td><td class="right">58.17%</td></tr>
+            <tr><td>2026-05-06</td><td>BR-3.0-th-rev-260109</td><td class="right">$274.06</td><td class="right">3,060</td><td class="right">$0.0900</td><td class="right">48.41%</td><td class="right">51.15%</td><td class="right">55.88%</td><td class="right">62.44%</td><td class="right">67.89%</td></tr>
+            <tr><td>2026-05-06</td><td>ID-3.0-th-rev-260319</td><td class="right">$9.03</td><td class="right">67</td><td class="right">$0.1350</td><td class="right">22.92%</td><td class="right">24.86%</td><td class="right">26.41%</td><td class="right">27.95%</td><td class="right">29.21%</td></tr>
+            <tr><td>2026-05-06</td><td>T1-EN-3.0-th-rev-260318</td><td class="right">$7.28</td><td class="right">6</td><td class="right">$1.2140</td><td class="right">23.62%</td><td class="right">23.62%</td><td class="right">38.50%</td><td class="right">40.20%</td><td class="right">42.36%</td></tr>
+            <tr><td>2026-05-06</td><td>DE-th-rev-260429</td><td class="right">$6.74</td><td class="right">16</td><td class="right">$0.4210</td><td class="right">18.75%</td><td class="right">19.14%</td><td class="right">20.44%</td><td class="right">20.44%</td><td class="right">20.44%</td></tr>
+            <tr><td>2026-05-06</td><td>JP-th-rev-260429</td><td class="right">$4.20</td><td class="right">4</td><td class="right">$1.0500</td><td class="right">3.03%</td><td class="right">4.69%</td><td class="right">7.80%</td><td class="right">7.80%</td><td class="right">7.80%</td></tr>
+            <tr><td>2026-05-07</td><td>US-3.0-th-rev-250422</td><td class="right">$413.89</td><td class="right">712</td><td class="right">$0.5810</td><td class="right">39.38%</td><td class="right">39.38%</td><td class="right">39.38%</td><td class="right">40.13%</td><td class="right">42.81%</td></tr>
+            <tr><td>2026-05-07</td><td>SouthA-3.0-th-rev-260109</td><td class="right">$397.31</td><td class="right">5,480</td><td class="right">$0.0730</td><td class="right">35.76%</td><td class="right">38.89%</td><td class="right">40.53%</td><td class="right">43.08%</td><td class="right">45.58%</td></tr>
+            <tr><td>2026-05-07</td><td>BR-3.0-th-rev-260109</td><td class="right">$292.85</td><td class="right">3,338</td><td class="right">$0.0880</td><td class="right">40.40%</td><td class="right">45.27%</td><td class="right">46.91%</td><td class="right">52.18%</td><td class="right">56.67%</td></tr>
+            <tr><td>2026-05-07</td><td>ID-3.0-th-rev-260319</td><td class="right">$9.10</td><td class="right">66</td><td class="right">$0.1380</td><td class="right">15.41%</td><td class="right">17.33%</td><td class="right">18.43%</td><td class="right">19.73%</td><td class="right">20.79%</td></tr>
+            <tr><td>2026-05-07</td><td>T1-EN-3.0-th-rev-260318</td><td class="right">$6.23</td><td class="right">5</td><td class="right">$1.2460</td><td class="right">14.07%</td><td class="right">26.14%</td><td class="right">27.59%</td><td class="right">29.36%</td><td class="right">31.66%</td></tr>
+            <tr><td>2026-05-07</td><td>DE-th-rev-260429</td><td class="right">$5.31</td><td class="right">8</td><td class="right">$0.6640</td><td class="right">14.41%</td><td class="right">16.46%</td><td class="right">16.46%</td><td class="right">16.46%</td><td class="right">16.46%</td></tr>
+            <tr><td>2026-05-07</td><td>JP-th-rev-260429</td><td class="right">$4.38</td><td class="right">5</td><td class="right">$0.8760</td><td class="right">3.63%</td><td class="right">3.63%</td><td class="right">3.63%</td><td class="right">3.63%</td><td class="right">3.63%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note" style="margin-top:12px">ROI7 / ROI14 含预测值，仅作为趋势参考；小样本计划需结合安装量判断置信度。</p>
+    </section>
+
+    <section class="section">
+      <h2>风险定位与动作</h2>
+      <ul>
+        <li><strong>US：</strong>ROI0 从 62.43% 降至 39.38%，且花费持续增长，需暂停继续加预算并拆 adgroup / 素材排查。</li>
+        <li><strong>SouthA：</strong>规模最大，5 月 7 日 ROI0 降至 35.76%，建议维持预算观察，不扩大。</li>
+        <li><strong>BR：</strong>主力计划中最稳，可作为保量基准。</li>
+        <li><strong>ID / DE / JP：</strong>作为战略探索计划保留，但需以小预算、本地化素材、最小样本量规则推进。</li>
+      </ul>
+    </section>
+
+    <p class="footer">Generated from /Users/suacker/dev/DataAnalysis/BI/reports/roi/A101_PhotoArt_campaign_roi_2026-05-03_2026-05-07.md</p>
+  </main>
+</body>
+</html>

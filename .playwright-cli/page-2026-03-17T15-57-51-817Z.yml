@@ -1,0 +1,1681 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e8] [cursor=pointer]: 答问卷，赢好礼！点点数据会员免费领！
+    - generic [ref=e9]:
+      - generic [ref=e10] [cursor=pointer]: 立即参与
+      - generic [ref=e12] [cursor=pointer]: 
+  - generic: 
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - link [ref=e18] [cursor=pointer]:
+        - /url: /
+      - link "Google Play榜单" [ref=e23]:
+        - /url: javascript:;
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27] [cursor=pointer]: 全局
+        - generic [ref=e28] [cursor=pointer]: 商店
+      - combobox [ref=e30]:
+        - generic [ref=e31]:
+          - textbox "搜索应用名称/包名" [ref=e32]
+          - generic [ref=e33]:
+            - button "" [ref=e37]:
+              - generic [ref=e39]: 
+            - generic [ref=e40]:
+              - text:  
+              - generic [ref=e44]: 
+              - text: 
+              - generic: 
+          - generic [ref=e48] [cursor=pointer]: 
+    - generic [ref=e49]:
+      - link " API" [ref=e52] [cursor=pointer]:
+        - /url: /service/api
+        - generic [ref=e53]: 
+        - generic [ref=e54]: API
+      - generic [ref=e55]:    
+      - generic [ref=e58]:
+        - button [ref=e59] [cursor=pointer]
+        - text: 
+      - generic [ref=e60]:
+        - generic [ref=e63]:
+          - generic [ref=e64]: 切换语言版本
+          - generic [ref=e65] [cursor=pointer]: 
+        - generic [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: 文
+          - generic [ref=e70]: A
+      - generic [ref=e73] [cursor=pointer]:
+        - button "用户：oym0u6hl5l5h54k" [ref=e74]:
+          - img "用户：oym0u6hl5l5h54k" [ref=e76]
+          - img [ref=e79]
+        - text:  
+  - generic [ref=e81]:
+    - generic [ref=e84]:
+      - link " 高级搜索" [ref=e88] [cursor=pointer]:
+        - /url: /advanced-search
+        - generic [ref=e89]: 
+        - text: 高级搜索
+      - link "排行榜" [ref=e93] [cursor=pointer]:
+        - /url: /rank/ios/
+      - link " 市场情报" [ref=e97] [cursor=pointer]:
+        - /url: /control/appstore
+        - generic [ref=e98]: 
+        - text: 市场情报
+      - link " 功能标签" [ref=e102] [cursor=pointer]:
+        - /url: /category-tags?category=1&type=1
+        - generic [ref=e103]: 
+        - text: 功能标签
+      - link " ASO/ASA" [ref=e107] [cursor=pointer]:
+        - /url: /search/ios-1-5-5-75-0-微信
+        - generic [ref=e108]: 
+        - text: ASO/ASA
+      - link " SDK" [ref=e112] [cursor=pointer]:
+        - /url: /sdk/rank/install/0-1-75-4-0
+        - generic [ref=e113]: 
+        - text: SDK
+      - link " 广告素材" [ref=e117] [cursor=pointer]:
+        - /url: /creatives
+        - generic [ref=e118]: 
+        - text: 广告素材
+      - link " 竞品对比" [ref=e122] [cursor=pointer]:
+        - /url: /pk/1-75/appInfo
+        - generic [ref=e123]: 
+        - text: 竞品对比
+    - generic:
+      - generic: 
+    - generic [ref=e127]:
+      - generic [ref=e131]:
+        - generic [ref=e134]:
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - list [ref=e139]:
+                - listitem [ref=e140]:
+                  - link "总榜" [ref=e142] [cursor=pointer]:
+                    - /url: javascript:;
+                    - generic [ref=e145]: 总榜
+                - listitem [ref=e146]:
+                  - link "应用榜 " [ref=e148] [cursor=pointer]:
+                    - /url: javascript:;
+                    - generic [ref=e150]:
+                      - generic [ref=e151]: 应用榜
+                      - generic [ref=e152]: 
+                - listitem [ref=e153]:
+                  - link "游戏榜 " [ref=e155] [cursor=pointer]:
+                    - /url: javascript:;
+                    - generic [ref=e157]:
+                      - generic [ref=e158]: 游戏榜
+                      - generic [ref=e159]: 
+                - listitem [ref=e160]:
+                  - link "家庭榜 " [ref=e162] [cursor=pointer]:
+                    - /url: javascript:;
+                    - generic [ref=e164]:
+                      - generic [ref=e165]: 家庭榜
+                      - generic [ref=e166]: 
+              - generic: 
+            - generic [ref=e167]:
+              - generic [ref=e168]: 榜单类型
+              - list [ref=e170]:
+                - listitem [ref=e171]:
+                  - button "全部 " [ref=e174] [cursor=pointer]:
+                    - generic [ref=e176]: 全部
+                    - generic [ref=e177]: 
+              - generic: 
+            - generic [ref=e178]:
+              - generic [ref=e179]: 地区
+              - list [ref=e181]:
+                - listitem [ref=e182]:
+                  - generic [ref=e184]:
+                    - text:  
+                    - link "美国 " [ref=e186] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=e188]: 美国
+                      - generic [ref=e189]: 
+                    - text: 
+                    - generic: 
+              - generic: 
+            - generic [ref=e191]:
+              - generic [ref=e192]: 日期
+              - list [ref=e194]:
+                - listitem [ref=e195]:
+                  - generic [ref=e198] [cursor=pointer]:
+                    - textbox "自定义" [ref=e199]: 03月17日(今天)
+                    - generic [ref=e201]: 
+              - generic: 
+          - generic [ref=e203]:
+            - list [ref=e205]:
+              - listitem [ref=e206]:
+                - link "全部应用" [ref=e208] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e211]: 全部应用
+              - listitem [ref=e212]:
+                - link "财务" [ref=e214] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e217]: 财务
+              - listitem [ref=e218]:
+                - link "餐饮美食" [ref=e220] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e223]: 餐饮美食
+              - listitem [ref=e224]:
+                - link "车辆和交通" [ref=e226] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e229]: 车辆和交通
+              - listitem [ref=e230]:
+                - link "地图和导航" [ref=e232] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e235]: 地图和导航
+              - listitem [ref=e236]:
+                - link "个性定制" [ref=e238] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e241]: 个性定制
+              - listitem [ref=e242]:
+                - link "工具" [ref=e244] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e247]: 工具
+              - listitem [ref=e248]:
+                - link "办公" [ref=e250] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e253]: 办公
+              - listitem [ref=e254]:
+                - link "购物" [ref=e256] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e259]: 购物
+              - listitem [ref=e260]:
+                - link "活动" [ref=e262] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e265]: 活动
+              - listitem [ref=e266]:
+                - link "家居装修" [ref=e268] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e271]: 家居装修
+              - listitem [ref=e272]:
+                - link "健康与健身" [ref=e274] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e277]: 健康与健身
+              - listitem [ref=e278]:
+                - link "教育" [ref=e280] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e283]: 教育
+              - listitem [ref=e284]:
+                - link "外出旅行与本地生活" [ref=e286] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e289]: 外出旅行与本地生活
+              - listitem [ref=e290]:
+                - link "漫画" [ref=e292] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e295]: 漫画
+              - listitem [ref=e296]:
+                - link "美容时尚" [ref=e298] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e301]: 美容时尚
+              - listitem [ref=e302]:
+                - link "软件库与演示" [ref=e304] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e307]: 软件库与演示
+              - listitem [ref=e308]:
+                - link "效率" [ref=e310] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e313]: 效率
+              - listitem [ref=e314]:
+                - link "社交" [ref=e316] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e319]: 社交
+              - listitem [ref=e320]:
+                - link "约会交友" [ref=e322] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e325]: 约会交友
+              - listitem [ref=e326]:
+                - link "摄影" [ref=e328] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e331]: 摄影
+              - listitem [ref=e332]:
+                - link "生活时尚" [ref=e334] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e337]: 生活时尚
+              - listitem [ref=e338]:
+                - link "视频播放和编辑" [ref=e340] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e343]: 视频播放和编辑
+              - listitem [ref=e344]:
+                - link "体育" [ref=e346] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e349]: 体育
+              - listitem [ref=e350]:
+                - link "天气" [ref=e352] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e355]: 天气
+              - listitem [ref=e356]:
+                - link "通讯" [ref=e358] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e361]: 通讯
+              - listitem [ref=e362]:
+                - link "图书与工具书" [ref=e364] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e367]: 图书与工具书
+              - listitem [ref=e368]:
+                - link "新闻杂志" [ref=e370] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e373]: 新闻杂志
+              - listitem [ref=e374]:
+                - link "医疗" [ref=e376] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e379]: 医疗
+              - listitem [ref=e380]:
+                - link "艺术和设计" [ref=e382] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e385]: 艺术和设计
+              - listitem [ref=e386]:
+                - link "音乐与音频" [ref=e388] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e391]: 音乐与音频
+              - listitem [ref=e392]:
+                - link "娱乐" [ref=e394] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e397]: 娱乐
+              - listitem [ref=e398]:
+                - link "育儿" [ref=e400] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e403]: 育儿
+              - listitem [ref=e404]:
+                - link "手表应用" [ref=e406] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e409]: 手表应用
+            - generic: 
+        - generic [ref=e413]:
+          - generic [ref=e415]:
+            - generic [ref=e416]:
+              - generic [ref=e417]:
+                - generic [ref=e420]: 免费榜
+                - generic [ref=e422]: 23:23更新
+              - generic [ref=e423]:
+                - text: 
+                - generic [ref=e425] [cursor=pointer]: 
+                - text: 
+                - link "" [ref=e427] [cursor=pointer]:
+                  - /url: /rank/compete-11-1-7-24-1?time=&timetype=recent30
+                  - generic [ref=e428]: 
+                - generic [ref=e430] [cursor=pointer]: 
+            - generic [ref=e431]:
+              - generic [ref=e435]:
+                - link "PDF & Launcher for Android" [ref=e436] [cursor=pointer]:
+                  - /url: /app/y8qiju187mxriqy/googleplay?market=11&country=24
+                  - img "PDF & Launcher for Android" [ref=e437]
+                - generic [ref=e439]:
+                  - link "PDF & Launcher for Android" [ref=e444] [cursor=pointer]:
+                    - /url: /app/y8qiju187mxriqy/googleplay?market=11&country=24
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: 应用：9名
+                    - link "YINGRUN LIMITED" [ref=e451] [cursor=pointer]:
+                      - /url: /developer/6a5daf39879cc34684c4223b8dc99511/googleplay-app
+              - generic [ref=e455]:
+                - link "Find My Phone by Clap Launcher" [ref=e456] [cursor=pointer]:
+                  - /url: /app/4xlipu6pp22kcl4/googleplay?market=11&country=24
+                  - img "Find My Phone by Clap Launcher" [ref=e457]
+                - generic [ref=e459]:
+                  - link "Find My Phone by Clap Launcher" [ref=e464] [cursor=pointer]:
+                    - /url: /app/4xlipu6pp22kcl4/googleplay?market=11&country=24
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: 应用：21名
+                    - link "AtomApplications" [ref=e471] [cursor=pointer]:
+                      - /url: /developer/ad824c3efc41fbf029087a17bf695bd6/googleplay-app
+              - generic [ref=e475]:
+                - link "Photo Recover Plus - Restore" [ref=e476] [cursor=pointer]:
+                  - /url: /app/4v2imueqvzkeigy/googleplay?market=11&country=24
+                  - img "Photo Recover Plus - Restore" [ref=e477]
+                - generic [ref=e479]:
+                  - link "Photo Recover Plus - Restore" [ref=e484] [cursor=pointer]:
+                    - /url: /app/4v2imueqvzkeigy/googleplay?market=11&country=24
+                  - generic [ref=e485]:
+                    - generic [ref=e486]: 应用：28名
+                    - link "AbCdE" [ref=e491] [cursor=pointer]:
+                      - /url: /developer/37e464916dcb6dfc3994ca4549e97272/googleplay-app
+              - generic [ref=e492]:
+                - generic [ref=e493]:
+                  - generic [ref=e494]: "4"
+                  - generic [ref=e495]:
+                    - link "All Restore - Photo & Video" [ref=e496] [cursor=pointer]:
+                      - /url: /app/n7qi9u78gjk8aq4/googleplay?market=11&country=24
+                      - img "All Restore - Photo & Video" [ref=e497]
+                    - generic [ref=e499]:
+                      - link "All Restore - Photo & Video" [ref=e504] [cursor=pointer]:
+                        - /url: /app/n7qi9u78gjk8aq4/googleplay?market=11&country=24
+                      - generic [ref=e505]:
+                        - generic [ref=e506]: 应用：59名
+                        - link "Last Minute Flights Corp." [ref=e511] [cursor=pointer]:
+                          - /url: /developer/ae3ed85b8de2b9b87664c7a60d26d76d/googleplay-app
+                - generic [ref=e513]:
+                  - generic [ref=e514]: 
+                  - text: "5"
+              - generic [ref=e515]:
+                - generic [ref=e516]:
+                  - generic [ref=e517]: "5"
+                  - generic [ref=e518]:
+                    - link "Open Browser - Smart & Safe" [ref=e519] [cursor=pointer]:
+                      - /url: /app/yedipu6k55kqcr4/googleplay?market=11&country=24
+                      - img "Open Browser - Smart & Safe" [ref=e520]
+                    - generic [ref=e522]:
+                      - link "Open Browser - Smart & Safe" [ref=e527] [cursor=pointer]:
+                        - /url: /app/yedipu6k55kqcr4/googleplay?market=11&country=24
+                      - generic [ref=e528]:
+                        - generic [ref=e529]: 应用：71名
+                        - link "AdPulse INC" [ref=e534] [cursor=pointer]:
+                          - /url: /developer/96c77461fc70349ade1975befc28e66e/googleplay-app
+                - generic [ref=e536]:
+                  - generic [ref=e537]: 
+                  - text: "1"
+              - generic [ref=e538]:
+                - generic [ref=e539]:
+                  - generic [ref=e540]: "6"
+                  - generic [ref=e541]:
+                    - link "Move to iOS" [ref=e542] [cursor=pointer]:
+                      - /url: /app/74xlipuz88g1tl4/googleplay?market=11&country=24
+                      - img "Move to iOS" [ref=e543]
+                    - generic [ref=e545]:
+                      - link "Move to iOS" [ref=e550] [cursor=pointer]:
+                        - /url: /app/74xlipuz88g1tl4/googleplay?market=11&country=24
+                      - generic [ref=e551]:
+                        - generic [ref=e552]: 应用：72名
+                        - link "Apple" [ref=e557] [cursor=pointer]:
+                          - /url: /developer/9f6290f4436e5a2351f12e03b6433c3c/googleplay-app
+                - generic [ref=e559]:
+                  - generic [ref=e560]: 
+                  - text: "2"
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - generic [ref=e563]: "7"
+                  - generic [ref=e564]:
+                    - link "Clean Utility Toolkit" [ref=e565] [cursor=pointer]:
+                      - /url: /app/y58i5u9v07zwb7y/googleplay?market=11&country=24
+                      - img "Clean Utility Toolkit" [ref=e566]
+                    - generic [ref=e568]:
+                      - link "Clean Utility Toolkit" [ref=e573] [cursor=pointer]:
+                        - /url: /app/y58i5u9v07zwb7y/googleplay?market=11&country=24
+                      - generic [ref=e574]:
+                        - generic [ref=e575]: 应用：76名
+                        - link "YINGRUN LIMITED" [ref=e580] [cursor=pointer]:
+                          - /url: /developer/6a5daf39879cc34684c4223b8dc99511/googleplay-app
+                - generic [ref=e582]:
+                  - generic [ref=e583]: 
+                  - text: "2"
+              - generic [ref=e584]:
+                - generic [ref=e585]:
+                  - generic [ref=e586]: "8"
+                  - generic [ref=e587]:
+                    - link "QR & Barcode Scanner" [ref=e588] [cursor=pointer]:
+                      - /url: /app/jnzki9uoxrxivnk/googleplay?market=11&country=24
+                      - img "QR & Barcode Scanner" [ref=e589]
+                    - generic [ref=e591]:
+                      - link "QR & Barcode Scanner" [ref=e596] [cursor=pointer]:
+                        - /url: /app/jnzki9uoxrxivnk/googleplay?market=11&country=24
+                      - generic [ref=e597]:
+                        - generic [ref=e598]: 应用：77名
+                        - link "Gamma Play" [ref=e603] [cursor=pointer]:
+                          - /url: /developer/e3701d63c4c23e9de9ebb62b4387aa5f/googleplay-app
+                - generic [ref=e605]:
+                  - generic [ref=e606]: 
+                  - text: "1"
+              - generic [ref=e607]:
+                - generic [ref=e608]:
+                  - generic [ref=e609]: "9"
+                  - generic [ref=e610]:
+                    - link "Clean Fix Plus" [ref=e611] [cursor=pointer]:
+                      - /url: /app/499idukom0r1hj4/googleplay?market=11&country=24
+                      - img "Clean Fix Plus" [ref=e612]
+                    - generic [ref=e614]:
+                      - link "Clean Fix Plus" [ref=e619] [cursor=pointer]:
+                        - /url: /app/499idukom0r1hj4/googleplay?market=11&country=24
+                      - generic [ref=e620]:
+                        - generic [ref=e621]: 应用：78名
+                        - link "AppDustBuster" [ref=e626] [cursor=pointer]:
+                          - /url: /developer/f0ff5e0914642eb93d552d3e56d652ca/googleplay-app
+                - generic [ref=e628]:
+                  - generic [ref=e629]: 
+                  - text: "1"
+              - generic [ref=e630]:
+                - generic [ref=e631]:
+                  - generic [ref=e632]: "10"
+                  - generic [ref=e633]:
+                    - link "Analyze WiFi Launcher" [ref=e634] [cursor=pointer]:
+                      - /url: /app/4xlipuj90z31cl4/googleplay?market=11&country=24
+                      - img "Analyze WiFi Launcher" [ref=e635]
+                    - generic [ref=e637]:
+                      - link "Analyze WiFi Launcher" [ref=e642] [cursor=pointer]:
+                        - /url: /app/4xlipuj90z31cl4/googleplay?market=11&country=24
+                      - generic [ref=e643]:
+                        - generic [ref=e644]: 应用：93名
+                        - link "Weilei Taiyuan" [ref=e649] [cursor=pointer]:
+                          - /url: /developer/90167f7abe57e29fc72a0605adf7757a/googleplay-app
+                - generic [ref=e651]:
+                  - generic [ref=e652]: 
+                  - text: "6"
+              - generic [ref=e653]:
+                - generic [ref=e654]:
+                  - generic [ref=e655]: "11"
+                  - generic [ref=e656]:
+                    - 'link "Private Browser: Safe & Secure" [ref=e657] [cursor=pointer]':
+                      - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                      - 'img "Private Browser: Safe & Secure" [ref=e658]'
+                    - generic [ref=e660]:
+                      - 'link "Private Browser: Safe & Secure" [ref=e665] [cursor=pointer]':
+                        - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                      - generic [ref=e666]:
+                        - generic [ref=e667]: 应用：99名
+                        - link "Amobear Application - Avntech Master Tools" [ref=e672] [cursor=pointer]:
+                          - /url: /developer/5f9040e8f6f688e6c7d30afc85cb444f/googleplay-app
+                - generic [ref=e674]:
+                  - generic [ref=e675]: 
+                  - text: "12"
+              - generic [ref=e676]:
+                - generic [ref=e677]:
+                  - generic [ref=e678]: "12"
+                  - generic [ref=e679]:
+                    - link "Cleaner Toolbox" [ref=e680] [cursor=pointer]:
+                      - /url: /app/njrimu62vv2lapy/googleplay?market=11&country=24
+                      - img "Cleaner Toolbox" [ref=e681]
+                    - generic [ref=e683]:
+                      - link "Cleaner Toolbox" [ref=e688] [cursor=pointer]:
+                        - /url: /app/njrimu62vv2lapy/googleplay?market=11&country=24
+                      - generic [ref=e689]:
+                        - generic [ref=e690]: 应用：101名
+                        - link "SELBY TEAM" [ref=e695] [cursor=pointer]:
+                          - /url: /developer/569327d58e4f634eba89add0b69b7d2c/googleplay-app
+                - generic [ref=e697]:
+                  - generic [ref=e698]: 
+                  - text: "1"
+              - generic [ref=e699]:
+                - generic [ref=e700]:
+                  - generic [ref=e701]: "13"
+                  - generic [ref=e702]:
+                    - link "Cleaning Toolbox & Launcher" [ref=e703] [cursor=pointer]:
+                      - /url: /app/yodivu32lve1t9n/googleplay?market=11&country=24
+                      - img "Cleaning Toolbox & Launcher" [ref=e704]
+                    - generic [ref=e706]:
+                      - generic [ref=e707]:
+                        - link "Cleaning Toolbox & Launcher" [ref=e711] [cursor=pointer]:
+                          - /url: /app/yodivu32lve1t9n/googleplay?market=11&country=24
+                        - img [ref=e714]
+                      - generic [ref=e716]:
+                        - generic [ref=e717]: 应用：106名
+                        - link "YINHEE LIMITED" [ref=e722] [cursor=pointer]:
+                          - /url: /developer/9ec2c5f6560e855902ca043a59884ab8/googleplay-app
+                - generic [ref=e724]:
+                  - generic [ref=e725]: 
+                  - text: "1"
+              - generic [ref=e726]:
+                - generic [ref=e727]:
+                  - generic [ref=e728]: "14"
+                  - generic [ref=e729]:
+                    - link "WiFi Info & Launcher" [ref=e730] [cursor=pointer]:
+                      - /url: /app/np9igumvk5rja7y/googleplay?market=11&country=24
+                      - img "WiFi Info & Launcher" [ref=e731]
+                    - generic [ref=e733]:
+                      - link "WiFi Info & Launcher" [ref=e738] [cursor=pointer]:
+                        - /url: /app/np9igumvk5rja7y/googleplay?market=11&country=24
+                      - generic [ref=e739]:
+                        - generic [ref=e740]: 应用：108名
+                        - link "RUITA LIMITED" [ref=e745] [cursor=pointer]:
+                          - /url: /developer/77f2d3fe68fdc13b6f3b0f558bd70ee6/googleplay-app
+                - generic [ref=e747]:
+                  - generic [ref=e748]: 
+                  - text: "1"
+              - generic [ref=e749]:
+                - generic [ref=e750]:
+                  - generic [ref=e751]: "15"
+                  - generic [ref=e752]:
+                    - link "Samsung Smart Switch Mobile" [ref=e753] [cursor=pointer]:
+                      - /url: /app/0499iduvv9phj4e/googleplay?market=11&country=24
+                      - img "Samsung Smart Switch Mobile" [ref=e754]
+                    - generic [ref=e756]:
+                      - link "Samsung Smart Switch Mobile" [ref=e761] [cursor=pointer]:
+                        - /url: /app/0499iduvv9phj4e/googleplay?market=11&country=24
+                      - generic [ref=e762]:
+                        - generic [ref=e763]: 应用：109名
+                        - link "Samsung Electronics Co., Ltd." [ref=e768] [cursor=pointer]:
+                          - /url: /developer/36118fd428568ff4afcddc32b05a237e/googleplay-app
+                - generic [ref=e770]:
+                  - generic [ref=e771]: 
+                  - text: "5"
+              - generic [ref=e772]:
+                - generic [ref=e773]:
+                  - generic [ref=e774]: "16"
+                  - generic [ref=e775]:
+                    - link "Brightest Flashlight Launcher" [ref=e776] [cursor=pointer]:
+                      - /url: /app/y1qiouqozrx5s1n/googleplay?market=11&country=24
+                      - img "Brightest Flashlight Launcher" [ref=e777]
+                    - generic [ref=e779]:
+                      - link "Brightest Flashlight Launcher" [ref=e784] [cursor=pointer]:
+                        - /url: /app/y1qiouqozrx5s1n/googleplay?market=11&country=24
+                      - generic [ref=e785]:
+                        - generic [ref=e786]: 应用：115名
+                        - link "AtomApplications" [ref=e791] [cursor=pointer]:
+                          - /url: /developer/ad824c3efc41fbf029087a17bf695bd6/googleplay-app
+                - generic [ref=e793]:
+                  - generic [ref=e794]: 
+                  - text: "1"
+              - generic [ref=e795]:
+                - generic [ref=e796]:
+                  - generic [ref=e797]: "17"
+                  - generic [ref=e798]:
+                    - link "PDF Reader - Editor & Viewer" [ref=e799] [cursor=pointer]:
+                      - /url: /app/n3qiru8l9jo7igy/googleplay?market=11&country=24
+                      - img "PDF Reader - Editor & Viewer" [ref=e800]
+                    - generic [ref=e802]:
+                      - generic [ref=e803]:
+                        - link "PDF Reader - Editor & Viewer" [ref=e807] [cursor=pointer]:
+                          - /url: /app/n3qiru8l9jo7igy/googleplay?market=11&country=24
+                        - img [ref=e810]
+                      - generic [ref=e812]:
+                        - generic [ref=e813]: 应用：117名
+                        - link "Eternal Mobile Labs" [ref=e818] [cursor=pointer]:
+                          - /url: /developer/efd68f05cb0e0812644142e05db6a38c/googleplay-app
+                - generic [ref=e820]:
+                  - generic [ref=e821]: 
+                  - text: "4"
+              - generic [ref=e822]:
+                - generic [ref=e823]:
+                  - generic [ref=e824]: "18"
+                  - generic [ref=e825]:
+                    - link "Google Authenticator" [ref=e826] [cursor=pointer]:
+                      - /url: /app/wnp9iguqqwjs7y3/googleplay?market=11&country=24
+                      - img "Google Authenticator" [ref=e827]
+                    - generic [ref=e829]:
+                      - link "Google Authenticator" [ref=e834] [cursor=pointer]:
+                        - /url: /app/wnp9iguqqwjs7y3/googleplay?market=11&country=24
+                      - generic [ref=e835]:
+                        - generic [ref=e836]: 应用：118名
+                        - link "Google LLC" [ref=e841] [cursor=pointer]:
+                          - /url: /developer/cef875a517a9751055224d4a56fadfbc/googleplay-app
+                - generic [ref=e843]:
+                  - generic [ref=e844]: 
+                  - text: "4"
+              - generic [ref=e846]:
+                - generic [ref=e847]: "19"
+                - generic [ref=e848]:
+                  - link "Cleaner Launcher for Android" [ref=e849] [cursor=pointer]:
+                    - /url: /app/4q7izure72kwc7n/googleplay?market=11&country=24
+                    - img "Cleaner Launcher for Android" [ref=e850]
+                  - generic [ref=e852]:
+                    - link "Cleaner Launcher for Android" [ref=e857] [cursor=pointer]:
+                      - /url: /app/4q7izure72kwc7n/googleplay?market=11&country=24
+                    - generic [ref=e858]:
+                      - generic [ref=e859]: 应用：126名
+                      - link "Putul Host IT Dev" [ref=e864] [cursor=pointer]:
+                        - /url: /developer/73a1fc1a0ebf9024bf6b82a524ff55d6/googleplay-app
+              - generic [ref=e865]:
+                - generic [ref=e866]:
+                  - generic [ref=e867]: "20"
+                  - generic [ref=e868]:
+                    - 'link "Proton VPN: Fast & Secure VPN" [ref=e869] [cursor=pointer]':
+                      - /url: /app/ly2qilu661qb1y3/googleplay?market=11&country=24
+                      - 'img "Proton VPN: Fast & Secure VPN" [ref=e870]'
+                    - generic [ref=e872]:
+                      - generic [ref=e873]:
+                        - 'link "Proton VPN: Fast & Secure VPN" [ref=e877] [cursor=pointer]':
+                          - /url: /app/ly2qilu661qb1y3/googleplay?market=11&country=24
+                        - img [ref=e880]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]: 应用：130名
+                        - link "Proton AG" [ref=e888] [cursor=pointer]:
+                          - /url: /developer/55b24f938cb3c9e5fd33267182676084/googleplay-app
+                - generic [ref=e890]:
+                  - generic [ref=e891]: 
+                  - text: "2"
+          - generic [ref=e893]:
+            - generic [ref=e894]:
+              - generic [ref=e895]:
+                - generic [ref=e898]: 付费榜
+                - generic [ref=e900]: 23:25更新
+              - generic [ref=e901]:
+                - text: 
+                - generic [ref=e903] [cursor=pointer]: 
+                - text: 
+                - link "" [ref=e905] [cursor=pointer]:
+                  - /url: /rank/compete-11-1-7-24-3?time=&timetype=recent30
+                  - generic [ref=e906]: 
+                - generic [ref=e908] [cursor=pointer]: 
+            - generic [ref=e909]:
+              - generic [ref=e910]:
+                - generic [ref=e913]:
+                  - link "Pro Emulator for Game Consoles" [ref=e914] [cursor=pointer]:
+                    - /url: /app/ndki6ur1p7e8sd4/googleplay?market=11&country=24
+                    - img "Pro Emulator for Game Consoles" [ref=e915]
+                  - generic [ref=e917]:
+                    - generic [ref=e921]:
+                      - text: 霸榜8天
+                      - link "Pro Emulator for Game Consoles" [ref=e922] [cursor=pointer]:
+                        - /url: /app/ndki6ur1p7e8sd4/googleplay?market=11&country=24
+                    - generic [ref=e923]:
+                      - generic [ref=e924]: 应用：6名
+                      - link "Browser by Fulldive Co." [ref=e929] [cursor=pointer]:
+                        - /url: /developer/b09da26534e5152353ab2a6c59cad9c3/googleplay-app
+                - generic [ref=e931]: $2.99
+              - generic [ref=e932]:
+                - generic [ref=e935]:
+                  - link "Tasker" [ref=e936] [cursor=pointer]:
+                    - /url: /app/7yodivu5oq1s9nz/googleplay?market=11&country=24
+                    - img "Tasker" [ref=e937]
+                  - generic [ref=e939]:
+                    - link "Tasker" [ref=e944] [cursor=pointer]:
+                      - /url: /app/7yodivu5oq1s9nz/googleplay?market=11&country=24
+                    - generic [ref=e945]:
+                      - generic [ref=e946]: 应用：8名
+                      - link "joaomgcd" [ref=e951] [cursor=pointer]:
+                        - /url: /developer/8774cde25e888b447213d899b19ea5e7/googleplay-app
+                - generic [ref=e953]: $4.49
+              - generic [ref=e954]:
+                - generic [ref=e957]:
+                  - 'link "PXPlay: Remote Play" [ref=e958] [cursor=pointer]':
+                    - /url: /app/jnzki9u1jx5esvn/googleplay?market=11&country=24
+                    - 'img "PXPlay: Remote Play" [ref=e959]'
+                  - generic [ref=e961]:
+                    - 'link "PXPlay: Remote Play" [ref=e966] [cursor=pointer]':
+                      - /url: /app/jnzki9u1jx5esvn/googleplay?market=11&country=24
+                    - generic [ref=e967]:
+                      - generic [ref=e968]: 应用：13名
+                      - link "Streaming Dev" [ref=e973] [cursor=pointer]:
+                        - /url: /developer/f0b8536ce89e9d080fef02ecdd4f38e7/googleplay-app
+                - generic [ref=e975]: $6.99
+              - generic [ref=e976]:
+                - generic [ref=e977]:
+                  - generic [ref=e978]: "4"
+                  - generic [ref=e979]:
+                    - link "NFC Tools - Pro Edition" [ref=e980] [cursor=pointer]:
+                      - /url: /app/pn3qirux39ltgym/googleplay?market=11&country=24
+                      - img "NFC Tools - Pro Edition" [ref=e981]
+                    - generic [ref=e983]:
+                      - link "NFC Tools - Pro Edition" [ref=e988] [cursor=pointer]:
+                        - /url: /app/pn3qirux39ltgym/googleplay?market=11&country=24
+                      - generic [ref=e989]:
+                        - generic [ref=e990]: 应用：22名
+                        - link "wakdev" [ref=e995] [cursor=pointer]:
+                          - /url: /developer/9d7af9a561bde21e922305f6e65317b4/googleplay-app
+                - generic [ref=e997]: $3.49
+              - generic [ref=e998]:
+                - generic [ref=e999]:
+                  - generic [ref=e1000]: "5"
+                  - generic [ref=e1001]:
+                    - link "KWGT Kustom Widget Pro Key" [ref=e1002] [cursor=pointer]:
+                      - /url: /app/ky58i5u5d0e5t7y/googleplay?market=11&country=24
+                      - img "KWGT Kustom Widget Pro Key" [ref=e1003]
+                    - generic [ref=e1005]:
+                      - link "KWGT Kustom Widget Pro Key" [ref=e1010] [cursor=pointer]:
+                        - /url: /app/ky58i5u5d0e5t7y/googleplay?market=11&country=24
+                      - generic [ref=e1011]:
+                        - generic [ref=e1012]: 应用：23名
+                        - link "Kustom Industries" [ref=e1017] [cursor=pointer]:
+                          - /url: /developer/373584c40fa2d873fb8ef60ee9969706/googleplay-app
+                - generic [ref=e1018]:
+                  - generic [ref=e1019]: $6.99
+                  - generic [ref=e1020]:
+                    - generic [ref=e1021]: 
+                    - text: "2"
+              - generic [ref=e1022]:
+                - generic [ref=e1023]:
+                  - generic [ref=e1024]: "6"
+                  - generic [ref=e1025]:
+                    - link "tvQuickActions Pro" [ref=e1026] [cursor=pointer]:
+                      - /url: /app/7yr6i9ue6660ioy/googleplay?market=11&country=24
+                      - img "tvQuickActions Pro" [ref=e1027]
+                    - generic [ref=e1029]:
+                      - generic [ref=e1030]:
+                        - link "tvQuickActions Pro" [ref=e1034] [cursor=pointer]:
+                          - /url: /app/7yr6i9ue6660ioy/googleplay?market=11&country=24
+                        - img [ref=e1037]
+                      - generic [ref=e1039]:
+                        - generic [ref=e1040]: 应用：25名
+                        - link "tvDev" [ref=e1045] [cursor=pointer]:
+                          - /url: /developer/ea3e76f3b6095fa5595f71e5ca36ed91/googleplay-app
+                - generic [ref=e1047]: $3.99
+              - generic [ref=e1048]:
+                - generic [ref=e1049]:
+                  - generic [ref=e1050]: "7"
+                  - generic [ref=e1051]:
+                    - link "BuzzKill Notification Manager" [ref=e1052] [cursor=pointer]:
+                      - /url: /app/6njrimu0l2p7cpy/googleplay?market=11&country=24
+                      - img "BuzzKill Notification Manager" [ref=e1053]
+                    - generic [ref=e1055]:
+                      - link "BuzzKill Notification Manager" [ref=e1060] [cursor=pointer]:
+                        - /url: /app/6njrimu0l2p7cpy/googleplay?market=11&country=24
+                      - generic [ref=e1061]:
+                        - generic [ref=e1062]: 应用：27名
+                        - link "Sam Ruston" [ref=e1067] [cursor=pointer]:
+                          - /url: /developer/8801f78771046a6ed32e3c5b047c8408/googleplay-app
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]: $3.99
+                  - generic [ref=e1070]:
+                    - generic [ref=e1071]: 
+                    - text: "2"
+              - generic [ref=e1072]:
+                - generic [ref=e1073]:
+                  - generic [ref=e1074]: "8"
+                  - generic [ref=e1075]:
+                    - link "Compass" [ref=e1076] [cursor=pointer]:
+                      - /url: /app/4q7izumkp0gvt7n/googleplay?market=11&country=24
+                      - img "Compass" [ref=e1077]
+                    - generic [ref=e1079]:
+                      - link "Compass" [ref=e1084] [cursor=pointer]:
+                        - /url: /app/4q7izumkp0gvt7n/googleplay?market=11&country=24
+                      - generic [ref=e1085]:
+                        - generic [ref=e1086]: 应用：34名
+                        - link "Fatih Balsoy" [ref=e1091] [cursor=pointer]:
+                          - /url: /developer/de2332dd656aa51ea10f3eaaa50ada5b/googleplay-app
+                - generic [ref=e1092]:
+                  - generic [ref=e1093]: $0.99
+                  - generic [ref=e1094]:
+                    - generic [ref=e1095]: 
+                    - text: "1"
+              - generic [ref=e1096]:
+                - generic [ref=e1097]:
+                  - generic [ref=e1098]: "9"
+                  - generic [ref=e1099]:
+                    - link "Game Booster 4x Faster Pro" [ref=e1100] [cursor=pointer]:
+                      - /url: /app/ky58i5ul3dwb7yx/googleplay?market=11&country=24
+                      - img "Game Booster 4x Faster Pro" [ref=e1101]
+                    - generic [ref=e1103]:
+                      - generic [ref=e1104]:
+                        - link "Game Booster 4x Faster Pro" [ref=e1108] [cursor=pointer]:
+                          - /url: /app/ky58i5ul3dwb7yx/googleplay?market=11&country=24
+                        - img [ref=e1111]
+                      - generic [ref=e1113]:
+                        - generic [ref=e1114]: 应用：43名
+                        - link "G19 Mobile" [ref=e1119] [cursor=pointer]:
+                          - /url: /developer/d2c09c3646589046d071ea9a3e5f7a0d/googleplay-app
+                - generic [ref=e1120]:
+                  - generic [ref=e1121]: $0.49
+                  - generic [ref=e1122]:
+                    - generic [ref=e1123]: 
+                    - text: "1"
+              - generic [ref=e1124]:
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: "10"
+                  - generic [ref=e1127]:
+                    - link "SMS Backup & Restore Pro" [ref=e1128] [cursor=pointer]:
+                      - /url: /app/oymdi2u87kmrf5y/googleplay?market=11&country=24
+                      - img "SMS Backup & Restore Pro" [ref=e1129]
+                    - generic [ref=e1131]:
+                      - link "SMS Backup & Restore Pro" [ref=e1136] [cursor=pointer]:
+                        - /url: /app/oymdi2u87kmrf5y/googleplay?market=11&country=24
+                      - generic [ref=e1137]:
+                        - generic [ref=e1138]: 应用：66名
+                        - link "SyncTech Pty Ltd" [ref=e1143] [cursor=pointer]:
+                          - /url: /developer/038777357efab7d58f403b4beb8fd5f2/googleplay-app
+                - generic [ref=e1145]: $5.99
+              - generic [ref=e1146]:
+                - generic [ref=e1147]:
+                  - generic [ref=e1148]: "11"
+                  - generic [ref=e1149]:
+                    - 'link "XBXPlay: Remote Play" [ref=e1150] [cursor=pointer]':
+                      - /url: /app/40qikumg2309h1n/googleplay?market=11&country=24
+                      - 'img "XBXPlay: Remote Play" [ref=e1151]'
+                    - generic [ref=e1153]:
+                      - 'link "XBXPlay: Remote Play" [ref=e1158] [cursor=pointer]':
+                        - /url: /app/40qikumg2309h1n/googleplay?market=11&country=24
+                      - generic [ref=e1159]:
+                        - generic [ref=e1160]: 应用：74名
+                        - link "Streaming Dev" [ref=e1165] [cursor=pointer]:
+                          - /url: /developer/f0b8536ce89e9d080fef02ecdd4f38e7/googleplay-app
+                - generic [ref=e1166]:
+                  - generic [ref=e1167]: $6.99
+                  - generic [ref=e1168]:
+                    - generic [ref=e1169]: 
+                    - text: "1"
+              - generic [ref=e1170]:
+                - generic [ref=e1171]:
+                  - generic [ref=e1172]: "12"
+                  - generic [ref=e1173]:
+                    - link "Schumann Resonance" [ref=e1174] [cursor=pointer]:
+                      - /url: /app/74xlipu89llgil4/googleplay?market=11&country=24
+                      - img "Schumann Resonance" [ref=e1175]
+                    - generic [ref=e1177]:
+                      - generic [ref=e1178]:
+                        - link "Schumann Resonance" [ref=e1182] [cursor=pointer]:
+                          - /url: /app/74xlipu89llgil4/googleplay?market=11&country=24
+                        - img [ref=e1185]
+                      - generic [ref=e1187]:
+                        - generic [ref=e1188]: 应用：79名
+                        - link "alexyz" [ref=e1193] [cursor=pointer]:
+                          - /url: /developer/e0925cdef6d89c60ba3356bece67dcf1/googleplay-app
+                - generic [ref=e1194]:
+                  - generic [ref=e1195]: $2.99
+                  - generic [ref=e1196]:
+                    - generic [ref=e1197]: 
+                    - text: "1"
+              - generic [ref=e1198]:
+                - generic [ref=e1199]:
+                  - generic [ref=e1200]: "13"
+                  - generic [ref=e1201]:
+                    - link "Screen Mirroring Pro App" [ref=e1202] [cursor=pointer]:
+                      - /url: /app/rn63ipuw06rwiwn/googleplay?market=11&country=24
+                      - img "Screen Mirroring Pro App" [ref=e1203]
+                    - generic [ref=e1205]:
+                      - link "Screen Mirroring Pro App" [ref=e1210] [cursor=pointer]:
+                        - /url: /app/rn63ipuw06rwiwn/googleplay?market=11&country=24
+                      - generic [ref=e1211]:
+                        - generic [ref=e1212]: 应用：91名
+                        - link "2kit consulting" [ref=e1217] [cursor=pointer]:
+                          - /url: /developer/c178efd7eb611d1ca26b5faf3e895b07/googleplay-app
+                - generic [ref=e1218]:
+                  - generic [ref=e1219]: $4.99
+                  - generic [ref=e1220]:
+                    - generic [ref=e1221]: 
+                    - text: "1"
+              - generic [ref=e1222]:
+                - generic [ref=e1223]:
+                  - generic [ref=e1224]: "14"
+                  - generic [ref=e1225]:
+                    - link "Network Analyzer Pro" [ref=e1226] [cursor=pointer]:
+                      - /url: /app/0y8qijuoodkiqy6/googleplay?market=11&country=24
+                      - img "Network Analyzer Pro" [ref=e1227]
+                    - generic [ref=e1229]:
+                      - link "Network Analyzer Pro" [ref=e1234] [cursor=pointer]:
+                        - /url: /app/0y8qijuoodkiqy6/googleplay?market=11&country=24
+                      - generic [ref=e1235]:
+                        - generic [ref=e1236]: 应用：95名
+                        - link "Jiri Techet" [ref=e1241] [cursor=pointer]:
+                          - /url: /developer/a163b08042739b33e5db0e8fd3aff6e4/googleplay-app
+                - generic [ref=e1242]:
+                  - generic [ref=e1243]: $3.99
+                  - generic [ref=e1244]:
+                    - generic [ref=e1245]: 
+                    - text: "1"
+              - generic [ref=e1246]:
+                - generic [ref=e1247]:
+                  - generic [ref=e1248]: "15"
+                  - generic [ref=e1249]:
+                    - link "Downloader - Android TV" [ref=e1250] [cursor=pointer]:
+                      - /url: /app/ndki6udp29z8ud4/googleplay?market=11&country=24
+                      - img "Downloader - Android TV" [ref=e1251]
+                    - generic [ref=e1253]:
+                      - link "Downloader - Android TV" [ref=e1258] [cursor=pointer]:
+                        - /url: /app/ndki6udp29z8ud4/googleplay?market=11&country=24
+                      - generic [ref=e1259]:
+                        - generic [ref=e1260]: 应用：113名
+                        - link "FlagAppCompany" [ref=e1265] [cursor=pointer]:
+                          - /url: /developer/8d9454f1c8d7561ff1db008de51dd22d/googleplay-app
+                - generic [ref=e1267]: $2.99
+              - generic [ref=e1268]:
+                - generic [ref=e1269]:
+                  - generic [ref=e1270]: "16"
+                  - generic [ref=e1271]:
+                    - link "Fossify Thank You" [ref=e1272] [cursor=pointer]:
+                      - /url: /app/40qikupw1q59c1n/googleplay?market=11&country=24
+                      - img "Fossify Thank You" [ref=e1273]
+                    - generic [ref=e1275]:
+                      - link "Fossify Thank You" [ref=e1280] [cursor=pointer]:
+                        - /url: /app/40qikupw1q59c1n/googleplay?market=11&country=24
+                      - generic [ref=e1281]:
+                        - generic [ref=e1282]: 应用：125名
+                        - link "Fossify" [ref=e1287] [cursor=pointer]:
+                          - /url: /developer/eaf18e7f434048482df8453259f496fa/googleplay-app
+                - generic [ref=e1288]:
+                  - generic [ref=e1289]: $3.49
+                  - generic [ref=e1290]:
+                    - generic [ref=e1291]: 
+                    - text: "3"
+              - generic [ref=e1292]:
+                - generic [ref=e1293]:
+                  - generic [ref=e1294]: "17"
+                  - generic [ref=e1295]:
+                    - link "Ugly's Electrical References" [ref=e1296] [cursor=pointer]:
+                      - /url: /app/6ndki6ur88ezcd4/googleplay?market=11&country=24
+                      - img "Ugly's Electrical References" [ref=e1297]
+                    - generic [ref=e1299]:
+                      - link "Ugly's Electrical References" [ref=e1304] [cursor=pointer]:
+                        - /url: /app/6ndki6ur88ezcd4/googleplay?market=11&country=24
+                      - generic [ref=e1305]:
+                        - generic [ref=e1306]: 应用：127名
+                        - link "Informed Publishing" [ref=e1311] [cursor=pointer]:
+                          - /url: /developer/63b6b76cc490fe9f62de81cc92d145a3/googleplay-app
+                - generic [ref=e1312]:
+                  - generic [ref=e1313]: $12.99
+                  - generic [ref=e1314]:
+                    - generic [ref=e1315]: 
+                    - text: "1"
+              - generic [ref=e1316]:
+                - generic [ref=e1317]:
+                  - generic [ref=e1318]: "18"
+                  - generic [ref=e1319]:
+                    - link "Panda Mouse Pro" [ref=e1320] [cursor=pointer]:
+                      - /url: /app/wnp9igupko00a7y/googleplay?market=11&country=24
+                      - img "Panda Mouse Pro" [ref=e1321]
+                    - generic [ref=e1323]:
+                      - generic [ref=e1324]:
+                        - link "Panda Mouse Pro" [ref=e1328] [cursor=pointer]:
+                          - /url: /app/wnp9igupko00a7y/googleplay?market=11&country=24
+                        - img [ref=e1331]
+                      - generic [ref=e1333]:
+                        - generic [ref=e1334]: 应用：132名
+                        - link "Panda Gaming Studio" [ref=e1339] [cursor=pointer]:
+                          - /url: /developer/b89c1d72ce19990a1a441de0080f9a44/googleplay-app
+                - generic [ref=e1341]: $5.99
+              - generic [ref=e1342]:
+                - generic [ref=e1343]:
+                  - generic [ref=e1344]: "19"
+                  - generic [ref=e1345]:
+                    - link "Screen Mirroring + for Fire TV" [ref=e1346] [cursor=pointer]:
+                      - /url: /app/pn3qiru33wk7sgy/googleplay?market=11&country=24
+                      - img "Screen Mirroring + for Fire TV" [ref=e1347]
+                    - generic [ref=e1349]:
+                      - link "Screen Mirroring + for Fire TV" [ref=e1354] [cursor=pointer]:
+                        - /url: /app/pn3qiru33wk7sgy/googleplay?market=11&country=24
+                      - generic [ref=e1355]:
+                        - generic [ref=e1356]: 应用：135名
+                        - link "2kit consulting" [ref=e1361] [cursor=pointer]:
+                          - /url: /developer/c178efd7eb611d1ca26b5faf3e895b07/googleplay-app
+                - generic [ref=e1362]:
+                  - generic [ref=e1363]: $4.99
+                  - generic [ref=e1364]:
+                    - generic [ref=e1365]: 
+                    - text: "1"
+              - generic [ref=e1366]:
+                - generic [ref=e1367]:
+                  - generic [ref=e1368]: "20"
+                  - generic [ref=e1369]:
+                    - link "Screen Mirroring Pro for Roku" [ref=e1370] [cursor=pointer]:
+                      - /url: /app/jn7qi9uv5pdqaq4/googleplay?market=11&country=24
+                      - img "Screen Mirroring Pro for Roku" [ref=e1371]
+                    - generic [ref=e1373]:
+                      - link "Screen Mirroring Pro for Roku" [ref=e1378] [cursor=pointer]:
+                        - /url: /app/jn7qi9uv5pdqaq4/googleplay?market=11&country=24
+                      - generic [ref=e1379]:
+                        - generic [ref=e1380]: 应用：141名
+                        - link "2kit consulting" [ref=e1385] [cursor=pointer]:
+                          - /url: /developer/c178efd7eb611d1ca26b5faf3e895b07/googleplay-app
+                - generic [ref=e1386]:
+                  - generic [ref=e1387]: $4.99
+                  - generic [ref=e1388]:
+                    - generic [ref=e1389]: 
+                    - text: "3"
+          - generic [ref=e1391]:
+            - generic [ref=e1392]:
+              - generic [ref=e1393]:
+                - generic [ref=e1396]: 畅销榜
+                - generic [ref=e1398]: 23:24更新
+              - generic [ref=e1399]:
+                - text: 
+                - generic [ref=e1401] [cursor=pointer]: 
+                - text: 
+                - link "" [ref=e1403] [cursor=pointer]:
+                  - /url: /rank/compete-11-1-7-24-2?time=&timetype=recent30
+                  - generic [ref=e1404]: 
+                - generic [ref=e1406] [cursor=pointer]: 
+            - generic [ref=e1407]:
+              - generic [ref=e1411]:
+                - link "NordVPN – fast VPN for privacy" [ref=e1412] [cursor=pointer]:
+                  - /url: /app/74xlipu3qvgcl4z/googleplay?market=11&country=24
+                  - img "NordVPN – fast VPN for privacy" [ref=e1413]
+                - generic [ref=e1415]:
+                  - generic [ref=e1416]:
+                    - generic [ref=e1419]:
+                      - text: 霸榜76天
+                      - link "NordVPN – fast VPN for privacy" [ref=e1420] [cursor=pointer]:
+                        - /url: /app/74xlipu3qvgcl4z/googleplay?market=11&country=24
+                    - img [ref=e1423]
+                  - generic [ref=e1425]:
+                    - generic [ref=e1426]: 应用：43名
+                    - link "Nord Security" [ref=e1431] [cursor=pointer]:
+                      - /url: /developer/6070deef80b3b2add68e91a4964cc7e1/googleplay-app
+              - generic [ref=e1435]:
+                - link "Norton360 Antivirus & Security" [ref=e1436] [cursor=pointer]:
+                  - /url: /app/lnwoiwurprvtr4x/googleplay?market=11&country=24
+                  - img "Norton360 Antivirus & Security" [ref=e1437]
+                - generic [ref=e1439]:
+                  - generic [ref=e1440]:
+                    - link "Norton360 Antivirus & Security" [ref=e1444] [cursor=pointer]:
+                      - /url: /app/lnwoiwurprvtr4x/googleplay?market=11&country=24
+                    - img [ref=e1447]
+                  - generic [ref=e1449]:
+                    - generic [ref=e1450]: 应用：58名
+                    - link "NortonMobile" [ref=e1455] [cursor=pointer]:
+                      - /url: /developer/a177da4cc7d7f5b7c90d57f944e5b6cf/googleplay-app
+              - generic [ref=e1459]:
+                - 'link "Cleanup: Phone Storage Cleaner" [ref=e1460] [cursor=pointer]':
+                  - /url: /app/4q7izur3jq0vc7n/googleplay?market=11&country=24
+                  - 'img "Cleanup: Phone Storage Cleaner" [ref=e1461]'
+                - generic [ref=e1463]:
+                  - generic [ref=e1464]:
+                    - 'link "Cleanup: Phone Storage Cleaner" [ref=e1468] [cursor=pointer]':
+                      - /url: /app/4q7izur3jq0vc7n/googleplay?market=11&country=24
+                    - img [ref=e1471]
+                  - generic [ref=e1473]:
+                    - generic [ref=e1474]: 应用：92名
+                    - link "Deep Flow Apps" [ref=e1479] [cursor=pointer]:
+                      - /url: /developer/6f2f889efffd64d5aaa3f4638e8b6afb/googleplay-app
+              - generic [ref=e1481]:
+                - generic [ref=e1482]: "4"
+                - generic [ref=e1483]:
+                  - link "Malwarebytes Mobile Security" [ref=e1484] [cursor=pointer]:
+                    - /url: /app/rn63ipuggr9bwnl/googleplay?market=11&country=24
+                    - img "Malwarebytes Mobile Security" [ref=e1485]
+                  - generic [ref=e1487]:
+                    - generic [ref=e1488]:
+                      - link "Malwarebytes Mobile Security" [ref=e1492] [cursor=pointer]:
+                        - /url: /app/rn63ipuggr9bwnl/googleplay?market=11&country=24
+                      - img [ref=e1495]
+                    - generic [ref=e1497]:
+                      - generic [ref=e1498]: 应用：98名
+                      - link "Malwarebytes" [ref=e1503] [cursor=pointer]:
+                        - /url: /developer/3cd68004b3a621181f4f28ad447ce37a/googleplay-app
+              - generic [ref=e1505]:
+                - generic [ref=e1506]: "5"
+                - generic [ref=e1507]:
+                  - link "AI Cleaner - Phone Cleaner" [ref=e1508] [cursor=pointer]:
+                    - /url: /app/4v2imuxpvo0esgy/googleplay?market=11&country=24
+                    - img "AI Cleaner - Phone Cleaner" [ref=e1509]
+                  - generic [ref=e1511]:
+                    - generic [ref=e1512]:
+                      - link "AI Cleaner - Phone Cleaner" [ref=e1516] [cursor=pointer]:
+                        - /url: /app/4v2imuxpvo0esgy/googleplay?market=11&country=24
+                      - img [ref=e1519]
+                    - generic [ref=e1521]:
+                      - generic [ref=e1522]: 应用：100名
+                      - link "GRIMLAX TRADE, S.L." [ref=e1527] [cursor=pointer]:
+                        - /url: /developer/eb0f0a5de88767c9d5a261398681ed00/googleplay-app
+              - generic [ref=e1529]:
+                - generic [ref=e1530]: "6"
+                - generic [ref=e1531]:
+                  - link "AVG AntiVirus & Security" [ref=e1532] [cursor=pointer]:
+                    - /url: /app/rn63ipur3m9swnl/googleplay?market=11&country=24
+                    - img "AVG AntiVirus & Security" [ref=e1533]
+                  - generic [ref=e1535]:
+                    - generic [ref=e1536]:
+                      - link "AVG AntiVirus & Security" [ref=e1540] [cursor=pointer]:
+                        - /url: /app/rn63ipur3m9swnl/googleplay?market=11&country=24
+                      - img [ref=e1543]
+                    - generic [ref=e1545]:
+                      - generic [ref=e1546]: 应用：105名
+                      - link "AVG Mobile" [ref=e1551] [cursor=pointer]:
+                        - /url: /developer/5ce8ccbdd33b56d3f37a48240a4c284f/googleplay-app
+              - generic [ref=e1553]:
+                - generic [ref=e1554]: "7"
+                - generic [ref=e1555]:
+                  - link "Camtro" [ref=e1556] [cursor=pointer]:
+                    - /url: /app/yr6i9uxmj058boy/googleplay?market=11&country=24
+                    - img "Camtro" [ref=e1557]
+                  - generic [ref=e1559]:
+                    - generic [ref=e1560]:
+                      - link "Camtro" [ref=e1564] [cursor=pointer]:
+                        - /url: /app/yr6i9uxmj058boy/googleplay?market=11&country=24
+                      - img [ref=e1567]
+                    - generic [ref=e1569]:
+                      - generic [ref=e1570]: 应用：130名
+                      - link "DigitalConverge Intellect Limited" [ref=e1575] [cursor=pointer]:
+                        - /url: /developer/3788fcb2f0f93993b647444a7f91dad7/googleplay-app
+              - generic [ref=e1577]:
+                - generic [ref=e1578]: "8"
+                - generic [ref=e1579]:
+                  - 'link "Smart Printer: Print Documents" [ref=e1580] [cursor=pointer]':
+                    - /url: /app/y8qijuq5vj8kaqy/googleplay?market=11&country=24
+                    - 'img "Smart Printer: Print Documents" [ref=e1581]'
+                  - generic [ref=e1583]:
+                    - generic [ref=e1584]:
+                      - 'link "Smart Printer: Print Documents" [ref=e1588] [cursor=pointer]':
+                        - /url: /app/y8qijuq5vj8kaqy/googleplay?market=11&country=24
+                      - img [ref=e1591]
+                    - generic [ref=e1593]:
+                      - generic [ref=e1594]: 应用：140名
+                      - link "Albert Gerassimov" [ref=e1599] [cursor=pointer]:
+                        - /url: /developer/8bb0166b31e89a4947a3ca22dfe9cbcf/googleplay-app
+              - generic [ref=e1601]:
+                - generic [ref=e1602]: "9"
+                - generic [ref=e1603]:
+                  - link "CoinSnap - Coin Identifier" [ref=e1604] [cursor=pointer]:
+                    - /url: /app/nwoiwue23jrqur4/googleplay?market=11&country=24
+                    - img "CoinSnap - Coin Identifier" [ref=e1605]
+                  - generic [ref=e1607]:
+                    - generic [ref=e1608]:
+                      - link "CoinSnap - Coin Identifier" [ref=e1612] [cursor=pointer]:
+                        - /url: /app/nwoiwue23jrqur4/googleplay?market=11&country=24
+                      - img [ref=e1615]
+                    - generic [ref=e1617]:
+                      - generic [ref=e1618]: 应用：155名
+                      - link "Next Vision Limited" [ref=e1623] [cursor=pointer]:
+                        - /url: /developer/69ca910a58413835f2b81fa8173a11c3/googleplay-app
+              - generic [ref=e1625]:
+                - generic [ref=e1626]: "10"
+                - generic [ref=e1627]:
+                  - link "Hume Health" [ref=e1628] [cursor=pointer]:
+                    - /url: /app/jnzki9uw6l23svn/googleplay?market=11&country=24
+                    - img "Hume Health" [ref=e1629]
+                  - generic [ref=e1631]:
+                    - generic [ref=e1632]:
+                      - link "Hume Health" [ref=e1636] [cursor=pointer]:
+                        - /url: /app/jnzki9uw6l23svn/googleplay?market=11&country=24
+                      - img [ref=e1639]
+                    - generic [ref=e1641]:
+                      - generic [ref=e1642]: 应用：157名
+                      - link "Hume Health Corp" [ref=e1647] [cursor=pointer]:
+                        - /url: /developer/103c81afbfbcc0dc2e8f1a150770f60c/googleplay-app
+              - generic [ref=e1649]:
+                - generic [ref=e1650]: "11"
+                - generic [ref=e1651]:
+                  - link "Norton VPN – Fast & Secure" [ref=e1652] [cursor=pointer]:
+                    - /url: /app/lnwoiwur81vbr4x/googleplay?market=11&country=24
+                    - img "Norton VPN – Fast & Secure" [ref=e1653]
+                  - generic [ref=e1655]:
+                    - generic [ref=e1656]:
+                      - link "Norton VPN – Fast & Secure" [ref=e1660] [cursor=pointer]:
+                        - /url: /app/lnwoiwur81vbr4x/googleplay?market=11&country=24
+                      - img [ref=e1663]
+                    - generic [ref=e1665]:
+                      - generic [ref=e1666]: 应用：165名
+                      - link "NortonMobile" [ref=e1671] [cursor=pointer]:
+                        - /url: /developer/a177da4cc7d7f5b7c90d57f944e5b6cf/googleplay-app
+              - generic [ref=e1673]:
+                - generic [ref=e1674]: "12"
+                - generic [ref=e1675]:
+                  - 'link "Proton VPN: Fast & Secure VPN" [ref=e1676] [cursor=pointer]':
+                    - /url: /app/ly2qilu661qb1y3/googleplay?market=11&country=24
+                    - 'img "Proton VPN: Fast & Secure VPN" [ref=e1677]'
+                  - generic [ref=e1679]:
+                    - generic [ref=e1680]:
+                      - 'link "Proton VPN: Fast & Secure VPN" [ref=e1684] [cursor=pointer]':
+                        - /url: /app/ly2qilu661qb1y3/googleplay?market=11&country=24
+                      - img [ref=e1687]
+                    - generic [ref=e1689]:
+                      - generic [ref=e1690]: 应用：169名
+                      - link "Proton AG" [ref=e1695] [cursor=pointer]:
+                        - /url: /developer/55b24f938cb3c9e5fd33267182676084/googleplay-app
+              - generic [ref=e1696]:
+                - generic [ref=e1697]:
+                  - generic [ref=e1698]: "13"
+                  - generic [ref=e1699]:
+                    - 'link "ExpressVPN: VPN Fast & Secure" [ref=e1700] [cursor=pointer]':
+                      - /url: /app/0499iduvm15sj4e/googleplay?market=11&country=24
+                      - 'img "ExpressVPN: VPN Fast & Secure" [ref=e1701]'
+                    - generic [ref=e1703]:
+                      - generic [ref=e1704]:
+                        - 'link "ExpressVPN: VPN Fast & Secure" [ref=e1708] [cursor=pointer]':
+                          - /url: /app/0499iduvm15sj4e/googleplay?market=11&country=24
+                        - img [ref=e1711]
+                      - generic [ref=e1713]:
+                        - generic [ref=e1714]: 应用：175名
+                        - link "ExpressVPN" [ref=e1719] [cursor=pointer]:
+                          - /url: /developer/18a618a57460c8f1e9925be5b04533ce/googleplay-app
+                - generic [ref=e1721]:
+                  - generic [ref=e1722]: 
+                  - text: "1"
+              - generic [ref=e1723]:
+                - generic [ref=e1724]:
+                  - generic [ref=e1725]: "14"
+                  - generic [ref=e1726]:
+                    - link "CoinIn – Coin Scan Identifier" [ref=e1727] [cursor=pointer]:
+                      - /url: /app/ymdi2um7q6l6h5y/googleplay?market=11&country=24
+                      - img "CoinIn – Coin Scan Identifier" [ref=e1728]
+                    - generic [ref=e1730]:
+                      - generic [ref=e1731]:
+                        - link "CoinIn – Coin Scan Identifier" [ref=e1735] [cursor=pointer]:
+                          - /url: /app/ymdi2um7q6l6h5y/googleplay?market=11&country=24
+                        - img [ref=e1738]
+                      - generic [ref=e1740]:
+                        - generic [ref=e1741]: 应用：179名
+                        - link "PlantIn" [ref=e1746] [cursor=pointer]:
+                          - /url: /developer/4be8182471f673ae525e75940dfdccbe/googleplay-app
+                - generic [ref=e1748]:
+                  - generic [ref=e1749]: 
+                  - text: "1"
+              - generic [ref=e1751]:
+                - generic [ref=e1752]: "15"
+                - generic [ref=e1753]:
+                  - 'link "SwapX PRO: AI Video & Photo" [ref=e1754] [cursor=pointer]':
+                    - /url: /app/4v2imue5gmwgfgy/googleplay?market=11&country=24
+                    - 'img "SwapX PRO: AI Video & Photo" [ref=e1755]'
+                  - generic [ref=e1757]:
+                    - generic [ref=e1758]:
+                      - 'link "SwapX PRO: AI Video & Photo" [ref=e1762] [cursor=pointer]':
+                        - /url: /app/4v2imue5gmwgfgy/googleplay?market=11&country=24
+                      - img [ref=e1765]
+                    - generic [ref=e1767]:
+                      - generic [ref=e1768]: 应用：185名
+                      - link "SprayJoy Limited" [ref=e1773] [cursor=pointer]:
+                        - /url: /developer/3b26b231ccc549b565007decd572bd0f/googleplay-app
+              - generic [ref=e1775]:
+                - generic [ref=e1776]: "16"
+                - generic [ref=e1777]:
+                  - link "Seeing" [ref=e1778] [cursor=pointer]:
+                    - /url: /app/yedipu897vvxir4/googleplay?market=11&country=24
+                    - img "Seeing" [ref=e1779]
+                  - generic [ref=e1781]:
+                    - generic [ref=e1782]:
+                      - link "Seeing" [ref=e1786] [cursor=pointer]:
+                        - /url: /app/yedipu897vvxir4/googleplay?market=11&country=24
+                      - img [ref=e1789]
+                    - generic [ref=e1791]:
+                      - generic [ref=e1792]: 应用：190名
+                      - link "Lonsen Electronics Limited" [ref=e1797] [cursor=pointer]:
+                        - /url: /developer/37e5310c82765951e430ddc3cca566a7/googleplay-app
+              - generic [ref=e1799]:
+                - generic [ref=e1800]: "17"
+                - generic [ref=e1801]:
+                  - 'link "McAfee Security: Antivirus VPN" [ref=e1802] [cursor=pointer]':
+                    - /url: /app/ky58i5u6eowwt7y/googleplay?market=11&country=24
+                    - 'img "McAfee Security: Antivirus VPN" [ref=e1803]'
+                  - generic [ref=e1805]:
+                    - generic [ref=e1806]:
+                      - 'link "McAfee Security: Antivirus VPN" [ref=e1810] [cursor=pointer]':
+                        - /url: /app/ky58i5u6eowwt7y/googleplay?market=11&country=24
+                      - img [ref=e1813]
+                    - generic [ref=e1815]:
+                      - generic [ref=e1816]: 应用：195名
+                      - link "McAfee LLC" [ref=e1821] [cursor=pointer]:
+                        - /url: /developer/881420aa3a6011e8267d2b7730141e7f/googleplay-app
+              - generic [ref=e1822]:
+                - generic [ref=e1823]:
+                  - generic [ref=e1824]: "18"
+                  - generic [ref=e1825]:
+                    - link "CineToolkit:Caster&Roku Remote" [ref=e1826] [cursor=pointer]:
+                      - /url: /app/40qikumx5qx6h1n/googleplay?market=11&country=24
+                      - img "CineToolkit:Caster&Roku Remote" [ref=e1827]
+                    - generic [ref=e1829]:
+                      - generic [ref=e1830]:
+                        - link "CineToolkit:Caster&Roku Remote" [ref=e1834] [cursor=pointer]:
+                          - /url: /app/40qikumx5qx6h1n/googleplay?market=11&country=24
+                        - img [ref=e1837]
+                      - generic [ref=e1839]:
+                        - generic [ref=e1840]: 应用：196名
+                        - link "Cinetoolkit" [ref=e1845] [cursor=pointer]:
+                          - /url: /developer/464926f7b762654176b08c6255026cd0/googleplay-app
+                - generic [ref=e1847]:
+                  - generic [ref=e1848]: 
+                  - text: "1"
+              - generic [ref=e1849]:
+                - generic [ref=e1850]:
+                  - generic [ref=e1851]: "19"
+                  - generic [ref=e1852]:
+                    - 'link "Surfshark: Secure VPN service" [ref=e1853] [cursor=pointer]':
+                      - /url: /app/0499iduvg1phj4e/googleplay?market=11&country=24
+                      - 'img "Surfshark: Secure VPN service" [ref=e1854]'
+                    - generic [ref=e1856]:
+                      - generic [ref=e1857]:
+                        - 'link "Surfshark: Secure VPN service" [ref=e1861] [cursor=pointer]':
+                          - /url: /app/0499iduvg1phj4e/googleplay?market=11&country=24
+                        - img [ref=e1864]
+                      - link "Surfshark B.V." [ref=e1871] [cursor=pointer]:
+                        - /url: /developer/17642b985bd9f081efea62f2701aea17/googleplay-app
+                - generic [ref=e1873]:
+                  - generic [ref=e1874]: 
+                  - text: "1"
+              - generic [ref=e1876]:
+                - generic [ref=e1877]: "20"
+                - generic [ref=e1878]:
+                  - link "Castly -Roku, Chromecast,DLNA" [ref=e1879] [cursor=pointer]:
+                    - /url: /app/ygdivudl5jzph6y/googleplay?market=11&country=24
+                    - img "Castly -Roku, Chromecast,DLNA" [ref=e1880]
+                  - generic [ref=e1882]:
+                    - generic [ref=e1883]:
+                      - link "Castly -Roku, Chromecast,DLNA" [ref=e1887] [cursor=pointer]:
+                        - /url: /app/ygdivudl5jzph6y/googleplay?market=11&country=24
+                      - img [ref=e1890]
+                    - link "Castly" [ref=e1897] [cursor=pointer]:
+                      - /url: /developer/35bb0350184321e9522e0e30e78523c3/googleplay-app
+          - generic [ref=e1899]:
+            - generic [ref=e1900]:
+              - generic [ref=e1901]:
+                - generic [ref=e1904]: 人气蹿升
+                - generic [ref=e1906]: 23:56更新
+              - generic [ref=e1907]:
+                - text: 
+                - generic [ref=e1909] [cursor=pointer]: 
+                - text: 
+                - link "" [ref=e1911] [cursor=pointer]:
+                  - /url: /rank/compete-11-1-7-24-5?time=&timetype=recent30
+                  - generic [ref=e1912]: 
+                - generic [ref=e1914] [cursor=pointer]: 
+            - generic [ref=e1915]:
+              - generic [ref=e1916]:
+                - generic [ref=e1919]:
+                  - link "Smart TV Remote Control APP" [ref=e1920] [cursor=pointer]:
+                    - /url: /app/nzki9uwqvkrxbvn/googleplay?market=11&country=24
+                    - img "Smart TV Remote Control APP" [ref=e1921]
+                  - generic [ref=e1923]:
+                    - generic [ref=e1924]:
+                      - link "Smart TV Remote Control APP" [ref=e1928] [cursor=pointer]:
+                        - /url: /app/nzki9uwqvkrxbvn/googleplay?market=11&country=24
+                      - img [ref=e1931]
+                    - generic [ref=e1933]:
+                      - generic [ref=e1934]: 应用：5名
+                      - link "Vsray Technology" [ref=e1939] [cursor=pointer]:
+                        - /url: /developer/b7899605d06069d8e22850cebf806310/googleplay-app
+                - generic [ref=e1941]:
+                  - generic [ref=e1942]: 
+                  - text: "5"
+              - generic [ref=e1943]:
+                - generic [ref=e1946]:
+                  - 'link "Private Browser: Safe & Secure" [ref=e1947] [cursor=pointer]':
+                    - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                    - 'img "Private Browser: Safe & Secure" [ref=e1948]'
+                  - generic [ref=e1950]:
+                    - 'link "Private Browser: Safe & Secure" [ref=e1955] [cursor=pointer]':
+                      - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                    - generic [ref=e1956]:
+                      - generic [ref=e1957]: 应用：15名
+                      - link "Amobear Application - Avntech Master Tools" [ref=e1962] [cursor=pointer]:
+                        - /url: /developer/5f9040e8f6f688e6c7d30afc85cb444f/googleplay-app
+                - generic [ref=e1964]:
+                  - generic [ref=e1965]: 
+                  - text: "1"
+              - generic [ref=e1966]:
+                - generic [ref=e1969]:
+                  - link "RBX Calculator - Roboxcounter" [ref=e1970] [cursor=pointer]:
+                    - /url: /app/nwoiwu7dzg9ghr4/googleplay?market=11&country=24
+                    - img "RBX Calculator - Roboxcounter" [ref=e1971]
+                  - generic [ref=e1973]:
+                    - link "RBX Calculator - Roboxcounter" [ref=e1978] [cursor=pointer]:
+                      - /url: /app/nwoiwu7dzg9ghr4/googleplay?market=11&country=24
+                    - generic [ref=e1979]:
+                      - generic [ref=e1980]: 应用：27名
+                      - link "Sleep Star" [ref=e1985] [cursor=pointer]:
+                        - /url: /developer/72bd74b020fad1612bdb1f25dfb8dbdf/googleplay-app
+                - generic [ref=e1987]:
+                  - generic [ref=e1988]: 
+                  - text: "20"
+              - generic [ref=e1990]:
+                - generic [ref=e1991]: "4"
+                - generic [ref=e1992]:
+                  - link "All Restore - Photo & Video" [ref=e1993] [cursor=pointer]:
+                    - /url: /app/n7qi9u78gjk8aq4/googleplay?market=11&country=24
+                    - img "All Restore - Photo & Video" [ref=e1994]
+                  - generic [ref=e1996]:
+                    - link "All Restore - Photo & Video" [ref=e2001] [cursor=pointer]:
+                      - /url: /app/n7qi9u78gjk8aq4/googleplay?market=11&country=24
+                    - generic [ref=e2002]:
+                      - generic [ref=e2003]: 应用：32名
+                      - link "Last Minute Flights Corp." [ref=e2008] [cursor=pointer]:
+                        - /url: /developer/ae3ed85b8de2b9b87664c7a60d26d76d/googleplay-app
+              - generic [ref=e2010]:
+                - generic [ref=e2011]: "5"
+                - generic [ref=e2012]:
+                  - link "Analyze WiFi Launcher" [ref=e2013] [cursor=pointer]:
+                    - /url: /app/4xlipuj90z31cl4/googleplay?market=11&country=24
+                    - img "Analyze WiFi Launcher" [ref=e2014]
+                  - generic [ref=e2016]:
+                    - link "Analyze WiFi Launcher" [ref=e2021] [cursor=pointer]:
+                      - /url: /app/4xlipuj90z31cl4/googleplay?market=11&country=24
+                    - generic [ref=e2022]:
+                      - generic [ref=e2023]: 应用：35名
+                      - link "Weilei Taiyuan" [ref=e2028] [cursor=pointer]:
+                        - /url: /developer/90167f7abe57e29fc72a0605adf7757a/googleplay-app
+              - generic [ref=e2029]:
+                - generic [ref=e2030]:
+                  - generic [ref=e2031]: "6"
+                  - generic [ref=e2032]:
+                    - link "Smart Remote - Easy TV Control" [ref=e2033] [cursor=pointer]:
+                      - /url: /app/yedipul29629fr4/googleplay?market=11&country=24
+                      - img "Smart Remote - Easy TV Control" [ref=e2034]
+                    - generic [ref=e2036]:
+                      - link "Smart Remote - Easy TV Control" [ref=e2041] [cursor=pointer]:
+                        - /url: /app/yedipul29629fr4/googleplay?market=11&country=24
+                      - generic [ref=e2042]:
+                        - generic [ref=e2043]: 应用：38名
+                        - link "Figuredin" [ref=e2048] [cursor=pointer]:
+                          - /url: /developer/c30122a227ea20896646ea4fe3c773bd/googleplay-app
+                - generic [ref=e2050]:
+                  - generic [ref=e2051]: 
+                  - text: "24"
+              - generic [ref=e2052]:
+                - generic [ref=e2053]:
+                  - generic [ref=e2054]: "7"
+                  - generic [ref=e2055]:
+                    - link "Junk Eraser Max" [ref=e2056] [cursor=pointer]:
+                      - /url: /app/n63ipu8ez6m6bwn/googleplay?market=11&country=24
+                      - img "Junk Eraser Max" [ref=e2057]
+                    - generic [ref=e2059]:
+                      - link "Junk Eraser Max" [ref=e2064] [cursor=pointer]:
+                        - /url: /app/n63ipu8ez6m6bwn/googleplay?market=11&country=24
+                      - generic [ref=e2065]:
+                        - generic [ref=e2066]: 应用：41名
+                        - link "MetaGamersUniverse" [ref=e2071] [cursor=pointer]:
+                          - /url: /developer/c245e74cc703f011b6cff8b519106a6b/googleplay-app
+                - generic [ref=e2073]:
+                  - generic [ref=e2074]: 
+                  - text: "14"
+              - generic [ref=e2075]:
+                - generic [ref=e2076]:
+                  - generic [ref=e2077]: "8"
+                  - generic [ref=e2078]:
+                    - link "PS Remote Play Controller" [ref=e2079] [cursor=pointer]:
+                      - /url: /app/n63ipu8e1xg9twn/googleplay?market=11&country=24
+                      - img "PS Remote Play Controller" [ref=e2080]
+                    - generic [ref=e2082]:
+                      - generic [ref=e2083]:
+                        - link "PS Remote Play Controller" [ref=e2087] [cursor=pointer]:
+                          - /url: /app/n63ipu8e1xg9twn/googleplay?market=11&country=24
+                        - img [ref=e2090]
+                      - generic [ref=e2092]:
+                        - generic [ref=e2093]: 应用：42名
+                        - link "Tool Apps Hub" [ref=e2098] [cursor=pointer]:
+                          - /url: /developer/b185c6c38f63bf924bed01da507749ad/googleplay-app
+                - generic [ref=e2100]:
+                  - generic [ref=e2101]: 
+                  - text: "53"
+              - generic [ref=e2102]:
+                - generic [ref=e2103]:
+                  - generic [ref=e2104]: "9"
+                  - generic [ref=e2105]:
+                    - link "LirinClean" [ref=e2106] [cursor=pointer]:
+                      - /url: /app/yodivu3po81qb9n/googleplay?market=11&country=24
+                      - img "LirinClean" [ref=e2107]
+                    - generic [ref=e2109]:
+                      - link "LirinClean" [ref=e2114] [cursor=pointer]:
+                        - /url: /app/yodivu3po81qb9n/googleplay?market=11&country=24
+                      - generic [ref=e2115]:
+                        - generic [ref=e2116]: 应用：44名
+                        - link "Mitul T" [ref=e2121] [cursor=pointer]:
+                          - /url: /developer/60424e27f1f3a8ffb1d7acd8b41a92ee/googleplay-app
+                - paragraph [ref=e2123]: NEW
+              - generic [ref=e2124]:
+                - generic [ref=e2125]:
+                  - generic [ref=e2126]: "10"
+                  - generic [ref=e2127]:
+                    - link "Nearby Glasses" [ref=e2128] [cursor=pointer]:
+                      - /url: /app/4xlipuj9r7oghl4/googleplay?market=11&country=24
+                      - img "Nearby Glasses" [ref=e2129]
+                    - generic [ref=e2131]:
+                      - link "Nearby Glasses" [ref=e2136] [cursor=pointer]:
+                        - /url: /app/4xlipuj9r7oghl4/googleplay?market=11&country=24
+                      - generic [ref=e2137]:
+                        - generic [ref=e2138]: 应用：49名
+                        - link "my PocketPC GmbH" [ref=e2143] [cursor=pointer]:
+                          - /url: /developer/7fc6e3e71e11ff3d6343a7e063844f09/googleplay-app
+                - paragraph [ref=e2145]: NEW
+              - generic [ref=e2146]:
+                - generic [ref=e2147]:
+                  - generic [ref=e2148]: "11"
+                  - generic [ref=e2149]:
+                    - link "LED Light Controller Smart Led" [ref=e2150] [cursor=pointer]:
+                      - /url: /app/nldiruvgzkjeiq4/googleplay?market=11&country=24
+                      - img "LED Light Controller Smart Led" [ref=e2151]
+                    - generic [ref=e2153]:
+                      - generic [ref=e2154]:
+                        - link "LED Light Controller Smart Led" [ref=e2158] [cursor=pointer]:
+                          - /url: /app/nldiruvgzkjeiq4/googleplay?market=11&country=24
+                        - img [ref=e2161]
+                      - generic [ref=e2163]:
+                        - generic [ref=e2164]: 应用：52名
+                        - link "Novel S" [ref=e2169] [cursor=pointer]:
+                          - /url: /developer/f9b47936efa36d167a07ee27850cf18f/googleplay-app
+                - paragraph [ref=e2171]: NEW
+              - generic [ref=e2172]:
+                - generic [ref=e2173]:
+                  - generic [ref=e2174]: "12"
+                  - generic [ref=e2175]:
+                    - link "Cleaner Guard" [ref=e2176] [cursor=pointer]:
+                      - /url: /app/ygdivue58jlma6y/googleplay?market=11&country=24
+                      - img "Cleaner Guard" [ref=e2177]
+                    - generic [ref=e2179]:
+                      - link "Cleaner Guard" [ref=e2184] [cursor=pointer]:
+                        - /url: /app/ygdivue58jlma6y/googleplay?market=11&country=24
+                      - generic [ref=e2185]:
+                        - generic [ref=e2186]: 应用：58名
+                        - link "Sanfro Workteam" [ref=e2191] [cursor=pointer]:
+                          - /url: /developer/837e00575066e83d9acbe193ae8072be/googleplay-app
+                - generic [ref=e2193]:
+                  - generic [ref=e2194]: 
+                  - text: "41"
+              - generic [ref=e2195]:
+                - generic [ref=e2196]:
+                  - generic [ref=e2197]: "13"
+                  - generic [ref=e2198]:
+                    - link "HoloDex - TCG Scan & Collect" [ref=e2199] [cursor=pointer]:
+                      - /url: /app/yedipuxwzm09fr4/googleplay?market=11&country=24
+                      - img "HoloDex - TCG Scan & Collect" [ref=e2200]
+                    - generic [ref=e2202]:
+                      - generic [ref=e2203]:
+                        - link "HoloDex - TCG Scan & Collect" [ref=e2207] [cursor=pointer]:
+                          - /url: /app/yedipuxwzm09fr4/googleplay?market=11&country=24
+                        - img [ref=e2210]
+                      - generic [ref=e2212]:
+                        - generic [ref=e2213]: 应用：59名
+                        - link "Mavelli" [ref=e2218] [cursor=pointer]:
+                          - /url: /developer/8dadc1eb5b4520d30d92015c1a2f4c8f/googleplay-app
+                - generic [ref=e2220]:
+                  - generic [ref=e2221]: 
+                  - text: "9"
+              - generic [ref=e2222]:
+                - generic [ref=e2223]:
+                  - generic [ref=e2224]: "14"
+                  - generic [ref=e2225]:
+                    - link "RBX Count Pro - Calc Rbux" [ref=e2226] [cursor=pointer]:
+                      - /url: /app/njrimuv3e78lapy/googleplay?market=11&country=24
+                      - img "RBX Count Pro - Calc Rbux" [ref=e2227]
+                    - generic [ref=e2229]:
+                      - link "RBX Count Pro - Calc Rbux" [ref=e2234] [cursor=pointer]:
+                        - /url: /app/njrimuv3e78lapy/googleplay?market=11&country=24
+                      - generic [ref=e2235]:
+                        - generic [ref=e2236]: 应用：64名
+                        - link "KYADA JAYDIP" [ref=e2241] [cursor=pointer]:
+                          - /url: /developer/08423abafb236ee04b49aa407155c403/googleplay-app
+                - generic [ref=e2243]:
+                  - generic [ref=e2244]: 
+                  - text: "12"
+              - generic [ref=e2245]:
+                - generic [ref=e2246]:
+                  - generic [ref=e2247]: "15"
+                  - generic [ref=e2248]:
+                    - link "Get Rbux Counter & RBX Calc" [ref=e2249] [cursor=pointer]:
+                      - /url: /app/y8qijujexvlrbqy/googleplay?market=11&country=24
+                      - img "Get Rbux Counter & RBX Calc" [ref=e2250]
+                    - generic [ref=e2252]:
+                      - link "Get Rbux Counter & RBX Calc" [ref=e2257] [cursor=pointer]:
+                        - /url: /app/y8qijujexvlrbqy/googleplay?market=11&country=24
+                      - generic [ref=e2258]:
+                        - generic [ref=e2259]: 应用：71名
+                        - link "Singal Message" [ref=e2264] [cursor=pointer]:
+                          - /url: /developer/50617b762f6873b9c94ef448f5bfd73e/googleplay-app
+                - generic [ref=e2266]:
+                  - generic [ref=e2267]: 
+                  - text: "7"
+              - generic [ref=e2268]:
+                - generic [ref=e2269]:
+                  - generic [ref=e2270]: "16"
+                  - generic [ref=e2271]:
+                    - link "Get RBX Calc & Robox Counters" [ref=e2272] [cursor=pointer]:
+                      - /url: /app/nwoiwu2pgedgir4/googleplay?market=11&country=24
+                      - img "Get RBX Calc & Robox Counters" [ref=e2273]
+                    - generic [ref=e2275]:
+                      - link "Get RBX Calc & Robox Counters" [ref=e2280] [cursor=pointer]:
+                        - /url: /app/nwoiwu2pgedgir4/googleplay?market=11&country=24
+                      - generic [ref=e2281]:
+                        - generic [ref=e2282]: 应用：79名
+                        - link "Endorious Apps Lab" [ref=e2287] [cursor=pointer]:
+                          - /url: /developer/12190aed4b7d6cb2dbc6643562a12a9f/googleplay-app
+                - generic [ref=e2289]:
+                  - generic [ref=e2290]: 
+                  - text: "23"
+              - generic [ref=e2291]:
+                - generic [ref=e2292]:
+                  - generic [ref=e2293]: "17"
+                  - generic [ref=e2294]:
+                    - link "Clean Sweep Plus" [ref=e2295] [cursor=pointer]:
+                      - /url: /app/n3qirurj39r7igy/googleplay?market=11&country=24
+                      - img "Clean Sweep Plus" [ref=e2296]
+                    - generic [ref=e2298]:
+                      - link "Clean Sweep Plus" [ref=e2303] [cursor=pointer]:
+                        - /url: /app/n3qirurj39r7igy/googleplay?market=11&country=24
+                      - generic [ref=e2304]:
+                        - generic [ref=e2305]: 应用：81名
+                        - link "StarOnline" [ref=e2310] [cursor=pointer]:
+                          - /url: /developer/68a1a71744fe1234de929d8c8ba0a523/googleplay-app
+                - paragraph [ref=e2312]: NEW
+              - generic [ref=e2313]:
+                - generic [ref=e2314]:
+                  - generic [ref=e2315]: "18"
+                  - generic [ref=e2316]:
+                    - link "Phone Cleaner & Booster" [ref=e2317] [cursor=pointer]:
+                      - /url: /app/yedipux3k2k1ir4/googleplay?market=11&country=24
+                      - img "Phone Cleaner & Booster" [ref=e2318]
+                    - generic [ref=e2320]:
+                      - link "Phone Cleaner & Booster" [ref=e2325] [cursor=pointer]:
+                        - /url: /app/yedipux3k2k1ir4/googleplay?market=11&country=24
+                      - generic [ref=e2326]:
+                        - generic [ref=e2327]: 应用：84名
+                        - link "BOLIN NETWORK" [ref=e2332] [cursor=pointer]:
+                          - /url: /developer/28780177764f1825572cc19176a68b75/googleplay-app
+                - generic [ref=e2334]:
+                  - generic [ref=e2335]: 
+                  - text: "3"
+              - generic [ref=e2336]:
+                - generic [ref=e2337]:
+                  - generic [ref=e2338]: "19"
+                  - generic [ref=e2339]:
+                    - 'link "LocalSend: Transfer Files" [ref=e2340] [cursor=pointer]':
+                      - /url: /app/4xlipuz2vk7gil4/googleplay?market=11&country=24
+                      - 'img "LocalSend: Transfer Files" [ref=e2341]'
+                    - generic [ref=e2343]:
+                      - generic [ref=e2344]:
+                        - 'link "LocalSend: Transfer Files" [ref=e2348] [cursor=pointer]':
+                          - /url: /app/4xlipuz2vk7gil4/googleplay?market=11&country=24
+                        - img [ref=e2351]
+                      - generic [ref=e2353]:
+                        - generic [ref=e2354]: 应用：92名
+                        - link "Tien Do Nam" [ref=e2359] [cursor=pointer]:
+                          - /url: /developer/a4ffa32a900f57901c918d3d31014dd1/googleplay-app
+                - paragraph [ref=e2361]: NEW
+              - generic [ref=e2362]:
+                - generic [ref=e2363]:
+                  - generic [ref=e2364]: "20"
+                  - generic [ref=e2365]:
+                    - link "Flash Alert Pro, LED Text" [ref=e2366] [cursor=pointer]:
+                      - /url: /app/n7qi9u11e508uq4/googleplay?market=11&country=24
+                      - img "Flash Alert Pro, LED Text" [ref=e2367]
+                    - generic [ref=e2369]:
+                      - link "Flash Alert Pro, LED Text" [ref=e2374] [cursor=pointer]:
+                        - /url: /app/n7qi9u11e508uq4/googleplay?market=11&country=24
+                      - generic [ref=e2375]:
+                        - generic [ref=e2376]: 应用：98名
+                        - link "Techverse LTD" [ref=e2381] [cursor=pointer]:
+                          - /url: /developer/009d6be8202e496aff631407161b9fd3/googleplay-app
+                - generic [ref=e2383]:
+                  - generic [ref=e2384]: 
+                  - text: "149"
+        - text: 
+      - generic [ref=e2386]:
+        - generic [ref=e2387]:
+          - generic [ref=e2388]: "当前位置:"
+          - list [ref=e2389]:
+            - listitem [ref=e2390]:
+              - link "点点数据" [ref=e2391] [cursor=pointer]:
+                - /url: //app.diandian.com
+              - generic [ref=e2392]: 
+            - listitem [ref=e2393]:
+              - link "Google Play商店排行榜" [ref=e2394] [cursor=pointer]:
+                - /url: /rank/googleplay/
+              - generic [ref=e2395]: 
+            - listitem [ref=e2396]:
+              - heading "GooglePlay 工具app排行榜" [level=1] [ref=e2397]:
+                - link "GooglePlay 工具app排行榜" [ref=e2398] [cursor=pointer]:
+                  - /url: /rank/googleplay/11-1-7-24-0
+        - generic [ref=e2399]:
+          - link "点点首页" [ref=e2401] [cursor=pointer]:
+            - /url: /
+          - link "产品价格" [ref=e2403] [cursor=pointer]:
+            - /url: /vip/authority/
+          - link "关于点点" [ref=e2405] [cursor=pointer]:
+            - /url: //www.diandian.com/aboutus
+          - link "用户协议" [ref=e2407] [cursor=pointer]:
+            - /url: //www.diandian.com/about-us/agreement
+  - generic: 
+  - generic: 
+  - text: 
+  - generic: 
+  - generic: 
+  - generic: 
+  - generic: 

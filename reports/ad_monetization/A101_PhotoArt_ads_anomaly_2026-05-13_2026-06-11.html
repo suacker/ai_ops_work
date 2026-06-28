@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PhotoArt 广告变现异常分析</title>
+  <style>
+    :root{--bg:#eef3fb;--card:#fff;--ink:#101828;--muted:#667085;--line:#d9e2f1;--blue:#2563eb;--blue-soft:#eaf1ff;--green:#15945b;--green-soft:#e8f7ee;--orange:#d97706;--orange-soft:#fff4df;--red:#b42318;--red-soft:#ffefed;--gray:#536579;--shadow:0 10px 30px rgba(25,42,70,.08)}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#e8eefb 0%,#f7f9fd 38%,#eef3fb 100%);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:0}.page{max-width:1180px;margin:0 auto;padding:58px 32px 42px}.hero{display:grid;grid-template-columns:1fr 250px;gap:24px;align-items:start;margin-bottom:34px}h1{margin:0 0 18px;font-size:46px;line-height:1.08;font-weight:850}.subtitle{max-width:760px;color:var(--muted);font-size:21px;line-height:1.55;font-weight:520}.method-box{background:rgba(255,255,255,.86);border:1px solid var(--line);border-radius:8px;padding:18px 20px;text-align:center;color:#4b5b73;font-weight:750;font-size:17px;line-height:1.5;box-shadow:var(--shadow)}.grid-2{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;margin-bottom:28px}.section-title{display:flex;align-items:center;gap:14px;margin:30px 0 16px}.section-title h2{margin:0;font-size:30px;line-height:1.2}.pill{display:inline-flex;align-items:center;border-radius:999px;padding:6px 12px;font-weight:850;color:#fff;font-size:15px}.pill.good{background:var(--green)}.pill.warn,.pill.orange{background:var(--orange)}.pill.bad{background:var(--red)}.pill.muted,.pill.gray{background:var(--gray)}.pill.green{background:var(--green)}.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;box-shadow:var(--shadow)}.conclusion b{color:var(--blue);font-size:18px}.conclusion .lead{margin-top:16px;font-size:27px;line-height:1.35;font-weight:850}.bars h3,.card h3{margin:0 0 18px;font-size:22px}.bar-row{display:grid;grid-template-columns:120px 1fr 76px;gap:14px;align-items:center;margin:14px 0;font-size:17px;font-weight:740}.track{height:14px;border-radius:999px;background:#e8eef8;overflow:hidden}.fill{height:100%;border-radius:inherit;background:var(--blue)}.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:18px 0 28px}.kpi{background:rgba(255,255,255,.86);border:1px solid var(--line);border-radius:8px;padding:15px}.kpi .label{color:var(--muted);font-weight:700;font-size:13px}.kpi .value{margin-top:7px;font-size:22px;font-weight:850}.kpi .note{margin-top:7px;font-size:12px;color:var(--muted);font-weight:650}.format-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.format-card .top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}.format-card .name{font-size:27px;font-weight:850}.tag{border-radius:999px;padding:6px 10px;font-weight:800;font-size:13px;background:var(--blue-soft);color:var(--blue);white-space:nowrap}.tag.good{color:var(--green);background:var(--green-soft)}.tag.warn{color:var(--orange);background:var(--orange-soft)}.tag.bad{color:var(--red);background:var(--red-soft)}.metric-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.metric{border:1px solid #e6edf7;border-radius:8px;padding:12px;background:#fbfcff;min-height:72px}.metric span{display:block;color:var(--muted);font-size:13px;font-weight:700}.metric strong{display:block;margin-top:4px;font-size:21px}.desc{margin:16px 0 0;color:#3f4d61;font-size:16px;line-height:1.55;font-weight:560}table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:12px 10px;border-bottom:1px solid #e7edf6;text-align:right}th:first-child,td:first-child{text-align:left}th{color:#536579;font-size:13px;background:#f7faff}tr:last-child td{border-bottom:0}.scene-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.scene{display:flex;justify-content:space-between;gap:16px;align-items:center;border:1px solid #e7edf6;border-radius:8px;padding:16px;background:#fff}.scene .scene-name{font-weight:850;font-size:17px}.scene .scene-note{color:var(--muted);margin-top:4px;font-size:13px;font-weight:650}.scene .scene-value{text-align:right;font-size:22px;font-weight:850}.recommend{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.recommend h3{margin-bottom:10px}.recommend p{margin:0;color:#3f4d61;font-size:16px;line-height:1.55;font-weight:560}.footer{margin-top:34px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:900px){.page{padding:34px 18px}.hero,.grid-2,.format-grid,.scene-grid,.recommend{grid-template-columns:1fr}h1{font-size:35px}.subtitle{font-size:18px}.kpis{grid-template-columns:repeat(2,1fr)}.metric-row{grid-template-columns:1fr}table{font-size:13px}th,td{padding:10px 6px}}</style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div>
+        <h1>PhotoArt 广告变现诊断</h1>
+        <div class="subtitle">基于 SnowBall 估算广告收入、用户新增、广告格式 IPU/eCPM 与场景贡献，判断近 30 日是否存在广告变现异常。</div>
+      </div>
+      <div class="method-box">数据口径<br />A101 Android<br />2026-05-13 至 2026-06-11<br />扩展观察 60 日</div>
+    </section>
+
+    <section class="grid-2">
+      <div class="card conclusion">
+        <b>核心结论</b>
+        <div class="lead">30 日广告收入 $24,611.11，日均广告收入 $820.37；最近 7 日较前 7 日收入 -0.39%。</div>
+      </div>
+      <div class="card bars">
+        <h3>广告格式收入贡献</h3>
+        <div class="bar-row"><span>Interstitial</span><div class="track"><div class="fill" style="width:69.55%"></div></div><strong>69.55%</strong></div><div class="bar-row"><span>AppOpen</span><div class="track"><div class="fill" style="width:19.43%"></div></div><strong>19.43%</strong></div><div class="bar-row"><span>Banner</span><div class="track"><div class="fill" style="width:5.29%"></div></div><strong>5.29%</strong></div><div class="bar-row"><span>Native</span><div class="track"><div class="fill" style="width:4.96%"></div></div><strong>4.96%</strong></div><div class="bar-row"><span>RewardedVideo</span><div class="track"><div class="fill" style="width:1.00%"></div></div><strong>0.76%</strong></div>
+      </div>
+    </section>
+
+    <section class="kpis">
+      <div class="kpi"><div class="label">30日广告收入</div><div class="value">$24,611.11</div><div class="note">SnowBall 估算</div></div>
+      <div class="kpi"><div class="label">日均广告收入</div><div class="value">$820.37</div><div class="note">最近7日 vs 前7日 -0.39%</div></div>
+      <div class="kpi"><div class="label">展示数</div><div class="value">3.76M</div><div class="note">-1.52%</div></div>
+      <div class="kpi"><div class="label">整体 eCPM</div><div class="value">$6.55</div><div class="note">+0.95%</div></div>
+      <div class="kpi"><div class="label">平均 IPU</div><div class="value">5.11</div><div class="note">-4.50%</div></div>
+      <div class="kpi"><div class="label">平均 DNU</div><div class="value">11,307</div><div class="note">+4.05%</div></div>
+    </section>
+
+    <div class="section-title"><span class="pill good">观察</span><h2>核心广告格式</h2></div>
+    <section class="format-grid">
+      <div class="card format-card">
+        <div class="top"><div class="name">Interstitial</div><span class="tag good">稳定</span></div>
+        <div class="metric-row">
+          <div class="metric"><span>收入</span><strong>$17,117.48</strong></div>
+          <div class="metric"><span>加权 eCPM</span><strong>$17.36</strong></div>
+          <div class="metric"><span>平均 IPU</span><strong>1.34</strong></div>
+        </div>
+        <p class="desc">收入占比 69.55%。最近 7 日 IPU -2.50%，eCPM -0.45%。</p>
+      </div>
+      <div class="card format-card">
+        <div class="top"><div class="name">AppOpen</div><span class="tag good">稳定</span></div>
+        <div class="metric-row">
+          <div class="metric"><span>收入</span><strong>$4,782.76</strong></div>
+          <div class="metric"><span>加权 eCPM</span><strong>$10.99</strong></div>
+          <div class="metric"><span>平均 IPU</span><strong>0.59</strong></div>
+        </div>
+        <p class="desc">收入占比 19.43%。最近 7 日 IPU -1.51%，eCPM -0.04%。</p>
+      </div>
+      <div class="card format-card">
+        <div class="top"><div class="name">Banner</div><span class="tag good">稳定</span></div>
+        <div class="metric-row">
+          <div class="metric"><span>收入</span><strong>$1,302.82</strong></div>
+          <div class="metric"><span>加权 eCPM</span><strong>$0.75</strong></div>
+          <div class="metric"><span>平均 IPU</span><strong>2.35</strong></div>
+        </div>
+        <p class="desc">收入占比 5.29%。最近 7 日 IPU -6.31%，eCPM -2.00%。</p>
+      </div>
+      <div class="card format-card">
+        <div class="top"><div class="name">Native</div><span class="tag good">稳定</span></div>
+        <div class="metric-row">
+          <div class="metric"><span>收入</span><strong>$1,219.98</strong></div>
+          <div class="metric"><span>加权 eCPM</span><strong>$2.03</strong></div>
+          <div class="metric"><span>平均 IPU</span><strong>0.82</strong></div>
+        </div>
+        <p class="desc">收入占比 4.96%。最近 7 日 IPU -4.64%，eCPM -4.55%。</p>
+      </div></section>
+
+    <div class="section-title"><span class="pill orange">转折点</span><h2>60 日格式级 IPU / eCPM</h2></div>
+    <section class="card"><table><thead><tr><th>广告格式</th><th>指标</th><th>转折日期</th><th>前7日</th><th>后7日</th><th>变化</th><th>判断</th></tr></thead><tbody>
+          <tr><td>Interstitial</td><td>IPU</td><td>2026-05-13</td><td>1.46</td><td>1.33</td><td>-9.08%</td><td>观察</td></tr>
+          <tr><td>Interstitial</td><td>eCPM</td><td>2026-05-03</td><td>$17.55</td><td>$15.81</td><td>-9.93%</td><td>观察</td></tr>
+          <tr><td>AppOpen</td><td>IPU</td><td>2026-05-14</td><td>0.61</td><td>0.59</td><td>-3.45%</td><td>观察</td></tr>
+          <tr><td>AppOpen</td><td>eCPM</td><td>2026-05-06</td><td>$11.90</td><td>$10.47</td><td>-11.96%</td><td>观察</td></tr>
+          <tr><td>Banner</td><td>IPU</td><td>2026-05-14</td><td>2.63</td><td>2.43</td><td>-7.60%</td><td>观察</td></tr>
+          <tr><td>Banner</td><td>eCPM</td><td>2026-05-07</td><td>$0.75</td><td>$0.67</td><td>-11.15%</td><td>观察</td></tr>
+          <tr><td>Native</td><td>IPU</td><td>2026-05-14</td><td>0.94</td><td>0.86</td><td>-9.06%</td><td>观察</td></tr>
+          <tr><td>Native</td><td>eCPM</td><td>2026-05-06</td><td>$2.58</td><td>$1.44</td><td>-44.18%</td><td>需复核</td></tr>
+          <tr><td>RewardedVideo</td><td>IPU</td><td>2026-05-20</td><td>0.01</td><td>0.01</td><td>-25.03%</td><td>需定位</td></tr>
+          <tr><td>RewardedVideo</td><td>eCPM</td><td>2026-05-17</td><td>$33.32</td><td>$27.26</td><td>-18.20%</td><td>需复核</td></tr></tbody></table></section>
+
+    <div class="section-title"><span class="pill green">场景贡献</span><h2>重点场景定位</h2></div>
+    <section class="scene-grid">
+      <div class="scene"><div><div class="scene-name">I_NewUserBeforeMain</div><div class="scene-note">占比 22.21%，末7日 vs 首7日 +19.24%</div></div><div class="scene-value">$5,466</div></div>
+      <div class="scene"><div><div class="scene-name">O_AppStart</div><div class="scene-note">占比 13.36%，末7日 vs 首7日 +26.60%</div></div><div class="scene-value">$3,289</div></div>
+      <div class="scene"><div><div class="scene-name">I_OldUserBeforeMain</div><div class="scene-note">占比 10.30%，末7日 vs 首7日 +3.73%</div></div><div class="scene-value">$2,534</div></div>
+      <div class="scene"><div><div class="scene-name">I_EditLoading</div><div class="scene-note">占比 10.24%，末7日 vs 首7日 +17.87%</div></div><div class="scene-value">$2,520</div></div>
+      <div class="scene"><div><div class="scene-name">I_Save</div><div class="scene-note">占比 7.70%，末7日 vs 首7日 +0.66%</div></div><div class="scene-value">$1,896</div></div>
+      <div class="scene"><div><div class="scene-name">O_AppBackToFront</div><div class="scene-note">占比 6.07%，末7日 vs 首7日 +24.08%</div></div><div class="scene-value">$1,494</div></div>
+      <div class="scene"><div><div class="scene-name">B_EditPageBottom</div><div class="scene-note">占比 3.83%，末7日 vs 首7日 +20.17%</div></div><div class="scene-value">$943</div></div>
+      <div class="scene"><div><div class="scene-name">I_PhotoMultiSelectEditBack</div><div class="scene-note">占比 3.69%，末7日 vs 首7日 +11.53%</div></div><div class="scene-value">$909</div></div></section>
+
+    <div class="section-title"><span class="pill gray">建议</span><h2>最终处理优先级</h2></div>
+    <section class="recommend">
+      <div class="card"><h3>P0</h3><p>优先回查最大收入格式和最大收入场景，结合 DNU、展示数、IPU 判断是否是新增或展示机会变化。</p></div>
+      <div class="card"><h3>P1</h3><p>IPU 下降查触发与频控；eCPM 下降查 AdMob、Waterfall、bidding、价格规则和无效流量。</p></div>
+      <div class="card"><h3>P2</h3><p>低收入占比格式和小样本场景只做观察；后台政策与实时填充需人工复核。</p></div>
+    </section>
+
+    <div class="footer">Generated from /Users/suacker/dev/DataAnalysis/BI/reports/ad_monetization/A101_PhotoArt_ads_anomaly_2026-05-13_2026-06-11.md</div>
+  </main>
+</body>
+</html>

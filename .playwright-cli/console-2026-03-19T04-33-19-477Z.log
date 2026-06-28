@@ -1,0 +1,6 @@
+[    2682ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[    2682ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[    3013ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/zhipin-geek-seo/v5419/web/geek/js/main.js:0
+[   44436ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[   44436ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[   45723ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/zhipin-geek-seo/v5419/web/geek/js/main.js:0

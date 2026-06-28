@@ -1,0 +1,169 @@
+{
+  "report": {
+    "title": "StepTracker 买量作战日报",
+    "date_start": "2026-06-11",
+    "date_end": "2026-06-17",
+    "generated_at": "2026-06-18T13:10:00+08:00",
+    "mode": "read_only"
+  },
+  "portfolio_summary": {
+    "conclusion": "StepTracker 近 7 天 Google 回收明显优于 Facebook；Facebook 平台消耗与 Snowball 成本基本对齐，但 ROI0/ROI3 偏弱，应先控 Meta 低质承接、保留 Google 小幅验证空间，并继续围绕健康走路类素材做变体。",
+    "kpis": [
+      {
+        "label": "Snowball总花费",
+        "value": "$3,198.55"
+      },
+      {
+        "label": "Snowball买量安装",
+        "value": "2,076"
+      },
+      {
+        "label": "总体CPI",
+        "value": "$1.5464"
+      },
+      {
+        "label": "总体ROI0",
+        "value": "36.34%"
+      },
+      {
+        "label": "Google ROI3",
+        "value": "60.04%"
+      },
+      {
+        "label": "Facebook ROI3",
+        "value": "29.63%"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "project": {
+        "project_id": "A155",
+        "project_name": "StepTracker",
+        "monetization_type": "IAA",
+        "priority_countries": [
+          "US"
+        ]
+      },
+      "platform_status": {
+        "google": "ready",
+        "facebook": "ready",
+        "tiktok": "inactive_no_data"
+      },
+      "data_quality": {
+        "status": "ready",
+        "confidence": "high",
+        "limitations": [
+          "Meta CLI 两账号合计花费 $1,537.71，Snowball Facebook 花费 $1,537.70，成本链路基本对齐。",
+          "ROI7/ROI14 多数仍为预测或 N/A，不能单独驱动强放量。",
+          "本轮已到 campaign 级，尚未重新拉取全部 ad/creative 明细，因此素材建议为方向性建议。"
+        ]
+      },
+      "metrics": {
+        "spend": 3198.554349,
+        "installs": 2076,
+        "cpi": 1.5464251228594648,
+        "roi0": 0.3634,
+        "roi3": 0.4588,
+        "roi7": 0.4661
+      },
+      "diagnostics": [
+        {
+          "scope": "Snowball / all networks",
+          "status": "portfolio_partial_recovery",
+          "reason": "近 7 天总花费 $3,198.55，买量安装 2,076，ROI0 36.34%，ROI3 45.88%，整体仍未回正，利润为负。"
+        },
+        {
+          "scope": "google / US-3.0-251231",
+          "status": "best_scale_candidate",
+          "reason": "Google 花费 $1,660.85，买量安装 1,018，CPI $1.6322，ROI0 46.65%，ROI3 60.04%，显著高于 Facebook。"
+        },
+        {
+          "scope": "facebook / account 01",
+          "status": "better_meta_account",
+          "reason": "Meta 账号 Step Tracker 01 花费 $1,095.17，平台安装 878，平台 CPI $1.2473，CTR 2.30%，CPM $14.85，优于账号 02 的平台 CPI。"
+        },
+        {
+          "scope": "facebook / account 02",
+          "status": "click_quality_warning",
+          "reason": "Meta 账号 Step Tracker 02 CTR 达 5.80%，但 CPM $33.16、平台 CPI $2.3049，说明点击强不等于安装与回收强。"
+        },
+        {
+          "scope": "facebook / FB-US-ABO-IAA-VO-Targeted-260601",
+          "status": "aging_winner_observe",
+          "reason": "该 campaign 花费约 $576.41，CPI 约 $1.19，ROI0 约 28.63%，ROI3 约 30.42%，低于 Google 回收；历史 winner 需要新变体承接。"
+        },
+        {
+          "scope": "facebook / FB-US-ABO-IAA-VO-Targeted-Earn-260610",
+          "status": "creative_angle_test",
+          "reason": "该 campaign 花费约 $518.75，CPI 约 $1.35，ROI3 约 35.14%，平台 CPI 尚可但回收仍弱；继续测试但不应放大预算。"
+        },
+        {
+          "scope": "facebook / US-IAA-260612",
+          "status": "reduce_candidate",
+          "reason": "该 campaign 花费约 $313.29，平台 CTR 6.93%，但平台 CPI $2.0748、Snowball CPI 约 $2.08、ROI0 约 20.39%，属于高点击低质量。"
+        }
+      ],
+      "recommended_actions": [
+        {
+          "priority": "P0",
+          "object": "Google / US-3.0-251231",
+          "action": "small_add",
+          "confidence": "medium",
+          "reason": "Google 是当前唯一较强承接盘，ROI0/ROI3 优于 Facebook；但 ROI7/ROI14 仍有预测限制，建议只做小幅验证，不做激进放量。",
+          "review_date": "2026-06-19",
+          "feedback_status": "pending"
+        },
+        {
+          "priority": "P0",
+          "object": "Facebook / US-IAA-260612 与 US-IAA-260616",
+          "action": "reduce_or_reallocate",
+          "confidence": "high",
+          "reason": "这两条计划平台 CTR 不差，但 CPI 和 Snowball ROI 明显弱，应把预算优先回收给 Google 或 Meta 01 中更稳的健康走路素材方向。",
+          "review_date": "2026-06-19",
+          "feedback_status": "pending"
+        },
+        {
+          "priority": "P1",
+          "object": "Facebook / Step Tracker 02",
+          "action": "data_gap_check",
+          "confidence": "medium",
+          "reason": "账号 02 CTR 高但 CPM/CPI 高，需要继续拆 publisher_platform、placement 和 ad 层，确认是否 Audience Network 或低质版位拉高点击。",
+          "review_date": "2026-06-19",
+          "feedback_status": "pending"
+        },
+        {
+          "priority": "P1",
+          "object": "Facebook / 260601 winner 素材系",
+          "action": "refresh_creative",
+          "confidence": "medium",
+          "reason": "历史 winner 当前仍有安装效率，但 Snowball ROI 已不突出；继续围绕 Lose Weight by Walking、步数、卡路里、心率/血压、免费 tracker 做变体，而不是直接扩大旧素材。",
+          "review_date": "2026-06-20",
+          "feedback_status": "pending"
+        },
+        {
+          "priority": "P2",
+          "object": "Facebook / FB-US-ABO-IAA-VO-Targeted-Earn-260610",
+          "action": "maintain",
+          "confidence": "medium",
+          "reason": "该计划 ROI3 好于 260601 但仍不够强，适合维持观察与素材学习，不适合作为放量主承接。",
+          "review_date": "2026-06-19",
+          "feedback_status": "pending"
+        }
+      ],
+      "limitations": [
+        "未执行任何 Meta/Google 写操作，本报告只提供动作建议。",
+        "Snowball ROI7/ROI14 多为预测或 N/A，强动作主要依据 ROI0/ROI3、CPI、成本对账和平台安装效率。",
+        "本轮未重新下钻全量 ad/creative 明细，素材层结论继承历史 winner 方向并结合 campaign 表现。"
+      ],
+      "source_refs": [
+        "Snowball MCP list_projects(project_name=StepTracker)",
+        "Snowball MCP view_roi_report(A155, 2026-06-11~2026-06-17, network/campaign)",
+        "Snowball MCP view_profit_report(A155, 2026-06-11~2026-06-17, country)",
+        "Meta Ads CLI insights get, act_959455393396016, 2026-06-11~2026-06-17",
+        "Meta Ads CLI insights get, act_1302740031791808, 2026-06-11~2026-06-17",
+        "config/ad_account_registry.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1233 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e8] [cursor=pointer]: 答问卷，赢好礼！点点数据会员免费领！
+    - generic [ref=e9]:
+      - generic [ref=e10] [cursor=pointer]: 立即参与
+      - generic [ref=e12] [cursor=pointer]: 
+  - generic: 
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - link [ref=e18] [cursor=pointer]:
+        - /url: /
+      - link "Google Play榜单" [ref=e23]:
+        - /url: javascript:;
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27] [cursor=pointer]: 全局
+        - generic [ref=e28] [cursor=pointer]: 商店
+      - combobox [ref=e30]:
+        - generic [ref=e31]:
+          - textbox "搜索应用名称/包名" [ref=e32]
+          - generic [ref=e33]:
+            - button "" [ref=e37]:
+              - generic [ref=e39]: 
+            - generic [ref=e40]:
+              - text:  
+              - generic [ref=e44]: 
+              - text: 
+              - generic: 
+          - generic [ref=e48] [cursor=pointer]: 
+    - generic [ref=e49]:
+      - link " API" [ref=e52] [cursor=pointer]:
+        - /url: /service/api
+        - generic [ref=e53]: 
+        - generic [ref=e54]: API
+      - generic [ref=e55]:    
+      - generic [ref=e58]:
+        - button [ref=e59] [cursor=pointer]
+        - text: 
+      - generic [ref=e60]:
+        - generic [ref=e63]:
+          - generic [ref=e64]: 切换语言版本
+          - generic [ref=e65] [cursor=pointer]: 
+        - generic [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: 文
+          - generic [ref=e70]: A
+      - generic [ref=e73] [cursor=pointer]:
+        - button "用户：oym0u6hl5l5h54k" [ref=e74]:
+          - img "用户：oym0u6hl5l5h54k" [ref=e76]
+          - img [ref=e79]
+        - text:  
+  - generic [ref=e81]:
+    - generic [ref=e84]:
+      - link " 高级搜索" [ref=e88] [cursor=pointer]:
+        - /url: /advanced-search
+        - generic [ref=e89]: 
+        - text: 高级搜索
+      - link "排行榜" [ref=e93] [cursor=pointer]:
+        - /url: /rank/ios/
+      - link " 市场情报" [ref=e97] [cursor=pointer]:
+        - /url: /control/appstore
+        - generic [ref=e98]: 
+        - text: 市场情报
+      - link " 功能标签" [ref=e102] [cursor=pointer]:
+        - /url: /category-tags?category=1&type=1
+        - generic [ref=e103]: 
+        - text: 功能标签
+      - link " ASO/ASA" [ref=e107] [cursor=pointer]:
+        - /url: /search/ios-1-5-5-75-0-微信
+        - generic [ref=e108]: 
+        - text: ASO/ASA
+      - link " SDK" [ref=e112] [cursor=pointer]:
+        - /url: /sdk/rank/install/0-1-75-4-0
+        - generic [ref=e113]: 
+        - text: SDK
+      - link " 广告素材" [ref=e117] [cursor=pointer]:
+        - /url: /creatives
+        - generic [ref=e118]: 
+        - text: 广告素材
+      - link " 竞品对比" [ref=e122] [cursor=pointer]:
+        - /url: /pk/1-75/appInfo
+        - generic [ref=e123]: 
+        - text: 竞品对比
+    - generic:
+      - generic: 
+    - generic [ref=e127]:
+      - generic [ref=e131]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - list [ref=e139]:
+                  - listitem [ref=e140]:
+                    - link "总榜" [ref=e142] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e145]: 总榜
+                  - listitem [ref=e146]:
+                    - link "应用榜 " [ref=e148] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e150]:
+                        - generic [ref=e151]: 应用榜
+                        - generic [ref=e152]: 
+                  - listitem [ref=e153]:
+                    - link "游戏榜 " [ref=e155] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e157]:
+                        - generic [ref=e158]: 游戏榜
+                        - generic [ref=e159]: 
+                  - listitem [ref=e160]:
+                    - link "家庭榜 " [ref=e162] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e164]:
+                        - generic [ref=e165]: 家庭榜
+                        - generic [ref=e166]: 
+                - generic: 
+              - generic [ref=e167]:
+                - generic [ref=e168]: 榜单类型
+                - list [ref=e170]:
+                  - listitem [ref=e171]:
+                    - button "免费榜 " [ref=e174] [cursor=pointer]:
+                      - generic [ref=e176]: 免费榜
+                      - generic [ref=e177]: 
+                - generic: 
+              - generic [ref=e178]:
+                - generic [ref=e179]: 地区
+                - list [ref=e181]:
+                  - listitem [ref=e182]:
+                    - generic [ref=e184]:
+                      - text:  
+                      - link "美国 " [ref=e186] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e188]: 美国
+                        - generic [ref=e189]: 
+                      - text: 
+                      - generic: 
+                - generic: 
+              - generic [ref=e191]:
+                - generic [ref=e192]: 日期
+                - list [ref=e194]:
+                  - listitem [ref=e195]:
+                    - generic [ref=e198] [cursor=pointer]:
+                      - textbox "自定义" [ref=e199]: 03月17日(今天)
+                      - generic [ref=e201]: 
+                - generic: 
+            - button " 导出数据" [ref=e204] [cursor=pointer]:
+              - generic [ref=e205]:
+                - generic [ref=e206]: 
+                - text: 导出数据
+          - generic [ref=e208]:
+            - list [ref=e210]:
+              - listitem [ref=e211]:
+                - link "全部应用" [ref=e213] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e216]: 全部应用
+              - listitem [ref=e217]:
+                - link "财务" [ref=e219] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e222]: 财务
+              - listitem [ref=e223]:
+                - link "餐饮美食" [ref=e225] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e228]: 餐饮美食
+              - listitem [ref=e229]:
+                - link "车辆和交通" [ref=e231] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e234]: 车辆和交通
+              - listitem [ref=e235]:
+                - link "地图和导航" [ref=e237] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e240]: 地图和导航
+              - listitem [ref=e241]:
+                - link "个性定制" [ref=e243] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e246]: 个性定制
+              - listitem [ref=e247]:
+                - link "工具" [ref=e249] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e252]: 工具
+              - listitem [ref=e253]:
+                - link "办公" [ref=e255] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e258]: 办公
+              - listitem [ref=e259]:
+                - link "购物" [ref=e261] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e264]: 购物
+              - listitem [ref=e265]:
+                - link "活动" [ref=e267] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e270]: 活动
+              - listitem [ref=e271]:
+                - link "家居装修" [ref=e273] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e276]: 家居装修
+              - listitem [ref=e277]:
+                - link "健康与健身" [ref=e279] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e282]: 健康与健身
+              - listitem [ref=e283]:
+                - link "教育" [ref=e285] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e288]: 教育
+              - listitem [ref=e289]:
+                - link "外出旅行与本地生活" [ref=e291] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e294]: 外出旅行与本地生活
+              - listitem [ref=e295]:
+                - link "漫画" [ref=e297] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e300]: 漫画
+              - listitem [ref=e301]:
+                - link "美容时尚" [ref=e303] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e306]: 美容时尚
+              - listitem [ref=e307]:
+                - link "软件库与演示" [ref=e309] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e312]: 软件库与演示
+              - listitem [ref=e313]:
+                - link "效率" [ref=e315] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e318]: 效率
+              - listitem [ref=e319]:
+                - link "社交" [ref=e321] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e324]: 社交
+              - listitem [ref=e325]:
+                - link "约会交友" [ref=e327] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e330]: 约会交友
+              - listitem [ref=e331]:
+                - link "摄影" [ref=e333] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e336]: 摄影
+              - listitem [ref=e337]:
+                - link "生活时尚" [ref=e339] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e342]: 生活时尚
+              - listitem [ref=e343]:
+                - link "视频播放和编辑" [ref=e345] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e348]: 视频播放和编辑
+              - listitem [ref=e349]:
+                - link "体育" [ref=e351] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e354]: 体育
+              - listitem [ref=e355]:
+                - link "天气" [ref=e357] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e360]: 天气
+              - listitem [ref=e361]:
+                - link "通讯" [ref=e363] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e366]: 通讯
+              - listitem [ref=e367]:
+                - link "图书与工具书" [ref=e369] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e372]: 图书与工具书
+              - listitem [ref=e373]:
+                - link "新闻杂志" [ref=e375] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e378]: 新闻杂志
+              - listitem [ref=e379]:
+                - link "医疗" [ref=e381] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e384]: 医疗
+              - listitem [ref=e385]:
+                - link "艺术和设计" [ref=e387] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e390]: 艺术和设计
+              - listitem [ref=e391]:
+                - link "音乐与音频" [ref=e393] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e396]: 音乐与音频
+              - listitem [ref=e397]:
+                - link "娱乐" [ref=e399] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e402]: 娱乐
+              - listitem [ref=e403]:
+                - link "育儿" [ref=e405] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e408]: 育儿
+              - listitem [ref=e409]:
+                - link "手表应用" [ref=e411] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e414]: 手表应用
+            - generic: 
+        - generic [ref=e415]:
+          - generic [ref=e416]:
+            - generic [ref=e417]:
+              - text: 榜单快照
+              - generic [ref=e418]: 
+            - generic [ref=e419]:
+              - generic [ref=e421]:
+                - text:    
+                - generic [ref=e422] [cursor=pointer]:
+                  - text: 00:04
+                  - generic [ref=e423]: "*"
+              - generic [ref=e426]:
+                - text:    
+                - generic [ref=e427] [cursor=pointer]:
+                  - text: 00:41
+                  - generic [ref=e428]: "*"
+              - generic [ref=e431]:
+                - text:    
+                - generic [ref=e432] [cursor=pointer]:
+                  - text: 01:16
+                  - generic [ref=e433]: "*"
+              - generic [ref=e436]:
+                - text:    
+                - generic [ref=e437] [cursor=pointer]:
+                  - text: 02:26
+                  - generic [ref=e438]: "*"
+              - generic [ref=e441]:
+                - text:    
+                - generic [ref=e442] [cursor=pointer]:
+                  - text: 03:06
+                  - generic [ref=e443]: "*"
+              - generic [ref=e446]:
+                - text:    
+                - generic [ref=e447] [cursor=pointer]:
+                  - text: 03:32
+                  - generic [ref=e448]: "*"
+              - generic [ref=e451]:
+                - text:    
+                - generic [ref=e452] [cursor=pointer]:
+                  - text: 04:03
+                  - generic [ref=e453]: "*"
+              - generic [ref=e456]:
+                - text:    
+                - generic [ref=e457] [cursor=pointer]:
+                  - text: 04:07
+                  - generic [ref=e458]: "*"
+              - generic [ref=e461]:
+                - text:    
+                - generic [ref=e462] [cursor=pointer]:
+                  - text: 04:41
+                  - generic [ref=e463]: "*"
+              - generic [ref=e466]:
+                - text:    
+                - generic [ref=e467] [cursor=pointer]:
+                  - text: 05:04
+                  - generic [ref=e468]: "*"
+              - generic [ref=e471]:
+                - text:    
+                - generic [ref=e472] [cursor=pointer]:
+                  - text: 05:16
+                  - generic [ref=e473]: "*"
+              - generic [ref=e476]:
+                - text:    
+                - generic [ref=e477] [cursor=pointer]:
+                  - text: 05:49
+                  - generic [ref=e478]: "*"
+              - generic [ref=e481]:
+                - text:    
+                - generic [ref=e482] [cursor=pointer]:
+                  - text: 06:03
+                  - generic [ref=e483]: "*"
+              - generic [ref=e486]:
+                - text:    
+                - generic [ref=e487] [cursor=pointer]:
+                  - text: 06:17
+                  - generic [ref=e488]: "*"
+              - generic [ref=e491]:
+                - text:    
+                - generic [ref=e492] [cursor=pointer]:
+                  - text: 06:52
+                  - generic [ref=e493]: "*"
+              - generic [ref=e496]:
+                - text:    
+                - generic [ref=e497] [cursor=pointer]:
+                  - text: 07:04
+                  - generic [ref=e498]: "*"
+              - generic [ref=e501]:
+                - text:    
+                - generic [ref=e502] [cursor=pointer]:
+                  - text: 07:25
+                  - generic [ref=e503]: "*"
+              - generic [ref=e506]:
+                - text:    
+                - generic [ref=e507] [cursor=pointer]:
+                  - text: 08:00
+                  - generic [ref=e508]: "*"
+              - generic [ref=e511]:
+                - text:    
+                - generic [ref=e512] [cursor=pointer]:
+                  - text: 08:04
+                  - generic [ref=e513]: "*"
+              - generic [ref=e516]:
+                - text:    
+                - generic [ref=e517] [cursor=pointer]:
+                  - text: 08:34
+                  - generic [ref=e518]: "*"
+              - generic [ref=e521]:
+                - text:    
+                - generic [ref=e522] [cursor=pointer]:
+                  - text: 09:04
+                  - generic [ref=e523]: "*"
+              - generic [ref=e526]:
+                - text:    
+                - generic [ref=e527] [cursor=pointer]:
+                  - text: 09:43
+                  - generic [ref=e528]: "*"
+              - generic [ref=e531]:
+                - text:    
+                - generic [ref=e532] [cursor=pointer]:
+                  - text: 10:07
+                  - generic [ref=e533]: "*"
+              - generic [ref=e537] [cursor=pointer]: 11:00
+              - generic [ref=e541] [cursor=pointer]: 12:00
+              - generic [ref=e545] [cursor=pointer]: 13:00
+              - generic [ref=e548]:
+                - text:    
+                - generic [ref=e549] [cursor=pointer]:
+                  - text: 14:58
+                  - generic [ref=e550]: "*"
+              - generic [ref=e553]:
+                - text:    
+                - generic [ref=e554] [cursor=pointer]:
+                  - text: 15:33
+                  - generic [ref=e555]: "*"
+              - generic [ref=e558]:
+                - text:    
+                - generic [ref=e559] [cursor=pointer]:
+                  - text: 16:11
+                  - generic [ref=e560]: "*"
+              - generic [ref=e563]:
+                - text:    
+                - generic [ref=e564] [cursor=pointer]:
+                  - text: 16:50
+                  - generic [ref=e565]: "*"
+              - generic [ref=e568]:
+                - text:    
+                - generic [ref=e569] [cursor=pointer]:
+                  - text: 17:27
+                  - generic [ref=e570]: "*"
+              - generic [ref=e573]:
+                - text:    
+                - generic [ref=e574] [cursor=pointer]:
+                  - text: 18:02
+                  - generic [ref=e575]: "*"
+              - generic [ref=e578]:
+                - text:    
+                - generic [ref=e579] [cursor=pointer]:
+                  - text: 18:39
+                  - generic [ref=e580]: "*"
+              - generic [ref=e583]:
+                - text:    
+                - generic [ref=e584] [cursor=pointer]:
+                  - text: 19:18
+                  - generic [ref=e585]: "*"
+              - generic [ref=e588]:
+                - text:    
+                - generic [ref=e589] [cursor=pointer]:
+                  - text: 19:51
+                  - generic [ref=e590]: "*"
+              - generic [ref=e593]:
+                - text:    
+                - generic [ref=e594] [cursor=pointer]:
+                  - text: 20:19
+                  - generic [ref=e595]: "*"
+              - generic [ref=e598]:
+                - text:    
+                - generic [ref=e599] [cursor=pointer]:
+                  - text: 20:52
+                  - generic [ref=e600]: "*"
+              - generic [ref=e603]:
+                - text:    
+                - generic [ref=e604] [cursor=pointer]:
+                  - text: 21:34
+                  - generic [ref=e605]: "*"
+              - generic [ref=e608]:
+                - text:    
+                - generic [ref=e609] [cursor=pointer]:
+                  - text: 22:14
+                  - generic [ref=e610]: "*"
+              - generic [ref=e613]:
+                - text:    
+                - generic [ref=e614] [cursor=pointer]:
+                  - text: 22:50
+                  - generic [ref=e615]: "*"
+              - generic [ref=e618]:
+                - text:    
+                - generic [ref=e619] [cursor=pointer]:
+                  - text: 23:23
+                  - generic [ref=e620]: "*"
+              - button "一周榜单更新监测" [ref=e622] [cursor=pointer]
+          - generic [ref=e626]:
+            - generic [ref=e627]:
+              - generic [ref=e628]:
+                - generic [ref=e631]: 免费榜
+                - generic [ref=e633]: 03-17 23:23更新
+              - generic [ref=e634]:
+                - generic [ref=e635] [cursor=pointer]:
+                  - generic [ref=e636]: 
+                  - generic [ref=e637]: 关注
+                - link " 竞争趋势" [ref=e639] [cursor=pointer]:
+                  - /url: /rank/compete-11-1-7-24-1?time=&timetype=recent30
+                  - generic [ref=e640]: 
+                  - generic [ref=e641]: 竞争趋势
+            - generic [ref=e643]:
+              - generic [ref=e644]:
+                - link "#" [ref=e650]:
+                  - /url: javascript:;
+                - link "应用" [ref=e656]:
+                  - /url: javascript:;
+                - link "总榜" [ref=e662]:
+                  - /url: javascript:;
+                - link "应用/游戏榜" [ref=e668]:
+                  - /url: javascript:;
+                - link "分类排名" [ref=e674]:
+                  - /url: javascript:;
+                - link "关键词" [ref=e680]:
+                  - /url: javascript:;
+                - link "综合评分" [ref=e686]:
+                  - /url: javascript:;
+                - link "评分数" [ref=e692]:
+                  - /url: javascript:;
+                - link "发布日期" [ref=e698]:
+                  - /url: javascript:;
+                - link "最后更新" [ref=e704]:
+                  - /url: javascript:;
+              - generic [ref=e705]:
+                - generic [ref=e710]:
+                  - link "PDF & Launcher for Android" [ref=e711] [cursor=pointer]:
+                    - /url: /app/y8qiju187mxriqy/googleplay?market=11&country=24
+                    - img "PDF & Launcher for Android" [ref=e712]
+                  - generic [ref=e713]:
+                    - link "PDF & Launcher for Android" [ref=e718] [cursor=pointer]:
+                      - /url: /app/y8qiju187mxriqy/googleplay?market=11&country=24
+                    - link "YINGRUN LIMITED" [ref=e723] [cursor=pointer]:
+                      - /url: /developer/6a5daf39879cc34684c4223b8dc99511/googleplay-app
+                - generic [ref=e726]:
+                  - generic [ref=e727]: "11"
+                  - generic [ref=e728]: 总榜
+                - generic [ref=e731]:
+                  - generic [ref=e732]: "9"
+                  - generic [ref=e733]: 应用
+                - generic [ref=e736]:
+                  - generic [ref=e737]: "1"
+                  - generic [ref=e738]: 工具
+                - generic [ref=e740]: "-"
+                - slider [ref=e743]:
+                  - generic [ref=e745]: 
+                  - generic [ref=e747]: 
+                  - generic [ref=e749]: 
+                  - generic [ref=e751]:
+                    - text: 
+                    - generic [ref=e752]: 
+                  - generic [ref=e754]: 
+                  - generic [ref=e755]: "3.7"
+                - generic [ref=e757]: "328"
+                - generic [ref=e759]: 2026-02-27
+                - generic [ref=e761]: 2026-02-27
+              - generic [ref=e762]:
+                - generic [ref=e767]:
+                  - link "Find My Phone by Clap Launcher" [ref=e768] [cursor=pointer]:
+                    - /url: /app/4xlipu6pp22kcl4/googleplay?market=11&country=24
+                    - img "Find My Phone by Clap Launcher" [ref=e769]
+                  - generic [ref=e770]:
+                    - link "Find My Phone by Clap Launcher" [ref=e775] [cursor=pointer]:
+                      - /url: /app/4xlipu6pp22kcl4/googleplay?market=11&country=24
+                    - link "AtomApplications" [ref=e780] [cursor=pointer]:
+                      - /url: /developer/ad824c3efc41fbf029087a17bf695bd6/googleplay-app
+                - generic [ref=e783]:
+                  - generic [ref=e784]: "26"
+                  - generic [ref=e785]: 总榜
+                - generic [ref=e788]:
+                  - generic [ref=e789]: "21"
+                  - generic [ref=e790]: 应用
+                - generic [ref=e793]:
+                  - generic [ref=e794]: "2"
+                  - generic [ref=e795]: 工具
+                - generic [ref=e797]: "801"
+                - slider [ref=e800]:
+                  - generic [ref=e802]: 
+                  - generic [ref=e804]: 
+                  - generic [ref=e806]: 
+                  - generic [ref=e808]: 
+                  - generic [ref=e810]:
+                    - text: 
+                    - generic [ref=e811]: 
+                  - generic [ref=e812]: "4.2"
+                - generic [ref=e814]: "10332"
+                - generic [ref=e816]: 2025-07-16
+                - generic [ref=e818]: 2026-03-11
+              - generic [ref=e819]:
+                - generic [ref=e824]:
+                  - link "Photo Recover Plus - Restore" [ref=e825] [cursor=pointer]:
+                    - /url: /app/4v2imueqvzkeigy/googleplay?market=11&country=24
+                    - img "Photo Recover Plus - Restore" [ref=e826]
+                  - generic [ref=e827]:
+                    - link "Photo Recover Plus - Restore" [ref=e832] [cursor=pointer]:
+                      - /url: /app/4v2imueqvzkeigy/googleplay?market=11&country=24
+                    - link "AbCdE" [ref=e837] [cursor=pointer]:
+                      - /url: /developer/37e464916dcb6dfc3994ca4549e97272/googleplay-app
+                - generic [ref=e840]:
+                  - generic [ref=e841]: "34"
+                  - generic [ref=e842]: 总榜
+                - generic [ref=e845]:
+                  - generic [ref=e846]: "28"
+                  - generic [ref=e847]: 应用
+                - generic [ref=e850]:
+                  - generic [ref=e851]: "3"
+                  - generic [ref=e852]: 工具
+                - generic [ref=e854]: "64"
+                - slider [ref=e857]:
+                  - generic [ref=e859]: 
+                  - generic [ref=e861]: 
+                  - generic [ref=e863]: 
+                  - generic [ref=e865]:
+                    - text: 
+                    - generic [ref=e866]: 
+                  - generic [ref=e868]: 
+                  - generic [ref=e869]: "3.3"
+                - generic [ref=e871]: "586"
+                - generic [ref=e873]: 2025-08-17
+                - generic [ref=e875]: 2026-03-16
+              - generic [ref=e876]:
+                - generic [ref=e879]: "4"
+                - generic [ref=e881]:
+                  - link "All Restore - Photo & Video" [ref=e882] [cursor=pointer]:
+                    - /url: /app/n7qi9u78gjk8aq4/googleplay?market=11&country=24
+                    - img "All Restore - Photo & Video" [ref=e883]
+                  - generic [ref=e884]:
+                    - link "All Restore - Photo & Video" [ref=e889] [cursor=pointer]:
+                      - /url: /app/n7qi9u78gjk8aq4/googleplay?market=11&country=24
+                    - link "Last Minute Flights Corp." [ref=e894] [cursor=pointer]:
+                      - /url: /developer/ae3ed85b8de2b9b87664c7a60d26d76d/googleplay-app
+                - generic [ref=e897]:
+                  - generic [ref=e898]: "70"
+                  - generic [ref=e899]: 总榜
+                - generic [ref=e902]:
+                  - generic [ref=e903]: "59"
+                  - generic [ref=e904]: 应用
+                - generic [ref=e907]:
+                  - generic [ref=e908]: "4"
+                  - generic [ref=e909]: 工具
+                - generic [ref=e911]: "97"
+                - slider [ref=e914]:
+                  - generic [ref=e916]: 
+                  - generic [ref=e918]: 
+                  - generic [ref=e920]: 
+                  - generic [ref=e922]: 
+                  - generic [ref=e924]:
+                    - text: 
+                    - generic [ref=e925]: 
+                  - generic [ref=e926]: "4.1"
+                - generic [ref=e928]: "884"
+                - generic [ref=e930]: 2025-10-13
+                - generic [ref=e932]: 2026-03-16
+              - generic [ref=e933]:
+                - generic [ref=e936]: "5"
+                - generic [ref=e938]:
+                  - link "Open Browser - Smart & Safe" [ref=e939] [cursor=pointer]:
+                    - /url: /app/yedipu6k55kqcr4/googleplay?market=11&country=24
+                    - img "Open Browser - Smart & Safe" [ref=e940]
+                  - generic [ref=e941]:
+                    - link "Open Browser - Smart & Safe" [ref=e946] [cursor=pointer]:
+                      - /url: /app/yedipu6k55kqcr4/googleplay?market=11&country=24
+                    - link "AdPulse INC" [ref=e951] [cursor=pointer]:
+                      - /url: /developer/96c77461fc70349ade1975befc28e66e/googleplay-app
+                - generic [ref=e954]:
+                  - generic [ref=e955]: "85"
+                  - generic [ref=e956]: 总榜
+                - generic [ref=e959]:
+                  - generic [ref=e960]: "71"
+                  - generic [ref=e961]: 应用
+                - generic [ref=e964]:
+                  - generic [ref=e965]: "5"
+                  - generic [ref=e966]: 工具
+                - generic [ref=e968]: "6897"
+                - slider [ref=e971]:
+                  - generic [ref=e973]: 
+                  - generic [ref=e975]: 
+                  - generic [ref=e977]: 
+                  - generic [ref=e979]: 
+                  - generic [ref=e981]:
+                    - text: 
+                    - generic [ref=e982]: 
+                  - generic [ref=e983]: "4.8"
+                - generic [ref=e985]: "215089"
+                - generic [ref=e987]: 2025-04-21
+                - generic [ref=e989]: 2026-03-03
+              - generic [ref=e990]:
+                - generic [ref=e993]: "6"
+                - generic [ref=e995]:
+                  - link "Move to iOS" [ref=e996] [cursor=pointer]:
+                    - /url: /app/74xlipuz88g1tl4/googleplay?market=11&country=24
+                    - img "Move to iOS" [ref=e997]
+                  - generic [ref=e998]:
+                    - link "Move to iOS" [ref=e1003] [cursor=pointer]:
+                      - /url: /app/74xlipuz88g1tl4/googleplay?market=11&country=24
+                    - link "Apple" [ref=e1008] [cursor=pointer]:
+                      - /url: /developer/9f6290f4436e5a2351f12e03b6433c3c/googleplay-app
+                - generic [ref=e1011]:
+                  - generic [ref=e1012]: "86"
+                  - generic [ref=e1013]: 总榜
+                - generic [ref=e1016]:
+                  - generic [ref=e1017]: "72"
+                  - generic [ref=e1018]: 应用
+                - generic [ref=e1021]:
+                  - generic [ref=e1022]: "6"
+                  - generic [ref=e1023]: 工具
+                - generic [ref=e1025]: "26669"
+                - slider [ref=e1028]:
+                  - generic [ref=e1030]: 
+                  - generic [ref=e1032]: 
+                  - generic [ref=e1034]: 
+                  - generic [ref=e1036]:
+                    - text: 
+                    - generic [ref=e1037]: 
+                  - generic [ref=e1039]: 
+                  - generic [ref=e1040]: "3.7"
+                - generic [ref=e1042]: "218201"
+                - generic [ref=e1044]: 2015-09-17
+                - generic [ref=e1046]: 2025-05-20
+              - generic [ref=e1047]:
+                - generic [ref=e1050]: "7"
+                - generic [ref=e1052]:
+                  - link "Clean Utility Toolkit" [ref=e1053] [cursor=pointer]:
+                    - /url: /app/y58i5u9v07zwb7y/googleplay?market=11&country=24
+                    - img "Clean Utility Toolkit" [ref=e1054]
+                  - generic [ref=e1055]:
+                    - link "Clean Utility Toolkit" [ref=e1060] [cursor=pointer]:
+                      - /url: /app/y58i5u9v07zwb7y/googleplay?market=11&country=24
+                    - link "YINGRUN LIMITED" [ref=e1065] [cursor=pointer]:
+                      - /url: /developer/6a5daf39879cc34684c4223b8dc99511/googleplay-app
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]: "92"
+                  - generic [ref=e1070]: 总榜
+                - generic [ref=e1073]:
+                  - generic [ref=e1074]: "76"
+                  - generic [ref=e1075]: 应用
+                - generic [ref=e1078]:
+                  - generic [ref=e1079]: "7"
+                  - generic [ref=e1080]: 工具
+                - generic [ref=e1082]: "2"
+                - slider [ref=e1085]:
+                  - generic [ref=e1087]: 
+                  - generic [ref=e1089]: 
+                  - generic [ref=e1091]: 
+                  - generic [ref=e1093]: 
+                  - generic [ref=e1095]:
+                    - text: 
+                    - generic [ref=e1096]: 
+                  - generic [ref=e1097]: "4.2"
+                - generic [ref=e1099]: "325"
+                - generic [ref=e1101]: 2026-03-02
+                - generic [ref=e1103]: 2026-03-16
+              - generic [ref=e1104]:
+                - generic [ref=e1107]: "8"
+                - generic [ref=e1109]:
+                  - link "QR & Barcode Scanner" [ref=e1110] [cursor=pointer]:
+                    - /url: /app/jnzki9uoxrxivnk/googleplay?market=11&country=24
+                    - img "QR & Barcode Scanner" [ref=e1111]
+                  - generic [ref=e1112]:
+                    - link "QR & Barcode Scanner" [ref=e1117] [cursor=pointer]:
+                      - /url: /app/jnzki9uoxrxivnk/googleplay?market=11&country=24
+                    - link "Gamma Play" [ref=e1122] [cursor=pointer]:
+                      - /url: /developer/e3701d63c4c23e9de9ebb62b4387aa5f/googleplay-app
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: "93"
+                  - generic [ref=e1127]: 总榜
+                - generic [ref=e1130]:
+                  - generic [ref=e1131]: "77"
+                  - generic [ref=e1132]: 应用
+                - generic [ref=e1135]:
+                  - generic [ref=e1136]: "8"
+                  - generic [ref=e1137]: 工具
+                - generic [ref=e1139]: "38127"
+                - slider [ref=e1142]:
+                  - generic [ref=e1144]: 
+                  - generic [ref=e1146]: 
+                  - generic [ref=e1148]: 
+                  - generic [ref=e1150]: 
+                  - generic [ref=e1152]:
+                    - text: 
+                    - generic [ref=e1153]: 
+                  - generic [ref=e1154]: "4.8"
+                - generic [ref=e1156]: "4164228"
+                - generic [ref=e1158]: 2015-03-13
+                - generic [ref=e1160]: 2026-02-03
+              - generic [ref=e1161]:
+                - generic [ref=e1164]: "9"
+                - generic [ref=e1166]:
+                  - link "Clean Fix Plus" [ref=e1167] [cursor=pointer]:
+                    - /url: /app/499idukom0r1hj4/googleplay?market=11&country=24
+                    - img "Clean Fix Plus" [ref=e1168]
+                  - generic [ref=e1169]:
+                    - link "Clean Fix Plus" [ref=e1174] [cursor=pointer]:
+                      - /url: /app/499idukom0r1hj4/googleplay?market=11&country=24
+                    - link "AppDustBuster" [ref=e1179] [cursor=pointer]:
+                      - /url: /developer/f0ff5e0914642eb93d552d3e56d652ca/googleplay-app
+                - generic [ref=e1182]:
+                  - generic [ref=e1183]: "94"
+                  - generic [ref=e1184]: 总榜
+                - generic [ref=e1187]:
+                  - generic [ref=e1188]: "78"
+                  - generic [ref=e1189]: 应用
+                - generic [ref=e1192]:
+                  - generic [ref=e1193]: "9"
+                  - generic [ref=e1194]: 工具
+                - generic [ref=e1196]: "4875"
+                - slider [ref=e1199]:
+                  - generic [ref=e1201]: 
+                  - generic [ref=e1203]: 
+                  - generic [ref=e1205]: 
+                  - generic [ref=e1207]: 
+                  - generic [ref=e1209]:
+                    - text: 
+                    - generic [ref=e1210]: 
+                  - generic [ref=e1211]: "4.5"
+                - generic [ref=e1213]: "50359"
+                - generic [ref=e1215]: 2025-06-03
+                - generic [ref=e1217]: 2025-11-05
+              - generic [ref=e1218]:
+                - generic [ref=e1221]: "10"
+                - generic [ref=e1223]:
+                  - link "Analyze WiFi Launcher" [ref=e1224] [cursor=pointer]:
+                    - /url: /app/4xlipuj90z31cl4/googleplay?market=11&country=24
+                    - img "Analyze WiFi Launcher" [ref=e1225]
+                  - generic [ref=e1226]:
+                    - link "Analyze WiFi Launcher" [ref=e1231] [cursor=pointer]:
+                      - /url: /app/4xlipuj90z31cl4/googleplay?market=11&country=24
+                    - link "Weilei Taiyuan" [ref=e1236] [cursor=pointer]:
+                      - /url: /developer/90167f7abe57e29fc72a0605adf7757a/googleplay-app
+                - generic [ref=e1238]:
+                  - generic [ref=e1239]:
+                    - generic [ref=e1240]: "116"
+                    - generic [ref=e1241]: 总榜
+                  - generic [ref=e1243]:
+                    - generic [ref=e1244]: 
+                    - text: "1"
+                - generic [ref=e1247]:
+                  - generic [ref=e1248]: "93"
+                  - generic [ref=e1249]: 应用
+                - generic [ref=e1252]:
+                  - generic [ref=e1253]: "10"
+                  - generic [ref=e1254]: 工具
+                - generic [ref=e1256]: "-"
+                - slider [ref=e1259]:
+                  - generic [ref=e1261]: 
+                  - generic [ref=e1263]: 
+                  - generic [ref=e1265]: 
+                  - generic [ref=e1267]: 
+                  - generic [ref=e1269]:
+                    - text: 
+                    - generic [ref=e1270]: 
+                  - generic [ref=e1271]: "4.5"
+                - generic [ref=e1273]: "92"
+                - generic [ref=e1275]: 2026-03-03
+                - generic [ref=e1277]: 2026-03-05
+              - generic [ref=e1278]:
+                - generic [ref=e1281]: "11"
+                - generic [ref=e1283]:
+                  - 'link "Private Browser: Safe & Secure" [ref=e1284] [cursor=pointer]':
+                    - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                    - 'img "Private Browser: Safe & Secure" [ref=e1285]'
+                  - generic [ref=e1286]:
+                    - 'link "Private Browser: Safe & Secure" [ref=e1291] [cursor=pointer]':
+                      - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                    - link "Amobear Application - Avntech Master Tools" [ref=e1296] [cursor=pointer]:
+                      - /url: /developer/5f9040e8f6f688e6c7d30afc85cb444f/googleplay-app
+                - generic [ref=e1298]:
+                  - generic [ref=e1299]:
+                    - generic [ref=e1300]: "124"
+                    - generic [ref=e1301]: 总榜
+                  - generic [ref=e1303]:
+                    - generic [ref=e1304]: 
+                    - text: "1"
+                - generic [ref=e1307]:
+                  - generic [ref=e1308]: "99"
+                  - generic [ref=e1309]: 应用
+                - generic [ref=e1312]:
+                  - generic [ref=e1313]: "11"
+                  - generic [ref=e1314]: 工具
+                - generic [ref=e1316]: "4426"
+                - slider [ref=e1319]:
+                  - generic [ref=e1321]: 
+                  - generic [ref=e1323]: 
+                  - generic [ref=e1325]: 
+                  - generic [ref=e1327]:
+                    - text: 
+                    - generic [ref=e1328]: 
+                  - generic [ref=e1330]: 
+                  - generic [ref=e1331]: "3.6"
+                - generic [ref=e1333]: "1341"
+                - generic [ref=e1335]: 2025-04-09
+                - generic [ref=e1337]: 2026-03-09
+              - generic [ref=e1338]:
+                - generic [ref=e1341]: "12"
+                - generic [ref=e1343]:
+                  - link "Cleaner Toolbox" [ref=e1344] [cursor=pointer]:
+                    - /url: /app/njrimu62vv2lapy/googleplay?market=11&country=24
+                    - img "Cleaner Toolbox" [ref=e1345]
+                  - generic [ref=e1346]:
+                    - link "Cleaner Toolbox" [ref=e1351] [cursor=pointer]:
+                      - /url: /app/njrimu62vv2lapy/googleplay?market=11&country=24
+                    - link "SELBY TEAM" [ref=e1356] [cursor=pointer]:
+                      - /url: /developer/569327d58e4f634eba89add0b69b7d2c/googleplay-app
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]:
+                    - generic [ref=e1360]: "127"
+                    - generic [ref=e1361]: 总榜
+                  - generic [ref=e1363]:
+                    - generic [ref=e1364]: 
+                    - text: "1"
+                - generic [ref=e1367]:
+                  - generic [ref=e1368]: "101"
+                  - generic [ref=e1369]: 应用
+                - generic [ref=e1372]:
+                  - generic [ref=e1373]: "12"
+                  - generic [ref=e1374]: 工具
+                - generic [ref=e1376]: "15821"
+                - slider [ref=e1379]:
+                  - generic [ref=e1381]: 
+                  - generic [ref=e1383]: 
+                  - generic [ref=e1385]: 
+                  - generic [ref=e1387]: 
+                  - generic [ref=e1389]:
+                    - text: 
+                    - generic [ref=e1390]: 
+                  - generic [ref=e1391]: "4.4"
+                - generic [ref=e1393]: "82763"
+                - generic [ref=e1395]: 2024-06-05
+                - generic [ref=e1397]: 2025-11-04
+              - generic [ref=e1398]:
+                - generic [ref=e1401]: "13"
+                - generic [ref=e1403]:
+                  - link "Cleaning Toolbox & Launcher" [ref=e1404] [cursor=pointer]:
+                    - /url: /app/yodivu32lve1t9n/googleplay?market=11&country=24
+                    - img "Cleaning Toolbox & Launcher" [ref=e1405]
+                  - generic [ref=e1406]:
+                    - link "Cleaning Toolbox & Launcher" [ref=e1411] [cursor=pointer]:
+                      - /url: /app/yodivu32lve1t9n/googleplay?market=11&country=24
+                    - link "YINHEE LIMITED" [ref=e1416] [cursor=pointer]:
+                      - /url: /developer/9ec2c5f6560e855902ca043a59884ab8/googleplay-app
+                - generic [ref=e1418]:
+                  - generic [ref=e1419]:
+                    - generic [ref=e1420]: "137"
+                    - generic [ref=e1421]: 总榜
+                  - generic [ref=e1423]:
+                    - generic [ref=e1424]: 
+                    - text: "22"
+                - generic [ref=e1427]:
+                  - generic [ref=e1428]: "106"
+                  - generic [ref=e1429]: 应用
+                - generic [ref=e1432]:
+                  - generic [ref=e1433]: "13"
+                  - generic [ref=e1434]: 工具
+                - generic [ref=e1436]: "5"
+                - slider [ref=e1439]:
+                  - generic [ref=e1441]: 
+                  - generic [ref=e1443]: 
+                  - generic [ref=e1445]: 
+                  - generic [ref=e1447]:
+                    - text: 
+                    - generic [ref=e1448]: 
+                  - generic [ref=e1450]: 
+                  - generic [ref=e1451]: "3.6"
+                - generic [ref=e1453]: "205"
+                - generic [ref=e1455]: 2026-02-13
+                - generic [ref=e1457]: 2026-03-17
+              - generic [ref=e1458]:
+                - generic [ref=e1461]: "14"
+                - generic [ref=e1463]:
+                  - link "WiFi Info & Launcher" [ref=e1464] [cursor=pointer]:
+                    - /url: /app/np9igumvk5rja7y/googleplay?market=11&country=24
+                    - img "WiFi Info & Launcher" [ref=e1465]
+                  - generic [ref=e1466]:
+                    - link "WiFi Info & Launcher" [ref=e1471] [cursor=pointer]:
+                      - /url: /app/np9igumvk5rja7y/googleplay?market=11&country=24
+                    - link "RUITA LIMITED" [ref=e1476] [cursor=pointer]:
+                      - /url: /developer/77f2d3fe68fdc13b6f3b0f558bd70ee6/googleplay-app
+                - generic [ref=e1479]:
+                  - generic [ref=e1480]: "139"
+                  - generic [ref=e1481]: 总榜
+                - generic [ref=e1484]:
+                  - generic [ref=e1485]: "108"
+                  - generic [ref=e1486]: 应用
+                - generic [ref=e1489]:
+                  - generic [ref=e1490]: "14"
+                  - generic [ref=e1491]: 工具
+                - generic [ref=e1493]: "-"
+                - slider [ref=e1496]:
+                  - generic [ref=e1498]: 
+                  - generic [ref=e1500]: 
+                  - generic [ref=e1502]: 
+                  - generic [ref=e1504]: 
+                  - generic [ref=e1506]:
+                    - text: 
+                    - generic [ref=e1507]: 
+                  - generic [ref=e1508]: "4.1"
+                - generic [ref=e1510]: "221"
+                - generic [ref=e1512]: 2026-02-11
+                - generic [ref=e1514]: 2026-02-11
+              - generic [ref=e1515]:
+                - generic [ref=e1518]: "15"
+                - generic [ref=e1520]:
+                  - link "Samsung Smart Switch Mobile" [ref=e1521] [cursor=pointer]:
+                    - /url: /app/0499iduvv9phj4e/googleplay?market=11&country=24
+                    - img "Samsung Smart Switch Mobile" [ref=e1522]
+                  - generic [ref=e1523]:
+                    - link "Samsung Smart Switch Mobile" [ref=e1528] [cursor=pointer]:
+                      - /url: /app/0499iduvv9phj4e/googleplay?market=11&country=24
+                    - link "Samsung Electronics Co., Ltd." [ref=e1533] [cursor=pointer]:
+                      - /url: /developer/36118fd428568ff4afcddc32b05a237e/googleplay-app
+                - generic [ref=e1536]:
+                  - generic [ref=e1537]: "140"
+                  - generic [ref=e1538]: 总榜
+                - generic [ref=e1541]:
+                  - generic [ref=e1542]: "109"
+                  - generic [ref=e1543]: 应用
+                - generic [ref=e1546]:
+                  - generic [ref=e1547]: "15"
+                  - generic [ref=e1548]: 工具
+                - generic [ref=e1550]: "43564"
+                - slider [ref=e1553]:
+                  - generic [ref=e1555]: 
+                  - generic [ref=e1557]: 
+                  - generic [ref=e1559]: 
+                  - generic [ref=e1561]:
+                    - text: 
+                    - generic [ref=e1562]: 
+                  - generic [ref=e1564]: 
+                  - generic [ref=e1565]: "3.8"
+                - generic [ref=e1567]: "500889"
+                - generic [ref=e1569]: 2013-04-18
+                - generic [ref=e1571]: 2026-02-12
+              - generic [ref=e1572]:
+                - generic [ref=e1575]: "16"
+                - generic [ref=e1577]:
+                  - link "Brightest Flashlight Launcher" [ref=e1578] [cursor=pointer]:
+                    - /url: /app/y1qiouqozrx5s1n/googleplay?market=11&country=24
+                    - img "Brightest Flashlight Launcher" [ref=e1579]
+                  - generic [ref=e1580]:
+                    - link "Brightest Flashlight Launcher" [ref=e1585] [cursor=pointer]:
+                      - /url: /app/y1qiouqozrx5s1n/googleplay?market=11&country=24
+                    - link "AtomApplications" [ref=e1590] [cursor=pointer]:
+                      - /url: /developer/ad824c3efc41fbf029087a17bf695bd6/googleplay-app
+                - generic [ref=e1593]:
+                  - generic [ref=e1594]: "147"
+                  - generic [ref=e1595]: 总榜
+                - generic [ref=e1598]:
+                  - generic [ref=e1599]: "115"
+                  - generic [ref=e1600]: 应用
+                - generic [ref=e1603]:
+                  - generic [ref=e1604]: "16"
+                  - generic [ref=e1605]: 工具
+                - generic [ref=e1607]: "8733"
+                - slider [ref=e1610]:
+                  - generic [ref=e1612]: 
+                  - generic [ref=e1614]: 
+                  - generic [ref=e1616]: 
+                  - generic [ref=e1618]: 
+                  - generic [ref=e1620]:
+                    - text: 
+                    - generic [ref=e1621]: 
+                  - generic [ref=e1622]: "4.2"
+                - generic [ref=e1624]: "30040"
+                - generic [ref=e1626]: 2023-10-17
+                - generic [ref=e1628]: 2026-03-14
+              - generic [ref=e1629]:
+                - generic [ref=e1632]: "17"
+                - generic [ref=e1634]:
+                  - link "PDF Reader - Editor & Viewer" [ref=e1635] [cursor=pointer]:
+                    - /url: /app/n3qiru8l9jo7igy/googleplay?market=11&country=24
+                    - img "PDF Reader - Editor & Viewer" [ref=e1636]
+                  - generic [ref=e1637]:
+                    - link "PDF Reader - Editor & Viewer" [ref=e1642] [cursor=pointer]:
+                      - /url: /app/n3qiru8l9jo7igy/googleplay?market=11&country=24
+                    - link "Eternal Mobile Labs" [ref=e1647] [cursor=pointer]:
+                      - /url: /developer/efd68f05cb0e0812644142e05db6a38c/googleplay-app
+                - generic [ref=e1650]:
+                  - generic [ref=e1651]: "151"
+                  - generic [ref=e1652]: 总榜
+                - generic [ref=e1655]:
+                  - generic [ref=e1656]: "117"
+                  - generic [ref=e1657]: 应用
+                - generic [ref=e1660]:
+                  - generic [ref=e1661]: "17"
+                  - generic [ref=e1662]: 工具
+                - generic [ref=e1664]: "6052"
+                - slider [ref=e1667]:
+                  - generic [ref=e1669]: 
+                  - generic [ref=e1671]: 
+                  - generic [ref=e1673]: 
+                  - generic [ref=e1675]: 
+                  - generic [ref=e1677]: 
+                  - generic [ref=e1678]: "4"
+                - generic [ref=e1680]: "12449"
+                - generic [ref=e1682]: 2024-05-22
+                - generic [ref=e1684]: 2026-03-13
+              - generic [ref=e1685]:
+                - generic [ref=e1688]: "18"
+                - generic [ref=e1690]:
+                  - link "Google Authenticator" [ref=e1691] [cursor=pointer]:
+                    - /url: /app/wnp9iguqqwjs7y3/googleplay?market=11&country=24
+                    - img "Google Authenticator" [ref=e1692]
+                  - generic [ref=e1693]:
+                    - link "Google Authenticator" [ref=e1698] [cursor=pointer]:
+                      - /url: /app/wnp9iguqqwjs7y3/googleplay?market=11&country=24
+                    - link "Google LLC" [ref=e1703] [cursor=pointer]:
+                      - /url: /developer/cef875a517a9751055224d4a56fadfbc/googleplay-app
+                - generic [ref=e1706]:
+                  - generic [ref=e1707]: "152"
+                  - generic [ref=e1708]: 总榜
+                - generic [ref=e1711]:
+                  - generic [ref=e1712]: "118"
+                  - generic [ref=e1713]: 应用
+                - generic [ref=e1716]:
+                  - generic [ref=e1717]: "18"
+                  - generic [ref=e1718]: 工具
+                - generic [ref=e1720]: "68557"
+                - slider [ref=e1723]:
+                  - generic [ref=e1725]: 
+                  - generic [ref=e1727]: 
+                  - generic [ref=e1729]: 
+                  - generic [ref=e1731]:
+                    - text: 
+                    - generic [ref=e1732]: 
+                  - generic [ref=e1734]: 
+                  - generic [ref=e1735]: "3.9"
+                - generic [ref=e1737]: "647308"
+                - generic [ref=e1739]: 2012-03-22
+                - generic [ref=e1741]: 2026-02-25
+              - generic [ref=e1742]:
+                - generic [ref=e1745]: "19"
+                - generic [ref=e1747]:
+                  - link "Cleaner Launcher for Android" [ref=e1748] [cursor=pointer]:
+                    - /url: /app/4q7izure72kwc7n/googleplay?market=11&country=24
+                    - img "Cleaner Launcher for Android" [ref=e1749]
+                  - generic [ref=e1750]:
+                    - link "Cleaner Launcher for Android" [ref=e1755] [cursor=pointer]:
+                      - /url: /app/4q7izure72kwc7n/googleplay?market=11&country=24
+                    - link "Putul Host IT Dev" [ref=e1760] [cursor=pointer]:
+                      - /url: /developer/73a1fc1a0ebf9024bf6b82a524ff55d6/googleplay-app
+                - generic [ref=e1763]:
+                  - generic [ref=e1764]: "162"
+                  - generic [ref=e1765]: 总榜
+                - generic [ref=e1767]:
+                  - generic [ref=e1768]:
+                    - generic [ref=e1769]: "126"
+                    - generic [ref=e1770]: 应用
+                  - generic [ref=e1772]:
+                    - generic [ref=e1773]: 
+                    - text: "1"
+                - generic [ref=e1776]:
+                  - generic [ref=e1777]: "19"
+                  - generic [ref=e1778]: 工具
+                - generic [ref=e1780]: "7"
+                - slider [ref=e1783]:
+                  - generic [ref=e1785]: 
+                  - generic [ref=e1787]: 
+                  - generic [ref=e1789]: 
+                  - generic [ref=e1791]:
+                    - text: 
+                    - generic [ref=e1792]: 
+                  - generic [ref=e1794]: 
+                  - generic [ref=e1795]: "3.5"
+                - generic [ref=e1797]: "534"
+                - generic [ref=e1799]: 2026-01-30
+                - generic [ref=e1801]: 2026-01-30
+              - generic [ref=e1802]:
+                - generic [ref=e1805]: "20"
+                - generic [ref=e1807]:
+                  - 'link "Proton VPN: Fast & Secure VPN" [ref=e1808] [cursor=pointer]':
+                    - /url: /app/ly2qilu661qb1y3/googleplay?market=11&country=24
+                    - 'img "Proton VPN: Fast & Secure VPN" [ref=e1809]'
+                  - generic [ref=e1810]:
+                    - 'link "Proton VPN: Fast & Secure VPN" [ref=e1815] [cursor=pointer]':
+                      - /url: /app/ly2qilu661qb1y3/googleplay?market=11&country=24
+                    - link "Proton AG" [ref=e1820] [cursor=pointer]:
+                      - /url: /developer/55b24f938cb3c9e5fd33267182676084/googleplay-app
+                - generic [ref=e1823]:
+                  - generic [ref=e1824]: "171"
+                  - generic [ref=e1825]: 总榜
+                - generic [ref=e1827]:
+                  - generic [ref=e1828]:
+                    - generic [ref=e1829]: "130"
+                    - generic [ref=e1830]: 应用
+                  - generic [ref=e1832]:
+                    - generic [ref=e1833]: 
+                    - text: "1"
+                - generic [ref=e1836]:
+                  - generic [ref=e1837]: "20"
+                  - generic [ref=e1838]: 工具
+                - generic [ref=e1840]: "56045"
+                - slider [ref=e1843]:
+                  - generic [ref=e1845]: 
+                  - generic [ref=e1847]: 
+                  - generic [ref=e1849]: 
+                  - generic [ref=e1851]: 
+                  - generic [ref=e1853]:
+                    - text: 
+                    - generic [ref=e1854]: 
+                  - generic [ref=e1855]: "4.7"
+                - generic [ref=e1857]: "810644"
+                - generic [ref=e1859]: 2019-12-30
+                - generic [ref=e1861]: 2026-03-16
+        - text: 
+      - generic [ref=e1864]:
+        - generic [ref=e1865]:
+          - generic [ref=e1866]: "当前位置:"
+          - list [ref=e1867]:
+            - listitem [ref=e1868]:
+              - link "点点数据" [ref=e1869] [cursor=pointer]:
+                - /url: //app.diandian.com
+              - generic [ref=e1870]: 
+            - listitem [ref=e1871]:
+              - link "Google Play商店排行榜" [ref=e1872] [cursor=pointer]:
+                - /url: /rank/googleplay/
+              - generic [ref=e1873]: 
+            - listitem [ref=e1874]:
+              - heading "GooglePlay 工具app排行榜" [level=1] [ref=e1875]:
+                - link "GooglePlay 工具app排行榜" [ref=e1876] [cursor=pointer]:
+                  - /url: /rank/googleplay/11-1-7-24-1
+        - generic [ref=e1877]:
+          - link "点点首页" [ref=e1879] [cursor=pointer]:
+            - /url: /
+          - link "产品价格" [ref=e1881] [cursor=pointer]:
+            - /url: /vip/authority/
+          - link "关于点点" [ref=e1883] [cursor=pointer]:
+            - /url: //www.diandian.com/aboutus
+          - link "用户协议" [ref=e1885] [cursor=pointer]:
+            - /url: //www.diandian.com/about-us/agreement
+  - generic: 
+  - generic: 
+  - text: 
+  - generic: 
+  - generic: 
+  - generic: 
+  - generic: 

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A124 MessagePro 买量阈值分析结论</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --ink: #14212b;
+      --muted: #5c6b78;
+      --line: #d8e0e7;
+      --brand: #1f6f8b;
+      --brand-soft: #e6f2f7;
+      --good: #1f8a5b;
+      --warn: #b86d00;
+      --bad: #b42318;
+      --shadow: 0 8px 24px rgba(16, 24, 40, 0.08);
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "SF Pro Text", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 80% -20%, #d7eef9 0%, transparent 45%),
+        radial-gradient(circle at 0% 120%, #e9f7ef 0%, transparent 42%),
+        var(--bg);
+      line-height: 1.45;
+    }
+
+    .container {
+      width: min(1200px, 92vw);
+      margin: 28px auto 40px;
+    }
+
+    .header {
+      background: linear-gradient(130deg, #10384c 0%, #1f6f8b 58%, #4a9fb4 100%);
+      color: #fff;
+      border-radius: 18px;
+      padding: 24px 26px;
+      box-shadow: var(--shadow);
+    }
+
+    .title {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: .2px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: #d8edf5;
+      font-size: 14px;
+    }
+
+    .section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-top: 16px;
+      padding: 18px 18px 14px;
+    }
+
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fbfdff;
+      padding: 12px;
+    }
+
+    .metric .k { color: var(--muted); font-size: 12px; }
+    .metric .v { margin-top: 6px; font-size: 20px; font-weight: 700; }
+
+    ul {
+      margin: 8px 0 0 0;
+      padding-left: 20px;
+    }
+
+    li { margin: 6px 0; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 2px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid transparent;
+    }
+
+    .b-good { color: var(--good); background: #eafaf2; border-color: #bfe8d2; }
+    .b-warn { color: var(--warn); background: #fff6e8; border-color: #f2d5a2; }
+    .b-bad { color: var(--bad); background: #fff0ef; border-color: #f2b8b5; }
+
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 920px;
+      background: #fff;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 10px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 13px;
+    }
+
+    th {
+      background: #f3f8fb;
+      color: #1f4f63;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    .mono { font-variant-numeric: tabular-nums; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .muted { color: var(--muted); }
+
+    .note {
+      border-left: 4px solid var(--brand);
+      background: var(--brand-soft);
+      color: #184356;
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    .icon {
+      width: 18px;
+      height: 18px;
+      display: inline-flex;
+      vertical-align: middle;
+    }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+      .title { font-size: 22px; }
+      .section { padding: 14px 14px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 class="title">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 19h16M6 16l3-5 3 3 4-7 2 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        A124 MessagePro 买量阈值分析结论
+      </h1>
+      <p class="subtitle">SnowBall MCP 数据分析报告 · 更新时间：2026-03-03</p>
+    </header>
+
+    <section class="section">
+      <h2>
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l9 4.5v9L12 21 3 16.5v-9L12 3Z" stroke="#1f6f8b" stroke-width="1.8"/><path d="M12 3v18M3 7.5l9 4.5 9-4.5" stroke="#1f6f8b" stroke-width="1.8"/></svg>
+        </span>
+        核心概括
+      </h2>
+      <div class="grid">
+        <div class="metric"><div class="k">项目定位</div><div class="v">IAA 主导 / IAP 辅助</div></div>
+        <div class="metric"><div class="k">长期目标线</div><div class="v mono">ROI45 &gt;= 100%</div></div>
+        <div class="metric"><div class="k">近期达标代理</div><div class="v mono">ROI14 &gt;= 100%</div></div>
+      </div>
+      <ul>
+        <li>可放量国家：<strong>AU、CA、GB、FR</strong></li>
+        <li>观察放量国家：<strong>US</strong></li>
+        <li>降量优化国家：<strong>DE</strong></li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16v14H4z" stroke="#1f6f8b" stroke-width="1.8"/><path d="M4 10h16M9 5v14" stroke="#1f6f8b" stroke-width="1.8"/></svg>
+        </span>
+        结论表（国家维度）
+      </h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>国家</th><th>产品类型</th><th>ROI目标（当前/长期）</th><th>最低ROI0阈值</th><th>CPI上限</th><th>eCPM</th><th>次留基准</th><th>当前状态</th><th>动作建议</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>US</td><td>IAA主导</td><td class="mono">ROI14&gt;=100% / ROI45&gt;=100%</td><td class="mono">0.4428</td><td class="mono">1.3472</td><td class="mono">16.3076</td><td class="mono">26.53%</td><td><span class="badge b-warn">观察</span> 近1天跌破近期ROI线（最新日 ROI=0.8917）</td><td>先控CPI回到 1.35 内并稳住ROI0</td></tr>
+            <tr><td>AU</td><td>IAA主导</td><td class="mono">ROI14&gt;=100% / ROI45&gt;=100%</td><td class="mono">0.5273</td><td class="mono">1.4214</td><td class="mono">20.7926</td><td class="mono">27.94%</td><td><span class="badge b-good">可放量</span> 近期达标稳定（最新日 ROI=1.3358）</td><td>按ROI0与CPI双阈值扩量</td></tr>
+            <tr><td>CA</td><td>IAA主导</td><td class="mono">ROI14&gt;=100% / ROI45&gt;=100%</td><td class="mono">0.4513</td><td class="mono">1.0117</td><td class="mono">15.4789</td><td class="mono">30.95%</td><td><span class="badge b-good">可放量</span> 近期达标稳定（最新日 ROI=1.2647）</td><td>优先保低CPI素材包</td></tr>
+            <tr><td>GB</td><td>IAA主导</td><td class="mono">ROI14&gt;=100% / ROI45&gt;=100%</td><td class="mono">0.2906</td><td class="mono">0.6467</td><td class="mono">8.1019</td><td class="mono">28.20%</td><td><span class="badge b-good">可放量</span> 近期达标稳定（最新日 ROI=1.6519）</td><td>维持低CPI并防量级突增</td></tr>
+            <tr><td>FR</td><td>IAA主导</td><td class="mono">ROI14&gt;=100% / ROI45&gt;=100%</td><td class="mono">0.3599</td><td class="mono">0.3026</td><td class="mono">4.0129</td><td class="mono">20.15%</td><td><span class="badge b-good">可放量</span> 近期达标（最新日 ROI=1.1372）</td><td>继续用低CPI策略拉新</td></tr>
+            <tr><td>DE</td><td>IAA主导</td><td class="mono">ROI14&gt;=100% / ROI45&gt;=100%</td><td class="mono">0.2654</td><td class="mono">0.6757</td><td class="mono">12.2462</td><td class="mono">22.10%</td><td><span class="badge b-bad">降量</span> 近期未稳（最新日 ROI=0.7782）</td><td>优先修复ROI0与次留后再放量</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 12h18M12 3v18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4" stroke="#1f6f8b" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </span>
+        eCPM 分格式监控（近5天）
+      </h2>
+      <div class="note">监控口径：<span class="mono">2026-02-27 ~ 2026-03-03</span>。`RewardedVideo` 样本不足，仅做异常监控，不纳入硬阈值。</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>国家</th><th>eCPM(插屏)</th><th>eCPM(AppOpen)</th><th>eCPM(激励)</th><th>监控结论</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>US</td><td class="mono">82.1297</td><td class="mono">21.5420</td><td>样本不足</td><td>插屏高位稳定，AppOpen正常，激励流量待补量</td></tr>
+            <tr><td>AU</td><td class="mono">57.6950</td><td class="mono">21.1453</td><td>样本不足</td><td>插屏/AppOpen健康，可随量放大</td></tr>
+            <tr><td>CA</td><td class="mono">59.2981</td><td class="mono">15.6823</td><td>样本不足</td><td>插屏稳定，AppOpen偏中位，持续观察</td></tr>
+            <tr><td>GB</td><td class="mono">34.0881</td><td class="mono">9.2208</td><td>样本不足</td><td>两项偏低于 Tier1 均值，靠低CPI维持ROI</td></tr>
+            <tr><td>FR</td><td class="mono">19.8740</td><td class="mono">6.7853</td><td>样本不足</td><td>广告单价偏低，需依赖成本效率</td></tr>
+            <tr><td>DE</td><td class="mono">59.0077</td><td class="mono">25.1398</td><td>样本不足</td><td>单价不差，当前问题更偏投放质量/留存</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2v20M2 12h20" stroke="#1f6f8b" stroke-width="1.8"/><circle cx="12" cy="12" r="5" stroke="#1f6f8b" stroke-width="1.8"/></svg>
+        </span>
+        IAP补充
+      </h2>
+      <ul>
+        <li>重点国家内购占比（sale_revenue_prop）：US <span class="mono">2.32%</span>、AU <span class="mono">2.01%</span>、CA <span class="mono">1.70%</span>、GB <span class="mono">0.80%</span>、DE <span class="mono">0.71%</span>、FR <span class="mono">0.00%</span>。</li>
+        <li>重点国家 `subscription_sale_revenue` 基本覆盖 `sale_revenue`，IAP 仍为辅助贡献，当前投放主决策继续按 IAA 阈值执行。</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 8v5l3 3" stroke="#1f6f8b" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="#1f6f8b" stroke-width="1.8"/></svg>
+        </span>
+        方法与置信度说明
+      </h2>
+      <ul>
+        <li>分析日期：<span class="mono">2026-03-03</span>；观察窗：<span class="mono">2026-01-28 ~ 2026-03-03</span>。</li>
+        <li>阈值口径：识别最新达标样本日后，回看前 15 天，取 <span class="mono">ROI0 / CPI / 次留</span> 均值作为国家阈值。</li>
+        <li>本次近期达标采用 <span class="mono">ROI14 &gt;= 100%</span> 代理，长期复盘仍看 <span class="mono">ROI45 &gt;= 100%</span>。</li>
+        <li>低置信度项：<span class="mono">RewardedVideo eCPM</span>（样本不足）。</li>
+      </ul>
+      <p class="muted" style="margin:10px 0 4px; font-size:12px;">Generated from grow_base/A124_MessagePro.md</p>
+    </section>
+  </main>
+</body>
+</html>

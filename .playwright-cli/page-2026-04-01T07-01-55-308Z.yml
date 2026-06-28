@@ -1,0 +1,1201 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img "snowball-logo" [ref=e7] [cursor=pointer]
+        - generic [ref=e11] [cursor=pointer]:
+          - img "project logo" [ref=e13]
+          - generic [ref=e14]:
+            - generic [ref=e15]: BibleDaily
+            - img "arrow icon" [ref=e16]
+        - link "android icon" [ref=e17] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=bible.holy.kjv.dailyverse.biblechat
+          - img "android icon" [ref=e18]
+      - generic [ref=e20]:
+        - link "综合" [ref=e21] [cursor=pointer]:
+          - /url: /bi/A170
+        - link "事件分析" [ref=e22] [cursor=pointer]:
+          - /url: /event/A170
+        - link "消息推送" [ref=e23] [cursor=pointer]:
+          - /url: /push/A170
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - link "store manage" [ref=e26] [cursor=pointer]:
+            - /url: https://reviews.thinkyeah.com/A170
+            - img "store manage" [ref=e27]
+          - link "store manage" [ref=e28] [cursor=pointer]:
+            - /url: https://store-manage.thinkyeah.com/project/list?pid=A170
+            - img "store manage" [ref=e29]
+        - generic [ref=e31]:
+          - img "icon" [ref=e33] [cursor=pointer]
+          - img "icon" [ref=e36] [cursor=pointer]
+          - img "language" [ref=e40] [cursor=pointer]
+          - img "setting" [ref=e41] [cursor=pointer]
+        - img [ref=e47] [cursor=pointer]
+    - generic [ref=e50]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - list [ref=e60]:
+            - listitem [ref=e62] [cursor=pointer]:
+              - link "推送列表" [ref=e63]:
+                - /url: https://snowball.thinkyeah.com/push/A170/task
+                - img [ref=e64]
+                - generic "推送列表" [ref=e66]
+            - listitem [ref=e68] [cursor=pointer]:
+              - link "消息库" [ref=e69]:
+                - /url: https://snowball.thinkyeah.com/push/A170/template
+                - img [ref=e70]
+                - generic "消息库" [ref=e72]
+            - listitem [ref=e74] [cursor=pointer]:
+              - link "数据分析" [ref=e75]:
+                - /url: https://snowball.thinkyeah.com/push/A170/data_analysis
+                - img [ref=e76]
+                - generic "数据分析" [ref=e78]
+            - listitem [ref=e80] [cursor=pointer]:
+              - link "用户分群" [ref=e81]:
+                - /url: https://snowball.thinkyeah.com/push/A170/user_group
+                - img [ref=e82]
+                - generic "用户分群" [ref=e84]
+          - img [ref=e87] [cursor=pointer]
+        - generic [ref=e89]:
+          - generic [ref=e91]:
+            - generic [ref=e93] [cursor=pointer]: 通知消息库
+            - generic [ref=e95] [cursor=pointer]: JSON 消息库
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - heading "消息组" [level=3] [ref=e101]
+                - generic [ref=e102]:
+                  - generic [ref=e103] [cursor=pointer]: 
+                  - text: 新增
+              - generic [ref=e106]:
+                - generic [ref=e107] [cursor=pointer]: 静态
+                - generic [ref=e108] [cursor=pointer]: 动态
+              - generic [ref=e309]:
+                - generic [ref=e311] [cursor=pointer]:
+                  - generic [ref=e313]: test
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: "1"
+                    - button [ref=e316]:
+                      - img [ref=e317]
+                - generic [ref=e319] [cursor=pointer]:
+                  - generic [ref=e321]: daily_evening
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: "10"
+                    - button [ref=e324]:
+                      - img [ref=e325]
+                - generic [ref=e327] [cursor=pointer]:
+                  - generic [ref=e329]: daily_noon
+                  - generic [ref=e330]:
+                    - generic [ref=e331]: "10"
+                    - button [ref=e332]:
+                      - img [ref=e333]
+                - generic [ref=e335] [cursor=pointer]:
+                  - generic [ref=e337]: daily_morning
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: "13"
+                    - button [ref=e340]:
+                      - img [ref=e341]
+            - generic [ref=e1129]:
+              - generic [ref=e1130]:
+                - heading "daily_morning" [level=3] [ref=e1131]
+                - generic [ref=e1133] [cursor=pointer]:
+                  - generic [ref=e1134]: 
+                  - generic [ref=e1135]: 新增消息
+              - generic [ref=e1136]:
+                - generic [ref=e1137] [cursor=pointer]:
+                  - img [ref=e1138]
+                  - generic [ref=e1139]: 默认-英语
+                - generic [ref=e1141] [cursor=pointer]: 阿拉伯语
+                - generic [ref=e1143] [cursor=pointer]: 保加利亚语
+                - generic [ref=e1145] [cursor=pointer]: 捷克语
+                - generic [ref=e1147] [cursor=pointer]: 德语
+                - generic [ref=e1149] [cursor=pointer]: 西班牙语
+                - generic [ref=e1151] [cursor=pointer]: 法语
+                - generic [ref=e1153] [cursor=pointer]: 印地语
+                - generic [ref=e1155] [cursor=pointer]: 匈牙利语
+                - generic [ref=e1157] [cursor=pointer]: 印度尼西亚语
+                - generic [ref=e1159] [cursor=pointer]: 意大利语
+                - generic [ref=e1161] [cursor=pointer]: 日语
+                - generic [ref=e1163] [cursor=pointer]: 韩语
+                - generic [ref=e1165] [cursor=pointer]: 其他地区
+                - generic [ref=e1167] [cursor=pointer]: 马来西亚语
+                - generic [ref=e1169] [cursor=pointer]: 荷兰语
+                - generic [ref=e1171] [cursor=pointer]: 挪威语
+                - generic [ref=e1173] [cursor=pointer]: 波兰语
+                - generic [ref=e1175] [cursor=pointer]: 葡萄牙语
+                - generic [ref=e1177] [cursor=pointer]: 俄语
+                - generic [ref=e1179] [cursor=pointer]: 斯洛伐克语
+                - generic [ref=e1181] [cursor=pointer]: 瑞典语
+                - generic [ref=e1183] [cursor=pointer]: 泰国语
+                - generic [ref=e1185] [cursor=pointer]: 土耳其语
+                - generic [ref=e1187] [cursor=pointer]: 越南语
+                - generic [ref=e1189] [cursor=pointer]: 中文
+                - generic [ref=e1191] [cursor=pointer]: 中文-大陆
+                - generic [ref=e1193] [cursor=pointer]: 中繁-香港
+                - generic [ref=e1195] [cursor=pointer]: 中繁-台湾
+                - generic [ref=e1199] [cursor=pointer]: 
+              - generic [ref=e6090]:
+                - generic [ref=e6091]:
+                  - generic [ref=e6092]:
+                    - img "template image" [ref=e6094]
+                    - generic [ref=e6095]:
+                      - heading "🌅 Dawn Grace" [level=4] [ref=e6096]
+                      - paragraph [ref=e6097]: Lord, I welcome this day.
+                  - generic [ref=e6098]:
+                    - img "edit icon" [ref=e6099] [cursor=pointer]
+                    - img "delete icon" [ref=e6100] [cursor=pointer]
+                - generic [ref=e6101]:
+                  - generic [ref=e6102]:
+                    - img "template image" [ref=e6104]
+                    - generic [ref=e6105]:
+                      - heading "🙏 Morning Hope" [level=4] [ref=e6106]
+                      - paragraph [ref=e6107]: Fill me with hope today.
+                  - generic [ref=e6108]:
+                    - img "edit icon" [ref=e6109] [cursor=pointer]
+                    - img "delete icon" [ref=e6110] [cursor=pointer]
+                - generic [ref=e6111]:
+                  - generic [ref=e6112]:
+                    - img "template image" [ref=e6114]
+                    - generic [ref=e6115]:
+                      - heading "☀️ Start Prayer" [level=4] [ref=e6116]
+                      - paragraph [ref=e6117]: Guide my first steps now.
+                  - generic [ref=e6118]:
+                    - img "edit icon" [ref=e6119] [cursor=pointer]
+                    - img "delete icon" [ref=e6120] [cursor=pointer]
+                - generic [ref=e6121]:
+                  - generic [ref=e6122]:
+                    - img "template image" [ref=e6124]
+                    - generic [ref=e6125]:
+                      - heading "🕊️ Sunrise Peace" [level=4] [ref=e6126]
+                      - paragraph [ref=e6127]: Let my heart rest in You.
+                  - generic [ref=e6128]:
+                    - img "edit icon" [ref=e6129] [cursor=pointer]
+                    - img "delete icon" [ref=e6130] [cursor=pointer]
+                - generic [ref=e6131]:
+                  - generic [ref=e6132]:
+                    - img "template image" [ref=e6134]
+                    - generic [ref=e6135]:
+                      - heading "💪 Faith Today" [level=4] [ref=e6136]
+                      - paragraph [ref=e6137]: Give me faith for today.
+                  - generic [ref=e6138]:
+                    - img "edit icon" [ref=e6139] [cursor=pointer]
+                    - img "delete icon" [ref=e6140] [cursor=pointer]
+                - generic [ref=e6141]:
+                  - generic [ref=e6142]:
+                    - img "template image" [ref=e6144]
+                    - generic [ref=e6145]:
+                      - heading "✨ New Mercy" [level=4] [ref=e6146]
+                      - paragraph [ref=e6147]: Your mercy meets me now.
+                  - generic [ref=e6148]:
+                    - img "edit icon" [ref=e6149] [cursor=pointer]
+                    - img "delete icon" [ref=e6150] [cursor=pointer]
+                - generic [ref=e6151]:
+                  - generic [ref=e6152]:
+                    - img "template image" [ref=e6154]
+                    - generic [ref=e6155]:
+                      - heading "🛐 Morning Guided" [level=4] [ref=e6156]
+                      - paragraph [ref=e6157]: I trust You this morning.
+                  - generic [ref=e6158]:
+                    - img "edit icon" [ref=e6159] [cursor=pointer]
+                    - img "delete icon" [ref=e6160] [cursor=pointer]
+                - generic [ref=e6161]:
+                  - generic [ref=e6162]:
+                    - img "template image" [ref=e6164]
+                    - generic [ref=e6165]:
+                      - heading "🌄 Joy In Light" [level=4] [ref=e6166]
+                      - paragraph [ref=e6167]: Light my path with peace.
+                  - generic [ref=e6168]:
+                    - img "edit icon" [ref=e6169] [cursor=pointer]
+                    - img "delete icon" [ref=e6170] [cursor=pointer]
+                - generic [ref=e6171]:
+                  - generic [ref=e6172]:
+                    - img "template image" [ref=e6174]
+                    - generic [ref=e6175]:
+                      - heading "🤍 Quiet Heart" [level=4] [ref=e6176]
+                      - paragraph [ref=e6177]: Keep my spirit gentle.
+                  - generic [ref=e6178]:
+                    - img "edit icon" [ref=e6179] [cursor=pointer]
+                    - img "delete icon" [ref=e6180] [cursor=pointer]
+                - generic [ref=e6181]:
+                  - generic [ref=e6182]:
+                    - img "template image" [ref=e6184]
+                    - generic [ref=e6185]:
+                      - heading "🙌 Grateful Dawn" [level=4] [ref=e6186]
+                      - paragraph [ref=e6187]: I start with gratitude.
+                  - generic [ref=e6188]:
+                    - img "edit icon" [ref=e6189] [cursor=pointer]
+                    - img "delete icon" [ref=e6190] [cursor=pointer]
+                - generic [ref=e6191]:
+                  - generic [ref=e6192]:
+                    - img "template image" [ref=e6194]
+                    - generic [ref=e6195]:
+                      - heading "🌅 Dawn Joy" [level=4] [ref=e6196]
+                      - paragraph [ref=e6197]: God walks with you now.
+                  - generic [ref=e6198]:
+                    - img "edit icon" [ref=e6199] [cursor=pointer]
+                    - img "delete icon" [ref=e6200] [cursor=pointer]
+                - generic [ref=e6201]:
+                  - generic [ref=e6202]:
+                    - img "placeholder" [ref=e6204]
+                    - generic [ref=e6205]:
+                      - heading [level=4]
+                      - paragraph
+                  - generic [ref=e6206]:
+                    - img "edit icon" [ref=e6207] [cursor=pointer]
+                    - img "delete icon" [ref=e6208] [cursor=pointer]
+                - generic [ref=e6209]:
+                  - generic [ref=e6210]:
+                    - img "placeholder" [ref=e6212]
+                    - generic [ref=e6213]:
+                      - heading [level=4]
+                      - paragraph
+                  - generic [ref=e6214]:
+                    - img "edit icon" [ref=e6215] [cursor=pointer]
+                    - img "delete icon" [ref=e6216] [cursor=pointer]
+      - img
+      - text:  *  
+      - generic [ref=e1307]:
+        - generic [ref=e1309] [cursor=pointer]: 
+        - generic [ref=e1311]:
+          - generic [ref=e1312]: 本地翻译
+          - generic [ref=e1314]:
+            - generic [ref=e1315] [cursor=pointer]:
+              - checkbox "继承主图" [ref=e1318]
+              - generic [ref=e1319]: 继承主图
+            - generic [ref=e1320] [cursor=pointer]:
+              - img [ref=e1321]
+              - text: 批量翻译
+          - generic [ref=e1323]:
+            - generic [ref=e6217]:
+              - generic [ref=e6219]: 默认-英语（en）
+              - generic [ref=e6220]:
+                - generic [ref=e6221]:
+                  - generic [ref=e6222]:
+                    - generic [ref=e6223]: 标题：
+                    - generic [ref=e6224]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6225]
+                  - generic [ref=e6226]:
+                    - generic [ref=e6227]: 内容：
+                    - textbox "请输入内容" [ref=e6229]
+                - generic [ref=e6230]:
+                  - generic [ref=e6231]: 图片：
+                  - generic [ref=e6233]:
+                    - generic [ref=e6234]:
+                      - generic [ref=e6235] [cursor=pointer]:
+                        - generic [ref=e6236]: 
+                        - generic [ref=e6237]:
+                          - generic [ref=e6238]: 
+                          - generic [ref=e6239]: 拖拽或点击上传
+                          - generic [ref=e6240]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6241]:
+                      - generic [ref=e6242]: 或
+                      - generic [ref=e6243]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6244]
+            - generic [ref=e6245]:
+              - generic [ref=e6246]:
+                - generic [ref=e6247]: 阿拉伯语（ar）
+                - generic [ref=e6249] [cursor=pointer]:
+                  - img [ref=e6250]
+                  - text: 翻译
+              - generic [ref=e6251]:
+                - generic [ref=e6252]:
+                  - generic [ref=e6253]:
+                    - generic [ref=e6254]: 标题：
+                    - generic [ref=e6255]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6256]
+                  - generic [ref=e6257]:
+                    - generic [ref=e6258]: 内容：
+                    - textbox "请输入内容" [ref=e6260]
+                - generic [ref=e6261]:
+                  - generic [ref=e6262]: 图片：
+                  - generic [ref=e6264]:
+                    - generic [ref=e6265]:
+                      - generic [ref=e6266] [cursor=pointer]:
+                        - generic [ref=e6267]: 
+                        - generic [ref=e6268]:
+                          - generic [ref=e6269]: 
+                          - generic [ref=e6270]: 拖拽或点击上传
+                          - generic [ref=e6271]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6272]:
+                      - generic [ref=e6273]: 或
+                      - generic [ref=e6274]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6275]
+            - generic [ref=e6276]:
+              - generic [ref=e6277]:
+                - generic [ref=e6278]: 保加利亚语（bg）
+                - generic [ref=e6280] [cursor=pointer]:
+                  - img [ref=e6281]
+                  - text: 翻译
+              - generic [ref=e6282]:
+                - generic [ref=e6283]:
+                  - generic [ref=e6284]:
+                    - generic [ref=e6285]: 标题：
+                    - generic [ref=e6286]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6287]
+                  - generic [ref=e6288]:
+                    - generic [ref=e6289]: 内容：
+                    - textbox "请输入内容" [ref=e6291]
+                - generic [ref=e6292]:
+                  - generic [ref=e6293]: 图片：
+                  - generic [ref=e6295]:
+                    - generic [ref=e6296]:
+                      - generic [ref=e6297] [cursor=pointer]:
+                        - generic [ref=e6298]: 
+                        - generic [ref=e6299]:
+                          - generic [ref=e6300]: 
+                          - generic [ref=e6301]: 拖拽或点击上传
+                          - generic [ref=e6302]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6303]:
+                      - generic [ref=e6304]: 或
+                      - generic [ref=e6305]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6306]
+            - generic [ref=e6307]:
+              - generic [ref=e6308]:
+                - generic [ref=e6309]: 捷克语（cs）
+                - generic [ref=e6311] [cursor=pointer]:
+                  - img [ref=e6312]
+                  - text: 翻译
+              - generic [ref=e6313]:
+                - generic [ref=e6314]:
+                  - generic [ref=e6315]:
+                    - generic [ref=e6316]: 标题：
+                    - generic [ref=e6317]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6318]
+                  - generic [ref=e6319]:
+                    - generic [ref=e6320]: 内容：
+                    - textbox "请输入内容" [ref=e6322]
+                - generic [ref=e6323]:
+                  - generic [ref=e6324]: 图片：
+                  - generic [ref=e6326]:
+                    - generic [ref=e6327]:
+                      - generic [ref=e6328] [cursor=pointer]:
+                        - generic [ref=e6329]: 
+                        - generic [ref=e6330]:
+                          - generic [ref=e6331]: 
+                          - generic [ref=e6332]: 拖拽或点击上传
+                          - generic [ref=e6333]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6334]:
+                      - generic [ref=e6335]: 或
+                      - generic [ref=e6336]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6337]
+            - generic [ref=e6338]:
+              - generic [ref=e6339]:
+                - generic [ref=e6340]: 德语（de）
+                - generic [ref=e6342] [cursor=pointer]:
+                  - img [ref=e6343]
+                  - text: 翻译
+              - generic [ref=e6344]:
+                - generic [ref=e6345]:
+                  - generic [ref=e6346]:
+                    - generic [ref=e6347]: 标题：
+                    - generic [ref=e6348]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6349]
+                  - generic [ref=e6350]:
+                    - generic [ref=e6351]: 内容：
+                    - textbox "请输入内容" [ref=e6353]
+                - generic [ref=e6354]:
+                  - generic [ref=e6355]: 图片：
+                  - generic [ref=e6357]:
+                    - generic [ref=e6358]:
+                      - generic [ref=e6359] [cursor=pointer]:
+                        - generic [ref=e6360]: 
+                        - generic [ref=e6361]:
+                          - generic [ref=e6362]: 
+                          - generic [ref=e6363]: 拖拽或点击上传
+                          - generic [ref=e6364]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6365]:
+                      - generic [ref=e6366]: 或
+                      - generic [ref=e6367]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6368]
+            - generic [ref=e6369]:
+              - generic [ref=e6370]:
+                - generic [ref=e6371]: 西班牙语（es）
+                - generic [ref=e6373] [cursor=pointer]:
+                  - img [ref=e6374]
+                  - text: 翻译
+              - generic [ref=e6375]:
+                - generic [ref=e6376]:
+                  - generic [ref=e6377]:
+                    - generic [ref=e6378]: 标题：
+                    - generic [ref=e6379]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6380]
+                  - generic [ref=e6381]:
+                    - generic [ref=e6382]: 内容：
+                    - textbox "请输入内容" [ref=e6384]
+                - generic [ref=e6385]:
+                  - generic [ref=e6386]: 图片：
+                  - generic [ref=e6388]:
+                    - generic [ref=e6389]:
+                      - generic [ref=e6390] [cursor=pointer]:
+                        - generic [ref=e6391]: 
+                        - generic [ref=e6392]:
+                          - generic [ref=e6393]: 
+                          - generic [ref=e6394]: 拖拽或点击上传
+                          - generic [ref=e6395]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6396]:
+                      - generic [ref=e6397]: 或
+                      - generic [ref=e6398]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6399]
+            - generic [ref=e6400]:
+              - generic [ref=e6401]:
+                - generic [ref=e6402]: 法语（fr）
+                - generic [ref=e6404] [cursor=pointer]:
+                  - img [ref=e6405]
+                  - text: 翻译
+              - generic [ref=e6406]:
+                - generic [ref=e6407]:
+                  - generic [ref=e6408]:
+                    - generic [ref=e6409]: 标题：
+                    - generic [ref=e6410]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6411]
+                  - generic [ref=e6412]:
+                    - generic [ref=e6413]: 内容：
+                    - textbox "请输入内容" [ref=e6415]
+                - generic [ref=e6416]:
+                  - generic [ref=e6417]: 图片：
+                  - generic [ref=e6419]:
+                    - generic [ref=e6420]:
+                      - generic [ref=e6421] [cursor=pointer]:
+                        - generic [ref=e6422]: 
+                        - generic [ref=e6423]:
+                          - generic [ref=e6424]: 
+                          - generic [ref=e6425]: 拖拽或点击上传
+                          - generic [ref=e6426]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6427]:
+                      - generic [ref=e6428]: 或
+                      - generic [ref=e6429]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6430]
+            - generic [ref=e6431]:
+              - generic [ref=e6432]:
+                - generic [ref=e6433]: 印地语（hi）
+                - generic [ref=e6435] [cursor=pointer]:
+                  - img [ref=e6436]
+                  - text: 翻译
+              - generic [ref=e6437]:
+                - generic [ref=e6438]:
+                  - generic [ref=e6439]:
+                    - generic [ref=e6440]: 标题：
+                    - generic [ref=e6441]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6442]
+                  - generic [ref=e6443]:
+                    - generic [ref=e6444]: 内容：
+                    - textbox "请输入内容" [ref=e6446]
+                - generic [ref=e6447]:
+                  - generic [ref=e6448]: 图片：
+                  - generic [ref=e6450]:
+                    - generic [ref=e6451]:
+                      - generic [ref=e6452] [cursor=pointer]:
+                        - generic [ref=e6453]: 
+                        - generic [ref=e6454]:
+                          - generic [ref=e6455]: 
+                          - generic [ref=e6456]: 拖拽或点击上传
+                          - generic [ref=e6457]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6458]:
+                      - generic [ref=e6459]: 或
+                      - generic [ref=e6460]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6461]
+            - generic [ref=e6462]:
+              - generic [ref=e6463]:
+                - generic [ref=e6464]: 匈牙利语（hu）
+                - generic [ref=e6466] [cursor=pointer]:
+                  - img [ref=e6467]
+                  - text: 翻译
+              - generic [ref=e6468]:
+                - generic [ref=e6469]:
+                  - generic [ref=e6470]:
+                    - generic [ref=e6471]: 标题：
+                    - generic [ref=e6472]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6473]
+                  - generic [ref=e6474]:
+                    - generic [ref=e6475]: 内容：
+                    - textbox "请输入内容" [ref=e6477]
+                - generic [ref=e6478]:
+                  - generic [ref=e6479]: 图片：
+                  - generic [ref=e6481]:
+                    - generic [ref=e6482]:
+                      - generic [ref=e6483] [cursor=pointer]:
+                        - generic [ref=e6484]: 
+                        - generic [ref=e6485]:
+                          - generic [ref=e6486]: 
+                          - generic [ref=e6487]: 拖拽或点击上传
+                          - generic [ref=e6488]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6489]:
+                      - generic [ref=e6490]: 或
+                      - generic [ref=e6491]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6492]
+            - generic [ref=e6493]:
+              - generic [ref=e6494]:
+                - generic [ref=e6495]: 印度尼西亚语（id）
+                - generic [ref=e6497] [cursor=pointer]:
+                  - img [ref=e6498]
+                  - text: 翻译
+              - generic [ref=e6499]:
+                - generic [ref=e6500]:
+                  - generic [ref=e6501]:
+                    - generic [ref=e6502]: 标题：
+                    - generic [ref=e6503]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6504]
+                  - generic [ref=e6505]:
+                    - generic [ref=e6506]: 内容：
+                    - textbox "请输入内容" [ref=e6508]
+                - generic [ref=e6509]:
+                  - generic [ref=e6510]: 图片：
+                  - generic [ref=e6512]:
+                    - generic [ref=e6513]:
+                      - generic [ref=e6514] [cursor=pointer]:
+                        - generic [ref=e6515]: 
+                        - generic [ref=e6516]:
+                          - generic [ref=e6517]: 
+                          - generic [ref=e6518]: 拖拽或点击上传
+                          - generic [ref=e6519]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6520]:
+                      - generic [ref=e6521]: 或
+                      - generic [ref=e6522]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6523]
+            - generic [ref=e6524]:
+              - generic [ref=e6525]:
+                - generic [ref=e6526]: 意大利语（it）
+                - generic [ref=e6528] [cursor=pointer]:
+                  - img [ref=e6529]
+                  - text: 翻译
+              - generic [ref=e6530]:
+                - generic [ref=e6531]:
+                  - generic [ref=e6532]:
+                    - generic [ref=e6533]: 标题：
+                    - generic [ref=e6534]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6535]
+                  - generic [ref=e6536]:
+                    - generic [ref=e6537]: 内容：
+                    - textbox "请输入内容" [ref=e6539]
+                - generic [ref=e6540]:
+                  - generic [ref=e6541]: 图片：
+                  - generic [ref=e6543]:
+                    - generic [ref=e6544]:
+                      - generic [ref=e6545] [cursor=pointer]:
+                        - generic [ref=e6546]: 
+                        - generic [ref=e6547]:
+                          - generic [ref=e6548]: 
+                          - generic [ref=e6549]: 拖拽或点击上传
+                          - generic [ref=e6550]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6551]:
+                      - generic [ref=e6552]: 或
+                      - generic [ref=e6553]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6554]
+            - generic [ref=e6555]:
+              - generic [ref=e6556]:
+                - generic [ref=e6557]: 日语（ja）
+                - generic [ref=e6559] [cursor=pointer]:
+                  - img [ref=e6560]
+                  - text: 翻译
+              - generic [ref=e6561]:
+                - generic [ref=e6562]:
+                  - generic [ref=e6563]:
+                    - generic [ref=e6564]: 标题：
+                    - generic [ref=e6565]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6566]
+                  - generic [ref=e6567]:
+                    - generic [ref=e6568]: 内容：
+                    - textbox "请输入内容" [ref=e6570]
+                - generic [ref=e6571]:
+                  - generic [ref=e6572]: 图片：
+                  - generic [ref=e6574]:
+                    - generic [ref=e6575]:
+                      - generic [ref=e6576] [cursor=pointer]:
+                        - generic [ref=e6577]: 
+                        - generic [ref=e6578]:
+                          - generic [ref=e6579]: 
+                          - generic [ref=e6580]: 拖拽或点击上传
+                          - generic [ref=e6581]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6582]:
+                      - generic [ref=e6583]: 或
+                      - generic [ref=e6584]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6585]
+            - generic [ref=e6586]:
+              - generic [ref=e6587]:
+                - generic [ref=e6588]: 韩语（ko）
+                - generic [ref=e6590] [cursor=pointer]:
+                  - img [ref=e6591]
+                  - text: 翻译
+              - generic [ref=e6592]:
+                - generic [ref=e6593]:
+                  - generic [ref=e6594]:
+                    - generic [ref=e6595]: 标题：
+                    - generic [ref=e6596]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6597]
+                  - generic [ref=e6598]:
+                    - generic [ref=e6599]: 内容：
+                    - textbox "请输入内容" [ref=e6601]
+                - generic [ref=e6602]:
+                  - generic [ref=e6603]: 图片：
+                  - generic [ref=e6605]:
+                    - generic [ref=e6606]:
+                      - generic [ref=e6607] [cursor=pointer]:
+                        - generic [ref=e6608]: 
+                        - generic [ref=e6609]:
+                          - generic [ref=e6610]: 
+                          - generic [ref=e6611]: 拖拽或点击上传
+                          - generic [ref=e6612]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6613]:
+                      - generic [ref=e6614]: 或
+                      - generic [ref=e6615]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6616]
+            - generic [ref=e6617]:
+              - generic [ref=e6618]:
+                - generic [ref=e6619]: 其他地区（misc）
+                - generic [ref=e6621] [cursor=pointer]:
+                  - img [ref=e6622]
+                  - text: 翻译
+              - generic [ref=e6623]:
+                - generic [ref=e6624]:
+                  - generic [ref=e6625]:
+                    - generic [ref=e6626]: 标题：
+                    - generic [ref=e6627]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6628]
+                  - generic [ref=e6629]:
+                    - generic [ref=e6630]: 内容：
+                    - textbox "请输入内容" [ref=e6632]
+                - generic [ref=e6633]:
+                  - generic [ref=e6634]: 图片：
+                  - generic [ref=e6636]:
+                    - generic [ref=e6637]:
+                      - generic [ref=e6638] [cursor=pointer]:
+                        - generic [ref=e6639]: 
+                        - generic [ref=e6640]:
+                          - generic [ref=e6641]: 
+                          - generic [ref=e6642]: 拖拽或点击上传
+                          - generic [ref=e6643]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6644]:
+                      - generic [ref=e6645]: 或
+                      - generic [ref=e6646]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6647]
+            - generic [ref=e6648]:
+              - generic [ref=e6649]:
+                - generic [ref=e6650]: 马来西亚语（ms）
+                - generic [ref=e6652] [cursor=pointer]:
+                  - img [ref=e6653]
+                  - text: 翻译
+              - generic [ref=e6654]:
+                - generic [ref=e6655]:
+                  - generic [ref=e6656]:
+                    - generic [ref=e6657]: 标题：
+                    - generic [ref=e6658]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6659]
+                  - generic [ref=e6660]:
+                    - generic [ref=e6661]: 内容：
+                    - textbox "请输入内容" [ref=e6663]
+                - generic [ref=e6664]:
+                  - generic [ref=e6665]: 图片：
+                  - generic [ref=e6667]:
+                    - generic [ref=e6668]:
+                      - generic [ref=e6669] [cursor=pointer]:
+                        - generic [ref=e6670]: 
+                        - generic [ref=e6671]:
+                          - generic [ref=e6672]: 
+                          - generic [ref=e6673]: 拖拽或点击上传
+                          - generic [ref=e6674]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6675]:
+                      - generic [ref=e6676]: 或
+                      - generic [ref=e6677]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6678]
+            - generic [ref=e6679]:
+              - generic [ref=e6680]:
+                - generic [ref=e6681]: 荷兰语（nl）
+                - generic [ref=e6683] [cursor=pointer]:
+                  - img [ref=e6684]
+                  - text: 翻译
+              - generic [ref=e6685]:
+                - generic [ref=e6686]:
+                  - generic [ref=e6687]:
+                    - generic [ref=e6688]: 标题：
+                    - generic [ref=e6689]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6690]
+                  - generic [ref=e6691]:
+                    - generic [ref=e6692]: 内容：
+                    - textbox "请输入内容" [ref=e6694]
+                - generic [ref=e6695]:
+                  - generic [ref=e6696]: 图片：
+                  - generic [ref=e6698]:
+                    - generic [ref=e6699]:
+                      - generic [ref=e6700] [cursor=pointer]:
+                        - generic [ref=e6701]: 
+                        - generic [ref=e6702]:
+                          - generic [ref=e6703]: 
+                          - generic [ref=e6704]: 拖拽或点击上传
+                          - generic [ref=e6705]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6706]:
+                      - generic [ref=e6707]: 或
+                      - generic [ref=e6708]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6709]
+            - generic [ref=e6710]:
+              - generic [ref=e6711]:
+                - generic [ref=e6712]: 挪威语（no）
+                - generic [ref=e6714] [cursor=pointer]:
+                  - img [ref=e6715]
+                  - text: 翻译
+              - generic [ref=e6716]:
+                - generic [ref=e6717]:
+                  - generic [ref=e6718]:
+                    - generic [ref=e6719]: 标题：
+                    - generic [ref=e6720]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6721]
+                  - generic [ref=e6722]:
+                    - generic [ref=e6723]: 内容：
+                    - textbox "请输入内容" [ref=e6725]
+                - generic [ref=e6726]:
+                  - generic [ref=e6727]: 图片：
+                  - generic [ref=e6729]:
+                    - generic [ref=e6730]:
+                      - generic [ref=e6731] [cursor=pointer]:
+                        - generic [ref=e6732]: 
+                        - generic [ref=e6733]:
+                          - generic [ref=e6734]: 
+                          - generic [ref=e6735]: 拖拽或点击上传
+                          - generic [ref=e6736]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6737]:
+                      - generic [ref=e6738]: 或
+                      - generic [ref=e6739]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6740]
+            - generic [ref=e6741]:
+              - generic [ref=e6742]:
+                - generic [ref=e6743]: 波兰语（pl）
+                - generic [ref=e6745] [cursor=pointer]:
+                  - img [ref=e6746]
+                  - text: 翻译
+              - generic [ref=e6747]:
+                - generic [ref=e6748]:
+                  - generic [ref=e6749]:
+                    - generic [ref=e6750]: 标题：
+                    - generic [ref=e6751]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6752]
+                  - generic [ref=e6753]:
+                    - generic [ref=e6754]: 内容：
+                    - textbox "请输入内容" [ref=e6756]
+                - generic [ref=e6757]:
+                  - generic [ref=e6758]: 图片：
+                  - generic [ref=e6760]:
+                    - generic [ref=e6761]:
+                      - generic [ref=e6762] [cursor=pointer]:
+                        - generic [ref=e6763]: 
+                        - generic [ref=e6764]:
+                          - generic [ref=e6765]: 
+                          - generic [ref=e6766]: 拖拽或点击上传
+                          - generic [ref=e6767]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6768]:
+                      - generic [ref=e6769]: 或
+                      - generic [ref=e6770]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6771]
+            - generic [ref=e6772]:
+              - generic [ref=e6773]:
+                - generic [ref=e6774]: 葡萄牙语（pt）
+                - generic [ref=e6776] [cursor=pointer]:
+                  - img [ref=e6777]
+                  - text: 翻译
+              - generic [ref=e6778]:
+                - generic [ref=e6779]:
+                  - generic [ref=e6780]:
+                    - generic [ref=e6781]: 标题：
+                    - generic [ref=e6782]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6783]
+                  - generic [ref=e6784]:
+                    - generic [ref=e6785]: 内容：
+                    - textbox "请输入内容" [ref=e6787]
+                - generic [ref=e6788]:
+                  - generic [ref=e6789]: 图片：
+                  - generic [ref=e6791]:
+                    - generic [ref=e6792]:
+                      - generic [ref=e6793] [cursor=pointer]:
+                        - generic [ref=e6794]: 
+                        - generic [ref=e6795]:
+                          - generic [ref=e6796]: 
+                          - generic [ref=e6797]: 拖拽或点击上传
+                          - generic [ref=e6798]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6799]:
+                      - generic [ref=e6800]: 或
+                      - generic [ref=e6801]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6802]
+            - generic [ref=e6803]:
+              - generic [ref=e6804]:
+                - generic [ref=e6805]: 俄语（ru）
+                - generic [ref=e6807] [cursor=pointer]:
+                  - img [ref=e6808]
+                  - text: 翻译
+              - generic [ref=e6809]:
+                - generic [ref=e6810]:
+                  - generic [ref=e6811]:
+                    - generic [ref=e6812]: 标题：
+                    - generic [ref=e6813]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6814]
+                  - generic [ref=e6815]:
+                    - generic [ref=e6816]: 内容：
+                    - textbox "请输入内容" [ref=e6818]
+                - generic [ref=e6819]:
+                  - generic [ref=e6820]: 图片：
+                  - generic [ref=e6822]:
+                    - generic [ref=e6823]:
+                      - generic [ref=e6824] [cursor=pointer]:
+                        - generic [ref=e6825]: 
+                        - generic [ref=e6826]:
+                          - generic [ref=e6827]: 
+                          - generic [ref=e6828]: 拖拽或点击上传
+                          - generic [ref=e6829]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6830]:
+                      - generic [ref=e6831]: 或
+                      - generic [ref=e6832]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6833]
+            - generic [ref=e6834]:
+              - generic [ref=e6835]:
+                - generic [ref=e6836]: 斯洛伐克语（sk）
+                - generic [ref=e6838] [cursor=pointer]:
+                  - img [ref=e6839]
+                  - text: 翻译
+              - generic [ref=e6840]:
+                - generic [ref=e6841]:
+                  - generic [ref=e6842]:
+                    - generic [ref=e6843]: 标题：
+                    - generic [ref=e6844]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6845]
+                  - generic [ref=e6846]:
+                    - generic [ref=e6847]: 内容：
+                    - textbox "请输入内容" [ref=e6849]
+                - generic [ref=e6850]:
+                  - generic [ref=e6851]: 图片：
+                  - generic [ref=e6853]:
+                    - generic [ref=e6854]:
+                      - generic [ref=e6855] [cursor=pointer]:
+                        - generic [ref=e6856]: 
+                        - generic [ref=e6857]:
+                          - generic [ref=e6858]: 
+                          - generic [ref=e6859]: 拖拽或点击上传
+                          - generic [ref=e6860]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6861]:
+                      - generic [ref=e6862]: 或
+                      - generic [ref=e6863]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6864]
+            - generic [ref=e6865]:
+              - generic [ref=e6866]:
+                - generic [ref=e6867]: 瑞典语（sv）
+                - generic [ref=e6869] [cursor=pointer]:
+                  - img [ref=e6870]
+                  - text: 翻译
+              - generic [ref=e6871]:
+                - generic [ref=e6872]:
+                  - generic [ref=e6873]:
+                    - generic [ref=e6874]: 标题：
+                    - generic [ref=e6875]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6876]
+                  - generic [ref=e6877]:
+                    - generic [ref=e6878]: 内容：
+                    - textbox "请输入内容" [ref=e6880]
+                - generic [ref=e6881]:
+                  - generic [ref=e6882]: 图片：
+                  - generic [ref=e6884]:
+                    - generic [ref=e6885]:
+                      - generic [ref=e6886] [cursor=pointer]:
+                        - generic [ref=e6887]: 
+                        - generic [ref=e6888]:
+                          - generic [ref=e6889]: 
+                          - generic [ref=e6890]: 拖拽或点击上传
+                          - generic [ref=e6891]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6892]:
+                      - generic [ref=e6893]: 或
+                      - generic [ref=e6894]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6895]
+            - generic [ref=e6896]:
+              - generic [ref=e6897]:
+                - generic [ref=e6898]: 泰国语（th）
+                - generic [ref=e6900] [cursor=pointer]:
+                  - img [ref=e6901]
+                  - text: 翻译
+              - generic [ref=e6902]:
+                - generic [ref=e6903]:
+                  - generic [ref=e6904]:
+                    - generic [ref=e6905]: 标题：
+                    - generic [ref=e6906]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6907]
+                  - generic [ref=e6908]:
+                    - generic [ref=e6909]: 内容：
+                    - textbox "请输入内容" [ref=e6911]
+                - generic [ref=e6912]:
+                  - generic [ref=e6913]: 图片：
+                  - generic [ref=e6915]:
+                    - generic [ref=e6916]:
+                      - generic [ref=e6917] [cursor=pointer]:
+                        - generic [ref=e6918]: 
+                        - generic [ref=e6919]:
+                          - generic [ref=e6920]: 
+                          - generic [ref=e6921]: 拖拽或点击上传
+                          - generic [ref=e6922]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6923]:
+                      - generic [ref=e6924]: 或
+                      - generic [ref=e6925]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6926]
+            - generic [ref=e6927]:
+              - generic [ref=e6928]:
+                - generic [ref=e6929]: 土耳其语（tr）
+                - generic [ref=e6931] [cursor=pointer]:
+                  - img [ref=e6932]
+                  - text: 翻译
+              - generic [ref=e6933]:
+                - generic [ref=e6934]:
+                  - generic [ref=e6935]:
+                    - generic [ref=e6936]: 标题：
+                    - generic [ref=e6937]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6938]
+                  - generic [ref=e6939]:
+                    - generic [ref=e6940]: 内容：
+                    - textbox "请输入内容" [ref=e6942]
+                - generic [ref=e6943]:
+                  - generic [ref=e6944]: 图片：
+                  - generic [ref=e6946]:
+                    - generic [ref=e6947]:
+                      - generic [ref=e6948] [cursor=pointer]:
+                        - generic [ref=e6949]: 
+                        - generic [ref=e6950]:
+                          - generic [ref=e6951]: 
+                          - generic [ref=e6952]: 拖拽或点击上传
+                          - generic [ref=e6953]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6954]:
+                      - generic [ref=e6955]: 或
+                      - generic [ref=e6956]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6957]
+            - generic [ref=e6958]:
+              - generic [ref=e6959]:
+                - generic [ref=e6960]: 越南语（vi）
+                - generic [ref=e6962] [cursor=pointer]:
+                  - img [ref=e6963]
+                  - text: 翻译
+              - generic [ref=e6964]:
+                - generic [ref=e6965]:
+                  - generic [ref=e6966]:
+                    - generic [ref=e6967]: 标题：
+                    - generic [ref=e6968]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e6969]
+                  - generic [ref=e6970]:
+                    - generic [ref=e6971]: 内容：
+                    - textbox "请输入内容" [ref=e6973]
+                - generic [ref=e6974]:
+                  - generic [ref=e6975]: 图片：
+                  - generic [ref=e6977]:
+                    - generic [ref=e6978]:
+                      - generic [ref=e6979] [cursor=pointer]:
+                        - generic [ref=e6980]: 
+                        - generic [ref=e6981]:
+                          - generic [ref=e6982]: 
+                          - generic [ref=e6983]: 拖拽或点击上传
+                          - generic [ref=e6984]: 大小不超过300KB
+                      - list
+                    - generic [ref=e6985]:
+                      - generic [ref=e6986]: 或
+                      - generic [ref=e6987]:
+                        - text: 
+                        - textbox "输入URL" [ref=e6988]
+            - generic [ref=e6989]:
+              - generic [ref=e6990]:
+                - generic [ref=e6991]: 中文（zh）
+                - generic [ref=e6993] [cursor=pointer]:
+                  - img [ref=e6994]
+                  - text: 翻译
+              - generic [ref=e6995]:
+                - generic [ref=e6996]:
+                  - generic [ref=e6997]:
+                    - generic [ref=e6998]: 标题：
+                    - generic [ref=e6999]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e7000]
+                  - generic [ref=e7001]:
+                    - generic [ref=e7002]: 内容：
+                    - textbox "请输入内容" [ref=e7004]
+                - generic [ref=e7005]:
+                  - generic [ref=e7006]: 图片：
+                  - generic [ref=e7008]:
+                    - generic [ref=e7009]:
+                      - generic [ref=e7010] [cursor=pointer]:
+                        - generic [ref=e7011]: 
+                        - generic [ref=e7012]:
+                          - generic [ref=e7013]: 
+                          - generic [ref=e7014]: 拖拽或点击上传
+                          - generic [ref=e7015]: 大小不超过300KB
+                      - list
+                    - generic [ref=e7016]:
+                      - generic [ref=e7017]: 或
+                      - generic [ref=e7018]:
+                        - text: 
+                        - textbox "输入URL" [ref=e7019]
+            - generic [ref=e7020]:
+              - generic [ref=e7021]:
+                - generic [ref=e7022]: 中文-大陆（zh_CN）
+                - generic [ref=e7024] [cursor=pointer]:
+                  - img [ref=e7025]
+                  - text: 翻译
+              - generic [ref=e7026]:
+                - generic [ref=e7027]:
+                  - generic [ref=e7028]:
+                    - generic [ref=e7029]: 标题：
+                    - generic [ref=e7030]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e7031]
+                  - generic [ref=e7032]:
+                    - generic [ref=e7033]: 内容：
+                    - textbox "请输入内容" [ref=e7035]
+                - generic [ref=e7036]:
+                  - generic [ref=e7037]: 图片：
+                  - generic [ref=e7039]:
+                    - generic [ref=e7040]:
+                      - generic [ref=e7041] [cursor=pointer]:
+                        - generic [ref=e7042]: 
+                        - generic [ref=e7043]:
+                          - generic [ref=e7044]: 
+                          - generic [ref=e7045]: 拖拽或点击上传
+                          - generic [ref=e7046]: 大小不超过300KB
+                      - list
+                    - generic [ref=e7047]:
+                      - generic [ref=e7048]: 或
+                      - generic [ref=e7049]:
+                        - text: 
+                        - textbox "输入URL" [ref=e7050]
+            - generic [ref=e7051]:
+              - generic [ref=e7052]:
+                - generic [ref=e7053]: 中繁-香港（zh_HK）
+                - generic [ref=e7055] [cursor=pointer]:
+                  - img [ref=e7056]
+                  - text: 翻译
+              - generic [ref=e7057]:
+                - generic [ref=e7058]:
+                  - generic [ref=e7059]:
+                    - generic [ref=e7060]: 标题：
+                    - generic [ref=e7061]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e7062]
+                  - generic [ref=e7063]:
+                    - generic [ref=e7064]: 内容：
+                    - textbox "请输入内容" [ref=e7066]
+                - generic [ref=e7067]:
+                  - generic [ref=e7068]: 图片：
+                  - generic [ref=e7070]:
+                    - generic [ref=e7071]:
+                      - generic [ref=e7072] [cursor=pointer]:
+                        - generic [ref=e7073]: 
+                        - generic [ref=e7074]:
+                          - generic [ref=e7075]: 
+                          - generic [ref=e7076]: 拖拽或点击上传
+                          - generic [ref=e7077]: 大小不超过300KB
+                      - list
+                    - generic [ref=e7078]:
+                      - generic [ref=e7079]: 或
+                      - generic [ref=e7080]:
+                        - text: 
+                        - textbox "输入URL" [ref=e7081]
+            - generic [ref=e7082]:
+              - generic [ref=e7083]:
+                - generic [ref=e7084]: 中繁-台湾（zh_TW）
+                - generic [ref=e7086] [cursor=pointer]:
+                  - img [ref=e7087]
+                  - text: 翻译
+              - generic [ref=e7088]:
+                - generic [ref=e7089]:
+                  - generic [ref=e7090]:
+                    - generic [ref=e7091]: 标题：
+                    - generic [ref=e7092]:
+                      - text: 
+                      - textbox "请输入标题" [ref=e7093]
+                  - generic [ref=e7094]:
+                    - generic [ref=e7095]: 内容：
+                    - textbox "请输入内容" [ref=e7097]
+                - generic [ref=e7098]:
+                  - generic [ref=e7099]: 图片：
+                  - generic [ref=e7101]:
+                    - generic [ref=e7102]:
+                      - generic [ref=e7103] [cursor=pointer]:
+                        - generic [ref=e7104]: 
+                        - generic [ref=e7105]:
+                          - generic [ref=e7106]: 
+                          - generic [ref=e7107]: 拖拽或点击上传
+                          - generic [ref=e7108]: 大小不超过300KB
+                      - list
+                    - generic [ref=e7109]:
+                      - generic [ref=e7110]: 或
+                      - generic [ref=e7111]:
+                        - text: 
+                        - textbox "输入URL" [ref=e7112]
+          - generic [ref=e2220]:
+            - button "取消" [ref=e2221] [cursor=pointer]:
+              - generic [ref=e2222]: 取消
+            - button "应用" [ref=e2223] [cursor=pointer]:
+              - generic [ref=e2225]: 应用
+      - text: 
+  - img
+  - text:   

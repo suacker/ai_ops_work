@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>照片系列产品近5日运营数据分析</title>
+  <style>
+    :root{--bg:#f4f6f8;--card:#fff;--ink:#14212b;--muted:#5c6b78;--line:#d8e0e7;--brand:#1f6f8b;--good:#1f8a5b;--warn:#b86d00;--bad:#b42318}
+    body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+    main{max-width:1280px;margin:0 auto;padding:28px}
+    h1{font-size:26px;margin:0 0 10px}
+    h2{font-size:19px;margin:26px 0 12px}
+    .meta,.note{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .label{color:var(--muted);font-size:12px}.value{font-size:22px;font-weight:700;margin-top:4px}
+    .good{color:var(--good)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+    table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin:10px 0 20px}
+    th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:right;white-space:nowrap}
+    th:first-child,td:first-child{text-align:left}
+    th{background:#eaf0f4;color:#263744;font-weight:700}
+    tr:last-child td{border-bottom:0}
+    ul{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 20px}
+    footer{margin-top:28px;color:var(--muted);font-size:12px}
+  </style>
+</head>
+<body>
+<main>
+  <h1>照片系列产品近5日运营数据分析</h1>
+  <p class="meta">数据来源：snowball-mcp；日期范围：2026-05-15 ~ 2026-05-19；项目：A101 PhotoArt Android、A31 PhotoCollage Android、A42 PicsLeap Android、A118 PhotoArt iOS。</p>
+
+  <div class="cards">
+    <div class="card"><div class="label">总花费</div><div class="value">$13,557.12</div></div>
+    <div class="card"><div class="label">日均花费</div><div class="value">$2,711.42</div></div>
+    <div class="card"><div class="label">总营收</div><div class="value">$18,525.42</div></div>
+    <div class="card"><div class="label">总利润</div><div class="value good">$4,968.30</div></div>
+  </div>
+
+  <h2>核心 KPI 横向对比</h2>
+  <table>
+    <tr><th>项目</th><th>花费</th><th>总营收</th><th>利润</th><th>经营 ROI</th><th>cohort ROI0</th><th>cohort ROI3</th><th>DNU</th><th>日均 DAU</th><th>CPI</th><th>次留</th><th>eCPM</th><th>IPU</th><th>内购占比</th></tr>
+    <tr><td>A101 PhotoArt Android</td><td>$5,926.03</td><td>$6,962.25</td><td class="good">$1,036.21</td><td>117.49%</td><td>42.53%</td><td>50.34%</td><td>54,512</td><td>23,577</td><td>$0.1227</td><td>7.82%</td><td>$6.20</td><td>5.38</td><td>43.53%</td></tr>
+    <tr><td>A31 PhotoCollage Android</td><td>$4,405.73</td><td>$8,399.09</td><td class="good">$3,993.37</td><td class="good">190.64%</td><td>43.10%</td><td>54.72%</td><td>41,441</td><td>50,641</td><td>$0.1435</td><td>6.64%</td><td>$3.16</td><td>7.46</td><td>29.05%</td></tr>
+    <tr><td>A42 PicsLeap Android</td><td>$1,339.10</td><td>$1,450.37</td><td class="warn">$111.27</td><td>108.31%</td><td>39.13%</td><td>55.48%</td><td>3,604</td><td>1,996</td><td>$0.4269</td><td>6.24%</td><td>$19.21</td><td>4.35</td><td>42.45%</td></tr>
+    <tr><td>A118 PhotoArt iOS</td><td>$1,886.26</td><td>$1,713.71</td><td class="bad">-$172.55</td><td class="bad">90.85%</td><td class="bad">6.01%</td><td>67.34%</td><td>943</td><td>323</td><td>$4.3776</td><td>7.12%</td><td>N/A</td><td>N/A</td><td>100.00%</td></tr>
+  </table>
+
+  <h2>5日变化趋势</h2>
+  <table>
+    <tr><th>项目</th><th>DAU 变化</th><th>DNU 变化</th><th>总营收变化</th><th>经营 ROI 变化</th><th>eCPM 变化</th><th>主要信号</th></tr>
+    <tr><td>A101 PhotoArt Android</td><td>-2.18%</td><td>-6.77%</td><td>-3.18%</td><td class="good">+13.04%</td><td>-0.27%</td><td>规模回落但 ROI 改善</td></tr>
+    <tr><td>A31 PhotoCollage Android</td><td>-1.03%</td><td>-3.90%</td><td class="bad">-12.47%</td><td class="good">+5.91%</td><td>-3.47%</td><td>利润强但收入下滑</td></tr>
+    <tr><td>A42 PicsLeap Android</td><td>+1.82%</td><td>+5.56%</td><td class="bad">-8.21%</td><td class="bad">-9.84%</td><td>+0.34%</td><td>用户增长但质量转弱</td></tr>
+    <tr><td>A118 PhotoArt iOS</td><td class="bad">-27.59%</td><td class="bad">-39.56%</td><td class="bad">-100.00%</td><td class="bad">-100.00%</td><td>N/A</td><td>05-19 收入为 0</td></tr>
+  </table>
+
+  <h2>广告格式 eCPM</h2>
+  <table>
+    <tr><th>项目</th><th>主要格式</th><th>5日广告收入</th><th>展示数</th><th>加权 eCPM</th><th>备注</th></tr>
+    <tr><td>A101 PhotoArt Android</td><td>Interstitial</td><td>$2,679.93</td><td>158,920</td><td>$16.86</td><td>广告收入主力</td></tr>
+    <tr><td>A101 PhotoArt Android</td><td>AppOpen</td><td>$753.33</td><td>79,888</td><td>$9.43</td><td>第二收入格式</td></tr>
+    <tr><td>A31 PhotoCollage Android</td><td>Interstitial</td><td>$3,553.20</td><td>372,040</td><td>$9.55</td><td>收入主力但单价低于 A101</td></tr>
+    <tr><td>A31 PhotoCollage Android</td><td>AppOpen</td><td>$1,228.04</td><td>204,405</td><td>$6.01</td><td>规模较大</td></tr>
+    <tr><td>A42 PicsLeap Android</td><td>Interstitial</td><td>$570.85</td><td>9,328</td><td class="good">$61.20</td><td>高单价核心格式</td></tr>
+    <tr><td>A42 PicsLeap Android</td><td>AppOpen</td><td>$191.40</td><td>5,998</td><td class="good">$31.91</td><td>高单价但规模小</td></tr>
+  </table>
+
+  <h2>动作建议</h2>
+  <ul>
+    <li><strong>P0</strong>：暂停或收紧 A118 iOS 的扩量，先核查 05-19 收入为 0 的数据链路；对 A42 05-18/05-19 新量按国家、渠道、campaign 下钻。</li>
+    <li><strong>P1</strong>：A31 维持主力投放，但监控 05-18 后营收下滑原因；A101 保持当前投放强度，优先修复 DNU 和次留。</li>
+    <li><strong>P2</strong>：A42 可做小预算高质量来源扩展测试；A101/A31 优化重点放在 Interstitial 与 AppOpen。</li>
+  </ul>
+
+  <footer>Generated from /Users/suacker/dev/DataAnalysis/BI/reports/photo_series/photo_series_ops_2026-05-15_2026-05-19.md</footer>
+</main>
+</body>
+</html>

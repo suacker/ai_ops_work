@@ -1,0 +1,1781 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e8] [cursor=pointer]: 答问卷，赢好礼！点点数据会员免费领！
+    - generic [ref=e9]:
+      - generic [ref=e10] [cursor=pointer]: 立即参与
+      - generic [ref=e12] [cursor=pointer]: 
+  - generic: 
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - link [ref=e18] [cursor=pointer]:
+        - /url: /
+      - link "Google Play榜单" [ref=e23]:
+        - /url: javascript:;
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27] [cursor=pointer]: 全局
+        - generic [ref=e28] [cursor=pointer]: 商店
+      - combobox [ref=e30]:
+        - generic [ref=e31]:
+          - textbox "搜索应用名称/包名" [ref=e32]
+          - generic [ref=e33]:
+            - button "" [ref=e37]:
+              - generic [ref=e39]: 
+            - generic [ref=e40]:
+              - text:  
+              - generic [ref=e44]: 
+              - text: 
+              - generic: 
+          - generic [ref=e48] [cursor=pointer]: 
+    - generic [ref=e49]:
+      - link " API" [ref=e52] [cursor=pointer]:
+        - /url: /service/api
+        - generic [ref=e53]: 
+        - generic [ref=e54]: API
+      - generic [ref=e55]:    
+      - generic [ref=e58]:
+        - button [ref=e59] [cursor=pointer]
+        - text: 
+      - generic [ref=e60]:
+        - generic [ref=e63]:
+          - generic [ref=e64]: 切换语言版本
+          - generic [ref=e65] [cursor=pointer]: 
+        - generic [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: 文
+          - generic [ref=e70]: A
+      - generic [ref=e73] [cursor=pointer]:
+        - button "用户：oym0u6hl5l5h54k" [ref=e74]:
+          - img "用户：oym0u6hl5l5h54k" [ref=e76]
+          - img [ref=e79]
+        - text:  
+  - generic [ref=e81]:
+    - generic [ref=e84]:
+      - link " 高级搜索" [ref=e88] [cursor=pointer]:
+        - /url: /advanced-search
+        - generic [ref=e89]: 
+        - text: 高级搜索
+      - link "排行榜" [ref=e93] [cursor=pointer]:
+        - /url: /rank/ios/
+      - link " 市场情报" [ref=e97] [cursor=pointer]:
+        - /url: /control/appstore
+        - generic [ref=e98]: 
+        - text: 市场情报
+      - link " 功能标签" [ref=e102] [cursor=pointer]:
+        - /url: /category-tags?category=1&type=1
+        - generic [ref=e103]: 
+        - text: 功能标签
+      - link " ASO/ASA" [ref=e107] [cursor=pointer]:
+        - /url: /search/ios-1-5-5-75-0-微信
+        - generic [ref=e108]: 
+        - text: ASO/ASA
+      - link " SDK" [ref=e112] [cursor=pointer]:
+        - /url: /sdk/rank/install/0-1-75-4-0
+        - generic [ref=e113]: 
+        - text: SDK
+      - link " 广告素材" [ref=e117] [cursor=pointer]:
+        - /url: /creatives
+        - generic [ref=e118]: 
+        - text: 广告素材
+      - link " 竞品对比" [ref=e122] [cursor=pointer]:
+        - /url: /pk/1-75/appInfo
+        - generic [ref=e123]: 
+        - text: 竞品对比
+    - generic:
+      - generic: 
+    - generic [ref=e127]:
+      - generic [ref=e131]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - list [ref=e139]:
+              - listitem [ref=e140]:
+                - link "总榜" [ref=e142] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e145]: 总榜
+              - listitem [ref=e146]:
+                - link "应用榜 " [ref=e148] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e150]:
+                    - generic [ref=e151]: 应用榜
+                    - generic [ref=e152]: 
+              - listitem [ref=e153]:
+                - link "游戏榜 " [ref=e155] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e157]:
+                    - generic [ref=e158]: 游戏榜
+                    - generic [ref=e159]: 
+              - listitem [ref=e160]:
+                - link "家庭榜 " [ref=e162] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e164]:
+                    - generic [ref=e165]: 家庭榜
+                    - generic [ref=e166]: 
+            - generic: 
+          - generic [ref=e167]:
+            - generic [ref=e168]: 榜单类型
+            - list [ref=e170]:
+              - listitem [ref=e171]:
+                - button "全部 " [ref=e174] [cursor=pointer]:
+                  - generic [ref=e176]: 全部
+                  - generic [ref=e177]: 
+            - generic: 
+          - generic [ref=e178]:
+            - generic [ref=e179]: 地区
+            - list [ref=e181]:
+              - listitem [ref=e182]:
+                - generic [ref=e184]:
+                  - text:  
+                  - link "美国 " [ref=e186] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e188]: 美国
+                    - generic [ref=e189]: 
+                  - text: 
+                  - generic: 
+            - generic: 
+          - generic [ref=e191]:
+            - generic [ref=e192]: 日期
+            - list [ref=e194]:
+              - listitem [ref=e195]:
+                - generic [ref=e198] [cursor=pointer]:
+                  - textbox "自定义" [ref=e199]: 03月17日(今天)
+                  - generic [ref=e201]: 
+            - generic: 
+        - generic [ref=e205]:
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e212]: 免费榜
+                - generic [ref=e214]: 23:07更新
+              - generic [ref=e215]:
+                - text: 
+                - generic [ref=e217] [cursor=pointer]: 
+                - text: 
+                - link "" [ref=e219] [cursor=pointer]:
+                  - /url: /rank/compete-11-4-0-24-1?time=&timetype=recent30
+                  - generic [ref=e220]: 
+                - generic [ref=e222] [cursor=pointer]: 
+            - generic [ref=e223]:
+              - generic [ref=e227]:
+                - link "ChatGPT" [ref=e228] [cursor=pointer]:
+                  - /url: /app/np9igupommwru7y/googleplay?market=11&country=24
+                  - img "ChatGPT" [ref=e229]
+                - generic [ref=e231]:
+                  - generic [ref=e232]:
+                    - generic [ref=e235]:
+                      - text: 霸榜1天
+                      - link "ChatGPT" [ref=e236] [cursor=pointer]:
+                        - /url: /app/np9igupommwru7y/googleplay?market=11&country=24
+                    - img [ref=e239]
+                  - generic [ref=e241]:
+                    - generic [ref=e242]:
+                      - link "效率" [ref=e243] [cursor=pointer]:
+                        - /url: /rank/googleplay/11-1-19-24-0
+                      - text: ：1名
+                    - link "OpenAI" [ref=e248] [cursor=pointer]:
+                      - /url: /developer/0523b13262b12c215d8009938f5c14f1/googleplay-app
+              - generic [ref=e249]:
+                - generic [ref=e252]:
+                  - 'link "Temu: Shop Like a Billionaire" [ref=e253] [cursor=pointer]':
+                    - /url: /app/499iduxkom85tj4/googleplay?market=11&country=24
+                    - 'img "Temu: Shop Like a Billionaire" [ref=e254]'
+                  - generic [ref=e256]:
+                    - 'link "Temu: Shop Like a Billionaire" [ref=e261] [cursor=pointer]':
+                      - /url: /app/499iduxkom85tj4/googleplay?market=11&country=24
+                    - generic [ref=e262]:
+                      - generic [ref=e263]:
+                        - link "购物" [ref=e264] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-9-24-0
+                        - text: ：1名
+                      - link "Temu" [ref=e269] [cursor=pointer]:
+                        - /url: /developer/b74de7980835a276b6750c3210207a25/googleplay-app
+                - generic [ref=e271]:
+                  - generic [ref=e272]: 
+                  - text: "1"
+              - generic [ref=e273]:
+                - generic [ref=e276]:
+                  - link "TikTok Lite - Faster TikTok" [ref=e277] [cursor=pointer]:
+                    - /url: /app/y8qijujkjv7ofqy/googleplay?market=11&country=24
+                    - img "TikTok Lite - Faster TikTok" [ref=e278]
+                  - generic [ref=e280]:
+                    - link "TikTok Lite - Faster TikTok" [ref=e285] [cursor=pointer]:
+                      - /url: /app/y8qijujkjv7ofqy/googleplay?market=11&country=24
+                    - generic [ref=e286]:
+                      - generic [ref=e287]:
+                        - link "社交" [ref=e288] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-20-24-0
+                        - text: ：1名
+                      - link "TikTok Pte. Ltd." [ref=e293] [cursor=pointer]:
+                        - /url: /developer/ef9e1d7c0db04b3c653fbf0ab0ee7c8a/googleplay-app
+                - generic [ref=e295]:
+                  - generic [ref=e296]: 
+                  - text: "1"
+              - generic [ref=e298]:
+                - generic [ref=e299]: "4"
+                - generic [ref=e300]:
+                  - link "TikTok - Videos, Shop & LIVE" [ref=e301] [cursor=pointer]:
+                    - /url: /app/74xlipu8x52gal4/googleplay?market=11&country=24
+                    - img "TikTok - Videos, Shop & LIVE" [ref=e302]
+                  - generic [ref=e304]:
+                    - generic [ref=e305]:
+                      - link "TikTok - Videos, Shop & LIVE" [ref=e309] [cursor=pointer]:
+                        - /url: /app/74xlipu8x52gal4/googleplay?market=11&country=24
+                      - img [ref=e312]
+                    - generic [ref=e314]:
+                      - generic [ref=e315]:
+                        - link "社交" [ref=e316] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-20-24-0
+                        - text: ：2名
+                      - link "TikTok Pte. Ltd." [ref=e321] [cursor=pointer]:
+                        - /url: /developer/ef9e1d7c0db04b3c653fbf0ab0ee7c8a/googleplay-app
+              - generic [ref=e323]:
+                - generic [ref=e324]: "5"
+                - generic [ref=e325]:
+                  - link "WhatsApp Messenger" [ref=e326] [cursor=pointer]:
+                    - /url: /app/lnwoiwur0eqcr4x/googleplay?market=11&country=24
+                    - img "WhatsApp Messenger" [ref=e327]
+                  - generic [ref=e329]:
+                    - generic [ref=e330]:
+                      - link "WhatsApp Messenger" [ref=e334] [cursor=pointer]:
+                        - /url: /app/lnwoiwur0eqcr4x/googleplay?market=11&country=24
+                      - img [ref=e337]
+                    - generic [ref=e339]:
+                      - generic [ref=e340]:
+                        - link "通讯" [ref=e341] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-27-24-0
+                        - text: ：1名
+                      - link "WhatsApp LLC" [ref=e346] [cursor=pointer]:
+                        - /url: /developer/234a2e1c133811d2ba0b3600fb5f7d9c/googleplay-app
+              - generic [ref=e347]:
+                - generic [ref=e348]:
+                  - generic [ref=e349]: "6"
+                  - generic [ref=e350]:
+                    - link "Coin Master - Board Adventure" [ref=e351] [cursor=pointer]:
+                      - /url: /app/y2qiluvz10gxf1y/googleplay?market=11&country=24
+                      - img "Coin Master - Board Adventure" [ref=e352]
+                    - generic [ref=e354]:
+                      - generic [ref=e355]:
+                        - link "Coin Master - Board Adventure" [ref=e359] [cursor=pointer]:
+                          - /url: /app/y2qiluvz10gxf1y/googleplay?market=11&country=24
+                        - img [ref=e362]
+                      - generic [ref=e364]:
+                        - generic [ref=e365]:
+                          - link "休闲" [ref=e366] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-49-24-0
+                          - text: ：1名
+                        - link "Moon Active" [ref=e371] [cursor=pointer]:
+                          - /url: /developer/98a13e15bcbbfaaad8049cd6b09e87f1/googleplay-app
+                - generic [ref=e373]:
+                  - generic [ref=e374]: 
+                  - text: "2"
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - generic [ref=e377]: "7"
+                  - generic [ref=e378]:
+                    - link "Instagram" [ref=e379] [cursor=pointer]:
+                      - /url: /app/6ndki6urq7l2fd4/googleplay?market=11&country=24
+                      - img "Instagram" [ref=e380]
+                    - generic [ref=e382]:
+                      - generic [ref=e383]:
+                        - link "Instagram" [ref=e387] [cursor=pointer]:
+                          - /url: /app/6ndki6urq7l2fd4/googleplay?market=11&country=24
+                        - img [ref=e390]
+                      - generic [ref=e392]:
+                        - generic [ref=e393]:
+                          - link "社交" [ref=e394] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-20-24-0
+                          - text: ：3名
+                        - link "Instagram" [ref=e399] [cursor=pointer]:
+                          - /url: /developer/55f015a0c5605702f913536afe70cfb0/googleplay-app
+                - generic [ref=e401]:
+                  - generic [ref=e402]: 
+                  - text: "1"
+              - generic [ref=e403]:
+                - generic [ref=e404]:
+                  - generic [ref=e405]: "8"
+                  - generic [ref=e406]:
+                    - link "Block Blast!" [ref=e407] [cursor=pointer]:
+                      - /url: /app/ymdi2u8mw59rs5y/googleplay?market=11&country=24
+                      - img "Block Blast!" [ref=e408]
+                    - generic [ref=e410]:
+                      - generic [ref=e411]:
+                        - link "Block Blast!" [ref=e415] [cursor=pointer]:
+                          - /url: /app/ymdi2u8mw59rs5y/googleplay?market=11&country=24
+                        - img [ref=e418]
+                      - generic [ref=e420]:
+                        - generic [ref=e421]:
+                          - link "益智" [ref=e422] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-50-24-0
+                          - text: ：1名
+                        - link "HungryStudio" [ref=e427] [cursor=pointer]:
+                          - /url: /developer/1db247d3f91668f09dd0eed35bc5e943/googleplay-app
+                - generic [ref=e429]:
+                  - generic [ref=e430]: 
+                  - text: "1"
+              - generic [ref=e432]:
+                - generic [ref=e433]: "9"
+                - generic [ref=e434]:
+                  - link "SHEIN-Shopping Online" [ref=e435] [cursor=pointer]:
+                    - /url: /app/7yr6i9u7eqjtoyw/googleplay?market=11&country=24
+                    - img "SHEIN-Shopping Online" [ref=e436]
+                  - generic [ref=e438]:
+                    - link "SHEIN-Shopping Online" [ref=e443] [cursor=pointer]:
+                      - /url: /app/7yr6i9u7eqjtoyw/googleplay?market=11&country=24
+                    - generic [ref=e444]:
+                      - generic [ref=e445]:
+                        - link "购物" [ref=e446] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-9-24-0
+                        - text: ：2名
+                      - link "Roadget Business PTE. LTD." [ref=e451] [cursor=pointer]:
+                        - /url: /developer/f36cb917e8c000211f54b3555a4d8f8e/googleplay-app
+              - generic [ref=e452]:
+                - generic [ref=e453]:
+                  - generic [ref=e454]: "10"
+                  - generic [ref=e455]:
+                    - link "Snapchat" [ref=e456] [cursor=pointer]:
+                      - /url: /app/lnwoiwurxljur4x/googleplay?market=11&country=24
+                      - img "Snapchat" [ref=e457]
+                    - generic [ref=e459]:
+                      - generic [ref=e460]:
+                        - link "Snapchat" [ref=e464] [cursor=pointer]:
+                          - /url: /app/lnwoiwurxljur4x/googleplay?market=11&country=24
+                        - img [ref=e467]
+                      - generic [ref=e469]:
+                        - generic [ref=e470]:
+                          - link "通讯" [ref=e471] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-27-24-0
+                          - text: ：2名
+                        - link "Snap Inc" [ref=e476] [cursor=pointer]:
+                          - /url: /developer/0f985805b63ba9ae5941359f63f45e86/googleplay-app
+                - generic [ref=e478]:
+                  - generic [ref=e479]: 
+                  - text: "1"
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - generic [ref=e482]: "11"
+                  - generic [ref=e483]:
+                    - link "PDF & Launcher for Android" [ref=e484] [cursor=pointer]:
+                      - /url: /app/y8qiju187mxriqy/googleplay?market=11&country=24
+                      - img "PDF & Launcher for Android" [ref=e485]
+                    - generic [ref=e487]:
+                      - link "PDF & Launcher for Android" [ref=e492] [cursor=pointer]:
+                        - /url: /app/y8qiju187mxriqy/googleplay?market=11&country=24
+                      - generic [ref=e493]:
+                        - generic [ref=e494]:
+                          - link "工具" [ref=e495] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-7-24-0
+                          - text: ：1名
+                        - link "YINGRUN LIMITED" [ref=e500] [cursor=pointer]:
+                          - /url: /developer/6a5daf39879cc34684c4223b8dc99511/googleplay-app
+                - generic [ref=e502]:
+                  - generic [ref=e503]: 
+                  - text: "2"
+              - generic [ref=e505]:
+                - generic [ref=e506]: "12"
+                - generic [ref=e507]:
+                  - link "CapCut - Video Editor" [ref=e508] [cursor=pointer]:
+                    - /url: /app/w4q7izuj0mva7np/googleplay?market=11&country=24
+                    - img "CapCut - Video Editor" [ref=e509]
+                  - generic [ref=e511]:
+                    - generic [ref=e512]:
+                      - link "CapCut - Video Editor" [ref=e516] [cursor=pointer]:
+                        - /url: /app/w4q7izuj0mva7np/googleplay?market=11&country=24
+                      - img [ref=e519]
+                    - generic [ref=e521]:
+                      - generic [ref=e522]:
+                        - link "视频播放和编辑" [ref=e523] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-24-24-0
+                        - text: ：1名
+                      - link "Bytedance Pte. Ltd." [ref=e528] [cursor=pointer]:
+                        - /url: /developer/e7094cb84a89e2a659355f95574e18dd/googleplay-app
+              - generic [ref=e529]:
+                - generic [ref=e530]:
+                  - generic [ref=e531]: "13"
+                  - generic [ref=e532]:
+                    - link "Cash App" [ref=e533] [cursor=pointer]:
+                      - /url: /app/jnzki9u8empeavn/googleplay?market=11&country=24
+                      - img "Cash App" [ref=e534]
+                    - generic [ref=e536]:
+                      - link "Cash App" [ref=e541] [cursor=pointer]:
+                        - /url: /app/jnzki9u8empeavn/googleplay?market=11&country=24
+                      - generic [ref=e542]:
+                        - generic [ref=e543]:
+                          - link "财务" [ref=e544] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-2-24-0
+                          - text: ：1名
+                        - link "Block, Inc." [ref=e549] [cursor=pointer]:
+                          - /url: /developer/da288471bb96b4262aa79a61778fdcb9/googleplay-app
+                - generic [ref=e551]:
+                  - generic [ref=e552]: 
+                  - text: "3"
+              - generic [ref=e553]:
+                - generic [ref=e554]:
+                  - generic [ref=e555]: "14"
+                  - generic [ref=e556]:
+                    - link "Roblox" [ref=e557] [cursor=pointer]:
+                      - /url: /app/wnp9iguqg70t7y3/googleplay?market=11&country=24
+                      - img "Roblox" [ref=e558]
+                    - generic [ref=e560]:
+                      - generic [ref=e561]:
+                        - link "Roblox" [ref=e565] [cursor=pointer]:
+                          - /url: /app/wnp9iguqg70t7y3/googleplay?market=11&country=24
+                        - img [ref=e568]
+                      - generic [ref=e570]:
+                        - generic [ref=e571]:
+                          - link "冒险" [ref=e572] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-45-24-0
+                          - text: ：1名
+                        - link "Roblox Corporation" [ref=e577] [cursor=pointer]:
+                          - /url: /developer/c9e9837d1bdb266f25d3a9006f4a2dce/googleplay-app
+                - generic [ref=e579]:
+                  - generic [ref=e580]: 
+                  - text: "2"
+              - generic [ref=e581]:
+                - generic [ref=e582]:
+                  - generic [ref=e583]: "15"
+                  - generic [ref=e584]:
+                    - 'link "Whatnot: Shop, Sell, Connect" [ref=e585] [cursor=pointer]':
+                      - /url: /app/oymdi2u89zjva5y/googleplay?market=11&country=24
+                      - 'img "Whatnot: Shop, Sell, Connect" [ref=e586]'
+                    - generic [ref=e588]:
+                      - 'link "Whatnot: Shop, Sell, Connect" [ref=e593] [cursor=pointer]':
+                        - /url: /app/oymdi2u89zjva5y/googleplay?market=11&country=24
+                      - generic [ref=e594]:
+                        - generic [ref=e595]:
+                          - link "购物" [ref=e596] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-9-24-0
+                          - text: ：3名
+                        - link "Whatnot Inc." [ref=e601] [cursor=pointer]:
+                          - /url: /developer/399d206c51d274ee3d59238d736b2004/googleplay-app
+                - generic [ref=e603]:
+                  - generic [ref=e604]: 
+                  - text: "1"
+              - generic [ref=e605]:
+                - generic [ref=e606]:
+                  - generic [ref=e607]: "16"
+                  - generic [ref=e608]:
+                    - link "Easy Homescreen" [ref=e609] [cursor=pointer]:
+                      - /url: /app/n7qi9uvr6p6otq4/googleplay?market=11&country=24
+                      - img "Easy Homescreen" [ref=e610]
+                    - generic [ref=e612]:
+                      - generic [ref=e613]:
+                        - link "Easy Homescreen" [ref=e617] [cursor=pointer]:
+                          - /url: /app/n7qi9uvr6p6otq4/googleplay?market=11&country=24
+                        - img [ref=e620]
+                      - generic [ref=e622]:
+                        - generic [ref=e623]:
+                          - link "个性定制" [ref=e624] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-6-24-0
+                          - text: ：1名
+                        - link "Homescreen Apps" [ref=e629] [cursor=pointer]:
+                          - /url: /developer/a44db743ec5eabf75e4bc06be2988de4/googleplay-app
+                - generic [ref=e631]:
+                  - generic [ref=e632]: 
+                  - text: "2"
+              - generic [ref=e634]:
+                - generic [ref=e635]: "17"
+                - generic [ref=e636]:
+                  - link "Facebook" [ref=e637] [cursor=pointer]:
+                    - /url: /app/lnwoiwuegl8jhr4/googleplay?market=11&country=24
+                    - img "Facebook" [ref=e638]
+                  - generic [ref=e640]:
+                    - generic [ref=e641]:
+                      - link "Facebook" [ref=e645] [cursor=pointer]:
+                        - /url: /app/lnwoiwuegl8jhr4/googleplay?market=11&country=24
+                      - img [ref=e648]
+                    - generic [ref=e650]:
+                      - generic [ref=e651]:
+                        - link "社交" [ref=e652] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-20-24-0
+                        - text: ：4名
+                      - link "Meta Platforms, Inc." [ref=e657] [cursor=pointer]:
+                        - /url: /developer/0a07a0f47b045a6d09d11f264056fc2a/googleplay-app
+              - generic [ref=e658]:
+                - generic [ref=e659]:
+                  - generic [ref=e660]: "18"
+                  - generic [ref=e661]:
+                    - link "Claude by Anthropic" [ref=e662] [cursor=pointer]:
+                      - /url: /app/nldiruvpxjg7iq4/googleplay?market=11&country=24
+                      - img "Claude by Anthropic" [ref=e663]
+                    - generic [ref=e665]:
+                      - generic [ref=e666]:
+                        - link "Claude by Anthropic" [ref=e670] [cursor=pointer]:
+                          - /url: /app/nldiruvpxjg7iq4/googleplay?market=11&country=24
+                        - img [ref=e673]
+                      - generic [ref=e675]:
+                        - generic [ref=e676]:
+                          - link "效率" [ref=e677] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-19-24-0
+                          - text: ：2名
+                        - link "Anthropic PBC" [ref=e682] [cursor=pointer]:
+                          - /url: /developer/214d68140989baf045cef58617dbb922/googleplay-app
+                - generic [ref=e684]:
+                  - generic [ref=e685]: 
+                  - text: "3"
+              - generic [ref=e687]:
+                - generic [ref=e688]: "19"
+                - generic [ref=e689]:
+                  - link "Vita Mahjong" [ref=e690] [cursor=pointer]:
+                    - /url: /app/4xlipuzwk0xksl4/googleplay?market=11&country=24
+                    - img "Vita Mahjong" [ref=e691]
+                  - generic [ref=e693]:
+                    - generic [ref=e694]:
+                      - link "Vita Mahjong" [ref=e698] [cursor=pointer]:
+                        - /url: /app/4xlipuzwk0xksl4/googleplay?market=11&country=24
+                      - img [ref=e701]
+                    - generic [ref=e703]:
+                      - generic [ref=e704]:
+                        - link "桌面和棋类" [ref=e705] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-53-24-0
+                        - text: ：1名
+                      - link "Vita Studio." [ref=e710] [cursor=pointer]:
+                        - /url: /developer/51d30accb0eb63454992a71f74dd45e4/googleplay-app
+              - generic [ref=e711]:
+                - generic [ref=e712]:
+                  - generic [ref=e713]: "20"
+                  - generic [ref=e714]:
+                    - link "Weather Now Launcher - Radar" [ref=e715] [cursor=pointer]:
+                      - /url: /app/4q7izug7jmgou7n/googleplay?market=11&country=24
+                      - img "Weather Now Launcher - Radar" [ref=e716]
+                    - generic [ref=e718]:
+                      - link "Weather Now Launcher - Radar" [ref=e723] [cursor=pointer]:
+                        - /url: /app/4q7izug7jmgou7n/googleplay?market=11&country=24
+                      - generic [ref=e724]:
+                        - generic [ref=e725]:
+                          - link "天气" [ref=e726] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-26-24-0
+                          - text: ：1名
+                        - link "Homescreen Apps" [ref=e731] [cursor=pointer]:
+                          - /url: /developer/a44db743ec5eabf75e4bc06be2988de4/googleplay-app
+                - generic [ref=e733]:
+                  - generic [ref=e734]: 
+                  - text: "54"
+          - generic [ref=e736]:
+            - generic [ref=e737]:
+              - generic [ref=e738]:
+                - generic [ref=e741]: 付费榜
+                - generic [ref=e743]: 23:07更新
+              - generic [ref=e744]:
+                - text: 
+                - generic [ref=e746] [cursor=pointer]: 
+                - text: 
+                - link "" [ref=e748] [cursor=pointer]:
+                  - /url: /rank/compete-11-4-0-24-3?time=&timetype=recent30
+                  - generic [ref=e749]: 
+                - generic [ref=e751] [cursor=pointer]: 
+            - generic [ref=e752]:
+              - generic [ref=e753]:
+                - generic [ref=e756]:
+                  - 'link "Minecraft: Dream it, Build it!" [ref=e757] [cursor=pointer]':
+                    - /url: /app/jnzki9u0dj5uvnk/googleplay?market=11&country=24
+                    - 'img "Minecraft: Dream it, Build it!" [ref=e758]'
+                  - generic [ref=e760]:
+                    - generic [ref=e761]:
+                      - generic [ref=e764]:
+                        - text: 霸榜85天
+                        - 'link "Minecraft: Dream it, Build it!" [ref=e765] [cursor=pointer]':
+                          - /url: /app/jnzki9u0dj5uvnk/googleplay?market=11&country=24
+                      - img [ref=e768]
+                    - generic [ref=e770]:
+                      - generic [ref=e771]:
+                        - link "街机" [ref=e772] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-42-24-0
+                        - text: ：1名
+                      - link "Mojang" [ref=e777] [cursor=pointer]:
+                        - /url: /developer/0cb7511908b2b8719d8a29e921561e21/googleplay-app
+                - generic [ref=e779]: $6.99
+              - generic [ref=e780]:
+                - generic [ref=e783]:
+                  - link "Geometry Dash" [ref=e784] [cursor=pointer]:
+                    - /url: /app/v4v2imulp5wvhgy/googleplay?market=11&country=24
+                    - img "Geometry Dash" [ref=e785]
+                  - generic [ref=e787]:
+                    - link "Geometry Dash" [ref=e792] [cursor=pointer]:
+                      - /url: /app/v4v2imulp5wvhgy/googleplay?market=11&country=24
+                    - generic [ref=e793]:
+                      - generic [ref=e794]:
+                        - link "街机" [ref=e795] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-42-24-0
+                        - text: ：2名
+                      - link "RobTop Games" [ref=e800] [cursor=pointer]:
+                        - /url: /developer/103787f461d564650248dac2d93ed050/googleplay-app
+                - generic [ref=e802]: $2.99
+              - generic [ref=e803]:
+                - generic [ref=e806]:
+                  - link "Slay the Spire" [ref=e807] [cursor=pointer]:
+                    - /url: /app/q4kdipuv1o35awn/googleplay?market=11&country=24
+                    - img "Slay the Spire" [ref=e808]
+                  - generic [ref=e810]:
+                    - link "Slay the Spire" [ref=e815] [cursor=pointer]:
+                      - /url: /app/q4kdipuv1o35awn/googleplay?market=11&country=24
+                    - generic [ref=e816]:
+                      - generic [ref=e817]:
+                        - link "卡牌" [ref=e818] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-44-24-0
+                        - text: ：1名
+                      - link "Humble Games" [ref=e823] [cursor=pointer]:
+                        - /url: /developer/8dc94da534a197284c8df82304acb77a/googleplay-app
+                - generic [ref=e825]: $9.99
+              - generic [ref=e826]:
+                - generic [ref=e827]:
+                  - generic [ref=e828]: "4"
+                  - generic [ref=e829]:
+                    - link "Balatro" [ref=e830] [cursor=pointer]:
+                      - /url: /app/ymdi2ulk30p6b5y/googleplay?market=11&country=24
+                      - img "Balatro" [ref=e831]
+                    - generic [ref=e833]:
+                      - link "Balatro" [ref=e838] [cursor=pointer]:
+                        - /url: /app/ymdi2ulk30p6b5y/googleplay?market=11&country=24
+                      - generic [ref=e839]:
+                        - generic [ref=e840]:
+                          - link "卡牌" [ref=e841] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-44-24-0
+                          - text: ：2名
+                        - link "Playstack" [ref=e846] [cursor=pointer]:
+                          - /url: /developer/bcca076103849de9c769223b17466a18/googleplay-app
+                - generic [ref=e848]: $9.99
+              - generic [ref=e849]:
+                - generic [ref=e850]:
+                  - generic [ref=e851]: "5"
+                  - generic [ref=e852]:
+                    - link "Bloons TD 6" [ref=e853] [cursor=pointer]:
+                      - /url: /app/w4q7izuj5rou7np/googleplay?market=11&country=24
+                      - img "Bloons TD 6" [ref=e854]
+                    - generic [ref=e856]:
+                      - generic [ref=e857]:
+                        - link "Bloons TD 6" [ref=e861] [cursor=pointer]:
+                          - /url: /app/w4q7izuj5rou7np/googleplay?market=11&country=24
+                        - img [ref=e864]
+                      - generic [ref=e866]:
+                        - generic [ref=e867]:
+                          - link "策略" [ref=e868] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-37-24-0
+                          - text: ：1名
+                        - link "ninja kiwi" [ref=e873] [cursor=pointer]:
+                          - /url: /developer/0f228000db8cf0d9ca4ef700f2abc14e/googleplay-app
+                - generic [ref=e875]: $6.99
+              - generic [ref=e876]:
+                - generic [ref=e877]:
+                  - generic [ref=e878]: "6"
+                  - generic [ref=e879]:
+                    - link "Stardew Valley" [ref=e880] [cursor=pointer]:
+                      - /url: /app/0y8qijuqzzd1cqy/googleplay?market=11&country=24
+                      - img "Stardew Valley" [ref=e881]
+                    - generic [ref=e883]:
+                      - link "Stardew Valley" [ref=e888] [cursor=pointer]:
+                        - /url: /app/0y8qijuqzzd1cqy/googleplay?market=11&country=24
+                      - generic [ref=e889]:
+                        - generic [ref=e890]:
+                          - link "角色扮演" [ref=e891] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-40-24-0
+                          - text: ：1名
+                        - link "ConcernedApe" [ref=e896] [cursor=pointer]:
+                          - /url: /developer/cd535377173c2dd2bb252c3f8bc9d0a2/googleplay-app
+                - generic [ref=e898]: $4.99
+              - generic [ref=e899]:
+                - generic [ref=e900]:
+                  - generic [ref=e901]: "7"
+                  - generic [ref=e902]:
+                    - link "Poppy Playtime Chapter 1" [ref=e903] [cursor=pointer]:
+                      - /url: /app/mygdivu1wx5vc6y/googleplay?market=11&country=24
+                      - img "Poppy Playtime Chapter 1" [ref=e904]
+                    - generic [ref=e906]:
+                      - link "Poppy Playtime Chapter 1" [ref=e911] [cursor=pointer]:
+                        - /url: /app/mygdivu1wx5vc6y/googleplay?market=11&country=24
+                      - generic [ref=e912]:
+                        - generic [ref=e913]:
+                          - link "冒险" [ref=e914] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-45-24-0
+                          - text: ：1名
+                        - link "Mob Entertainment" [ref=e919] [cursor=pointer]:
+                          - /url: /developer/0e6c3d1a74a7952ab8e8891bc59105b2/googleplay-app
+                - generic [ref=e921]: $2.99
+              - generic [ref=e922]:
+                - generic [ref=e923]:
+                  - generic [ref=e924]: "8"
+                  - generic [ref=e925]:
+                    - link "CloverPit" [ref=e926] [cursor=pointer]:
+                      - /url: /app/ndki6udx1kl2ud4/googleplay?market=11&country=24
+                      - img "CloverPit" [ref=e927]
+                    - generic [ref=e929]:
+                      - link "CloverPit" [ref=e934] [cursor=pointer]:
+                        - /url: /app/ndki6udx1kl2ud4/googleplay?market=11&country=24
+                      - generic [ref=e935]:
+                        - generic [ref=e936]:
+                          - link "策略" [ref=e937] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-37-24-0
+                          - text: ：2名
+                        - link "Future Friends Games" [ref=e942] [cursor=pointer]:
+                          - /url: /developer/15014b91589ff83d0127964bc37a716c/googleplay-app
+                - generic [ref=e944]: $4.99
+              - generic [ref=e945]:
+                - generic [ref=e946]:
+                  - generic [ref=e947]: "9"
+                  - generic [ref=e948]:
+                    - link "My Boy! - GBA Emulator" [ref=e949] [cursor=pointer]:
+                      - /url: /app/7yodivu031pqa9n/googleplay?market=11&country=24
+                      - img "My Boy! - GBA Emulator" [ref=e950]
+                    - generic [ref=e952]:
+                      - link "My Boy! - GBA Emulator" [ref=e957] [cursor=pointer]:
+                        - /url: /app/7yodivu031pqa9n/googleplay?market=11&country=24
+                      - generic [ref=e958]:
+                        - generic [ref=e959]:
+                          - link "街机" [ref=e960] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-42-24-0
+                          - text: ：3名
+                        - link "Pixel Respawn LLC" [ref=e965] [cursor=pointer]:
+                          - /url: /developer/183d27cdc2d61f4534eabdce04f01849/googleplay-app
+                - generic [ref=e967]: $4.99
+              - generic [ref=e968]:
+                - generic [ref=e969]:
+                  - generic [ref=e970]: "10"
+                  - generic [ref=e971]:
+                    - link "Poppy Playtime Chapter 2" [ref=e972] [cursor=pointer]:
+                      - /url: /app/np9igupz8wg0u7y/googleplay?market=11&country=24
+                      - img "Poppy Playtime Chapter 2" [ref=e973]
+                    - generic [ref=e975]:
+                      - link "Poppy Playtime Chapter 2" [ref=e980] [cursor=pointer]:
+                        - /url: /app/np9igupz8wg0u7y/googleplay?market=11&country=24
+                      - generic [ref=e981]:
+                        - generic [ref=e982]:
+                          - link "动作" [ref=e983] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-38-24-0
+                          - text: ：1名
+                        - link "Mob Entertainment" [ref=e988] [cursor=pointer]:
+                          - /url: /developer/0e6c3d1a74a7952ab8e8891bc59105b2/googleplay-app
+                - generic [ref=e990]: $4.99
+              - generic [ref=e991]:
+                - generic [ref=e992]:
+                  - generic [ref=e993]: "11"
+                  - generic [ref=e994]:
+                    - link "Five Nights at Freddy's" [ref=e995] [cursor=pointer]:
+                      - /url: /app/v4v2imupzlrefgy/googleplay?market=11&country=24
+                      - img "Five Nights at Freddy's" [ref=e996]
+                    - generic [ref=e998]:
+                      - generic [ref=e999]:
+                        - link "Five Nights at Freddy's" [ref=e1003] [cursor=pointer]:
+                          - /url: /app/v4v2imupzlrefgy/googleplay?market=11&country=24
+                        - img [ref=e1006]
+                      - generic [ref=e1008]:
+                        - generic [ref=e1009]:
+                          - link "动作" [ref=e1010] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-38-24-0
+                          - text: ：2名
+                        - link "Clickteam USA LLC" [ref=e1015] [cursor=pointer]:
+                          - /url: /developer/c400d9a72745c4733b43a46fe2698f05/googleplay-app
+                - generic [ref=e1017]: $2.99
+              - generic [ref=e1018]:
+                - generic [ref=e1019]:
+                  - generic [ref=e1020]: "12"
+                  - generic [ref=e1021]:
+                    - link "HotSchedules" [ref=e1022] [cursor=pointer]:
+                      - /url: /app/6ndki6u3m688bd4/googleplay?market=11&country=24
+                      - img "HotSchedules" [ref=e1023]
+                    - generic [ref=e1025]:
+                      - link "HotSchedules" [ref=e1030] [cursor=pointer]:
+                        - /url: /app/6ndki6u3m688bd4/googleplay?market=11&country=24
+                      - generic [ref=e1031]:
+                        - generic [ref=e1032]:
+                          - link "效率" [ref=e1033] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-19-24-0
+                          - text: ：1名
+                        - link "Fourth Enterprises, LLC" [ref=e1038] [cursor=pointer]:
+                          - /url: /developer/1e06adf8fe18b5ed3ba881294987cebd/googleplay-app
+                - generic [ref=e1040]: $2.99
+              - generic [ref=e1041]:
+                - generic [ref=e1042]:
+                  - generic [ref=e1043]: "13"
+                  - generic [ref=e1044]:
+                    - link "Terraria" [ref=e1045] [cursor=pointer]:
+                      - /url: /app/ky58i5uw95rvh7y/googleplay?market=11&country=24
+                      - img "Terraria" [ref=e1046]
+                    - generic [ref=e1048]:
+                      - link "Terraria" [ref=e1053] [cursor=pointer]:
+                        - /url: /app/ky58i5uw95rvh7y/googleplay?market=11&country=24
+                      - generic [ref=e1054]:
+                        - generic [ref=e1055]:
+                          - link "冒险" [ref=e1056] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-45-24-0
+                          - text: ：2名
+                        - link "505 Games Srl" [ref=e1061] [cursor=pointer]:
+                          - /url: /developer/dddc11f242ba923aab9954b435157583/googleplay-app
+                - generic [ref=e1063]: $4.99
+              - generic [ref=e1064]:
+                - generic [ref=e1065]:
+                  - generic [ref=e1066]: "14"
+                  - generic [ref=e1067]:
+                    - link "Fallout Pip-Boy SE Watch Face" [ref=e1068] [cursor=pointer]:
+                      - /url: /app/4xlipuzx811dsl4/googleplay?market=11&country=24
+                      - img "Fallout Pip-Boy SE Watch Face" [ref=e1069]
+                    - generic [ref=e1071]:
+                      - link "Fallout Pip-Boy SE Watch Face" [ref=e1076] [cursor=pointer]:
+                        - /url: /app/4xlipuzx811dsl4/googleplay?market=11&country=24
+                      - generic [ref=e1077]:
+                        - generic [ref=e1078]:
+                          - link "个性定制" [ref=e1079] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-6-24-0
+                          - text: ：1名
+                        - link "Facer Studios" [ref=e1084] [cursor=pointer]:
+                          - /url: /developer/5d1636658d3c748b6cf7d0ff5c90421c/googleplay-app
+                - generic [ref=e1086]: $1.99
+              - generic [ref=e1087]:
+                - generic [ref=e1088]:
+                  - generic [ref=e1089]: "15"
+                  - generic [ref=e1090]:
+                    - 'link "Grand Theft Auto: San Andreas" [ref=e1091] [cursor=pointer]':
+                      - /url: /app/q4kdipur67l5hwn/googleplay?market=11&country=24
+                      - 'img "Grand Theft Auto: San Andreas" [ref=e1092]'
+                    - generic [ref=e1094]:
+                      - generic [ref=e1095]:
+                        - 'link "Grand Theft Auto: San Andreas" [ref=e1099] [cursor=pointer]':
+                          - /url: /app/q4kdipur67l5hwn/googleplay?market=11&country=24
+                        - img [ref=e1102]
+                      - generic [ref=e1104]:
+                        - generic [ref=e1105]:
+                          - link "动作" [ref=e1106] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-38-24-0
+                          - text: ：3名
+                        - link "Rockstar Games" [ref=e1111] [cursor=pointer]:
+                          - /url: /developer/64a419c3a9c10055e661c73d28b1cb7e/googleplay-app
+                - generic [ref=e1112]:
+                  - generic [ref=e1113]: $6.99
+                  - generic [ref=e1114]:
+                    - generic [ref=e1115]: 
+                    - text: "4"
+              - generic [ref=e1116]:
+                - generic [ref=e1117]:
+                  - generic [ref=e1118]: "16"
+                  - generic [ref=e1119]:
+                    - link "Poppy Playtime Chapter 4" [ref=e1120] [cursor=pointer]:
+                      - /url: /app/y1qioux98k2oh1n/googleplay?market=11&country=24
+                      - img "Poppy Playtime Chapter 4" [ref=e1121]
+                    - generic [ref=e1123]:
+                      - link "Poppy Playtime Chapter 4" [ref=e1128] [cursor=pointer]:
+                        - /url: /app/y1qioux98k2oh1n/googleplay?market=11&country=24
+                      - generic [ref=e1129]:
+                        - generic [ref=e1130]:
+                          - link "益智" [ref=e1131] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-50-24-0
+                          - text: ：1名
+                        - link "Mob Entertainment" [ref=e1136] [cursor=pointer]:
+                          - /url: /developer/0e6c3d1a74a7952ab8e8891bc59105b2/googleplay-app
+                - generic [ref=e1138]: $4.99
+              - generic [ref=e1139]:
+                - generic [ref=e1140]:
+                  - generic [ref=e1141]: "17"
+                  - generic [ref=e1142]:
+                    - link "Incredibox" [ref=e1143] [cursor=pointer]:
+                      - /url: /app/7yodivug591u9nz/googleplay?market=11&country=24
+                      - img "Incredibox" [ref=e1144]
+                    - generic [ref=e1146]:
+                      - link "Incredibox" [ref=e1151] [cursor=pointer]:
+                        - /url: /app/7yodivug591u9nz/googleplay?market=11&country=24
+                      - generic [ref=e1152]:
+                        - generic [ref=e1153]:
+                          - link "音乐" [ref=e1154] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-51-24-0
+                          - text: ：1名
+                        - link "SO FAR SO GOOD" [ref=e1159] [cursor=pointer]:
+                          - /url: /developer/30ef2e9c55d0be6f908a63d7636ee436/googleplay-app
+                - generic [ref=e1161]: $2.99
+              - generic [ref=e1162]:
+                - generic [ref=e1163]:
+                  - generic [ref=e1164]: "18"
+                  - generic [ref=e1165]:
+                    - link "RadarScope" [ref=e1166] [cursor=pointer]:
+                      - /url: /app/jnzki9u086rxtvn/googleplay?market=11&country=24
+                      - img "RadarScope" [ref=e1167]
+                    - generic [ref=e1169]:
+                      - generic [ref=e1170]:
+                        - link "RadarScope" [ref=e1174] [cursor=pointer]:
+                          - /url: /app/jnzki9u086rxtvn/googleplay?market=11&country=24
+                        - img [ref=e1177]
+                      - generic [ref=e1179]:
+                        - generic [ref=e1180]:
+                          - link "天气" [ref=e1181] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-26-24-0
+                          - text: ：1名
+                        - link "Telvent DTN, LLC" [ref=e1186] [cursor=pointer]:
+                          - /url: /developer/43d45563f36faa1194f0deddd5581ef4/googleplay-app
+                - generic [ref=e1187]:
+                  - generic [ref=e1188]: $9.99
+                  - generic [ref=e1189]:
+                    - generic [ref=e1190]: 
+                    - text: "16"
+              - generic [ref=e1191]:
+                - generic [ref=e1192]:
+                  - generic [ref=e1193]: "19"
+                  - generic [ref=e1194]:
+                    - link "Neon Valley [AMOLED]" [ref=e1195] [cursor=pointer]:
+                      - /url: /app/jnzki9ule683tvn/googleplay?market=11&country=24
+                      - img "Neon Valley [AMOLED]" [ref=e1196]
+                    - generic [ref=e1198]:
+                      - generic [ref=e1199]:
+                        - link "Neon Valley [AMOLED]" [ref=e1203] [cursor=pointer]:
+                          - /url: /app/jnzki9ule683tvn/googleplay?market=11&country=24
+                        - img [ref=e1206]
+                      - generic [ref=e1208]:
+                        - generic [ref=e1209]:
+                          - link "街机" [ref=e1210] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-42-24-0
+                          - text: ：4名
+                        - link "Quantic Bit" [ref=e1215] [cursor=pointer]:
+                          - /url: /developer/c026f5c366c1e03002a2bb379f2db2a8/googleplay-app
+                - generic [ref=e1216]:
+                  - generic [ref=e1217]: $0.05
+                  - generic [ref=e1218]:
+                    - generic [ref=e1219]: 
+                    - text: "1"
+              - generic [ref=e1220]:
+                - generic [ref=e1221]:
+                  - generic [ref=e1222]: "20"
+                  - generic [ref=e1223]:
+                    - link "PER27 Digital Watch Face" [ref=e1224] [cursor=pointer]:
+                      - /url: /app/ndki6ur58ww2bd4/googleplay?market=11&country=24
+                      - img "PER27 Digital Watch Face" [ref=e1225]
+                    - generic [ref=e1227]:
+                      - link "PER27 Digital Watch Face" [ref=e1232] [cursor=pointer]:
+                        - /url: /app/ndki6ur58ww2bd4/googleplay?market=11&country=24
+                      - generic [ref=e1233]:
+                        - generic [ref=e1234]:
+                          - link "个性定制" [ref=e1235] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-6-24-0
+                          - text: ：2名
+                        - link "PERSONA Watch Face" [ref=e1240] [cursor=pointer]:
+                          - /url: /developer/8a2cd915c82b0e2d28d47dbea2d35e5e/googleplay-app
+                - generic [ref=e1241]:
+                  - generic [ref=e1242]: $2.99
+                  - generic [ref=e1243]:
+                    - generic [ref=e1244]: 
+                    - text: "2"
+          - generic [ref=e1246]:
+            - generic [ref=e1247]:
+              - generic [ref=e1248]:
+                - generic [ref=e1251]: 畅销榜
+                - generic [ref=e1253]: 23:07更新
+              - generic [ref=e1254]:
+                - text: 
+                - generic [ref=e1256] [cursor=pointer]: 
+                - text: 
+                - link "" [ref=e1258] [cursor=pointer]:
+                  - /url: /rank/compete-11-4-0-24-2?time=&timetype=recent30
+                  - generic [ref=e1259]: 
+                - generic [ref=e1261] [cursor=pointer]: 
+            - generic [ref=e1262]:
+              - generic [ref=e1266]:
+                - link "Google One" [ref=e1267] [cursor=pointer]:
+                  - /url: /app/oymdi2u8rrr6a5y/googleplay?market=11&country=24
+                  - img "Google One" [ref=e1268]
+                - generic [ref=e1270]:
+                  - generic [ref=e1271]:
+                    - generic [ref=e1274]:
+                      - text: 霸榜244天
+                      - link "Google One" [ref=e1275] [cursor=pointer]:
+                        - /url: /app/oymdi2u8rrr6a5y/googleplay?market=11&country=24
+                    - img [ref=e1278]
+                  - generic [ref=e1280]:
+                    - generic [ref=e1281]:
+                      - link "效率" [ref=e1282] [cursor=pointer]:
+                        - /url: /rank/googleplay/11-1-19-24-0
+                      - text: ：1名
+                    - link "Google LLC" [ref=e1287] [cursor=pointer]:
+                      - /url: /developer/cef875a517a9751055224d4a56fadfbc/googleplay-app
+              - generic [ref=e1291]:
+                - link "TikTok - Videos, Shop & LIVE" [ref=e1292] [cursor=pointer]:
+                  - /url: /app/74xlipu8x52gal4/googleplay?market=11&country=24
+                  - img "TikTok - Videos, Shop & LIVE" [ref=e1293]
+                - generic [ref=e1295]:
+                  - generic [ref=e1296]:
+                    - link "TikTok - Videos, Shop & LIVE" [ref=e1300] [cursor=pointer]:
+                      - /url: /app/74xlipu8x52gal4/googleplay?market=11&country=24
+                    - img [ref=e1303]
+                  - generic [ref=e1305]:
+                    - generic [ref=e1306]:
+                      - link "社交" [ref=e1307] [cursor=pointer]:
+                        - /url: /rank/googleplay/11-1-20-24-0
+                      - text: ：1名
+                    - link "TikTok Pte. Ltd." [ref=e1312] [cursor=pointer]:
+                      - /url: /developer/ef9e1d7c0db04b3c653fbf0ab0ee7c8a/googleplay-app
+              - generic [ref=e1316]:
+                - link "MONOPOLY GO!" [ref=e1317] [cursor=pointer]:
+                  - /url: /app/yr6i9uko7vr0coy/googleplay?market=11&country=24
+                  - img "MONOPOLY GO!" [ref=e1318]
+                - generic [ref=e1320]:
+                  - generic [ref=e1321]:
+                    - link "MONOPOLY GO!" [ref=e1325] [cursor=pointer]:
+                      - /url: /app/yr6i9uko7vr0coy/googleplay?market=11&country=24
+                    - img [ref=e1328]
+                  - generic [ref=e1330]:
+                    - generic [ref=e1331]:
+                      - link "桌面和棋类" [ref=e1332] [cursor=pointer]:
+                        - /url: /rank/googleplay/11-2-53-24-0
+                      - text: ：1名
+                    - link "Scopely" [ref=e1337] [cursor=pointer]:
+                      - /url: /developer/b9043d57ceba21a4d4136211c30b0031/googleplay-app
+              - generic [ref=e1339]:
+                - generic [ref=e1340]: "4"
+                - generic [ref=e1341]:
+                  - link "Amazon Shopping" [ref=e1342] [cursor=pointer]:
+                    - /url: /app/340qiku7l19s1nd/googleplay?market=11&country=24
+                    - img "Amazon Shopping" [ref=e1343]
+                  - generic [ref=e1345]:
+                    - generic [ref=e1346]:
+                      - link "Amazon Shopping" [ref=e1350] [cursor=pointer]:
+                        - /url: /app/340qiku7l19s1nd/googleplay?market=11&country=24
+                      - img [ref=e1353]
+                    - generic [ref=e1355]:
+                      - generic [ref=e1356]:
+                        - link "购物" [ref=e1357] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-9-24-0
+                        - text: ：1名
+                      - link "Amazon Mobile LLC" [ref=e1362] [cursor=pointer]:
+                        - /url: /developer/38540bd4d3b463958e9570678ba09059/googleplay-app
+              - generic [ref=e1364]:
+                - generic [ref=e1365]: "5"
+                - generic [ref=e1366]:
+                  - link "Last War:Survival Game" [ref=e1367] [cursor=pointer]:
+                    - /url: /app/y58i5u6xxkvgt7y/googleplay?market=11&country=24
+                    - img "Last War:Survival Game" [ref=e1368]
+                  - generic [ref=e1370]:
+                    - generic [ref=e1371]:
+                      - link "Last War:Survival Game" [ref=e1375] [cursor=pointer]:
+                        - /url: /app/y58i5u6xxkvgt7y/googleplay?market=11&country=24
+                      - img [ref=e1378]
+                    - generic [ref=e1380]:
+                      - generic [ref=e1381]:
+                        - link "策略" [ref=e1382] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-37-24-0
+                        - text: ：1名
+                      - link "FUNFLY PTE. LTD." [ref=e1387] [cursor=pointer]:
+                        - /url: /developer/0c3cb758371b0c4e9cbc9fac10e5c4f3/googleplay-app
+              - generic [ref=e1389]:
+                - generic [ref=e1390]: "6"
+                - generic [ref=e1391]:
+                  - link "ChatGPT" [ref=e1392] [cursor=pointer]:
+                    - /url: /app/np9igupommwru7y/googleplay?market=11&country=24
+                    - img "ChatGPT" [ref=e1393]
+                  - generic [ref=e1395]:
+                    - generic [ref=e1396]:
+                      - link "ChatGPT" [ref=e1400] [cursor=pointer]:
+                        - /url: /app/np9igupommwru7y/googleplay?market=11&country=24
+                      - img [ref=e1403]
+                    - generic [ref=e1405]:
+                      - generic [ref=e1406]:
+                        - link "效率" [ref=e1407] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-19-24-0
+                        - text: ：2名
+                      - link "OpenAI" [ref=e1412] [cursor=pointer]:
+                        - /url: /developer/0523b13262b12c215d8009938f5c14f1/googleplay-app
+              - generic [ref=e1414]:
+                - generic [ref=e1415]: "7"
+                - generic [ref=e1416]:
+                  - link "Candy Crush Saga" [ref=e1417] [cursor=pointer]:
+                    - /url: /app/7yodivugjeqa9nz/googleplay?market=11&country=24
+                    - img "Candy Crush Saga" [ref=e1418]
+                  - generic [ref=e1420]:
+                    - generic [ref=e1421]:
+                      - link "Candy Crush Saga" [ref=e1425] [cursor=pointer]:
+                        - /url: /app/7yodivugjeqa9nz/googleplay?market=11&country=24
+                      - img [ref=e1428]
+                    - generic [ref=e1430]:
+                      - generic [ref=e1431]:
+                        - link "休闲" [ref=e1432] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-49-24-0
+                        - text: ：1名
+                      - link "King" [ref=e1437] [cursor=pointer]:
+                        - /url: /developer/719ef271d38a388fd7b2bc967f4bd885/googleplay-app
+              - generic [ref=e1438]:
+                - generic [ref=e1439]:
+                  - generic [ref=e1440]: "8"
+                  - generic [ref=e1441]:
+                    - link "Royal Match" [ref=e1442] [cursor=pointer]:
+                      - /url: /app/jnzki9u0r65esvn/googleplay?market=11&country=24
+                      - img "Royal Match" [ref=e1443]
+                    - generic [ref=e1445]:
+                      - generic [ref=e1446]:
+                        - link "Royal Match" [ref=e1450] [cursor=pointer]:
+                          - /url: /app/jnzki9u0r65esvn/googleplay?market=11&country=24
+                        - img [ref=e1453]
+                      - generic [ref=e1455]:
+                        - generic [ref=e1456]:
+                          - link "益智" [ref=e1457] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-50-24-0
+                          - text: ：1名
+                        - link "Dream Games, Ltd." [ref=e1462] [cursor=pointer]:
+                          - /url: /developer/85ae89b2324155cc9e8ebdf31ca0d590/googleplay-app
+                - generic [ref=e1464]:
+                  - generic [ref=e1465]: 
+                  - text: "1"
+              - generic [ref=e1466]:
+                - generic [ref=e1467]:
+                  - generic [ref=e1468]: "9"
+                  - generic [ref=e1469]:
+                    - link "Roblox" [ref=e1470] [cursor=pointer]:
+                      - /url: /app/wnp9iguqg70t7y3/googleplay?market=11&country=24
+                      - img "Roblox" [ref=e1471]
+                    - generic [ref=e1473]:
+                      - generic [ref=e1474]:
+                        - link "Roblox" [ref=e1478] [cursor=pointer]:
+                          - /url: /app/wnp9iguqg70t7y3/googleplay?market=11&country=24
+                        - img [ref=e1481]
+                      - generic [ref=e1483]:
+                        - generic [ref=e1484]:
+                          - link "冒险" [ref=e1485] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-45-24-0
+                          - text: ：1名
+                        - link "Roblox Corporation" [ref=e1490] [cursor=pointer]:
+                          - /url: /developer/c9e9837d1bdb266f25d3a9006f4a2dce/googleplay-app
+                - generic [ref=e1492]:
+                  - generic [ref=e1493]: 
+                  - text: "1"
+              - generic [ref=e1494]:
+                - generic [ref=e1495]:
+                  - generic [ref=e1496]: "10"
+                  - generic [ref=e1497]:
+                    - 'link "Gossip Harbor: Merge & Story" [ref=e1498] [cursor=pointer]':
+                      - /url: /app/yedipu8p7819ir4/googleplay?market=11&country=24
+                      - 'img "Gossip Harbor: Merge & Story" [ref=e1499]'
+                    - generic [ref=e1501]:
+                      - generic [ref=e1502]:
+                        - 'link "Gossip Harbor: Merge & Story" [ref=e1506] [cursor=pointer]':
+                          - /url: /app/yedipu8p7819ir4/googleplay?market=11&country=24
+                        - img [ref=e1509]
+                      - generic [ref=e1511]:
+                        - generic [ref=e1512]:
+                          - link "益智" [ref=e1513] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-50-24-0
+                          - text: ：2名
+                        - link "Microfun Limited" [ref=e1518] [cursor=pointer]:
+                          - /url: /developer/6bf8a6c12f6a264e5fa66f30ae150730/googleplay-app
+                - generic [ref=e1520]:
+                  - generic [ref=e1521]: 
+                  - text: "1"
+              - generic [ref=e1522]:
+                - generic [ref=e1523]:
+                  - generic [ref=e1524]: "11"
+                  - generic [ref=e1525]:
+                    - 'link "HBO Max: Stream TV & Movies" [ref=e1526] [cursor=pointer]':
+                      - /url: /app/n3qiru8om937hgy/googleplay?market=11&country=24
+                      - 'img "HBO Max: Stream TV & Movies" [ref=e1527]'
+                    - generic [ref=e1529]:
+                      - generic [ref=e1530]:
+                        - 'link "HBO Max: Stream TV & Movies" [ref=e1534] [cursor=pointer]':
+                          - /url: /app/n3qiru8om937hgy/googleplay?market=11&country=24
+                        - img [ref=e1537]
+                      - generic [ref=e1539]:
+                        - generic [ref=e1540]:
+                          - link "娱乐" [ref=e1541] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-34-24-0
+                          - text: ：1名
+                        - link "WarnerMedia Global Digital Services, LLC" [ref=e1546] [cursor=pointer]:
+                          - /url: /developer/2d9166b1355b3917a9979a2f22a6359e/googleplay-app
+                - generic [ref=e1548]:
+                  - generic [ref=e1549]: 
+                  - text: "1"
+              - generic [ref=e1550]:
+                - generic [ref=e1551]:
+                  - generic [ref=e1552]: "12"
+                  - generic [ref=e1553]:
+                    - 'link "Peacock TV: Stream TV & Movies" [ref=e1554] [cursor=pointer]':
+                      - /url: /app/wnldiru92zmquq4/googleplay?market=11&country=24
+                      - 'img "Peacock TV: Stream TV & Movies" [ref=e1555]'
+                    - generic [ref=e1557]:
+                      - generic [ref=e1558]:
+                        - 'link "Peacock TV: Stream TV & Movies" [ref=e1562] [cursor=pointer]':
+                          - /url: /app/wnldiru92zmquq4/googleplay?market=11&country=24
+                        - img [ref=e1565]
+                      - generic [ref=e1567]:
+                        - generic [ref=e1568]:
+                          - link "娱乐" [ref=e1569] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-34-24-0
+                          - text: ：2名
+                        - link "Peacock TV LLC" [ref=e1574] [cursor=pointer]:
+                          - /url: /developer/52ade72e28056ff918bb00d56208b0e0/googleplay-app
+                - generic [ref=e1576]:
+                  - generic [ref=e1577]: 
+                  - text: "4"
+              - generic [ref=e1579]:
+                - generic [ref=e1580]: "13"
+                - generic [ref=e1581]:
+                  - 'link "Spotify: Music and Podcasts" [ref=e1582] [cursor=pointer]':
+                    - /url: /app/wnp9iguqwgja7y3/googleplay?market=11&country=24
+                    - 'img "Spotify: Music and Podcasts" [ref=e1583]'
+                  - generic [ref=e1585]:
+                    - generic [ref=e1586]:
+                      - 'link "Spotify: Music and Podcasts" [ref=e1590] [cursor=pointer]':
+                        - /url: /app/wnp9iguqwgja7y3/googleplay?market=11&country=24
+                      - img [ref=e1593]
+                    - generic [ref=e1595]:
+                      - generic [ref=e1596]:
+                        - link "音乐与音频" [ref=e1597] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-32-24-0
+                        - text: ：1名
+                      - link "Spotify AB" [ref=e1602] [cursor=pointer]:
+                        - /url: /developer/7cab72c2addfac700602cfd09ad1d3fc/googleplay-app
+              - generic [ref=e1604]:
+                - generic [ref=e1605]: "14"
+                - generic [ref=e1606]:
+                  - link "Whiteout Survival" [ref=e1607] [cursor=pointer]:
+                    - /url: /app/4v2imupx7kreigy/googleplay?market=11&country=24
+                    - img "Whiteout Survival" [ref=e1608]
+                  - generic [ref=e1610]:
+                    - generic [ref=e1611]:
+                      - link "Whiteout Survival" [ref=e1615] [cursor=pointer]:
+                        - /url: /app/4v2imupx7kreigy/googleplay?market=11&country=24
+                      - img [ref=e1618]
+                    - generic [ref=e1620]:
+                      - generic [ref=e1621]:
+                        - link "策略" [ref=e1622] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-37-24-0
+                        - text: ：2名
+                      - link "Century Games PTE. LTD." [ref=e1627] [cursor=pointer]:
+                        - /url: /developer/88a25b6f060ddebe09506b077a2a4b6d/googleplay-app
+              - generic [ref=e1629]:
+                - generic [ref=e1630]: "15"
+                - generic [ref=e1631]:
+                  - link "Kingshot" [ref=e1632] [cursor=pointer]:
+                    - /url: /app/ndki6u3dgd58ud4/googleplay?market=11&country=24
+                    - img "Kingshot" [ref=e1633]
+                  - generic [ref=e1635]:
+                    - generic [ref=e1636]:
+                      - link "Kingshot" [ref=e1640] [cursor=pointer]:
+                        - /url: /app/ndki6u3dgd58ud4/googleplay?market=11&country=24
+                      - img [ref=e1643]
+                    - generic [ref=e1645]:
+                      - generic [ref=e1646]:
+                        - link "策略" [ref=e1647] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-37-24-0
+                        - text: ：3名
+                      - link "Century Games PTE. LTD." [ref=e1652] [cursor=pointer]:
+                        - /url: /developer/88a25b6f060ddebe09506b077a2a4b6d/googleplay-app
+              - generic [ref=e1654]:
+                - generic [ref=e1655]: "16"
+                - generic [ref=e1656]:
+                  - link "Coin Master" [ref=e1657] [cursor=pointer]:
+                    - /url: /app/6ndki6ue9p8sd4j/googleplay?market=11&country=24
+                    - img "Coin Master" [ref=e1658]
+                  - generic [ref=e1660]:
+                    - generic [ref=e1661]:
+                      - link "Coin Master" [ref=e1665] [cursor=pointer]:
+                        - /url: /app/6ndki6ue9p8sd4j/googleplay?market=11&country=24
+                      - img [ref=e1668]
+                    - generic [ref=e1670]:
+                      - generic [ref=e1671]:
+                        - link "休闲" [ref=e1672] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-49-24-0
+                        - text: ：2名
+                      - link "Moon Active" [ref=e1677] [cursor=pointer]:
+                        - /url: /developer/98a13e15bcbbfaaad8049cd6b09e87f1/googleplay-app
+              - generic [ref=e1679]:
+                - generic [ref=e1680]: "17"
+                - generic [ref=e1681]:
+                  - 'link "Crunchyroll: Anime Streaming" [ref=e1682] [cursor=pointer]':
+                    - /url: /app/jn7qi9u6lgohq43/googleplay?market=11&country=24
+                    - 'img "Crunchyroll: Anime Streaming" [ref=e1683]'
+                  - generic [ref=e1685]:
+                    - generic [ref=e1686]:
+                      - 'link "Crunchyroll: Anime Streaming" [ref=e1690] [cursor=pointer]':
+                        - /url: /app/jn7qi9u6lgohq43/googleplay?market=11&country=24
+                      - img [ref=e1693]
+                    - generic [ref=e1695]:
+                      - generic [ref=e1696]:
+                        - link "娱乐" [ref=e1697] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-34-24-0
+                        - text: ：3名
+                      - link "Crunchyroll, LLC" [ref=e1702] [cursor=pointer]:
+                        - /url: /developer/734f5fedcfbd8ff1c6a97d84209a4bc2/googleplay-app
+              - generic [ref=e1704]:
+                - generic [ref=e1705]: "18"
+                - generic [ref=e1706]:
+                  - link "Royal Kingdom" [ref=e1707] [cursor=pointer]:
+                    - /url: /app/np9igup8992ja7y/googleplay?market=11&country=24
+                    - img "Royal Kingdom" [ref=e1708]
+                  - generic [ref=e1710]:
+                    - generic [ref=e1711]:
+                      - link "Royal Kingdom" [ref=e1715] [cursor=pointer]:
+                        - /url: /app/np9igup8992ja7y/googleplay?market=11&country=24
+                      - img [ref=e1718]
+                    - generic [ref=e1720]:
+                      - generic [ref=e1721]:
+                        - link "益智" [ref=e1722] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-50-24-0
+                        - text: ：3名
+                      - link "Dream Games, Ltd." [ref=e1727] [cursor=pointer]:
+                        - /url: /developer/85ae89b2324155cc9e8ebdf31ca0d590/googleplay-app
+              - generic [ref=e1729]:
+                - generic [ref=e1730]: "19"
+                - generic [ref=e1731]:
+                  - 'link "Last Z: Survival Shooter" [ref=e1732] [cursor=pointer]':
+                    - /url: /app/yodivu0xpqvqh9n/googleplay?market=11&country=24
+                    - 'img "Last Z: Survival Shooter" [ref=e1733]'
+                  - generic [ref=e1735]:
+                    - generic [ref=e1736]:
+                      - 'link "Last Z: Survival Shooter" [ref=e1740] [cursor=pointer]':
+                        - /url: /app/yodivu0xpqvqh9n/googleplay?market=11&country=24
+                      - img [ref=e1743]
+                    - generic [ref=e1745]:
+                      - generic [ref=e1746]:
+                        - link "策略" [ref=e1747] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-37-24-0
+                        - text: ：4名
+                      - link "Florere Game" [ref=e1752] [cursor=pointer]:
+                        - /url: /developer/64b444141ff17d83b40d8bc3cd7b1f12/googleplay-app
+              - generic [ref=e1754]:
+                - generic [ref=e1755]: "20"
+                - generic [ref=e1756]:
+                  - 'link "Tinder Dating App: Chat & Date" [ref=e1757] [cursor=pointer]':
+                    - /url: /app/oymdi2uw09vh5yk/googleplay?market=11&country=24
+                    - 'img "Tinder Dating App: Chat & Date" [ref=e1758]'
+                  - generic [ref=e1760]:
+                    - generic [ref=e1761]:
+                      - 'link "Tinder Dating App: Chat & Date" [ref=e1765] [cursor=pointer]':
+                        - /url: /app/oymdi2uw09vh5yk/googleplay?market=11&country=24
+                      - img [ref=e1768]
+                    - generic [ref=e1770]:
+                      - generic [ref=e1771]:
+                        - link "约会交友" [ref=e1772] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-21-24-0
+                        - text: ：1名
+                      - link "Tinder LLC" [ref=e1777] [cursor=pointer]:
+                        - /url: /developer/d2ebcaf9388d8334e8725748abbe64a9/googleplay-app
+          - generic [ref=e1779]:
+            - generic [ref=e1780]:
+              - generic [ref=e1781]:
+                - generic [ref=e1784]: 人气蹿升
+                - generic [ref=e1786]: 23:07更新
+              - generic [ref=e1787]:
+                - text: 
+                - generic [ref=e1789] [cursor=pointer]: 
+                - text: 
+                - link "" [ref=e1791] [cursor=pointer]:
+                  - /url: /rank/compete-11-4-0-24-5?time=&timetype=recent30
+                  - generic [ref=e1792]: 
+                - generic [ref=e1794] [cursor=pointer]: 
+            - generic [ref=e1795]:
+              - generic [ref=e1796]:
+                - generic [ref=e1799]:
+                  - link "NCAA March Madness Live" [ref=e1800] [cursor=pointer]:
+                    - /url: /app/v4v2imu2d76gsgy/googleplay?market=11&country=24
+                    - img "NCAA March Madness Live" [ref=e1801]
+                  - generic [ref=e1803]:
+                    - link "NCAA March Madness Live" [ref=e1808] [cursor=pointer]:
+                      - /url: /app/v4v2imu2d76gsgy/googleplay?market=11&country=24
+                    - generic [ref=e1809]:
+                      - generic [ref=e1810]:
+                        - link "体育" [ref=e1811] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-25-24-0
+                        - text: ：1名
+                      - link "NCAA Digital" [ref=e1816] [cursor=pointer]:
+                        - /url: /developer/78d1d40369fb89df49d07a770510cb87/googleplay-app
+                - generic [ref=e1818]:
+                  - generic [ref=e1819]: 
+                  - text: "38"
+              - generic [ref=e1820]:
+                - generic [ref=e1823]:
+                  - 'link "CBS Sports App: Scores & News" [ref=e1824] [cursor=pointer]':
+                    - /url: /app/74xlipuzv0l1al4/googleplay?market=11&country=24
+                    - 'img "CBS Sports App: Scores & News" [ref=e1825]'
+                  - generic [ref=e1827]:
+                    - generic [ref=e1828]:
+                      - 'link "CBS Sports App: Scores & News" [ref=e1832] [cursor=pointer]':
+                        - /url: /app/74xlipuzv0l1al4/googleplay?market=11&country=24
+                      - img [ref=e1835]
+                    - generic [ref=e1837]:
+                      - generic [ref=e1838]:
+                        - link "体育" [ref=e1839] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-1-25-24-0
+                        - text: ：2名
+                      - link "CBS Interactive, Inc." [ref=e1844] [cursor=pointer]:
+                        - /url: /developer/792cf19fdb60adde9a49db90bca4dce7/googleplay-app
+                - generic [ref=e1846]:
+                  - generic [ref=e1847]: 
+                  - text: "116"
+              - generic [ref=e1848]:
+                - generic [ref=e1851]:
+                  - 'link "Arrow Rescue: Save the Animal" [ref=e1852] [cursor=pointer]':
+                    - /url: /app/yr6i9u9g72d0uoy/googleplay?market=11&country=24
+                    - 'img "Arrow Rescue: Save the Animal" [ref=e1853]'
+                  - generic [ref=e1855]:
+                    - generic [ref=e1856]:
+                      - 'link "Arrow Rescue: Save the Animal" [ref=e1860] [cursor=pointer]':
+                        - /url: /app/yr6i9u9g72d0uoy/googleplay?market=11&country=24
+                      - img [ref=e1863]
+                    - generic [ref=e1865]:
+                      - generic [ref=e1866]:
+                        - link "益智" [ref=e1867] [cursor=pointer]:
+                          - /url: /rank/googleplay/11-2-50-24-0
+                        - text: ：1名
+                      - link "Kite Games AS" [ref=e1872] [cursor=pointer]:
+                        - /url: /developer/c82ca2feb6e2357f3b6b9cca94a6f810/googleplay-app
+                - paragraph [ref=e1874]: NEW
+              - generic [ref=e1875]:
+                - generic [ref=e1876]:
+                  - generic [ref=e1877]: "4"
+                  - generic [ref=e1878]:
+                    - link "WeatherWise.app" [ref=e1879] [cursor=pointer]:
+                      - /url: /app/ygdivuzow99ps6y/googleplay?market=11&country=24
+                      - img "WeatherWise.app" [ref=e1880]
+                    - generic [ref=e1882]:
+                      - generic [ref=e1883]:
+                        - link "WeatherWise.app" [ref=e1887] [cursor=pointer]:
+                          - /url: /app/ygdivuzow99ps6y/googleplay?market=11&country=24
+                        - img [ref=e1890]
+                      - generic [ref=e1892]:
+                        - generic [ref=e1893]:
+                          - link "天气" [ref=e1894] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-26-24-0
+                          - text: ：1名
+                        - link "Interactive Weather" [ref=e1899] [cursor=pointer]:
+                          - /url: /developer/8489dd81d9518ea3b616e27dc6c83481/googleplay-app
+                - paragraph [ref=e1901]: NEW
+              - generic [ref=e1902]:
+                - generic [ref=e1903]:
+                  - generic [ref=e1904]: "5"
+                  - generic [ref=e1905]:
+                    - link "Weather Now Launcher - Radar" [ref=e1906] [cursor=pointer]:
+                      - /url: /app/4q7izug7jmgou7n/googleplay?market=11&country=24
+                      - img "Weather Now Launcher - Radar" [ref=e1907]
+                    - generic [ref=e1909]:
+                      - link "Weather Now Launcher - Radar" [ref=e1914] [cursor=pointer]:
+                        - /url: /app/4q7izug7jmgou7n/googleplay?market=11&country=24
+                      - generic [ref=e1915]:
+                        - generic [ref=e1916]:
+                          - link "天气" [ref=e1917] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-26-24-0
+                          - text: ：2名
+                        - link "Homescreen Apps" [ref=e1922] [cursor=pointer]:
+                          - /url: /developer/a44db743ec5eabf75e4bc06be2988de4/googleplay-app
+                - paragraph [ref=e1924]: NEW
+              - generic [ref=e1925]:
+                - generic [ref=e1926]:
+                  - generic [ref=e1927]: "6"
+                  - generic [ref=e1928]:
+                    - link "Smart TV Remote Control APP" [ref=e1929] [cursor=pointer]:
+                      - /url: /app/nzki9uwqvkrxbvn/googleplay?market=11&country=24
+                      - img "Smart TV Remote Control APP" [ref=e1930]
+                    - generic [ref=e1932]:
+                      - generic [ref=e1933]:
+                        - link "Smart TV Remote Control APP" [ref=e1937] [cursor=pointer]:
+                          - /url: /app/nzki9uwqvkrxbvn/googleplay?market=11&country=24
+                        - img [ref=e1940]
+                      - generic [ref=e1942]:
+                        - generic [ref=e1943]:
+                          - link "工具" [ref=e1944] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-7-24-0
+                          - text: ：1名
+                        - link "Vsray Technology" [ref=e1949] [cursor=pointer]:
+                          - /url: /developer/b7899605d06069d8e22850cebf806310/googleplay-app
+                - generic [ref=e1951]:
+                  - generic [ref=e1952]: 
+                  - text: "8"
+              - generic [ref=e1953]:
+                - generic [ref=e1954]:
+                  - generic [ref=e1955]: "7"
+                  - generic [ref=e1956]:
+                    - link "Falling Filter Challenge" [ref=e1957] [cursor=pointer]:
+                      - /url: /app/nldiru1e1jpqbq4/googleplay?market=11&country=24
+                      - img "Falling Filter Challenge" [ref=e1958]
+                    - generic [ref=e1960]:
+                      - link "Falling Filter Challenge" [ref=e1965] [cursor=pointer]:
+                        - /url: /app/nldiru1e1jpqbq4/googleplay?market=11&country=24
+                      - generic [ref=e1966]:
+                        - generic [ref=e1967]:
+                          - link "娱乐" [ref=e1968] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-34-24-0
+                          - text: ：1名
+                        - link "Funny Plays" [ref=e1973] [cursor=pointer]:
+                          - /url: /developer/a54f15212565e7a567615024bb61c6fd/googleplay-app
+                - generic [ref=e1975]:
+                  - generic [ref=e1976]: 
+                  - text: "27"
+              - generic [ref=e1977]:
+                - generic [ref=e1978]:
+                  - generic [ref=e1979]: "8"
+                  - generic [ref=e1980]:
+                    - link "ESPN Tournament Challenge" [ref=e1981] [cursor=pointer]:
+                      - /url: /app/jnzki9ud97ecvnk/googleplay?market=11&country=24
+                      - img "ESPN Tournament Challenge" [ref=e1982]
+                    - generic [ref=e1984]:
+                      - generic [ref=e1985]:
+                        - link "ESPN Tournament Challenge" [ref=e1989] [cursor=pointer]:
+                          - /url: /app/jnzki9ud97ecvnk/googleplay?market=11&country=24
+                        - img [ref=e1992]
+                      - generic [ref=e1994]:
+                        - generic [ref=e1995]:
+                          - link "体育" [ref=e1996] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-25-24-0
+                          - text: ：3名
+                        - link "Disney" [ref=e2001] [cursor=pointer]:
+                          - /url: /developer/a77450f87def43cbe79f3f494d0c332a/googleplay-app
+                - paragraph [ref=e2003]: NEW
+              - generic [ref=e2004]:
+                - generic [ref=e2005]:
+                  - generic [ref=e2006]: "9"
+                  - generic [ref=e2007]:
+                    - 'link "FOX One: Live News, Sports, TV" [ref=e2008] [cursor=pointer]':
+                      - /url: /app/y8qiju1rqj3ofqy/googleplay?market=11&country=24
+                      - 'img "FOX One: Live News, Sports, TV" [ref=e2009]'
+                    - generic [ref=e2011]:
+                      - generic [ref=e2012]:
+                        - 'link "FOX One: Live News, Sports, TV" [ref=e2016] [cursor=pointer]':
+                          - /url: /app/y8qiju1rqj3ofqy/googleplay?market=11&country=24
+                        - img [ref=e2019]
+                      - generic [ref=e2021]:
+                        - generic [ref=e2022]:
+                          - link "娱乐" [ref=e2023] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-34-24-0
+                          - text: ：2名
+                        - link "Fox Digital Services, LLC" [ref=e2028] [cursor=pointer]:
+                          - /url: /developer/545c93bd2a7e141080493f74d1c3938d/googleplay-app
+                - paragraph [ref=e2030]: NEW
+              - generic [ref=e2031]:
+                - generic [ref=e2032]:
+                  - generic [ref=e2033]: "10"
+                  - generic [ref=e2034]:
+                    - 'link "Kalshi: Trade News & Sports" [ref=e2035] [cursor=pointer]':
+                      - /url: /app/yodivu07kde9f9n/googleplay?market=11&country=24
+                      - 'img "Kalshi: Trade News & Sports" [ref=e2036]'
+                    - generic [ref=e2038]:
+                      - 'link "Kalshi: Trade News & Sports" [ref=e2043] [cursor=pointer]':
+                        - /url: /app/yodivu07kde9f9n/googleplay?market=11&country=24
+                      - generic [ref=e2044]:
+                        - generic [ref=e2045]:
+                          - link "财务" [ref=e2046] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-2-24-0
+                          - text: ：1名
+                        - link "KalshiEX LLC" [ref=e2051] [cursor=pointer]:
+                          - /url: /developer/5051524860ce9084bdf4971d7e1d68a4/googleplay-app
+                - paragraph [ref=e2053]: NEW
+              - generic [ref=e2054]:
+                - generic [ref=e2055]:
+                  - generic [ref=e2056]: "11"
+                  - generic [ref=e2057]:
+                    - link "Reinbow App" [ref=e2058] [cursor=pointer]:
+                      - /url: /app/4q7izudgmojoa7n/googleplay?market=11&country=24
+                      - img "Reinbow App" [ref=e2059]
+                    - generic [ref=e2061]:
+                      - link "Reinbow App" [ref=e2066] [cursor=pointer]:
+                        - /url: /app/4q7izudgmojoa7n/googleplay?market=11&country=24
+                      - generic [ref=e2067]:
+                        - generic [ref=e2068]:
+                          - link "社交" [ref=e2069] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-20-24-0
+                          - text: ：1名
+                        - link "Reinbow Tech inc." [ref=e2074] [cursor=pointer]:
+                          - /url: /developer/6e50a539bb74fdbb37e9eef82e0306cd/googleplay-app
+                - generic [ref=e2076]:
+                  - generic [ref=e2077]: 
+                  - text: "8"
+              - generic [ref=e2078]:
+                - generic [ref=e2079]:
+                  - generic [ref=e2080]: "12"
+                  - generic [ref=e2081]:
+                    - link "Kanopy" [ref=e2082] [cursor=pointer]:
+                      - /url: /app/v4v2imupjq8gigy/googleplay?market=11&country=24
+                      - img "Kanopy" [ref=e2083]
+                    - generic [ref=e2085]:
+                      - link "Kanopy" [ref=e2090] [cursor=pointer]:
+                        - /url: /app/v4v2imupjq8gigy/googleplay?market=11&country=24
+                      - generic [ref=e2091]:
+                        - generic [ref=e2092]:
+                          - link "娱乐" [ref=e2093] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-34-24-0
+                          - text: ：3名
+                        - link "Kanopy, Inc." [ref=e2098] [cursor=pointer]:
+                          - /url: /developer/e8a1b93610a2eae2480946194f0b26a2/googleplay-app
+                - generic [ref=e2100]:
+                  - generic [ref=e2101]: 
+                  - text: "45"
+              - generic [ref=e2102]:
+                - generic [ref=e2103]:
+                  - generic [ref=e2104]: "13"
+                  - generic [ref=e2105]:
+                    - 'link "Hulu: Stream TV shows & movies" [ref=e2106] [cursor=pointer]':
+                      - /url: /app/74xlipuzwgkal4z/googleplay?market=11&country=24
+                      - 'img "Hulu: Stream TV shows & movies" [ref=e2107]'
+                    - generic [ref=e2109]:
+                      - 'link "Hulu: Stream TV shows & movies" [ref=e2114] [cursor=pointer]':
+                        - /url: /app/74xlipuzwgkal4z/googleplay?market=11&country=24
+                      - generic [ref=e2115]:
+                        - generic [ref=e2116]:
+                          - link "娱乐" [ref=e2117] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-34-24-0
+                          - text: ：4名
+                        - link "Disney" [ref=e2122] [cursor=pointer]:
+                          - /url: /developer/a77450f87def43cbe79f3f494d0c332a/googleplay-app
+                - generic [ref=e2124]:
+                  - generic [ref=e2125]: 
+                  - text: "41"
+              - generic [ref=e2126]:
+                - generic [ref=e2127]:
+                  - generic [ref=e2128]: "14"
+                  - generic [ref=e2129]:
+                    - 'link "Shin Sonic: Craft World Battle" [ref=e2130] [cursor=pointer]':
+                      - /url: /app/yr6i9u9gw5rjuoy/googleplay?market=11&country=24
+                      - 'img "Shin Sonic: Craft World Battle" [ref=e2131]'
+                    - generic [ref=e2133]:
+                      - 'link "Shin Sonic: Craft World Battle" [ref=e2138] [cursor=pointer]':
+                        - /url: /app/yr6i9u9gw5rjuoy/googleplay?market=11&country=24
+                      - generic [ref=e2139]:
+                        - generic [ref=e2140]:
+                          - link "模拟" [ref=e2141] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-46-24-0
+                          - text: ：1名
+                        - link "DEVVVS 0090" [ref=e2146] [cursor=pointer]:
+                          - /url: /developer/63b5f9361c8cc43f2e9b5df2c1043bdc/googleplay-app
+                - generic [ref=e2148]:
+                  - generic [ref=e2149]: 
+                  - text: "27"
+              - generic [ref=e2150]:
+                - generic [ref=e2151]:
+                  - generic [ref=e2152]: "15"
+                  - generic [ref=e2153]:
+                    - link "Coin Master - Board Adventure" [ref=e2154] [cursor=pointer]:
+                      - /url: /app/y2qiluvz10gxf1y/googleplay?market=11&country=24
+                      - img "Coin Master - Board Adventure" [ref=e2155]
+                    - generic [ref=e2157]:
+                      - generic [ref=e2158]:
+                        - link "Coin Master - Board Adventure" [ref=e2162] [cursor=pointer]:
+                          - /url: /app/y2qiluvz10gxf1y/googleplay?market=11&country=24
+                        - img [ref=e2165]
+                      - generic [ref=e2167]:
+                        - generic [ref=e2168]:
+                          - link "休闲" [ref=e2169] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-49-24-0
+                          - text: ：1名
+                        - link "Moon Active" [ref=e2174] [cursor=pointer]:
+                          - /url: /developer/98a13e15bcbbfaaad8049cd6b09e87f1/googleplay-app
+                - generic [ref=e2176]:
+                  - generic [ref=e2177]: 
+                  - text: "13"
+              - generic [ref=e2178]:
+                - generic [ref=e2179]:
+                  - generic [ref=e2180]: "16"
+                  - generic [ref=e2181]:
+                    - link "Block Crazy Robo World Craft" [ref=e2182] [cursor=pointer]:
+                      - /url: /app/4q7izum6d3gvt7n/googleplay?market=11&country=24
+                      - img "Block Crazy Robo World Craft" [ref=e2183]
+                    - generic [ref=e2185]:
+                      - link "Block Crazy Robo World Craft" [ref=e2190] [cursor=pointer]:
+                        - /url: /app/4q7izum6d3gvt7n/googleplay?market=11&country=24
+                      - generic [ref=e2191]:
+                        - generic [ref=e2192]:
+                          - link "模拟" [ref=e2193] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-2-46-24-0
+                          - text: ：2名
+                        - link "Prokids Studio" [ref=e2198] [cursor=pointer]:
+                          - /url: /developer/914b5000d3c1dbed580d03850e5536ea/googleplay-app
+                - generic [ref=e2200]:
+                  - generic [ref=e2201]: 
+                  - text: "5"
+              - generic [ref=e2202]:
+                - generic [ref=e2203]:
+                  - generic [ref=e2204]: "17"
+                  - generic [ref=e2205]:
+                    - link "DramaWave - Dramas & Reels" [ref=e2206] [cursor=pointer]:
+                      - /url: /app/499idud8wd85cj4/googleplay?market=11&country=24
+                      - img "DramaWave - Dramas & Reels" [ref=e2207]
+                    - generic [ref=e2209]:
+                      - generic [ref=e2210]:
+                        - link "DramaWave - Dramas & Reels" [ref=e2214] [cursor=pointer]:
+                          - /url: /app/499idud8wd85cj4/googleplay?market=11&country=24
+                        - img [ref=e2217]
+                      - generic [ref=e2219]:
+                        - generic [ref=e2220]:
+                          - link "娱乐" [ref=e2221] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-34-24-0
+                          - text: ：5名
+                        - link "SKYWORK AI PTE.LTD." [ref=e2226] [cursor=pointer]:
+                          - /url: /developer/eeb4bafd110b150d7984bacf69492f84/googleplay-app
+                - paragraph [ref=e2228]: NEW
+              - generic [ref=e2229]:
+                - generic [ref=e2230]:
+                  - generic [ref=e2231]: "18"
+                  - generic [ref=e2232]:
+                    - link "Great Weather" [ref=e2233] [cursor=pointer]:
+                      - /url: /app/y2qilu5g373qs1y/googleplay?market=11&country=24
+                      - img "Great Weather" [ref=e2234]
+                    - generic [ref=e2236]:
+                      - link "Great Weather" [ref=e2241] [cursor=pointer]:
+                        - /url: /app/y2qilu5g373qs1y/googleplay?market=11&country=24
+                      - generic [ref=e2242]:
+                        - generic [ref=e2243]:
+                          - link "天气" [ref=e2244] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-26-24-0
+                          - text: ：3名
+                        - link "5660 BA, LLC" [ref=e2249] [cursor=pointer]:
+                          - /url: /developer/21a2c3f602501c27a191246aa7940559/googleplay-app
+                - generic [ref=e2251]:
+                  - generic [ref=e2252]: 
+                  - text: "63"
+              - generic [ref=e2253]:
+                - generic [ref=e2254]:
+                  - generic [ref=e2255]: "19"
+                  - generic [ref=e2256]:
+                    - 'link "Private Browser: Safe & Secure" [ref=e2257] [cursor=pointer]':
+                      - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                      - 'img "Private Browser: Safe & Secure" [ref=e2258]'
+                    - generic [ref=e2260]:
+                      - 'link "Private Browser: Safe & Secure" [ref=e2265] [cursor=pointer]':
+                        - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                      - generic [ref=e2266]:
+                        - generic [ref=e2267]:
+                          - link "工具" [ref=e2268] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-7-24-0
+                          - text: ：2名
+                        - link "Amobear Application - Avntech Master Tools" [ref=e2273] [cursor=pointer]:
+                          - /url: /developer/5f9040e8f6f688e6c7d30afc85cb444f/googleplay-app
+                - generic [ref=e2275]:
+                  - generic [ref=e2276]: 
+                  - text: "11"
+              - generic [ref=e2277]:
+                - generic [ref=e2278]:
+                  - generic [ref=e2279]: "20"
+                  - generic [ref=e2280]:
+                    - link "Warm Weather" [ref=e2281] [cursor=pointer]:
+                      - /url: /app/y58i5u5q39m5a7y/googleplay?market=11&country=24
+                      - img "Warm Weather" [ref=e2282]
+                    - generic [ref=e2284]:
+                      - link "Warm Weather" [ref=e2289] [cursor=pointer]:
+                        - /url: /app/y58i5u5q39m5a7y/googleplay?market=11&country=24
+                      - generic [ref=e2290]:
+                        - generic [ref=e2291]:
+                          - link "天气" [ref=e2292] [cursor=pointer]:
+                            - /url: /rank/googleplay/11-1-26-24-0
+                          - text: ：4名
+                        - link "LKW ELE" [ref=e2297] [cursor=pointer]:
+                          - /url: /developer/e337a3cb03bf0320c287b3f9824f0313/googleplay-app
+                - generic [ref=e2299]:
+                  - generic [ref=e2300]: 
+                  - text: "56"
+        - text: 
+      - generic [ref=e2302]:
+        - generic [ref=e2303]:
+          - generic [ref=e2304]: "当前位置:"
+          - list [ref=e2305]:
+            - listitem [ref=e2306]:
+              - link "点点数据" [ref=e2307] [cursor=pointer]:
+                - /url: //app.diandian.com
+              - generic [ref=e2308]: 
+            - listitem [ref=e2309]:
+              - link "Google Play商店排行榜" [ref=e2310] [cursor=pointer]:
+                - /url: /rank/googleplay/
+              - generic [ref=e2311]: 
+            - listitem [ref=e2312]:
+              - heading "GooglePlay app排行榜" [level=1] [ref=e2313]:
+                - link "GooglePlay app排行榜" [ref=e2314] [cursor=pointer]:
+                  - /url: /rank/googleplay/11-4-0-24-0
+        - generic [ref=e2315]:
+          - link "点点首页" [ref=e2317] [cursor=pointer]:
+            - /url: /
+          - link "产品价格" [ref=e2319] [cursor=pointer]:
+            - /url: /vip/authority/
+          - link "关于点点" [ref=e2321] [cursor=pointer]:
+            - /url: //www.diandian.com/aboutus
+          - link "用户协议" [ref=e2323] [cursor=pointer]:
+            - /url: //www.diandian.com/about-us/agreement
+  - generic: 
+  - generic: 
+  - text: 
+  - generic: 
+  - generic: 
+  - generic: 
+  - generic: 

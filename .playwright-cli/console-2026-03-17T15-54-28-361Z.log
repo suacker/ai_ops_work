@@ -1,0 +1,3 @@
+[     499ms] [WARNING] 用户 id 必须是不能为空，且小于 64 位的字符串 @ https://dot-analytics.oss-cn-hangzhou.aliyuncs.com/js/dot.min.js?v=1:0
+[     499ms] [WARNING] 您的数据- uid undefined -格式不满足要求，可能无法正确入库. 属性值只支持 String, Number, Date, Boolean, Array @ https://dot-analytics.oss-cn-hangzhou.aliyuncs.com/js/dot.min.js?v=1:0
+[     499ms] [WARNING] 您的数据- nick_name undefined -格式不满足要求，可能无法正确入库. 属性值只支持 String, Number, Date, Boolean, Array @ https://dot-analytics.oss-cn-hangzhou.aliyuncs.com/js/dot.min.js?v=1:0

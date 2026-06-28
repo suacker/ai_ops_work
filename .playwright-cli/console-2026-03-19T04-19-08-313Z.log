@@ -1,0 +1,96 @@
+[    4267ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[    7299ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[    8837ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[    9017ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[   11686ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[   11992ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[   12301ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  288663ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  289688ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  289778ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  291930ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  292349ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  292550ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  295317ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  295612ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  295869ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  298536ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  298913ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  299159ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  302861ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  303151ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  303442ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  307718ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  308023ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  308257ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  313498ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  314109ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  314150ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  317766ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  318157ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  318410ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  321083ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  321406ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  321641ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  327379ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  327944ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  328228ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  330164ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  330489ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  330729ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  333950ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  335332ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  335730ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  335898ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  339083ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  339437ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  339737ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  342399ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  342718ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  343017ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  345750ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  346299ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  346453ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  352150ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  354227ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  354227ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  356266ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  356722ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  356722ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  357749ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/zhipin-geek-seo/v5419/web/geek/js/main.js:0
+[  358392ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  358392ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  358929ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/zhipin-geek-seo/v5419/web/geek/js/main.js:0
+[  360666ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  361113ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  361234ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  363385ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  363692ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  364014ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  367167ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  367471ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  367807ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  373548ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  374081ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  374169ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  377349ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  377658ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  377903ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  380601ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  380920ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  381271ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  384928ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  385210ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  385492ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  393215ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  393746ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  393830ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  401093ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  401534ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  401871ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  404513ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  405070ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  405104ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2
+[  407267ms] [WARNING] Scripts may close only the windows that were opened by them. @ https://static.zhipin.com/fe-zhipin-sign/v5260/static/js/vendors~app.78df5bd3.js:5
+[  407597ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ chrome-extension://invalid/:0
+[  407900ms] [WARNING] recommend page init , notice  undefined @ https://static.zhipin.com/zhipin-boss/index/v9474/static/js/677.js:2

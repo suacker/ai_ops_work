@@ -1,0 +1,233 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img "snowball-logo" [ref=e7] [cursor=pointer]
+        - generic [ref=e11] [cursor=pointer]:
+          - img "project logo" [ref=e13]
+          - generic [ref=e14]:
+            - generic [ref=e15]: BibleDaily
+            - img "arrow icon" [ref=e16]
+        - link "android icon" [ref=e17] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=bible.holy.kjv.dailyverse.biblechat
+          - img "android icon" [ref=e18]
+      - generic [ref=e20]:
+        - link "综合" [ref=e21] [cursor=pointer]:
+          - /url: /bi/A170
+        - link "事件分析" [ref=e22] [cursor=pointer]:
+          - /url: /event/A170
+        - link "消息推送" [ref=e23] [cursor=pointer]:
+          - /url: /push/A170
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - link "store manage" [ref=e26] [cursor=pointer]:
+            - /url: https://reviews.thinkyeah.com/A170
+            - img "store manage" [ref=e27]
+          - link "store manage" [ref=e28] [cursor=pointer]:
+            - /url: https://store-manage.thinkyeah.com/project/list?pid=A170
+            - img "store manage" [ref=e29]
+        - generic [ref=e31]:
+          - img "icon" [ref=e33] [cursor=pointer]
+          - img "icon" [ref=e36] [cursor=pointer]
+          - img "language" [ref=e40] [cursor=pointer]
+          - img "setting" [ref=e41] [cursor=pointer]
+        - img [ref=e47] [cursor=pointer]
+    - generic [ref=e50]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - list [ref=e60]:
+            - listitem [ref=e62] [cursor=pointer]:
+              - link "推送列表" [ref=e63]:
+                - /url: https://snowball.thinkyeah.com/push/A170/task
+                - img [ref=e64]
+                - generic "推送列表" [ref=e66]
+            - listitem [ref=e68] [cursor=pointer]:
+              - link "消息库" [ref=e69]:
+                - /url: https://snowball.thinkyeah.com/push/A170/template
+                - img [ref=e70]
+                - generic "消息库" [ref=e72]
+            - listitem [ref=e74] [cursor=pointer]:
+              - link "数据分析" [ref=e75]:
+                - /url: https://snowball.thinkyeah.com/push/A170/data_analysis
+                - img [ref=e76]
+                - generic "数据分析" [ref=e78]
+            - listitem [ref=e80] [cursor=pointer]:
+              - link "用户分群" [ref=e81]:
+                - /url: https://snowball.thinkyeah.com/push/A170/user_group
+                - img [ref=e82]
+                - generic "用户分群" [ref=e84]
+          - img [ref=e87] [cursor=pointer]
+        - generic [ref=e89]:
+          - generic [ref=e91]:
+            - generic [ref=e93] [cursor=pointer]: 通知消息库
+            - generic [ref=e95] [cursor=pointer]: JSON 消息库
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - heading "消息组" [level=3] [ref=e101]
+                - generic [ref=e102]:
+                  - generic [ref=e103] [cursor=pointer]: 
+                  - text: 新增
+              - generic [ref=e106]:
+                - generic [ref=e107] [cursor=pointer]: 静态
+                - generic [ref=e108] [cursor=pointer]: 动态
+              - generic [ref=e309]:
+                - generic [ref=e311] [cursor=pointer]:
+                  - generic [ref=e313]: test
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: "1"
+                    - button [ref=e316]:
+                      - img [ref=e317]
+                - generic [ref=e319] [cursor=pointer]:
+                  - generic [ref=e321]: daily_evening
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: "10"
+                    - button [ref=e324]:
+                      - img [ref=e325]
+                - generic [ref=e327] [cursor=pointer]:
+                  - generic [ref=e329]: daily_noon
+                  - generic [ref=e330]:
+                    - generic [ref=e331]: "10"
+                    - button [ref=e332]:
+                      - img [ref=e333]
+                - generic [ref=e335] [cursor=pointer]:
+                  - generic [ref=e337]: daily_morning
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: "10"
+                    - button [ref=e340]:
+                      - img [ref=e341]
+            - generic [ref=e437]:
+              - generic [ref=e438]:
+                - heading "daily_morning" [level=3] [ref=e439]
+                - generic [ref=e441] [cursor=pointer]:
+                  - generic [ref=e442]: 
+                  - generic [ref=e443]: 新增消息
+              - generic [ref=e444]:
+                - generic [ref=e445] [cursor=pointer]:
+                  - img [ref=e446]
+                  - generic [ref=e447]: 默认-英语
+                - generic [ref=e449] [cursor=pointer]: 阿拉伯语
+                - generic [ref=e451] [cursor=pointer]: 保加利亚语
+                - generic [ref=e453] [cursor=pointer]: 捷克语
+                - generic [ref=e455] [cursor=pointer]: 德语
+                - generic [ref=e457] [cursor=pointer]: 西班牙语
+                - generic [ref=e459] [cursor=pointer]: 法语
+                - generic [ref=e461] [cursor=pointer]: 印地语
+                - generic [ref=e463] [cursor=pointer]: 匈牙利语
+                - generic [ref=e465] [cursor=pointer]: 印度尼西亚语
+                - generic [ref=e467] [cursor=pointer]: 意大利语
+                - generic [ref=e469] [cursor=pointer]: 日语
+                - generic [ref=e471] [cursor=pointer]: 韩语
+                - generic [ref=e473] [cursor=pointer]: 其他地区
+                - generic [ref=e475] [cursor=pointer]: 马来西亚语
+                - generic [ref=e477] [cursor=pointer]: 荷兰语
+                - generic [ref=e479] [cursor=pointer]: 挪威语
+                - generic [ref=e481] [cursor=pointer]: 波兰语
+                - generic [ref=e483] [cursor=pointer]: 葡萄牙语
+                - generic [ref=e485] [cursor=pointer]: 俄语
+                - generic [ref=e487] [cursor=pointer]: 斯洛伐克语
+                - generic [ref=e489] [cursor=pointer]: 瑞典语
+                - generic [ref=e491] [cursor=pointer]: 泰国语
+                - generic [ref=e493] [cursor=pointer]: 土耳其语
+                - generic [ref=e495] [cursor=pointer]: 越南语
+                - generic [ref=e497] [cursor=pointer]: 中文
+                - generic [ref=e499] [cursor=pointer]: 中文-大陆
+                - generic [ref=e501] [cursor=pointer]: 中繁-香港
+                - generic [ref=e503] [cursor=pointer]: 中繁-台湾
+                - generic [ref=e507] [cursor=pointer]: 
+              - generic [ref=e509]:
+                - generic [ref=e510]:
+                  - generic [ref=e511]:
+                    - img "template image" [ref=e513]
+                    - generic [ref=e514]:
+                      - heading "🌅 Dawn Grace" [level=4] [ref=e515]
+                      - paragraph [ref=e516]: Lord, I welcome this day.
+                  - generic [ref=e517]:
+                    - img "edit icon" [ref=e518] [cursor=pointer]
+                    - img "delete icon" [ref=e519] [cursor=pointer]
+                - generic [ref=e520]:
+                  - generic [ref=e521]:
+                    - img "template image" [ref=e523]
+                    - generic [ref=e524]:
+                      - heading "🙏 Morning Hope" [level=4] [ref=e525]
+                      - paragraph [ref=e526]: Fill me with hope today.
+                  - generic [ref=e527]:
+                    - img "edit icon" [ref=e528] [cursor=pointer]
+                    - img "delete icon" [ref=e529] [cursor=pointer]
+                - generic [ref=e530]:
+                  - generic [ref=e531]:
+                    - img "template image" [ref=e533]
+                    - generic [ref=e534]:
+                      - heading "☀️ Start Prayer" [level=4] [ref=e535]
+                      - paragraph [ref=e536]: Guide my first steps now.
+                  - generic [ref=e537]:
+                    - img "edit icon" [ref=e538] [cursor=pointer]
+                    - img "delete icon" [ref=e539] [cursor=pointer]
+                - generic [ref=e540]:
+                  - generic [ref=e541]:
+                    - img "template image" [ref=e543]
+                    - generic [ref=e544]:
+                      - heading "🕊️ Sunrise Peace" [level=4] [ref=e545]
+                      - paragraph [ref=e546]: Let my heart rest in You.
+                  - generic [ref=e547]:
+                    - img "edit icon" [ref=e548] [cursor=pointer]
+                    - img "delete icon" [ref=e549] [cursor=pointer]
+                - generic [ref=e550]:
+                  - generic [ref=e551]:
+                    - img "template image" [ref=e553]
+                    - generic [ref=e554]:
+                      - heading "💪 Faith Today" [level=4] [ref=e555]
+                      - paragraph [ref=e556]: Give me faith for today.
+                  - generic [ref=e557]:
+                    - img "edit icon" [ref=e558] [cursor=pointer]
+                    - img "delete icon" [ref=e559] [cursor=pointer]
+                - generic [ref=e560]:
+                  - generic [ref=e561]:
+                    - img "template image" [ref=e563]
+                    - generic [ref=e564]:
+                      - heading "✨ New Mercy" [level=4] [ref=e565]
+                      - paragraph [ref=e566]: Your mercy meets me now.
+                  - generic [ref=e567]:
+                    - img "edit icon" [ref=e568] [cursor=pointer]
+                    - img "delete icon" [ref=e569] [cursor=pointer]
+                - generic [ref=e570]:
+                  - generic [ref=e571]:
+                    - img "template image" [ref=e573]
+                    - generic [ref=e574]:
+                      - heading "🛐 Morning Guided" [level=4] [ref=e575]
+                      - paragraph [ref=e576]: I trust You this morning.
+                  - generic [ref=e577]:
+                    - img "edit icon" [ref=e578] [cursor=pointer]
+                    - img "delete icon" [ref=e579] [cursor=pointer]
+                - generic [ref=e580]:
+                  - generic [ref=e581]:
+                    - img "template image" [ref=e583]
+                    - generic [ref=e584]:
+                      - heading "🌄 Joy In Light" [level=4] [ref=e585]
+                      - paragraph [ref=e586]: Light my path with peace.
+                  - generic [ref=e587]:
+                    - img "edit icon" [ref=e588] [cursor=pointer]
+                    - img "delete icon" [ref=e589] [cursor=pointer]
+                - generic [ref=e590]:
+                  - generic [ref=e591]:
+                    - img "template image" [ref=e593]
+                    - generic [ref=e594]:
+                      - heading "🤍 Quiet Heart" [level=4] [ref=e595]
+                      - paragraph [ref=e596]: Keep my spirit gentle.
+                  - generic [ref=e597]:
+                    - img "edit icon" [ref=e598] [cursor=pointer]
+                    - img "delete icon" [ref=e599] [cursor=pointer]
+                - generic [ref=e600]:
+                  - generic [ref=e601]:
+                    - img "template image" [ref=e603]
+                    - generic [ref=e604]:
+                      - heading "🙌 Grateful Dawn" [level=4] [ref=e605]
+                      - paragraph [ref=e606]: I start with gratitude.
+                  - generic [ref=e607]:
+                    - img "edit icon" [ref=e608] [cursor=pointer]
+                    - img "delete icon" [ref=e609] [cursor=pointer]
+      - img
+      - text:  *  
+      - text:  
+  - img
+  - text:   

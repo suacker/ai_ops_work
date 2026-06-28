@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StepTrack 首日激活路径分组漏斗报告</title>
+  <style>
+    :root { --bg:#f4f6f8; --card:#fff; --ink:#14212b; --muted:#5c6b78; --line:#d8e0e7; --brand:#1f6f8b; --brand-soft:#e6f2f7; --good:#1f8a5b; --warn:#b86d00; --bad:#b42318; --shadow:0 8px 24px rgba(16,24,40,.08); --radius:14px; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:"SF Pro Text","PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif; color:var(--ink); background:radial-gradient(circle at 80% -20%, #d7eef9 0%, transparent 45%),radial-gradient(circle at 0% 120%, #e9f7ef 0%, transparent 42%),var(--bg); line-height:1.45; }
+    .container { width:min(1200px,92vw); margin:28px auto 40px; }
+    .header { background:linear-gradient(130deg,#10384c 0%,#1f6f8b 58%,#4a9fb4 100%); color:#fff; border-radius:18px; padding:24px 26px; box-shadow:var(--shadow); }
+    .title { margin:0; font-size:28px; letter-spacing:.2px; }
+    .subtitle { margin:8px 0 0; color:#d8edf5; font-size:14px; }
+    .section { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); margin-top:16px; padding:18px 18px 14px; }
+    .section h2 { margin:0 0 12px; font-size:18px; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    .metric { border:1px solid var(--line); border-radius:12px; background:#fbfdff; padding:12px; }
+    .metric .k { color:var(--muted); font-size:12px; }
+    .metric .v { margin-top:6px; font-size:20px; font-weight:700; }
+    .metric .sub { margin-top:4px; font-size:12px; color:var(--muted); }
+    ul { margin:8px 0 0 0; padding-left:20px; }
+    li { margin:6px 0; }
+    .table-wrap { overflow:auto; border:1px solid var(--line); border-radius:12px; }
+    table { width:100%; border-collapse:collapse; min-width:900px; background:#fff; }
+    th,td { border-bottom:1px solid var(--line); padding:10px 10px; text-align:left; vertical-align:top; font-size:13px; }
+    th { background:#f3f8fb; color:#1f4f63; font-weight:700; white-space:nowrap; }
+    tr:last-child td { border-bottom:none; }
+    .mono { font-variant-numeric:tabular-nums; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; }
+    .num-good { color:var(--good); font-weight:700; }
+    .num-bad { color:var(--bad); font-weight:700; }
+    .note { border-left:4px solid var(--brand); background:var(--brand-soft); color:#184356; padding:10px 12px; border-radius:8px; font-size:13px; margin-bottom:10px; }
+    .muted { color:var(--muted); }
+    @media (max-width:860px) { .grid { grid-template-columns:1fr; } .title { font-size:22px; } .section { padding:14px 14px 10px; } }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 class="title">StepTrack 首日激活路径分组漏斗报告</h1>
+      <p class="subtitle">版本 / 设备品牌分组 · Cohort：2026-04-02 ~ 2026-04-30 · 生成日期：2026-05-02</p>
+    </header>
+
+    <section class="section">
+      <h2>总体结论</h2>
+      <div class="grid">
+        <div class="metric"><div class="k">最弱版本</div><div class="v mono">1.1.31</div><div class="sub">首页→功能详情 18.56%</div></div>
+        <div class="metric"><div class="k">最弱品牌</div><div class="v mono">Google</div><div class="sub">首页→功能详情 14.21%</div></div>
+        <div class="metric"><div class="k">最差组合</div><div class="v mono">1.1.29 × Google</div><div class="sub">首页→功能详情 14.47%</div></div>
+      </div>
+      <ul>
+        <li>版本侧最弱的是 <span class="mono">1.1.31</span>，第 2 步仅 <span class="mono">18.56%</span>。</li>
+        <li>品牌侧最弱的是 <span class="mono">Google</span>，第 2 步仅 <span class="mono">14.21%</span>，第 3 步仅 <span class="mono">20.00%</span>。</li>
+        <li>组合维度最差是 <span class="mono">1.1.29 × Google</span>，说明问题更像版本改动在特定品牌上被放大。</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>按版本汇总</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>版本</th><th>新用户</th><th>到首页率</th><th>首页→功能详情</th><th>功能详情→加记录页</th></tr></thead>
+          <tbody><tr><td>1.1.29</td><td class="mono">10,736</td><td class="mono">77.00%</td><td class="mono num-good">27.64%</td><td class="mono">31.86%</td></tr><tr><td>1.1.31</td><td class="mono">524</td><td class="mono">74.05%</td><td class="mono num-bad">18.56%</td><td class="mono">26.39%</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>按设备品牌汇总</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>品牌</th><th>新用户</th><th>到首页率</th><th>首页→功能详情</th><th>功能详情→加记录页</th></tr></thead>
+          <tbody><tr><td>Samsung</td><td class="mono">8,186</td><td class="mono">75.38%</td><td class="mono num-good">28.52%</td><td class="mono">30.34%</td></tr><tr><td>Motorola</td><td class="mono">1,418</td><td class="mono">81.31%</td><td class="mono num-good">25.41%</td><td class="mono">37.20%</td></tr><tr><td>Google</td><td class="mono">764</td><td class="mono">73.69%</td><td class="mono num-bad">14.21%</td><td class="mono">20.00%</td></tr><tr><td>T-Mobile</td><td class="mono">129</td><td class="mono">75.19%</td><td class="mono num-bad">20.62%</td><td class="mono">25.00%</td></tr><tr><td>unknown</td><td class="mono">94</td><td class="mono">65.96%</td><td class="mono num-good">33.87%</td><td class="mono">42.86%</td></tr><tr><td>Xiaomi</td><td class="mono">91</td><td class="mono">93.41%</td><td class="mono num-bad">24.71%</td><td class="mono">42.86%</td></tr><tr><td>TCL</td><td class="mono">88</td><td class="mono">89.77%</td><td class="mono num-good">32.91%</td><td class="mono">23.08%</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>按版本 × 品牌组合（风险优先）</h2>
+      <div class="note">仅展示新用户样本数 ≥ 80 的组合，按“首页→功能详情”升序排序，优先暴露最差断点。</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>版本</th><th>品牌</th><th>新用户</th><th>到首页率</th><th>首页→功能详情</th><th>功能详情→加记录页</th></tr></thead>
+          <tbody><tr><td>1.1.29</td><td>Google</td><td class="mono">730</td><td class="mono">73.84%</td><td class="mono num-bad">14.47%</td><td class="mono">20.51%</td></tr><tr><td>1.1.31</td><td>Samsung</td><td class="mono">400</td><td class="mono">73.75%</td><td class="mono num-bad">18.64%</td><td class="mono">27.27%</td></tr><tr><td>1.1.29</td><td>T-Mobile</td><td class="mono">127</td><td class="mono">74.80%</td><td class="mono num-bad">20.00%</td><td class="mono">21.05%</td></tr><tr><td>1.1.29</td><td>Xiaomi</td><td class="mono">87</td><td class="mono">93.10%</td><td class="mono num-bad">24.69%</td><td class="mono">45.00%</td></tr><tr><td>1.1.29</td><td>Motorola</td><td class="mono">1,365</td><td class="mono">81.61%</td><td class="mono num-good">25.76%</td><td class="mono">37.28%</td></tr><tr><td>1.1.29</td><td>Samsung</td><td class="mono">7,758</td><td class="mono">75.39%</td><td class="mono num-good">29.10%</td><td class="mono">30.43%</td></tr><tr><td>1.1.29</td><td>unknown</td><td class="mono">87</td><td class="mono">65.52%</td><td class="mono num-good">33.33%</td><td class="mono">42.11%</td></tr><tr><td>1.1.29</td><td>TCL</td><td class="mono">84</td><td class="mono">91.67%</td><td class="mono num-good">33.77%</td><td class="mono">23.08%</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>动作建议</h2>
+      <ul>
+        <li><strong>P0：</strong>优先审查 <span class="mono">1.1.31</span> 首页变更，并在 <span class="mono">Samsung</span> 真机上复现首页到功能详情的点击链路。</li>
+        <li><strong>P1：</strong>用 <span class="mono">Google</span> 品牌设备专项排查布局、触控、卡顿和权限行为差异，因为其第 2 步和第 3 步都明显偏弱。</li>
+        <li><strong>P2：</strong>将该分组漏斗接入版本发布后的日监控，避免后续版本继续扩大 `首页 -> 功能详情` 的损失。</li>
+      </ul>
+      <p class="muted" style="margin:10px 0 4px; font-size:12px;">Generated from /Users/suacker/dev/DataAnalysis/BI/reports/ga4_activation/StepTrack_activation_segment_funnel_0430.md</p>
+    </section>
+  </main>
+</body>
+</html>

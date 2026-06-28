@@ -1,0 +1,8 @@
+[    2106ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://sso.thinkyeah.com/passport/login?next=https%3A%2F%2Fsnowball.thinkyeah.com%2Fanalysis%2FA182%2Fevents:0
+[   20112ms] [LOG] ua Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/798.9ba6f366.js:52
+[   20112ms] [LOG] version  @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/798.9ba6f366.js:52
+[   20112ms] [LOG] isIos false @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/798.9ba6f366.js:52
+[   20112ms] [LOG] transportsDictString [usb, nfc, ble, internal, hybrid] @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/798.9ba6f366.js:52
+[   20196ms] [LOG] domain_service_init {page: https://accounts.feishu.cn/open-apis/authen/v1/index} undefined @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/index.167854a7.js:0
+[   20197ms] [LOG] lark_app_settings_get_from_pc undefined undefined @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/index.167854a7.js:0
+[   20197ms] [LOG] cs_authz_home_page_init_start {level: info, action: quality_metric, app_type: PC, widget_type: , brand: feishu} {} @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/index.167854a7.js:0

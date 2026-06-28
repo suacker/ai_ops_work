@@ -1,0 +1,3 @@
+interface:
+  display_name: "买量阈值分析"
+  short_description: "按 IAA/IAP 与国家维度产出买量阈值和核心指标"

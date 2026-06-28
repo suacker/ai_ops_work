@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>照片生活团队近5天每日健康分析</title>
+  <style>
+    :root{--bg:#f4f6f8;--card:#fff;--ink:#14212b;--muted:#5c6b78;--line:#d8e0e7;--brand:#1f6f8b;--good:#1f8a5b;--warn:#b86d00;--bad:#b42318;--sg:#e7f5ee;--sw:#fff4df;--sb:#fdebea}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;letter-spacing:0}.page{max-width:1320px;margin:0 auto;padding:36px 24px 48px}h1{margin:0 0 10px;font-size:34px;line-height:1.2}h2{font-size:24px;margin:30px 0 14px}h3{margin:0 0 10px}.meta,.note{color:var(--muted);line-height:1.7}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px}.card .label{color:var(--muted);font-size:13px;font-weight:700}.card .value{font-size:26px;font-weight:850;margin-top:8px}.good{color:var(--good)}.warn{color:var(--warn)}.bad{color:var(--bad)}.summary{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px}.summary ol{margin:0;padding-left:22px;line-height:1.75}.table-wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:8px}table{border-collapse:collapse;width:100%;min-width:1120px;font-size:14px}th,td{padding:10px 9px;border-bottom:1px solid #e7edf2;text-align:right;white-space:nowrap}th:first-child,td:first-child{text-align:left}th{background:#eef3f6;color:#425361;font-size:13px}tr:last-child td{border-bottom:0}.tag{display:inline-block;border-radius:999px;padding:4px 9px;font-weight:750}.tag.good{color:var(--good);background:var(--sg)}.tag.warn{color:var(--warn);background:var(--sw)}.tag.bad{color:var(--bad);background:var(--sb)}.tag.muted{color:#52606b;background:#edf1f4}.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.actions ul{margin:0;padding-left:20px;line-height:1.7}.footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}@media(max-width:900px){.page{padding:24px 14px}.grid,.cols{grid-template-columns:1fr}h1{font-size:28px}table{font-size:13px}}
+  </style>
+</head>
+<body>
+<main class="page">
+  <h1>照片生活团队近5天每日买量与产品健康</h1>
+  <div class="meta">日期范围：2026-06-23 ~ 2026-06-27；数据来源：Snowball MCP；本版按日期维度判断每日变化，不以累计值替代趋势判断。06-27 D1 留存未沉淀。</div>
+
+  <section class="grid">
+    <div class="card"><div class="label">主力健康项目</div><div class="value good">PhotoArt</div></div>
+    <div class="card"><div class="label">需控量项目</div><div class="value warn">PhotoCollage</div></div>
+    <div class="card"><div class="label">P0 风险项目</div><div class="value bad">PhotoArt-iOS</div></div>
+    <div class="card"><div class="label">小规模健康</div><div class="value good">PicsLeap</div></div>
+  </section>
+
+  <section class="summary">
+    <ol>
+      <li>PhotoArt 06-23 低效后连续修复，06-27 仍盈利 $239.00，是当前最稳主力。</li>
+      <li>PhotoCollage 06-24 达峰后走弱，06-27 利润只剩 $5.99，不能按累计利润继续加预算。</li>
+      <li>PhotoArt-iOS 06-23 与 06-27 两次大亏，06-27 收入为 $0.00，是最高优先级风险。</li>
+      <li>PicsLeap 五天每天盈利，适合小预算验证。</li>
+      <li>PhotoRecover 累计收入强但 cohort ROAS 低且变现字段缺失，先查口径。</li>
+    </ol>
+  </section>
+
+  <h2>5天累计与趋势判断</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>项目</th><th>5天花费</th><th>收入</th><th>利润</th><th>ROI</th><th>06-23</th><th>06-24</th><th>06-25</th><th>06-26</th><th>06-27</th><th>趋势</th></tr></thead>
+    <tbody>
+      <tr><td>PhotoCollage</td><td>$8,213.33</td><td>$9,759.08</td><td>$1,545.76</td><td>118.82%</td><td>$224.00</td><td>$561.00</td><td>$374.54</td><td>$380.22</td><td>$5.99</td><td><span class="tag warn">高位回落</span></td></tr>
+      <tr><td>PhotoArt</td><td>$5,551.54</td><td>$6,970.45</td><td>$1,418.91</td><td>125.56%</td><td>$57.35</td><td>$301.21</td><td>$391.67</td><td>$429.69</td><td>$239.00</td><td><span class="tag good">修复后健康</span></td></tr>
+      <tr><td>PhotoArt-iOS</td><td>$2,724.40</td><td>$1,975.15</td><td>-$743.50</td><td>72.50%</td><td>-$410.61</td><td>$69.59</td><td>$36.22</td><td>$2.10</td><td>-$440.79</td><td><span class="tag bad">高风险</span></td></tr>
+      <tr><td>PicsLeap</td><td>$403.78</td><td>$801.66</td><td>$397.89</td><td>198.54%</td><td>$74.06</td><td>$97.01</td><td>$56.23</td><td>$86.81</td><td>$83.77</td><td><span class="tag good">稳定盈利</span></td></tr>
+      <tr><td>PhotoRecover</td><td>$131.67</td><td>$536.14</td><td>$404.47</td><td>407.16%</td><td>$39.27</td><td>$50.00</td><td>$148.37</td><td>$72.02</td><td>$94.81</td><td><span class="tag warn">口径待查</span></td></tr>
+      <tr><td>PhotoLight</td><td>$0.00</td><td>$128.18</td><td>$128.18</td><td>N/A</td><td>$16.90</td><td>$21.27</td><td>$29.10</td><td>$38.50</td><td>$22.41</td><td><span class="tag muted">无买量</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>每日核心指标</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>项目</th><th>日期</th><th>花费</th><th>DNU</th><th>CPI</th><th>收入</th><th>利润</th><th>ROI</th><th>ARPDAU</th><th>IPU</th><th>eCPM</th></tr></thead>
+    <tbody>
+      <tr><td>PhotoCollage</td><td>06-23</td><td>$1,791.11</td><td>13,675</td><td>$0.1579</td><td>$2,015.11</td><td>$224.00</td><td>112.51%</td><td>$0.0261</td><td>7.24</td><td>$3.60</td></tr>
+      <tr><td>PhotoCollage</td><td>06-24</td><td>$1,692.75</td><td>12,731</td><td>$0.1647</td><td>$2,253.76</td><td>$561.00</td><td>133.14%</td><td>$0.0268</td><td>7.58</td><td>$3.54</td></tr>
+      <tr><td>PhotoCollage</td><td>06-25</td><td>$1,545.72</td><td>12,172</td><td>$0.1583</td><td>$1,920.26</td><td>$374.54</td><td>124.23%</td><td>$0.0252</td><td>7.50</td><td>$3.36</td></tr>
+      <tr><td>PhotoCollage</td><td>06-26</td><td>$1,632.42</td><td>12,008</td><td>$0.1697</td><td>$2,012.64</td><td>$380.22</td><td>123.29%</td><td>$0.0266</td><td>7.32</td><td>$3.63</td></tr>
+      <tr><td>PhotoCollage</td><td>06-27</td><td>$1,551.33</td><td>11,947</td><td>$0.1631</td><td>$1,557.32</td><td>$5.99</td><td>100.39%</td><td>$0.0206</td><td>6.43</td><td>$3.20</td></tr>
+      <tr><td>PhotoArt</td><td>06-23</td><td>$1,330.93</td><td>11,303</td><td>$0.1346</td><td>$1,388.27</td><td>$57.35</td><td>104.31%</td><td>$0.0326</td><td>4.67</td><td>$6.97</td></tr>
+      <tr><td>PhotoArt</td><td>06-24</td><td>$1,102.84</td><td>9,472</td><td>$0.1300</td><td>$1,404.04</td><td>$301.21</td><td>127.31%</td><td>$0.0338</td><td>4.75</td><td>$7.12</td></tr>
+      <tr><td>PhotoArt</td><td>06-25</td><td>$1,059.08</td><td>9,080</td><td>$0.1361</td><td>$1,450.75</td><td>$391.67</td><td>136.98%</td><td>$0.0336</td><td>4.46</td><td>$7.55</td></tr>
+      <tr><td>PhotoArt</td><td>06-26</td><td>$960.76</td><td>8,880</td><td>$0.1274</td><td>$1,390.45</td><td>$429.69</td><td>144.72%</td><td>$0.0349</td><td>4.52</td><td>$7.72</td></tr>
+      <tr><td>PhotoArt</td><td>06-27</td><td>$1,097.93</td><td>9,988</td><td>$0.1277</td><td>$1,336.93</td><td>$239.00</td><td>121.77%</td><td>$0.0274</td><td>4.07</td><td>$6.73</td></tr>
+      <tr><td>PhotoArt-iOS</td><td>06-23</td><td>$891.25</td><td>259</td><td>$6.3097</td><td>$479.05</td><td>-$410.61</td><td>53.85%</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+      <tr><td>PhotoArt-iOS</td><td>06-24</td><td>$515.79</td><td>163</td><td>$5.3617</td><td>$584.31</td><td>$69.59</td><td>113.52%</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+      <tr><td>PhotoArt-iOS</td><td>06-25</td><td>$498.68</td><td>174</td><td>$4.7836</td><td>$533.71</td><td>$36.22</td><td>107.28%</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+      <tr><td>PhotoArt-iOS</td><td>06-26</td><td>$376.88</td><td>155</td><td>$4.8203</td><td>$378.08</td><td>$2.10</td><td>100.56%</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+      <tr><td>PhotoArt-iOS</td><td>06-27</td><td>$441.80</td><td>157</td><td>$5.0090</td><td>$0.00</td><td>-$440.79</td><td>0.00%</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+      <tr><td>PicsLeap</td><td>5天</td><td>$403.78</td><td>1,529</td><td>$0.3638</td><td>$801.66</td><td>$397.89</td><td>198.54%</td><td>$0.0609</td><td>3.71-4.00</td><td>$14.72-$17.77</td></tr>
+      <tr><td>PhotoRecover</td><td>5天</td><td>$131.67</td><td>1,681</td><td>$0.1600</td><td>$536.14</td><td>$404.47</td><td>407.16%</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>动作建议</h2>
+  <section class="cols actions">
+    <div class="card"><h3>P0</h3><ul><li>PhotoArt-iOS 暂停扩量，先查 06-27 收入为 0。</li><li>PhotoCollage BR 控量，连续 5 天亏损且 06-27 扩大。</li><li>PhotoCollage 总预算不继续加，观察 06-28/06-29。</li></ul></div>
+    <div class="card"><h3>P1</h3><ul><li>PhotoArt US 承接预算。</li><li>PhotoArt BR/MX 保量观察。</li><li>PicsLeap US 小预算验证。</li></ul></div>
+    <div class="card"><h3>P2</h3><ul><li>PhotoArt CA/AU/GB 控量。</li><li>PhotoRecover 查 cohort 与收入结构。</li><li>PhotoLight/PhotoRetouch AI/PhotoArt-Web 仅观察。</li></ul></div>
+  </section>
+
+  <p class="note">运营标注：PhotoArt 在 06-23/06-24 有目标调整，之后利润修复；PhotoCollage 在 06-26 有 US 预算上调到 $800，06-27 US 仍盈利但整体接近打平，BR 是主要拖累。</p>
+  <div class="footer">Generated from /Users/suacker/dev/DataAnalysis/BI/reports/photo_series/photo_life_health_daily_2026-06-23_2026-06-27.md</div>
+</main>
+</body>
+</html>

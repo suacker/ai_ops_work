@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A153 OraAllDocsReader 三星 deepsleep 影响分析</title>
+  <style>
+    :root { --bg:#f4f6f8; --card:#fff; --ink:#14212b; --muted:#5c6b78; --line:#d8e0e7; --brand:#1f6f8b; --good:#1f8a5b; --warn:#b86d00; --bad:#b42318; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { max-width:1180px; margin:0 auto; padding:32px 24px 48px; }
+    h1 { margin:0 0 8px; font-size:28px; }
+    h2 { margin:28px 0 12px; font-size:20px; }
+    h3 { margin:20px 0 8px; font-size:16px; }
+    p, li { color:var(--ink); }
+    .meta { color:var(--muted); margin-bottom:20px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:18px; margin:16px 0; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    .kpi { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:14px; }
+    .kpi b { display:block; font-size:20px; margin-top:4px; }
+    .good { color:var(--good); }
+    .warn { color:var(--warn); }
+    .bad { color:var(--bad); }
+    table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    th, td { padding:10px 12px; border-bottom:1px solid var(--line); text-align:right; white-space:nowrap; }
+    th:first-child, td:first-child, td:last-child, th:last-child { text-align:left; }
+    th { background:#eef3f6; color:#34424d; font-weight:700; }
+    tr:last-child td { border-bottom:0; }
+    .badge { display:inline-block; border-radius:999px; padding:2px 8px; font-size:12px; border:1px solid var(--line); }
+    .badge.bad { background:#fff1f0; border-color:#f3b4ae; }
+    .badge.warn { background:#fff7e6; border-color:#edc27a; }
+    footer { margin-top:36px; color:var(--muted); font-size:12px; }
+    @media (max-width: 820px) { .grid { grid-template-columns:1fr; } main { padding:20px 12px; } table { font-size:12px; } th,td { padding:8px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>A153 OraAllDocsReader 三星 deepsleep 影响分析</h1>
+  <div class="meta">项目：A153 / OraAllDocsReader · 包名：reader.alldocuments.ora · 日期：2026-03-18 ~ 2026-05-17 · 数据源：Snowball MCP</div>
+
+  <section class="card">
+    <h2>总体结论</h2>
+    <p>最明显的结构性异常出现在 <b>2026-05-14</b>：次留从 5月上旬的 10%~13% 区间下滑到 8%~9% 区间，并连续 4 天维持低位。ROI 端的变差更早出现在 <b>2026-05-11 ~ 2026-05-12</b>，随后与 05-14 的次留下滑形成共振。</p>
+    <p>当前 BI 数据没有 Samsung 设备维度，因此开始日为指标断点推断，不是三星名单变更日志的直接证明。</p>
+  </section>
+
+  <section class="grid">
+    <div class="kpi">推断开始日<b class="bad">2026-05-14</b></div>
+    <div class="kpi">05-14 后平均 ROI<b class="warn">88.67%</b></div>
+    <div class="kpi">05-14 后平均次留<b class="bad">9.06%</b></div>
+    <div class="kpi">05-14 后平均 ARPDAU<b class="bad">$0.0540</b></div>
+    <div class="kpi">05-14 后日均广告收入<b class="bad">$3,529.67</b></div>
+    <div class="kpi">05-14 后平均 eCPM<b class="bad">$10.69</b></div>
+  </section>
+
+  <h2>核心 KPI 对比</h2>
+  <table>
+    <thead><tr><th>对比窗口</th><th>平均 ROI</th><th>平均次留</th><th>平均 ARPDAU</th><th>日均广告收入</th><th>平均 eCPM</th><th>平均 IPU</th></tr></thead>
+    <tbody>
+      <tr><td>2026-05-01 ~ 2026-05-08</td><td>96.05%</td><td>11.65%</td><td>$0.0832</td><td>$5,052.31</td><td>$15.05</td><td>4.78</td></tr>
+      <tr><td>2026-05-01 ~ 2026-05-13</td><td>95.03%</td><td>11.36%</td><td>$0.0765</td><td>$4,896.52</td><td>$14.56</td><td>4.62</td></tr>
+      <tr><td>2026-05-14 ~ 2026-05-17</td><td>88.67%</td><td>9.06%</td><td>$0.0540</td><td>$3,529.67</td><td>$10.69</td><td>4.61</td></tr>
+    </tbody>
+  </table>
+
+  <h2>断点定位</h2>
+  <table>
+    <thead><tr><th>日期</th><th>ROI</th><th>次留</th><th>ARPDAU</th><th>广告收入</th><th>eCPM</th><th>IPU</th><th>判断</th></tr></thead>
+    <tbody>
+      <tr><td>2026-05-09</td><td>92.53%</td><td>10.30%</td><td>$0.0807</td><td>$6,255.56</td><td>$20.32</td><td>4.20</td><td><span class="badge warn">ROI 走弱</span></td></tr>
+      <tr><td>2026-05-10</td><td>98.93%</td><td>10.85%</td><td>$0.0693</td><td>$3,989.57</td><td>$16.29</td><td>3.74</td><td>广告收入回落</td></tr>
+      <tr><td>2026-05-11</td><td>95.93%</td><td>11.62%</td><td>$0.0691</td><td>$3,616.79</td><td>$11.16</td><td>4.28</td><td><span class="badge warn">前置信号</span></td></tr>
+      <tr><td>2026-05-12</td><td>87.18%</td><td>10.30%</td><td>$0.0521</td><td>$4,860.35</td><td>$10.71</td><td>4.84</td><td><span class="badge warn">ARPDAU 下台阶</span></td></tr>
+      <tr><td>2026-05-13</td><td>92.48%</td><td>11.37%</td><td>$0.0585</td><td>$4,514.02</td><td>$10.38</td><td>4.77</td><td>收入效率低位</td></tr>
+      <tr><td>2026-05-14</td><td>93.16%</td><td>8.87%</td><td>$0.0592</td><td>$4,440.35</td><td>$10.39</td><td>4.76</td><td><span class="badge bad">高置信断点</span></td></tr>
+      <tr><td>2026-05-15</td><td>85.95%</td><td>9.47%</td><td>$0.0526</td><td>$3,850.30</td><td>$10.31</td><td>4.72</td><td><span class="badge bad">低位延续</span></td></tr>
+      <tr><td>2026-05-16</td><td>84.73%</td><td>9.51%</td><td>$0.0515</td><td>$3,146.45</td><td>$10.57</td><td>4.57</td><td><span class="badge bad">低位延续</span></td></tr>
+      <tr><td>2026-05-17</td><td>90.85%</td><td>8.38%</td><td>$0.0526</td><td>$2,681.59</td><td>$11.48</td><td>4.37</td><td><span class="badge bad">次留更低</span></td></tr>
+    </tbody>
+  </table>
+
+  <section class="card">
+    <h2>优化建议</h2>
+    <h3>P0：确认三星维度</h3>
+    <p>拉取 Samsung vs 非 Samsung 的 D1、ROI1、ROI3、广告收入、ARPDAU。若 Samsung 组在 05-14 后显著恶化而非 Samsung 稳定，可把 05-14 作为高置信变更日。</p>
+    <h3>P1：降低受影响流量占比</h3>
+    <p>临时下调 Samsung 占比高的国家、渠道、campaign 出价，保留非 Samsung 占比高且 ROI1/ROI3 稳定的流量。</p>
+    <h3>P1：产品侧抗 deepsleep</h3>
+    <p>在 Samsung 新用户首日引导通知权限和电池不受限设置，同时将关键广告收入机会前置到 D0/D1 的自然使用路径中。</p>
+    <h3>P2：监控与归因</h3>
+    <p>建立 Samsung 专项看板，监控 DNU、D1、ROI0/1/3/7、ads revenue、ARPDAU、eCPM、IPU，并继续观察 2026-05-18 之后数据。</p>
+  </section>
+
+  <footer>Generated from /Users/suacker/dev/DataAnalysis/BI/reports/deepsleep/A153_OraAllDocsReader_Samsung_deepsleep_retention_roi_2026-03-18_2026-05-17.md</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[    3986ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://sso.thinkyeah.com/passport/login?next=https%3A%2F%2Fsnowball.thinkyeah.com%2Fanalysis%2FA182%2Fevents:0
+[   14937ms] [ERROR] StorageError: read from indexedDB, error : Storage timeout
+    at new t (https://sf3-scmcdn-cn.feishucdn.com/goofy/ee/suite/passport/static/login/chunk/vendor~page.cab45fa0.chunk.js:2:350711)
+    at https://sf3-scmcdn-cn.feishucdn.com/goofy/ee/suite/passport/static/login/chunk/vendor~page.cab45fa0.chunk.js:2:575290
+    at https://sf3-scmcdn-cn.feishucdn.com/goofy/ee/suite/passport/static/login/chunk/vendor~page.cab45fa0.chunk.js:2:574844
+    at Object.throw (https://sf3-scmcdn-cn.feishucdn.com/goofy/ee/suite/passport/static/login/chunk/vendor~page.cab45fa0.chunk.js:2:574949)
+    at s (https://sf3-scmcdn-cn.feishucdn.com/goofy/ee/suite/passport/static/login/chunk/vendor~page.cab45fa0.chunk.js:2:573716) @ https://sf3-scmcdn-cn.feishucdn.com/goofy/ee/suite/passport/static/login/js/login.eb19d591.js:0
+[   15449ms] Uncaught (in promise) StorageError: Storage timeout
+    at t (https://sf3-scmcdn-cn.feishucdn.com/goofy/ee/suite/passport/static/login/chunk/vendor~page.cab45fa0.chunk.js:1:350710)
+    at <anonymous> (https://sf3-scmcdn-cn.feishucdn.com/goofy/ee/suite/passport/static/login/chunk/vendor~page.cab45fa0.chunk.js:1:351310)
+[   29996ms] [LOG] ua Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/798.9ba6f366.js:52
+[   29996ms] [LOG] version  @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/798.9ba6f366.js:52
+[   29996ms] [LOG] isIos false @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/798.9ba6f366.js:52
+[   29997ms] [LOG] transportsDictString [usb, nfc, ble, internal, hybrid] @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/798.9ba6f366.js:52
+[   30052ms] [LOG] domain_service_init {page: https://accounts.feishu.cn/open-apis/authen/v1/index} undefined @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/index.167854a7.js:0
+[   30052ms] [LOG] lark_app_settings_get_from_pc undefined undefined @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/index.167854a7.js:0
+[   30053ms] [LOG] cs_authz_home_page_init_start {level: info, action: quality_metric, app_type: PC, widget_type: , brand: feishu} {} @ https://sf3-scmcdn-cn.feishucdn.com/obj/feishu-static/lark_iam/authorization/static/js/index.167854a7.js:0

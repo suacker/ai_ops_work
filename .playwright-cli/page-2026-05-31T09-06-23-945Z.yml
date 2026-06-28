@@ -1,0 +1,123 @@
+- generic [ref=e1]:
+  - generic [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - img "snowball-logo" [ref=e21] [cursor=pointer]
+        - generic [ref=e25] [cursor=pointer]:
+          - img "project logo" [ref=e238]
+          - generic [ref=e33]:
+            - generic [ref=e34]: MessageHome
+            - img "arrow icon" [ref=e35]
+        - link "android icon" [ref=e239] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=sms.messenger.mms.text.ai.home
+          - img "android icon" [ref=e240]
+      - generic [ref=e37]:
+        - link "综合" [ref=e38] [cursor=pointer]:
+          - /url: /bi/A182
+        - link "事件分析" [ref=e39] [cursor=pointer]:
+          - /url: /event/A182
+        - link "消息推送" [ref=e40] [cursor=pointer]:
+          - /url: /push/A182
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - link "store manage" [ref=e43] [cursor=pointer]:
+            - /url: https://reviews.thinkyeah.com/A182
+            - img "store manage" [ref=e44]
+          - link "store manage" [ref=e45] [cursor=pointer]:
+            - /url: https://store-manage.thinkyeah.com/project/list?pid=A182
+            - img "store manage" [ref=e46]
+        - generic [ref=e48]:
+          - img "icon" [ref=e242] [cursor=pointer]
+          - img "icon" [ref=e245] [cursor=pointer]
+          - img "feedback" [ref=e50] [cursor=pointer]
+          - img "language" [ref=e54] [cursor=pointer]
+          - img "setting" [ref=e55] [cursor=pointer]
+        - img [ref=e61] [cursor=pointer]
+    - generic [ref=e62]:
+      - generic [ref=e248]:
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - list [ref=e256]:
+              - generic [ref=e258] [cursor=pointer]:
+                - img [ref=e259]
+                - generic [ref=e260]: 新建看板
+              - listitem [ref=e262]:
+                - generic [ref=e263] [cursor=pointer]:
+                  - img [ref=e265]
+                  - generic [ref=e267]: 分析
+                  - generic [ref=e268]: 
+                - list [ref=e269]:
+                  - generic [ref=e270]:
+                    - listitem [ref=e272] [cursor=pointer]:
+                      - link "事件分析" [ref=e273]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/event_analysis
+                        - generic "事件分析" [ref=e274]
+                    - listitem [ref=e276] [cursor=pointer]:
+                      - link "事件分布" [ref=e277]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/event_distribution
+                        - generic "事件分布" [ref=e278]
+                    - listitem [ref=e280] [cursor=pointer]:
+                      - link "留存分析" [ref=e281]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/retention_analysis
+                        - generic "留存分析" [ref=e282]
+                    - listitem [ref=e284] [cursor=pointer]:
+                      - link "漏斗分析" [active] [ref=e285]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/funnel_analysis
+                        - generic "漏斗分析" [ref=e286]
+                    - listitem [ref=e288] [cursor=pointer]:
+                      - link "路径分析" [ref=e289]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/path_analysis
+                        - generic "路径分析" [ref=e290]
+                    - listitem [ref=e292] [cursor=pointer]:
+                      - link "用户时长" [ref=e293]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/user_engagement_time/create
+                        - generic "用户时长" [ref=e294]
+                    - listitem [ref=e296] [cursor=pointer]:
+                      - link "相关性分析" [ref=e297]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/correlation_analysis
+                        - generic "相关性分析" [ref=e298]
+              - listitem [ref=e300]:
+                - generic [ref=e301] [cursor=pointer]:
+                  - img [ref=e303]
+                  - generic [ref=e305]: 用户
+                  - generic [ref=e306]: 
+                - list [ref=e307]:
+                  - generic [ref=e308]:
+                    - listitem [ref=e310] [cursor=pointer]:
+                      - link "用户分群" [ref=e311]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/user/group
+                        - generic "用户分群" [ref=e312]
+                    - listitem [ref=e314] [cursor=pointer]:
+                      - link "用户信息" [ref=e315]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/user/search
+                        - generic "用户信息" [ref=e316]
+              - listitem [ref=e318]:
+                - generic [ref=e319] [cursor=pointer]:
+                  - img [ref=e321]
+                  - generic [ref=e323]: 数据查询
+                  - generic [ref=e324]: 
+                - list [ref=e325]:
+                  - listitem [ref=e328] [cursor=pointer]:
+                    - link "SQL查询" [ref=e329]:
+                      - /url: https://snowball.thinkyeah.com/event/A182/data_query/sql
+                      - generic "SQL查询" [ref=e330]
+            - img [ref=e333] [cursor=pointer]
+          - generic [ref=e353]:
+            - generic [ref=e354]:
+              - generic [ref=e357]: 漏斗分析
+              - button " 创建漏斗" [ref=e359] [cursor=pointer]:
+                - generic [ref=e360]:
+                  - generic [ref=e361]: 
+                  - text: 创建漏斗
+            - generic [ref=e364]:
+              - img "Empty Content" [ref=e365]
+              - paragraph [ref=e366]: 开始添加第一个分析报告吧
+              - button "创建漏斗" [ref=e367] [cursor=pointer]:
+                - generic [ref=e368]: 创建漏斗
+        - img:
+          - generic "切片"
+          - generic "logo_browser_event"
+        - generic:   
+      - img "feedback" [ref=e237] [cursor=pointer]
+  - img
+  - text:    

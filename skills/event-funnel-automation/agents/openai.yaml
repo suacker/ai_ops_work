@@ -1,0 +1,3 @@
+interface:
+  display_name: "事件漏斗自动化查询"
+  short_description: "在 Snowball 事件分析中自动配置漏斗并输出转化率"

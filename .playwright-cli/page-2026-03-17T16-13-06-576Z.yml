@@ -1,0 +1,98 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e7] [cursor=pointer]: 
+    - generic [ref=e9]:
+      - img [ref=e11]
+      - paragraph [ref=e13]: 会员服务升级啦
+      - paragraph [ref=e14]: 专业版会员已开放月度购买,查看
+      - paragraph [ref=e15]: 全球下载量和收入数据
+      - button "立即查看" [ref=e16] [cursor=pointer]:
+        - generic [ref=e19]: 立即查看
+  - generic [ref=e21]:
+    - generic [ref=e23] [cursor=pointer]: 答问卷，赢好礼！点点数据会员免费领！
+    - generic [ref=e24]:
+      - generic [ref=e25] [cursor=pointer]: 立即参与
+      - generic [ref=e27] [cursor=pointer]: 
+  - generic: 
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - link [ref=e33] [cursor=pointer]:
+        - /url: /
+      - link "Google Play榜单" [ref=e38]:
+        - /url: javascript:;
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42] [cursor=pointer]: 全局
+        - generic [ref=e43] [cursor=pointer]: 商店
+      - combobox [ref=e45]:
+        - generic [ref=e46]:
+          - textbox "搜索应用名称/包名" [ref=e47]
+          - generic [ref=e48]:
+            - button "" [ref=e52]:
+              - generic [ref=e54]: 
+            - generic [ref=e55]:
+              - text:  
+              - generic [ref=e59]: 
+              - text: 
+              - generic: 
+          - generic [ref=e63] [cursor=pointer]: 
+    - generic [ref=e64]:
+      - link " API" [ref=e67] [cursor=pointer]:
+        - /url: /service/api
+        - generic [ref=e68]: 
+        - generic [ref=e69]: API
+      - generic [ref=e70]:    
+      - generic [ref=e72]:
+        - generic [ref=e75]:
+          - generic [ref=e76]: 切换语言版本
+          - generic [ref=e77] [cursor=pointer]: 
+        - generic [ref=e79] [cursor=pointer]:
+          - generic [ref=e80]: 文
+          - generic [ref=e82]: A
+      - generic [ref=e83] [cursor=pointer]: 登录/注册
+  - generic [ref=e84]:
+    - generic [ref=e87]:
+      - link " 高级搜索" [ref=e91] [cursor=pointer]:
+        - /url: /advanced-search
+        - generic [ref=e92]: 
+        - text: 高级搜索
+      - link "排行榜" [ref=e96] [cursor=pointer]:
+        - /url: /rank/ios/
+      - link " 市场情报" [ref=e100] [cursor=pointer]:
+        - /url: /control/appstore
+        - generic [ref=e101]: 
+        - text: 市场情报
+      - link " 功能标签" [ref=e105] [cursor=pointer]:
+        - /url: /category-tags?category=1&type=1
+        - generic [ref=e106]: 
+        - text: 功能标签
+      - link " ASO/ASA" [ref=e110] [cursor=pointer]:
+        - /url: /search/ios-1-5-5-75-0-微信
+        - generic [ref=e111]: 
+        - text: ASO/ASA
+      - link " SDK" [ref=e115] [cursor=pointer]:
+        - /url: /sdk/rank/install/0-1-75-4-0
+        - generic [ref=e116]: 
+        - text: SDK
+      - link " 广告素材" [ref=e120] [cursor=pointer]:
+        - /url: /creatives
+        - generic [ref=e121]: 
+        - text: 广告素材
+      - link " 竞品对比" [ref=e125] [cursor=pointer]:
+        - /url: /pk/1-75/appInfo
+        - generic [ref=e126]: 
+        - text: 竞品对比
+    - generic:
+      - generic: 
+    - generic [ref=e130]:
+      - generic [ref=e135]:
+        - button "登录/注册" [ref=e136] [cursor=pointer]
+        - generic [ref=e137]: 以下为示例图，登录后可查看真实数据
+      - text:  
+  - generic: 
+  - generic: 
+  - text: 
+  - generic: 
+  - generic: 
+  - generic: 
+  - generic: 

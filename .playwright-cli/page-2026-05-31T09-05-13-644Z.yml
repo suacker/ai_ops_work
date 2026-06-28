@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - img "snowball-logo" [ref=e17] [cursor=pointer]
+        - generic [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: 全部项目
+          - img "arrow icon" [ref=e31]
+      - generic [ref=e33]:
+        - link "综合" [ref=e34] [cursor=pointer]:
+          - /url: /bi/
+        - link "事件分析" [ref=e35] [cursor=pointer]:
+          - /url: /event/
+        - link "消息推送" [ref=e36] [cursor=pointer]:
+          - /url: /push/
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - link "store manage" [ref=e39] [cursor=pointer]:
+            - /url: https://reviews.thinkyeah.com/
+            - img "store manage" [ref=e40]
+          - link "store manage" [ref=e41] [cursor=pointer]:
+            - /url: https://store-manage.thinkyeah.com/project/list
+            - img "store manage" [ref=e42]
+        - generic [ref=e44]:
+          - img "feedback" [ref=e46] [cursor=pointer]
+          - img "language" [ref=e50] [cursor=pointer]
+          - img "setting" [ref=e51] [cursor=pointer]
+        - img [ref=e57] [cursor=pointer]
+    - generic [ref=e58]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - img "info icon" [ref=e62]
+          - generic [ref=e63]: 版本更新！ 1.新增 Feedback 反馈系统，支持附件上传 2.新增指标：用户下单成本，支持投放转化效率评估 3.新增 ROI 自然增长趋势分析表 4.看板能力升级：支持默认看板初始化、收藏配置、侧边栏排序 5.我的项目列表支持动态配置指标显示 6.筛选与查询逻辑优化
+        - generic [ref=e64]:
+          - button "查看详情" [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: 查看详情
+          - img "close icon" [ref=e67] [cursor=pointer]
+      - generic [ref=e69]:
+        - img
+      - img "feedback" [ref=e74] [cursor=pointer]
+  - img
+  - text:    

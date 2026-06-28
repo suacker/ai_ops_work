@@ -1,0 +1,97 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e9] [cursor=pointer]: 答问卷，赢好礼！点点数据会员免费领！
+      - generic [ref=e10]:
+        - generic [ref=e11] [cursor=pointer]: 立即参与
+        - generic [ref=e13] [cursor=pointer]: 
+    - generic: 
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - link [ref=e19] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e20]:
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - button "排行榜 " [ref=e24] [cursor=pointer]:
+                - text: 排行榜
+                - generic [ref=e25]: 
+              - text:     
+            - generic: 
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - button "市场情报 " [ref=e29] [cursor=pointer]:
+                - text: 市场情报
+                - generic [ref=e30]: 
+              - text:       
+            - generic: 
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - button "功能标签 " [ref=e34] [cursor=pointer]:
+                - text: 功能标签
+                - generic [ref=e35]: 
+                - img [ref=e37]
+              - text:  
+            - generic: 
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - button "ASO/ASA " [ref=e42] [cursor=pointer]:
+                - text: ASO/ASA
+                - generic [ref=e43]: 
+              - text:   
+            - generic: 
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - button "SDK " [ref=e47] [cursor=pointer]:
+                - text: SDK
+                - generic [ref=e48]: 
+              - text:        
+            - generic: 
+          - generic [ref=e50]:
+            - link "广告素材" [ref=e51] [cursor=pointer]:
+              - /url: /creatives
+            - generic: 
+          - generic [ref=e53]:
+            - link "竞品对比" [ref=e54] [cursor=pointer]:
+              - /url: /pk/appData
+            - generic: 
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - button "服务 " [ref=e58] [cursor=pointer]:
+                - text: 服务
+                - generic [ref=e59]: 
+              - text:     
+            - generic: 
+      - generic [ref=e60]:
+        - generic [ref=e63]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: 切换语言版本
+            - generic [ref=e68] [cursor=pointer]: 
+          - generic [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: 文
+            - generic [ref=e73]: A
+        - generic [ref=e75] [cursor=pointer]: 登录/注册
+    - main [ref=e76]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e84]: 登录/注册
+          - paragraph [ref=e88]: 打开 扫一扫登录，关注公众号后即可注册
+        - generic [ref=e89]:
+          - generic [ref=e92]: 其他登录/注册方式
+          - generic [ref=e94]:
+            - generic [ref=e96] [cursor=pointer]: 短信验证码
+            - generic [ref=e98] [cursor=pointer]: 邮箱
+            - button "Google邮箱" [ref=e104]:
+              - generic [ref=e105] [cursor=pointer]:
+                - img [ref=e106]
+                - text: Google邮箱
+    - generic [ref=e108]:
+      - link "沪ICP备2021010088号-1" [ref=e109] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn
+      - link "丨Copyright © 2024 Diandian.All Rights Reserved.丨" [ref=e110]:
+        - /url: javascript:;
+      - link "沪公网安备 31010902003223号丨" [ref=e111] [cursor=pointer]:
+        - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010902003223
+      - link "归因（上海）科技有限公司" [ref=e112]:
+        - /url: javascript:;
+  - text: 

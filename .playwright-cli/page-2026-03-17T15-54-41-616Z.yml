@@ -1,0 +1,1988 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e9] [cursor=pointer]: 答问卷，赢好礼！点点数据会员免费领！
+      - generic [ref=e10]:
+        - generic [ref=e11] [cursor=pointer]: 立即参与
+        - generic [ref=e13] [cursor=pointer]: 
+    - generic: 
+    - generic [ref=e14]:
+      - generic [ref=e16]:
+        - link " 返回点点首页" [ref=e17] [cursor=pointer]:
+          - /url: //www.diandian.com
+          - generic [ref=e18]: 
+          - text: 返回点点首页
+        - generic [ref=e19]:
+          - button "产品矩阵 " [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: 产品矩阵
+            - generic [ref=e23]: 
+          - button "联系我们 " [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: 联系我们
+            - generic [ref=e28]: 
+          - link "关于点点" [ref=e29] [cursor=pointer]:
+            - /url: //www.diandian.com/aboutus
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - link [ref=e34] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e35]:
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - button "排行榜 " [ref=e39] [cursor=pointer]:
+                  - text: 排行榜
+                  - generic [ref=e40]: 
+                - text:     
+              - generic: 
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - button "市场情报 " [ref=e44] [cursor=pointer]:
+                  - text: 市场情报
+                  - generic [ref=e45]: 
+                - text:       
+              - generic: 
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - button "功能标签 " [ref=e49] [cursor=pointer]:
+                  - text: 功能标签
+                  - generic [ref=e50]: 
+                  - img [ref=e52]
+                - text:  
+              - generic: 
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - button "ASO/ASA " [ref=e57] [cursor=pointer]:
+                  - text: ASO/ASA
+                  - generic [ref=e58]: 
+                - text:   
+              - generic: 
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - button "SDK " [ref=e62] [cursor=pointer]:
+                  - text: SDK
+                  - generic [ref=e63]: 
+                - text:        
+              - generic: 
+            - generic [ref=e65]:
+              - link "广告素材" [ref=e66] [cursor=pointer]:
+                - /url: /creatives
+              - generic: 
+            - generic [ref=e68]:
+              - link "竞品对比" [ref=e69] [cursor=pointer]:
+                - /url: /pk/appData
+              - generic: 
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - button "服务 " [ref=e73] [cursor=pointer]:
+                  - text: 服务
+                  - generic [ref=e74]: 
+                - text:     
+              - generic: 
+        - generic [ref=e75]:
+          - generic [ref=e79]:
+            - button [ref=e80] [cursor=pointer]
+            - text: 
+          - generic [ref=e81]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: 切换语言版本
+              - generic [ref=e86] [cursor=pointer]: 
+            - generic [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: 文
+              - generic [ref=e91]: A
+          - generic [ref=e94] [cursor=pointer]:
+            - button "用户：oym0u6hl5l5h54k" [ref=e95]:
+              - img "用户：oym0u6hl5l5h54k" [ref=e97]
+              - img [ref=e100]
+            - text:  
+    - main [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e106]:
+          - generic [ref=e107]: 专业移动数据分析平台 助力App全球增长
+          - generic [ref=e108]:
+            - img [ref=e111]
+            - generic [ref=e119]:
+              - img [ref=e122] [cursor=pointer]
+              - generic [ref=e126]:
+                - text:  
+                - generic [ref=e128]:
+                  - link "App Store榜单" [ref=e129] [cursor=pointer]:
+                    - /url: /rank/ios
+                    - text: App Store榜单
+                  - link "Google Play榜单" [ref=e130] [cursor=pointer]:
+                    - /url: /rank/googleplay
+                    - text: Google Play榜单
+                  - link "国内安卓榜单" [ref=e131] [cursor=pointer]:
+                    - /url: /rank/android
+                    - text: 国内安卓榜单
+                  - link "TapTap榜单" [ref=e132] [cursor=pointer]:
+                    - /url: /rank/taptap
+                    - text: TapTap榜单
+                    - img [ref=e135]
+                  - link "全球榜单" [ref=e137] [cursor=pointer]:
+                    - /url: /rank/global/ios
+                    - text: 全球榜单
+                  - link "下载/收入榜" [ref=e138] [cursor=pointer]:
+                    - /url: /rank/hotapp-0-4-0-1-0
+                    - text: 下载/收入榜
+                  - link "精品推荐" [ref=e139] [cursor=pointer]:
+                    - /url: /rank/recommend-5-0-75
+                    - text: 精品推荐
+                  - link "ASA投放榜" [ref=e140] [cursor=pointer]:
+                    - /url: /control/asa-2-75-4-0
+                    - text: ASA投放榜
+                  - link "上/下架监控" [ref=e141] [cursor=pointer]:
+                    - /url: /rank/line-1-0-0-75-0-3-0
+                    - text: 上/下架监控
+                  - link "清榜/清词监控" [ref=e142] [cursor=pointer]:
+                    - /url: /rank/line-1-2-0-75-0-3-0
+                    - text: 清榜/清词监控
+                - generic [ref=e144]:
+                  - link "上升/下降榜" [ref=e145] [cursor=pointer]:
+                    - /url: /rank/updown-1-1-4-0-75-2
+                    - text: 上升/下降榜
+                  - link "预订监控" [ref=e146] [cursor=pointer]:
+                    - /url: /rank/line-1-4-0-75-0-3-0
+                    - text: 预订监控
+                  - link "市场监控" [ref=e147] [cursor=pointer]:
+                    - /url: /control/appstore
+                    - text: 市场监控
+                  - link "关键词对比" [ref=e148] [cursor=pointer]:
+                    - /url: /rank/vs-1-75-微信
+                    - text: 关键词对比
+                  - link "App关键词覆盖榜" [ref=e149] [cursor=pointer]:
+                    - /url: /rank/cover-1-1-75-0-0-0-0
+                    - text: App关键词覆盖榜
+                  - link "关键词拓展" [ref=e150] [cursor=pointer]:
+                    - /url: /tool/word-1-75-‡
+                    - text: 关键词拓展
+                  - link "联想词智查" [ref=e151] [cursor=pointer]:
+                    - /url: /tool/searchIntelligent-1-75-‡
+                    - text: 联想词智查
+                - generic [ref=e153]:
+                  - link "App Store榜单" [ref=e154] [cursor=pointer]:
+                    - /url: /rank/ios
+                    - text: App Store榜单
+                  - link "Google Play榜单" [ref=e155] [cursor=pointer]:
+                    - /url: /rank/googleplay
+                    - text: Google Play榜单
+                  - link "国内安卓榜单" [ref=e156] [cursor=pointer]:
+                    - /url: /rank/android
+                    - text: 国内安卓榜单
+                  - link "TapTap榜单" [ref=e157] [cursor=pointer]:
+                    - /url: /rank/taptap
+                    - text: TapTap榜单
+                    - img [ref=e160]
+                  - link "全球榜单" [ref=e162] [cursor=pointer]:
+                    - /url: /rank/global/ios
+                    - text: 全球榜单
+                  - link "下载/收入榜" [ref=e163] [cursor=pointer]:
+                    - /url: /rank/hotapp-0-4-0-1-0
+                    - text: 下载/收入榜
+                  - link "精品推荐" [ref=e164] [cursor=pointer]:
+                    - /url: /rank/recommend-5-0-75
+                    - text: 精品推荐
+                  - link "ASA投放榜" [ref=e165] [cursor=pointer]:
+                    - /url: /control/asa-2-75-4-0
+                    - text: ASA投放榜
+                  - link "上/下架监控" [ref=e166] [cursor=pointer]:
+                    - /url: /rank/line-1-0-0-75-0-3-0
+                    - text: 上/下架监控
+                  - link "清榜/清词监控" [ref=e167] [cursor=pointer]:
+                    - /url: /rank/line-1-2-0-75-0-3-0
+                    - text: 清榜/清词监控
+                - generic [ref=e169]:
+                  - link "上升/下降榜" [ref=e170] [cursor=pointer]:
+                    - /url: /rank/updown-1-1-4-0-75-2
+                    - text: 上升/下降榜
+                  - link "预订监控" [ref=e171] [cursor=pointer]:
+                    - /url: /rank/line-1-4-0-75-0-3-0
+                    - text: 预订监控
+                  - link "市场监控" [ref=e172] [cursor=pointer]:
+                    - /url: /control/appstore
+                    - text: 市场监控
+                  - link "关键词对比" [ref=e173] [cursor=pointer]:
+                    - /url: /rank/vs-1-75-微信
+                    - text: 关键词对比
+                  - link "App关键词覆盖榜" [ref=e174] [cursor=pointer]:
+                    - /url: /rank/cover-1-1-75-0-0-0-0
+                    - text: App关键词覆盖榜
+                  - link "关键词拓展" [ref=e175] [cursor=pointer]:
+                    - /url: /tool/word-1-75-‡
+                    - text: 关键词拓展
+                  - link "联想词智查" [ref=e176] [cursor=pointer]:
+                    - /url: /tool/searchIntelligent-1-75-‡
+                    - text: 联想词智查
+              - img [ref=e179] [cursor=pointer]
+            - generic [ref=e181]:
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e184] [cursor=pointer]:
+                    - img [ref=e186]
+                    - text: 全局
+                  - generic [ref=e188] [cursor=pointer]: 商店
+                - combobox [ref=e190]:
+                  - generic [ref=e191]:
+                    - textbox "搜索应用名称/App ID" [ref=e192]
+                    - generic [ref=e193]:
+                      - button "" [ref=e197]:
+                        - generic [ref=e199]: 
+                      - generic [ref=e200]:
+                        - text:  
+                        - generic [ref=e204]: 
+                        - text: 
+                        - generic: 
+                    - button " 搜索" [ref=e207] [cursor=pointer]:
+                      - generic [ref=e208]: 
+                      - text: 搜索
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - paragraph [ref=e211]: iOS热搜：
+                  - link "购物" [ref=e212] [cursor=pointer]:
+                    - /url: /search/ios-1-5-5-75-0-购物
+                  - link "养成游戏" [ref=e213] [cursor=pointer]:
+                    - /url: /search/ios-1-5-5-75-0-养成游戏
+                  - link "儿童游戏" [ref=e214] [cursor=pointer]:
+                    - /url: /search/ios-1-5-5-75-0-儿童游戏
+                  - link "日剧" [ref=e215] [cursor=pointer]:
+                    - /url: /search/ios-1-5-5-75-0-日剧
+                  - link "视频" [ref=e216] [cursor=pointer]:
+                    - /url: /search/ios-1-5-5-75-0-视频
+                  - link "相机" [ref=e217] [cursor=pointer]:
+                    - /url: /search/ios-1-5-5-75-0-相机
+                - link "更多" [ref=e218] [cursor=pointer]:
+                  - /url: /rank/hot-75?systemhotsearch=1
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - generic:
+              - generic:
+                - generic [ref=e222]:
+                  - generic [ref=e223]: 最新报告
+                  - generic [ref=e226]:
+                    - link "2026中国金融服务应用全景分析报告" [ref=e230] [cursor=pointer]:
+                      - /url: https://www.diandian.com/reports/4T4pgujn6YhiTQTQNOL9
+                    - generic [ref=e232]:
+                      - link "2025Q4二次元移动游戏体验评测分析报告" [ref=e234] [cursor=pointer]:
+                        - /url: https://www.diandian.com/reports/fKMCopsBr196--OEnE4w
+                      - generic [ref=e235]: Hot
+                    - generic [ref=e237]:
+                      - link "2025全球模拟类移动游戏发展趋势报告" [ref=e239] [cursor=pointer]:
+                        - /url: https://www.diandian.com/reports/279fSZsBU-rXHXBxMqaG
+                      - generic [ref=e240]: Hot
+                    - generic [ref=e242]:
+                      - link "2025全球SLG移动游戏发展趋势报告" [ref=e244] [cursor=pointer]:
+                        - /url: https://www.diandian.com/reports/caMyC5oBr196--OE204D
+                      - generic [ref=e245]: Hot
+                    - generic [ref=e247]:
+                      - link "中国现金贷APP用户体验评价分析报告" [ref=e249] [cursor=pointer]:
+                        - /url: https://www.diandian.com/reports/zb_iWpkBU-rXHXBx7KZL
+                      - generic [ref=e250]: Hot
+                  - link "更多 " [ref=e251] [cursor=pointer]:
+                    - /url: https://www.diandian.com/reports
+                    - generic [ref=e252]: 更多
+                    - generic [ref=e253]: 
+                - generic [ref=e255]:
+                  - generic [ref=e256]: 最新资讯
+                  - generic [ref=e259]:
+                    - link "出海厂商丨2026年2月中国应用/游戏厂商出海收入Top30榜" [active] [ref=e263] [cursor=pointer]:
+                      - /url: https://www.diandian.com/news/TL5Zy7IcqLfBvM7Ru7Xm
+                    - link "苹果宣布降低商店佣金率至25%；字节跳动暂停 Seedance 2.0 发布计划" [ref=e267] [cursor=pointer]:
+                      - /url: https://www.diandian.com/news/gmaKpzE7n1VM7xuoLNsl
+                    - link "三七新游首月流水超2500万，强竞争与方法论趋同下微创新依然有用" [ref=e271] [cursor=pointer]:
+                      - /url: https://www.diandian.com/news/6fI7pYQevXxAFDNxgxql
+                    - link "2025印尼证券服务市场洞察丨移动应用滞后，活跃十万量级APP仅3款，年新增投资者600万" [ref=e275] [cursor=pointer]:
+                      - /url: https://www.diandian.com/news/pyPkzqeyok91kOe2jqEj
+                    - link "像素冒险游戏《勇者逗逗龍》首月收入超2603万元夺冠；心动发行《潜水员戴夫》国内登顶；" [ref=e279] [cursor=pointer]:
+                      - /url: https://www.diandian.com/news/EkVL8DY9zbiYTj2U596a
+                  - link "更多 " [ref=e280] [cursor=pointer]:
+                    - /url: https://www.diandian.com/news
+                    - generic [ref=e281]: 更多
+                    - generic [ref=e282]: 
+            - generic [ref=e283]:
+              - generic: 
+              - generic: 
+              - generic [ref=e286]:
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic [ref=e287]:
+                  - generic [ref=e288]:
+                    - generic [ref=e289]:
+                      - generic [ref=e290]: 我关注的应用（29）
+                      - generic [ref=e292]:
+                        - generic [ref=e293]:
+                          - img [ref=e296]
+                          - generic [ref=e311]:
+                            - generic [ref=e312]: 您可根据自身的使用需求，切换图表模式、列表模式、海外模式.
+                            - generic [ref=e314]:
+                              - generic [ref=e315] [cursor=pointer]: 查看详情
+                              - generic [ref=e316] [cursor=pointer]: 
+                            - generic [ref=e318] [cursor=pointer]: 
+                        - button "图表模式 " [ref=e319] [cursor=pointer]:
+                          - generic [ref=e320]:
+                            - text: 图表模式
+                            - generic [ref=e321]: 
+                    - generic [ref=e322]:
+                      - button " 应用管理" [ref=e323] [cursor=pointer]:
+                        - generic [ref=e324]: 
+                        - text: 应用管理
+                      - button " 添加App" [ref=e325] [cursor=pointer]:
+                        - generic [ref=e326]: 
+                        - text: 添加App
+                  - generic [ref=e328]:
+                    - generic [ref=e330]:
+                      - generic [ref=e332]:
+                        - generic [ref=e334] [cursor=pointer]:
+                          - link "Zangi Private Messenger" [ref=e336]:
+                            - /url: javascript:;
+                            - img "Zangi Private Messenger" [ref=e337]
+                          - link "Zangi Private Messenger" [ref=e342]:
+                            - /url: javascript:;
+                        - generic [ref=e345] [cursor=pointer]:
+                          - 'link "Daily Forecast: Weather&Radar" [ref=e347]':
+                            - /url: javascript:;
+                            - 'img "Daily Forecast: Weather&Radar" [ref=e348]'
+                          - link "Daily Forecast" [ref=e353]:
+                            - /url: javascript:;
+                        - generic [ref=e355] [cursor=pointer]:
+                          - link "Emoji Stitch" [ref=e357]:
+                            - /url: javascript:;
+                            - img "Emoji Stitch" [ref=e358]
+                          - link "Emoji Stitch" [ref=e363]:
+                            - /url: javascript:;
+                        - generic [ref=e365] [cursor=pointer]:
+                          - link "Messenger - Color SMS" [ref=e367]:
+                            - /url: javascript:;
+                            - img "Messenger - Color SMS" [ref=e368]
+                          - link "Messenger" [ref=e373]:
+                            - /url: javascript:;
+                        - generic [ref=e375] [cursor=pointer]:
+                          - link "Apple Music" [ref=e377]:
+                            - /url: javascript:;
+                            - img "Apple Music" [ref=e378]
+                          - link "Apple Music" [ref=e383]:
+                            - /url: javascript:;
+                        - generic [ref=e385] [cursor=pointer]:
+                          - link "Easy Mail - Email Launcher" [ref=e387]:
+                            - /url: javascript:;
+                            - img "Easy Mail - Email Launcher" [ref=e388]
+                          - link "Easy Mail" [ref=e393]:
+                            - /url: javascript:;
+                        - generic [ref=e395] [cursor=pointer]:
+                          - 'link "Duolingo: Language Lessons" [ref=e397]':
+                            - /url: javascript:;
+                            - 'img "Duolingo: Language Lessons" [ref=e398]'
+                          - link "Duolingo" [ref=e403]:
+                            - /url: javascript:;
+                        - generic [ref=e405] [cursor=pointer]:
+                          - link "Zedge™ Wallpapers & Ringtones" [ref=e407]:
+                            - /url: javascript:;
+                            - img "Zedge™ Wallpapers & Ringtones" [ref=e408]
+                          - link "Zedge" [ref=e413]:
+                            - /url: javascript:;
+                        - generic [ref=e415] [cursor=pointer]:
+                          - link "Signal Private Messenger" [ref=e417]:
+                            - /url: javascript:;
+                            - img "Signal Private Messenger" [ref=e418]
+                          - link "Signal Private Messenger" [ref=e423]:
+                            - /url: javascript:;
+                        - generic [ref=e425] [cursor=pointer]:
+                          - link "ToonArt Photo Cartoon Yourself" [ref=e427]:
+                            - /url: javascript:;
+                            - img "ToonArt Photo Cartoon Yourself" [ref=e428]
+                          - link "ToonArt Photo Cartoon Yourself" [ref=e433]:
+                            - /url: javascript:;
+                        - generic [ref=e435] [cursor=pointer]:
+                          - link "Fotor - AI Photo Editor" [ref=e437]:
+                            - /url: javascript:;
+                            - img "Fotor - AI Photo Editor" [ref=e438]
+                          - link "Fotor" [ref=e443]:
+                            - /url: javascript:;
+                        - generic [ref=e445] [cursor=pointer]:
+                          - 'link "AI像素艺术相机和动漫头像制作器: PixelMe" [ref=e447]':
+                            - /url: javascript:;
+                            - 'img "AI像素艺术相机和动漫头像制作器: PixelMe" [ref=e448]'
+                          - link "AI像素艺术相机和动漫头像制作器" [ref=e453]:
+                            - /url: javascript:;
+                        - generic [ref=e455] [cursor=pointer]:
+                          - link "拼多多 - 多多买菜，百亿补贴" [ref=e457]:
+                            - /url: javascript:;
+                            - img "拼多多 - 多多买菜，百亿补贴" [ref=e458]
+                          - link "拼多多" [ref=e463]:
+                            - /url: javascript:;
+                        - generic [ref=e465] [cursor=pointer]:
+                          - link "TikTok - Videos, Shop & LIVE" [ref=e467]:
+                            - /url: javascript:;
+                            - img "TikTok - Videos, Shop & LIVE" [ref=e468]
+                          - link "TikTok" [ref=e473]:
+                            - /url: javascript:;
+                        - generic [ref=e475] [cursor=pointer]:
+                          - link "微信" [ref=e477]:
+                            - /url: javascript:;
+                            - img "微信" [ref=e478]
+                          - link "微信" [ref=e483]:
+                            - /url: javascript:;
+                        - generic [ref=e485] [cursor=pointer]:
+                          - link "Authenticator App - SafeAuth" [ref=e487]:
+                            - /url: javascript:;
+                            - img "Authenticator App - SafeAuth" [ref=e488]
+                          - link "Authenticator App" [ref=e493]:
+                            - /url: javascript:;
+                        - generic [ref=e495] [cursor=pointer]:
+                          - link "ABPV－America’s best pics, vids" [ref=e497]:
+                            - /url: javascript:;
+                            - img "ABPV－America’s best pics, vids" [ref=e498]
+                          - link "ABPV" [ref=e503]:
+                            - /url: javascript:;
+                        - generic [ref=e505] [cursor=pointer]:
+                          - link "Messages" [ref=e507]:
+                            - /url: javascript:;
+                            - img "Messages" [ref=e508]
+                          - link "Messages" [ref=e513]:
+                            - /url: javascript:;
+                        - generic [ref=e515] [cursor=pointer]:
+                          - link "Bible" [ref=e517]:
+                            - /url: javascript:;
+                            - img "Bible" [ref=e518]
+                          - link "Bible" [ref=e523]:
+                            - /url: javascript:;
+                        - generic [ref=e525] [cursor=pointer]:
+                          - link "Translate Now - AI Translator" [ref=e527]:
+                            - /url: javascript:;
+                            - img "Translate Now - AI Translator" [ref=e528]
+                          - link "Translate Now" [ref=e533]:
+                            - /url: javascript:;
+                        - generic [ref=e535] [cursor=pointer]:
+                          - link "Local Weather News - Radar" [ref=e537]:
+                            - /url: javascript:;
+                            - img "Local Weather News - Radar" [ref=e538]
+                          - link "Local Weather News" [ref=e543]:
+                            - /url: javascript:;
+                        - generic [ref=e545] [cursor=pointer]:
+                          - link "ウェザーニュース 天気・雨雲レーダー・台風の天気予報アプリ" [ref=e547]:
+                            - /url: javascript:;
+                            - img "ウェザーニュース 天気・雨雲レーダー・台風の天気予報アプリ" [ref=e548]
+                          - link "ウェザーニュース 天気・雨雲レーダー・台風の天気予報アプリ" [ref=e553]:
+                            - /url: javascript:;
+                        - generic [ref=e555] [cursor=pointer]:
+                          - link "Open Browser - Smart & Safe" [ref=e557]:
+                            - /url: javascript:;
+                            - img "Open Browser - Smart & Safe" [ref=e558]
+                          - link "Open Browser" [ref=e563]:
+                            - /url: javascript:;
+                        - generic [ref=e565] [cursor=pointer]:
+                          - 'link "Breaking News: Local & Alerts" [ref=e567]':
+                            - /url: javascript:;
+                            - 'img "Breaking News: Local & Alerts" [ref=e568]'
+                          - link "Breaking News" [ref=e573]:
+                            - /url: javascript:;
+                        - generic [ref=e575] [cursor=pointer]:
+                          - link "Photo Editor Video Maker Music" [ref=e577]:
+                            - /url: javascript:;
+                            - img "Photo Editor Video Maker Music" [ref=e578]
+                          - link "Photo Editor Video Maker Music" [ref=e583]:
+                            - /url: javascript:;
+                        - generic [ref=e585] [cursor=pointer]:
+                          - link "Easy Text & Voice Translator" [ref=e587]:
+                            - /url: javascript:;
+                            - img "Easy Text & Voice Translator" [ref=e588]
+                          - link "Easy Text & Voice Translator" [ref=e593]:
+                            - /url: javascript:;
+                        - generic [ref=e595] [cursor=pointer]:
+                          - link "PhotoVerse AI Photo Editor" [ref=e597]:
+                            - /url: javascript:;
+                            - img "PhotoVerse AI Photo Editor" [ref=e598]
+                          - link "PhotoVerse AI Photo Editor" [ref=e603]:
+                            - /url: javascript:;
+                        - generic [ref=e605] [cursor=pointer]:
+                          - 'link "GIO: AI Headshot Generator" [ref=e607]':
+                            - /url: javascript:;
+                            - 'img "GIO: AI Headshot Generator" [ref=e608]'
+                          - link "GIO" [ref=e613]:
+                            - /url: javascript:;
+                        - generic [ref=e615] [cursor=pointer]:
+                          - link "Local Weather Wherever" [ref=e617]:
+                            - /url: javascript:;
+                            - img "Local Weather Wherever" [ref=e618]
+                          - link "Local Weather Wherever" [ref=e623]:
+                            - /url: javascript:;
+                      - generic [ref=e624] [cursor=pointer]: 
+                    - generic [ref=e627]:
+                      - generic [ref=e629]:
+                        - link "Zangi Private Messenger" [ref=e630] [cursor=pointer]:
+                          - /url: /app/v4v2imul7vgvfgy/googleplay?market=11&country=24
+                          - img "Zangi Private Messenger" [ref=e631]
+                        - generic [ref=e633]:
+                          - generic [ref=e634]:
+                            - generic [ref=e635]:
+                              - link "Zangi Private Messenger" [ref=e636] [cursor=pointer]:
+                                - /url: /app/v4v2imul7vgvfgy/googleplay?market=11&country=24
+                              - generic [ref=e638] [cursor=pointer]: 未监控
+                            - paragraph [ref=e639]:
+                              - text: 最新版本：6.4.52026年02月27日
+                              - link "1 处更新>" [ref=e640] [cursor=pointer]:
+                                - /url: /app/v4v2imul7vgvfgy/googleplay-ver?market=11&country=24
+                                - generic [ref=e641]: 1 处更新>
+                          - generic [ref=e642]:
+                            - generic [ref=e643]:
+                              - generic [ref=e645]:
+                                - list [ref=e647]:
+                                  - listitem [ref=e648]:
+                                    - generic [ref=e650]:
+                                      - text:  
+                                      - link "美国 " [ref=e652] [cursor=pointer]:
+                                        - /url: javascript:void(0);
+                                        - generic [ref=e654]: 美国
+                                        - generic [ref=e655]: 
+                                      - text: 
+                                      - generic: 
+                                - generic: 
+                              - generic [ref=e656]:
+                                - list [ref=e658]:
+                                  - listitem [ref=e659]:
+                                    - button "Google Play " [ref=e662] [cursor=pointer]:
+                                      - generic [ref=e664]: Google Play
+                                      - generic [ref=e665]: 
+                                - generic: 
+                            - generic [ref=e666]: Secret Phone, Inc
+                      - generic [ref=e668]:
+                        - generic [ref=e669]:
+                          - generic [ref=e670]:
+                            - link "应用（免费榜）" [ref=e672] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-rank?market=11&country=24
+                            - link "-" [ref=e674] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-rank?market=11&country=24
+                              - generic [ref=e675]: "-"
+                          - generic [ref=e676]:
+                            - link "通讯（免费榜）" [ref=e678] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-rank?market=11&country=24
+                            - link "15" [ref=e680] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-rank?market=11&country=24
+                              - generic [ref=e681]: "15"
+                        - generic [ref=e682]:
+                          - generic [ref=e683]:
+                            - link "关键词覆盖" [ref=e685] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-aso?market=11&country=24&system=4
+                            - link "29072  30" [ref=e687] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-aso?market=11&country=24&system=4
+                              - generic [ref=e688]: "29072"
+                              - generic [ref=e689]:
+                                - generic [ref=e690]: 
+                                - text: "30"
+                          - generic [ref=e691]:
+                            - link "TOP3关键词" [ref=e693] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-aso?market=11&country=24&system=4
+                            - link "435  2" [ref=e695] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-aso?market=11&country=24&system=4
+                              - generic [ref=e696]: "435"
+                              - generic [ref=e697]:
+                                - generic [ref=e698]: 
+                                - text: "2"
+                        - generic [ref=e699]:
+                          - generic [ref=e700]:
+                            - link "评分" [ref=e702] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-review?market=11&country=24
+                            - link "4.2 " [ref=e704] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-review?market=11&country=24
+                              - generic [ref=e705]: "4.2"
+                              - generic [ref=e707]: 
+                          - generic [ref=e708]:
+                            - link "昨日新增评论" [ref=e710] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-review?market=11&country=24
+                            - link "17" [ref=e712] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-review?market=11&country=24
+                              - generic [ref=e713]: "17"
+                        - generic [ref=e714]:
+                          - generic [ref=e715]:
+                            - link "昨日下载量" [ref=e717] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-downloads?market=11&country=24
+                            - link "xx" [ref=e719] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-downloads?market=11&country=24
+                              - generic [ref=e721]: xx
+                          - generic [ref=e722]:
+                            - link "近7日均下载量" [ref=e724] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-downloads?market=11&country=24
+                            - link "xx" [ref=e726] [cursor=pointer]:
+                              - /url: /app/v4v2imul7vgvfgy/googleplay-downloads?market=11&country=24
+                              - generic [ref=e728]: xx
+                      - generic [ref=e757]:
+                        - generic [ref=e758]: 当前为高级版，访问受限，升级会员查看全部数据
+                        - generic [ref=e759] [cursor=pointer]: 升级会员
+          - generic [ref=e760]:
+            - generic [ref=e761]:
+              - generic [ref=e762]:
+                - heading "全球应用观察台" [level=1] [ref=e763]
+                - generic [ref=e764]:
+                  - button [ref=e765] [cursor=pointer]:
+                    - img [ref=e768]
+                  - button [ref=e770] [cursor=pointer]:
+                    - img [ref=e773]
+                - generic [ref=e775]: 较昨日同时段：
+              - generic [ref=e776]:
+                - link "2,218 下架应用 -911" [ref=e777] [cursor=pointer]:
+                  - /url: /rank/line-1-1-0-75-0-2-0
+                  - generic [ref=e778]:
+                    - generic [ref=e779]: 2,218
+                    - generic [ref=e780]: 下架应用
+                    - generic [ref=e781]: "-911"
+                - link "3,088 新上架应用 +632" [ref=e783] [cursor=pointer]:
+                  - /url: /rank/line-1-0-0-75-0-2-0
+                  - generic [ref=e784]:
+                    - generic [ref=e785]: 3,088
+                    - generic [ref=e786]: 新上架应用
+                    - generic [ref=e787]: "+632"
+                - link "32,097 被清榜应用 -397" [ref=e789] [cursor=pointer]:
+                  - /url: /rank/line-1-2-0-75-0-2-0
+                  - generic [ref=e790]:
+                    - generic [ref=e791]: 32,097
+                    - generic [ref=e792]: 被清榜应用
+                    - generic [ref=e793]: "-397"
+                - link "21,694 被清词应用 -3121" [ref=e795] [cursor=pointer]:
+                  - /url: /rank/line-1-3-0-75-0-2-0
+                  - generic [ref=e796]:
+                    - generic [ref=e797]: 21,694
+                    - generic [ref=e798]: 被清词应用
+                    - generic [ref=e799]: "-3121"
+                - link "196,077 预订应用 -666" [ref=e801] [cursor=pointer]:
+                  - /url: /rank/line-1-4-0-75-0-2-0
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: 196,077
+                    - generic [ref=e804]: 预订应用
+                    - generic [ref=e805]: "-666"
+                - link "2,675,910 应用总数" [ref=e807] [cursor=pointer]:
+                  - /url: /control/appstore
+                  - generic [ref=e808]:
+                    - generic [ref=e809]: 2,675,910
+                    - generic [ref=e810]: 应用总数
+            - generic [ref=e811]:
+              - img "波纹1" [ref=e812]
+              - img "波纹2" [ref=e813]
+          - generic [ref=e815]:
+            - generic [ref=e818]: 榜单实时监控
+            - generic [ref=e820]:
+              - generic [ref=e821]:
+                - generic [ref=e822]:
+                  - generic [ref=e823]: 商店
+                  - list [ref=e825]:
+                    - listitem [ref=e826]:
+                      - link "App Store" [ref=e828] [cursor=pointer]:
+                        - /url: javascript:;
+                        - generic [ref=e831]: App Store
+                    - listitem [ref=e832]:
+                      - link "Google Play" [ref=e834] [cursor=pointer]:
+                        - /url: javascript:;
+                        - generic [ref=e837]: Google Play
+                  - generic: 
+                - generic [ref=e838]:
+                  - generic [ref=e839]: 分类
+                  - generic [ref=e841]:
+                    - generic [ref=e842] [cursor=pointer]:
+                      - textbox [ref=e843]: 总榜
+                      - generic [ref=e845]: 
+                    - text:  
+                  - generic: 
+                - generic [ref=e846]:
+                  - generic [ref=e847]: 国家/地区
+                  - list [ref=e849]:
+                    - listitem [ref=e850]:
+                      - generic [ref=e852]:
+                        - text:  
+                        - link "中国 " [ref=e854] [cursor=pointer]:
+                          - /url: javascript:void(0);
+                          - generic [ref=e856]: 中国
+                          - generic [ref=e857]: 
+                        - text: 
+                        - generic: 
+                  - generic: 
+              - generic [ref=e861]:
+                - generic [ref=e863]:
+                  - generic [ref=e864]:
+                    - generic [ref=e868]: 免费榜
+                    - generic [ref=e869]:
+                      - link "" [ref=e870] [cursor=pointer]:
+                        - /url: /rank/compete-1-4-0-75-2
+                        - generic [ref=e871]: 
+                      - generic [ref=e873] [cursor=pointer]: 
+                  - generic [ref=e874]:
+                    - generic [ref=e878]:
+                      - link "豆包 - 随时帮忙的 AI 助手" [ref=e879] [cursor=pointer]:
+                        - /url: /app/m0u2u8zo1zv77s5/ios?market=1&country=75
+                        - img "豆包 - 随时帮忙的 AI 助手" [ref=e880]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]:
+                          - generic [ref=e886]:
+                            - generic [ref=e888]: 霸榜27天
+                            - link "豆包 - 随时帮忙的 AI 助手" [ref=e889] [cursor=pointer]:
+                              - /url: /app/m0u2u8zo1zv77s5/ios?market=1&country=75
+                          - img [ref=e892]
+                        - generic [ref=e894]:
+                          - generic [ref=e895]: 应用：1名
+                          - link "Beijing Chuntian Zhiyun Technology Co., Ltd." [ref=e900] [cursor=pointer]:
+                            - /url: /developer/4f581a30dfcf3fd9aa7416562135dfdd/ios-app
+                    - generic [ref=e901]:
+                      - generic [ref=e904]:
+                        - link "梦境护卫队" [ref=e905] [cursor=pointer]:
+                          - /url: /app/v6umupqdel8j8cg/ios?market=1&country=75
+                          - img "梦境护卫队" [ref=e906]
+                        - generic [ref=e908]:
+                          - generic [ref=e909]:
+                            - link "梦境护卫队" [ref=e913] [cursor=pointer]:
+                              - /url: /app/v6umupqdel8j8cg/ios?market=1&country=75
+                            - generic [ref=e914]:
+                              - img [ref=e916]
+                              - img [ref=e919]
+                          - generic [ref=e921]:
+                            - generic [ref=e922]: 游戏：1名
+                            - link "梦趣游戏" [ref=e927] [cursor=pointer]:
+                              - /url: /developer/abbe960704d89c70aa2de91118443723/ios-app
+                      - paragraph [ref=e929]: NEW
+                    - generic [ref=e930]:
+                      - generic [ref=e933]:
+                        - link "抖省省 - 抖音官方团购平台" [ref=e934] [cursor=pointer]:
+                          - /url: /app/31uru897dvmzzbg/ios?market=1&country=75
+                          - img "抖省省 - 抖音官方团购平台" [ref=e935]
+                        - generic [ref=e937]:
+                          - link "抖省省 - 抖音官方团购平台" [ref=e942] [cursor=pointer]:
+                            - /url: /app/31uru897dvmzzbg/ios?market=1&country=75
+                          - generic [ref=e943]:
+                            - generic [ref=e944]: 应用：2名
+                            - link "Beijing Douyin Technology Co., Ltd." [ref=e949] [cursor=pointer]:
+                              - /url: /developer/b15dbe103a0b4815599a920b91577aac/ios-app
+                      - generic [ref=e951]:
+                        - generic [ref=e952]: 
+                        - text: "1"
+                    - generic [ref=e953]:
+                      - generic [ref=e954]:
+                        - generic [ref=e955]: "4"
+                        - generic [ref=e956]:
+                          - link "抖音商城" [ref=e957] [cursor=pointer]:
+                            - /url: /app/4kxupuexqw51kuw/ios?market=1&country=75
+                            - img "抖音商城" [ref=e958]
+                          - generic [ref=e960]:
+                            - generic [ref=e961]:
+                              - link "抖音商城" [ref=e965] [cursor=pointer]:
+                                - /url: /app/4kxupuexqw51kuw/ios?market=1&country=75
+                              - generic [ref=e966]:
+                                - img [ref=e968]
+                                - img [ref=e971]
+                            - generic [ref=e973]:
+                              - generic [ref=e974]: 应用：3名
+                              - link "Beijing Douyin Technology Co., Ltd." [ref=e979] [cursor=pointer]:
+                                - /url: /developer/b15dbe103a0b4815599a920b91577aac/ios-app
+                      - generic [ref=e981]:
+                        - generic [ref=e982]: 
+                        - text: "1"
+                    - generic [ref=e983]:
+                      - generic [ref=e984]:
+                        - generic [ref=e985]: "5"
+                        - generic [ref=e986]:
+                          - link "红果短剧 - 海量热门短剧随心看" [ref=e987] [cursor=pointer]:
+                            - /url: /app/kxupur8x0r69kuw/ios?market=1&country=75
+                            - img "红果短剧 - 海量热门短剧随心看" [ref=e988]
+                          - generic [ref=e990]:
+                            - generic [ref=e991]:
+                              - link "红果短剧 - 海量热门短剧随心看" [ref=e995] [cursor=pointer]:
+                                - /url: /app/kxupur8x0r69kuw/ios?market=1&country=75
+                              - generic [ref=e996]:
+                                - img [ref=e998]
+                                - img [ref=e1001]
+                            - generic [ref=e1003]:
+                              - generic [ref=e1004]: 应用：4名
+                              - link "Beijing Bimo Liuxiang Technology Co., Ltd." [ref=e1009] [cursor=pointer]:
+                                - /url: /developer/546290c73b602195f26903763b26170e/ios-app
+                      - generic [ref=e1011]:
+                        - generic [ref=e1012]: 
+                        - text: "1"
+                - generic [ref=e1014]:
+                  - generic [ref=e1015]:
+                    - generic [ref=e1019]: 付费榜
+                    - generic [ref=e1020]:
+                      - link "" [ref=e1021] [cursor=pointer]:
+                        - /url: /rank/compete-1-4-0-75-3
+                        - generic [ref=e1022]: 
+                      - generic [ref=e1024] [cursor=pointer]: 
+                  - generic [ref=e1025]:
+                    - generic [ref=e1029]:
+                      - link "潜水员戴夫" [ref=e1030] [cursor=pointer]:
+                        - /url: /app/13uouqr9978rqu1/ios?market=1&country=75
+                        - img "潜水员戴夫" [ref=e1031]
+                      - generic [ref=e1033]:
+                        - generic [ref=e1037]:
+                          - generic [ref=e1039]: 霸榜38天
+                          - link "潜水员戴夫" [ref=e1040] [cursor=pointer]:
+                            - /url: /app/13uouqr9978rqu1/ios?market=1&country=75
+                        - generic [ref=e1041]:
+                          - generic [ref=e1042]: 游戏：1名
+                          - link "X.D. Network Inc." [ref=e1047] [cursor=pointer]:
+                            - /url: /developer/a258d6cd137f79106dcb2c71dc360f17/ios-app
+                    - generic [ref=e1051]:
+                      - link "泰拉瑞亚" [ref=e1052] [cursor=pointer]:
+                        - /url: /app/4xoupudzpm516al/ios?market=1&country=75
+                        - img "泰拉瑞亚" [ref=e1053]
+                      - generic [ref=e1055]:
+                        - link "泰拉瑞亚" [ref=e1060] [cursor=pointer]:
+                          - /url: /app/4xoupudzpm516al/ios?market=1&country=75
+                        - generic [ref=e1061]:
+                          - generic [ref=e1062]: 游戏：2名
+                          - link "X.D. Network Inc." [ref=e1067] [cursor=pointer]:
+                            - /url: /developer/a258d6cd137f79106dcb2c71dc360f17/ios-app
+                    - generic [ref=e1071]:
+                      - link "同花顺至尊版-股票软件" [ref=e1072] [cursor=pointer]:
+                        - /url: /app/n31uru1pg5l7osg/ios?market=1&country=75
+                        - img "同花顺至尊版-股票软件" [ref=e1073]
+                      - generic [ref=e1075]:
+                        - generic [ref=e1076]:
+                          - link "同花顺至尊版-股票软件" [ref=e1080] [cursor=pointer]:
+                            - /url: /app/n31uru1pg5l7osg/ios?market=1&country=75
+                          - img [ref=e1083]
+                        - generic [ref=e1085]:
+                          - generic [ref=e1086]: 应用：1名
+                          - link "Zhejiang Hexin Flush Network Services Ltd" [ref=e1091] [cursor=pointer]:
+                            - /url: /developer/c578b6657d1427f184500db8a0bc207a/ios-app
+                    - generic [ref=e1093]:
+                      - generic [ref=e1094]: "4"
+                      - generic [ref=e1095]:
+                        - link "鬼谷八荒" [ref=e1096] [cursor=pointer]:
+                          - /url: /app/o8uvu08676e58u9/ios?market=1&country=75
+                          - img "鬼谷八荒" [ref=e1097]
+                        - generic [ref=e1099]:
+                          - generic [ref=e1100]:
+                            - link "鬼谷八荒" [ref=e1104] [cursor=pointer]:
+                              - /url: /app/o8uvu08676e58u9/ios?market=1&country=75
+                            - img [ref=e1107]
+                          - generic [ref=e1109]:
+                            - generic [ref=e1110]: 游戏：3名
+                            - link "Guangzhou Dahuang Network Technology Co., Ltd." [ref=e1115] [cursor=pointer]:
+                              - /url: /developer/6dfb25c6d2e29c8aea02c2a79ff48167/ios-app
+                    - generic [ref=e1117]:
+                      - generic [ref=e1118]: "5"
+                      - generic [ref=e1119]:
+                        - link "Berry胶片相机 - 韩系自拍神器" [ref=e1120] [cursor=pointer]:
+                          - /url: /app/emupu81mg5jr0ar/ios?market=1&country=75
+                          - img "Berry胶片相机 - 韩系自拍神器" [ref=e1121]
+                        - generic [ref=e1123]:
+                          - link "Berry胶片相机 - 韩系自拍神器" [ref=e1128] [cursor=pointer]:
+                            - /url: /app/emupu81mg5jr0ar/ios?market=1&country=75
+                          - generic [ref=e1129]:
+                            - generic [ref=e1130]: 应用：2名
+                            - link "Seungyun Kim" [ref=e1135] [cursor=pointer]:
+                              - /url: /developer/06ef0a9f213bcb308f54342df9406abe/ios-app
+                - generic [ref=e1137]:
+                  - generic [ref=e1138]:
+                    - generic [ref=e1142]: 畅销榜
+                    - generic [ref=e1143]:
+                      - link "" [ref=e1144] [cursor=pointer]:
+                        - /url: /rank/compete-1-4-0-75-4
+                        - generic [ref=e1145]: 
+                      - generic [ref=e1147] [cursor=pointer]: 
+                  - generic [ref=e1148]:
+                    - generic [ref=e1149]:
+                      - generic [ref=e1152]:
+                        - link "抖音" [ref=e1153] [cursor=pointer]:
+                          - /url: /app/nd2u6udegmemeid/ios?market=1&country=75
+                          - img "抖音" [ref=e1154]
+                        - generic [ref=e1156]:
+                          - generic [ref=e1157]:
+                            - link "抖音" [ref=e1161] [cursor=pointer]:
+                              - /url: /app/nd2u6udegmemeid/ios?market=1&country=75
+                            - generic [ref=e1162]:
+                              - img [ref=e1164]
+                              - img [ref=e1167]
+                          - generic [ref=e1169]:
+                            - generic [ref=e1170]: 应用：1名
+                            - link "Beijing Douyin Technology Co., Ltd." [ref=e1175] [cursor=pointer]:
+                              - /url: /developer/b15dbe103a0b4815599a920b91577aac/ios-app
+                      - generic [ref=e1177]:
+                        - generic [ref=e1178]: 
+                        - text: "1"
+                    - generic [ref=e1179]:
+                      - generic [ref=e1182]:
+                        - link "王者荣耀" [ref=e1183] [cursor=pointer]:
+                          - /url: /app/492udu6wz9vvwij/ios?market=1&country=75
+                          - img "王者荣耀" [ref=e1184]
+                        - generic [ref=e1186]:
+                          - generic [ref=e1187]:
+                            - link "王者荣耀" [ref=e1191] [cursor=pointer]:
+                              - /url: /app/492udu6wz9vvwij/ios?market=1&country=75
+                            - img [ref=e1194]
+                          - generic [ref=e1196]:
+                            - generic [ref=e1197]: 游戏：1名
+                            - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e1202] [cursor=pointer]:
+                              - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e1204]:
+                        - generic [ref=e1205]: 
+                        - text: "1"
+                    - generic [ref=e1209]:
+                      - link "和平精英" [ref=e1210] [cursor=pointer]:
+                        - /url: /app/y8duju6eppdj9hq/ios?market=1&country=75
+                        - img "和平精英" [ref=e1211]
+                      - generic [ref=e1213]:
+                        - generic [ref=e1214]:
+                          - link "和平精英" [ref=e1218] [cursor=pointer]:
+                            - /url: /app/y8duju6eppdj9hq/ios?market=1&country=75
+                          - img [ref=e1221]
+                        - generic [ref=e1223]:
+                          - generic [ref=e1224]: 游戏：2名
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e1229] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                    - generic [ref=e1231]:
+                      - generic [ref=e1232]: "4"
+                      - generic [ref=e1233]:
+                        - link "腾讯视频-《魔力歌先生》喜剧音综" [ref=e1234] [cursor=pointer]:
+                          - /url: /app/ygguvuzm8m58dh6/ios?market=1&country=75
+                          - img "腾讯视频-《魔力歌先生》喜剧音综" [ref=e1235]
+                        - generic [ref=e1237]:
+                          - generic [ref=e1238]:
+                            - link "腾讯视频-《魔力歌先生》喜剧音综" [ref=e1242] [cursor=pointer]:
+                              - /url: /app/ygguvuzm8m58dh6/ios?market=1&country=75
+                            - img [ref=e1245]
+                          - generic [ref=e1247]:
+                            - generic [ref=e1248]: 应用：2名
+                            - link "Tencent Technology (Shenzhen) Company Limited" [ref=e1253] [cursor=pointer]:
+                              - /url: /developer/aae5f4b34185eb5c678eda03a1c7928e/ios-app
+                    - generic [ref=e1255]:
+                      - generic [ref=e1256]: "5"
+                      - generic [ref=e1257]:
+                        - link "QQ音乐 - 听我想听" [ref=e1258] [cursor=pointer]:
+                          - /url: /app/yo8uvur70x1mgf9/ios?market=1&country=75
+                          - img "QQ音乐 - 听我想听" [ref=e1259]
+                        - generic [ref=e1261]:
+                          - generic [ref=e1262]:
+                            - link "QQ音乐 - 听我想听" [ref=e1266] [cursor=pointer]:
+                              - /url: /app/yo8uvur70x1mgf9/ios?market=1&country=75
+                            - generic [ref=e1267]:
+                              - img [ref=e1269]
+                              - img [ref=e1272]
+                          - generic [ref=e1274]:
+                            - generic [ref=e1275]: 应用：3名
+                            - link "Tencent Technology (Shenzhen) Company Limited" [ref=e1280] [cursor=pointer]:
+                              - /url: /developer/aae5f4b34185eb5c678eda03a1c7928e/ios-app
+          - generic [ref=e1282]:
+            - generic [ref=e1285]: 应用实时监控
+            - generic [ref=e1286]:
+              - generic [ref=e1288]:
+                - generic [ref=e1291] [cursor=pointer]: 上升最快
+                - generic [ref=e1294] [cursor=pointer]: 下降最快
+                - generic [ref=e1298] [cursor=pointer]: 上架监控
+                - generic [ref=e1301] [cursor=pointer]: 下架监控
+                - generic [ref=e1304] [cursor=pointer]: 清榜监控
+                - generic [ref=e1307] [cursor=pointer]: 清词监控
+                - generic [ref=e1310] [cursor=pointer]: 预订/预注册监控
+              - generic [ref=e1312]:
+                - generic [ref=e1314]:
+                  - generic [ref=e1315]:
+                    - generic [ref=e1318] [cursor=pointer]: App Store
+                    - generic [ref=e1319]:
+                      - generic [ref=e1321]:
+                        - generic [ref=e1323]:
+                          - text:  
+                          - generic [ref=e1325]:
+                            - generic [ref=e1328]: 中国
+                            - generic [ref=e1329]: 
+                          - text: 
+                          - generic: 
+                        - generic [ref=e1330]:
+                          - generic [ref=e1332]:
+                            - generic [ref=e1333] [cursor=pointer]:
+                              - textbox [ref=e1334]: 总榜
+                              - generic [ref=e1336]: 
+                            - text:  
+                          - generic: 
+                        - generic [ref=e1339]:
+                          - textbox "请选择" [ref=e1340] [cursor=pointer]: 免费榜
+                          - generic [ref=e1342] [cursor=pointer]: 
+                      - link "更多" [ref=e1343] [cursor=pointer]:
+                        - /url: /rank/updown-1-1-4-0-75-2
+                        - text: 更多
+                        - generic [ref=e1344]: 
+                  - generic [ref=e1348]:
+                    - generic [ref=e1349]:
+                      - link "应用" [ref=e1355]:
+                        - /url: javascript:;
+                      - link "排名上升" [ref=e1361]:
+                        - /url: javascript:;
+                      - link "总榜(免费榜)" [ref=e1367]:
+                        - /url: javascript:;
+                    - generic [ref=e1368]:
+                      - generic [ref=e1370]:
+                        - link "梦境护卫队" [ref=e1371] [cursor=pointer]:
+                          - /url: /app/v6umupqdel8j8cg/ios?market=1&country=75
+                          - img "梦境护卫队" [ref=e1372]
+                        - link "梦境护卫队" [ref=e1378] [cursor=pointer]:
+                          - /url: /app/v6umupqdel8j8cg/ios?market=1&country=75
+                      - generic [ref=e1381]:
+                        - generic [ref=e1382]: 
+                        - text: "207"
+                      - generic [ref=e1385]:
+                        - generic [ref=e1386]: "1"
+                        - generic [ref=e1387]: 策略
+                    - generic [ref=e1388]:
+                      - generic [ref=e1390]:
+                        - link "三国志异闻录" [ref=e1391] [cursor=pointer]:
+                          - /url: /app/jzumu6lqv5p6gap/ios?market=1&country=75
+                          - img "三国志异闻录" [ref=e1392]
+                        - link "三国志异闻录" [ref=e1398] [cursor=pointer]:
+                          - /url: /app/jzumu6lqv5p6gap/ios?market=1&country=75
+                      - generic [ref=e1401]:
+                        - generic [ref=e1402]: 
+                        - text: "121"
+                      - generic [ref=e1405]:
+                        - generic [ref=e1406]: "6"
+                        - generic [ref=e1407]: 角色扮演
+                    - generic [ref=e1408]:
+                      - generic [ref=e1410]:
+                        - link "建行生活" [ref=e1411] [cursor=pointer]:
+                          - /url: /app/np2ugujl23ppeb7/ios?market=1&country=75
+                          - img "建行生活" [ref=e1412]
+                        - link "建行生活" [ref=e1418] [cursor=pointer]:
+                          - /url: /app/np2ugujl23ppeb7/ios?market=1&country=75
+                      - generic [ref=e1421]:
+                        - generic [ref=e1422]: 
+                        - text: "50"
+                      - generic [ref=e1425]:
+                        - generic [ref=e1426]: "146"
+                        - generic [ref=e1427]: 生活
+                    - generic [ref=e1428]:
+                      - generic [ref=e1430]:
+                        - link "夸克扫描王-极速扫描，PDF编辑" [ref=e1431] [cursor=pointer]:
+                          - /url: /app/13uouqgv1xzp3a1/ios?market=1&country=75
+                          - img "夸克扫描王-极速扫描，PDF编辑" [ref=e1432]
+                        - link "夸克扫描王-极速扫描，PDF编辑" [ref=e1438] [cursor=pointer]:
+                          - /url: /app/13uouqgv1xzp3a1/ios?market=1&country=75
+                      - generic [ref=e1441]:
+                        - generic [ref=e1442]: 
+                        - text: "49"
+                      - generic [ref=e1445]:
+                        - generic [ref=e1446]: "145"
+                        - generic [ref=e1447]: 效率
+                    - generic [ref=e1448]:
+                      - generic [ref=e1450]:
+                        - link "微信" [ref=e1451] [cursor=pointer]:
+                          - /url: /app/njzumu076pr6ghp/ios?market=1&country=75
+                          - img "微信" [ref=e1452]
+                        - link "微信" [ref=e1458] [cursor=pointer]:
+                          - /url: /app/njzumu076pr6ghp/ios?market=1&country=75
+                      - generic [ref=e1461]:
+                        - generic [ref=e1462]: 
+                        - text: "43"
+                      - generic [ref=e1465]:
+                        - generic [ref=e1466]: "90"
+                        - generic [ref=e1467]: 社交
+                    - generic [ref=e1468]:
+                      - generic [ref=e1470]:
+                        - link "健康追踪仪-AI体检" [ref=e1471] [cursor=pointer]:
+                          - /url: /app/l8uruvmoe2j7xsq/ios?market=1&country=75
+                          - img "健康追踪仪-AI体检" [ref=e1472]
+                        - link "健康追踪仪-AI体检" [ref=e1478] [cursor=pointer]:
+                          - /url: /app/l8uruvmoe2j7xsq/ios?market=1&country=75
+                      - generic [ref=e1481]:
+                        - generic [ref=e1482]: 
+                        - text: "37"
+                      - generic [ref=e1485]:
+                        - generic [ref=e1486]: "64"
+                        - generic [ref=e1487]: 工具
+                    - generic [ref=e1488]:
+                      - generic [ref=e1490]:
+                        - link "数字人民币" [ref=e1491] [cursor=pointer]:
+                          - /url: /app/njzumuzvj07qzbp/ios?market=1&country=75
+                          - img "数字人民币" [ref=e1492]
+                        - link "数字人民币" [ref=e1498] [cursor=pointer]:
+                          - /url: /app/njzumuzvj07qzbp/ios?market=1&country=75
+                      - generic [ref=e1501]:
+                        - generic [ref=e1502]: 
+                        - text: "37"
+                      - generic [ref=e1505]:
+                        - generic [ref=e1506]: "117"
+                        - generic [ref=e1507]: 财务
+                    - generic [ref=e1508]:
+                      - generic [ref=e1510]:
+                        - link "红果漫剧 - 热门精彩漫剧" [ref=e1511] [cursor=pointer]:
+                          - /url: /app/21uluz1mvg0drf1/ios?market=1&country=75
+                          - img "红果漫剧 - 热门精彩漫剧" [ref=e1512]
+                        - link "红果漫剧 - 热门精彩漫剧" [ref=e1518] [cursor=pointer]:
+                          - /url: /app/21uluz1mvg0drf1/ios?market=1&country=75
+                      - generic [ref=e1521]:
+                        - generic [ref=e1522]: 
+                        - text: "36"
+                      - generic [ref=e1525]:
+                        - generic [ref=e1526]: "62"
+                        - generic [ref=e1527]: 娱乐
+                    - generic [ref=e1528]:
+                      - generic [ref=e1530]:
+                        - link "点读君（原倍速课堂）" [ref=e1531] [cursor=pointer]:
+                          - /url: /app/kxupurwe72w9ocw/ios?market=1&country=75
+                          - img "点读君（原倍速课堂）" [ref=e1532]
+                        - link "点读君（原倍速课堂）" [ref=e1538] [cursor=pointer]:
+                          - /url: /app/kxupurwe72w9ocw/ios?market=1&country=75
+                      - generic [ref=e1541]:
+                        - generic [ref=e1542]: 
+                        - text: "35"
+                      - generic [ref=e1545]:
+                        - generic [ref=e1546]: "173"
+                        - generic [ref=e1547]: 工具
+                    - generic [ref=e1548]:
+                      - generic [ref=e1550]:
+                        - link "学信网" [ref=e1551] [cursor=pointer]:
+                          - /url: /app/n31uru3mpowpjhg/ios?market=1&country=75
+                          - img "学信网" [ref=e1552]
+                        - link "学信网" [ref=e1558] [cursor=pointer]:
+                          - /url: /app/n31uru3mpowpjhg/ios?market=1&country=75
+                      - generic [ref=e1561]:
+                        - generic [ref=e1562]: 
+                        - text: "32"
+                      - generic [ref=e1565]:
+                        - generic [ref=e1566]: "67"
+                        - generic [ref=e1567]: 教育
+                - generic [ref=e1570]:
+                  - generic [ref=e1571]:
+                    - generic [ref=e1574] [cursor=pointer]: Google Play
+                    - generic [ref=e1575]:
+                      - generic [ref=e1577]:
+                        - generic [ref=e1579]:
+                          - text:  
+                          - generic [ref=e1581]:
+                            - generic [ref=e1584]: 美国
+                            - generic [ref=e1585]: 
+                          - text: 
+                          - generic: 
+                        - generic [ref=e1586]:
+                          - generic [ref=e1588]:
+                            - generic [ref=e1589] [cursor=pointer]:
+                              - textbox [ref=e1590]: 总榜
+                              - generic [ref=e1592]: 
+                            - text:   
+                          - generic: 
+                        - generic [ref=e1595]:
+                          - textbox "请选择" [ref=e1596] [cursor=pointer]: 免费榜
+                          - generic [ref=e1598] [cursor=pointer]: 
+                      - link "更多" [ref=e1599] [cursor=pointer]:
+                        - /url: /rank/updown-11-1-4-0-24-1
+                        - text: 更多
+                        - generic [ref=e1600]: 
+                  - generic [ref=e1604]:
+                    - generic [ref=e1605]:
+                      - link "应用" [ref=e1611]:
+                        - /url: javascript:;
+                      - link "排名上升" [ref=e1617]:
+                        - /url: javascript:;
+                      - link "总榜(免费榜)" [ref=e1623]:
+                        - /url: javascript:;
+                    - generic [ref=e1624]:
+                      - generic [ref=e1626]:
+                        - 'link "FOX One: Live News, Sports, TV" [ref=e1627] [cursor=pointer]':
+                          - /url: /app/y8qiju1rqj3ofqy/googleplay?market=11&country=24
+                          - 'img "FOX One: Live News, Sports, TV" [ref=e1628]'
+                        - 'link "FOX One: Live News, Sports, TV" [ref=e1634] [cursor=pointer]':
+                          - /url: /app/y8qiju1rqj3ofqy/googleplay?market=11&country=24
+                      - generic [ref=e1637]:
+                        - generic [ref=e1638]: 
+                        - text: "98"
+                      - generic [ref=e1641]:
+                        - generic [ref=e1642]: "80"
+                        - generic [ref=e1643]: 娱乐
+                    - generic [ref=e1644]:
+                      - generic [ref=e1646]:
+                        - link "NCAA March Madness Live" [ref=e1647] [cursor=pointer]:
+                          - /url: /app/v4v2imu2d76gsgy/googleplay?market=11&country=24
+                          - img "NCAA March Madness Live" [ref=e1648]
+                        - link "NCAA March Madness Live" [ref=e1654] [cursor=pointer]:
+                          - /url: /app/v4v2imu2d76gsgy/googleplay?market=11&country=24
+                      - generic [ref=e1657]:
+                        - generic [ref=e1658]: 
+                        - text: "91"
+                      - generic [ref=e1661]:
+                        - generic [ref=e1662]: "91"
+                        - generic [ref=e1663]: 体育
+                    - generic [ref=e1664]:
+                      - generic [ref=e1666]:
+                        - 'link "Private Browser: Safe & Secure" [ref=e1667] [cursor=pointer]':
+                          - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                          - 'img "Private Browser: Safe & Secure" [ref=e1668]'
+                        - 'link "Private Browser: Safe & Secure" [ref=e1674] [cursor=pointer]':
+                          - /url: /app/yodivuk6l199c9n/googleplay?market=11&country=24
+                      - generic [ref=e1677]:
+                        - generic [ref=e1678]: 
+                        - text: "74"
+                      - generic [ref=e1681]:
+                        - generic [ref=e1682]: "99"
+                        - generic [ref=e1683]: 工具
+                    - generic [ref=e1684]:
+                      - generic [ref=e1686]:
+                        - 'link "CBS Sports App: Scores & News" [ref=e1687] [cursor=pointer]':
+                          - /url: /app/74xlipuzv0l1al4/googleplay?market=11&country=24
+                          - 'img "CBS Sports App: Scores & News" [ref=e1688]'
+                        - 'link "CBS Sports App: Scores & News" [ref=e1694] [cursor=pointer]':
+                          - /url: /app/74xlipuzv0l1al4/googleplay?market=11&country=24
+                      - generic [ref=e1697]:
+                        - generic [ref=e1698]: 
+                        - text: "67"
+                      - generic [ref=e1701]:
+                        - generic [ref=e1702]: "105"
+                        - generic [ref=e1703]: 体育
+                    - generic [ref=e1704]:
+                      - generic [ref=e1706]:
+                        - link "Weather Now Launcher - Radar" [ref=e1707] [cursor=pointer]:
+                          - /url: /app/4q7izug7jmgou7n/googleplay?market=11&country=24
+                          - img "Weather Now Launcher - Radar" [ref=e1708]
+                        - link "Weather Now Launcher - Radar" [ref=e1714] [cursor=pointer]:
+                          - /url: /app/4q7izug7jmgou7n/googleplay?market=11&country=24
+                      - generic [ref=e1717]:
+                        - generic [ref=e1718]: 
+                        - text: "60"
+                      - generic [ref=e1721]:
+                        - generic [ref=e1722]: "16"
+                        - generic [ref=e1723]: 天气
+                    - generic [ref=e1724]:
+                      - generic [ref=e1726]:
+                        - link "DramaWave - Dramas & Reels" [ref=e1727] [cursor=pointer]:
+                          - /url: /app/499idud8wd85cj4/googleplay?market=11&country=24
+                          - img "DramaWave - Dramas & Reels" [ref=e1728]
+                        - link "DramaWave - Dramas & Reels" [ref=e1734] [cursor=pointer]:
+                          - /url: /app/499idud8wd85cj4/googleplay?market=11&country=24
+                      - generic [ref=e1737]:
+                        - generic [ref=e1738]: 
+                        - text: "55"
+                      - generic [ref=e1741]:
+                        - generic [ref=e1742]: "113"
+                        - generic [ref=e1743]: 娱乐
+                    - generic [ref=e1744]:
+                      - generic [ref=e1746]:
+                        - link "WeatherWise.app" [ref=e1747] [cursor=pointer]:
+                          - /url: /app/ygdivuzow99ps6y/googleplay?market=11&country=24
+                          - img "WeatherWise.app" [ref=e1748]
+                        - link "WeatherWise.app" [ref=e1754] [cursor=pointer]:
+                          - /url: /app/ygdivuzow99ps6y/googleplay?market=11&country=24
+                      - generic [ref=e1757]:
+                        - generic [ref=e1758]: 
+                        - text: "54"
+                      - generic [ref=e1761]:
+                        - generic [ref=e1762]: "114"
+                        - generic [ref=e1763]: 天气
+                    - generic [ref=e1764]:
+                      - generic [ref=e1766]:
+                        - 'link "Finelo: Master Trading" [ref=e1767] [cursor=pointer]':
+                          - /url: /app/499idudq8l95sj4/googleplay?market=11&country=24
+                          - 'img "Finelo: Master Trading" [ref=e1768]'
+                        - 'link "Finelo: Master Trading" [ref=e1774] [cursor=pointer]':
+                          - /url: /app/499idudq8l95sj4/googleplay?market=11&country=24
+                      - generic [ref=e1777]:
+                        - generic [ref=e1778]: 
+                        - text: "47"
+                      - generic [ref=e1781]:
+                        - generic [ref=e1782]: "92"
+                        - generic [ref=e1783]: 教育
+                    - generic [ref=e1784]:
+                      - generic [ref=e1786]:
+                        - 'link "Reelway: feel-good clips" [ref=e1787] [cursor=pointer]':
+                          - /url: /app/4xlipujrq361hl4/googleplay?market=11&country=24
+                          - 'img "Reelway: feel-good clips" [ref=e1788]'
+                        - 'link "Reelway: feel-good clips" [ref=e1794] [cursor=pointer]':
+                          - /url: /app/4xlipujrq361hl4/googleplay?market=11&country=24
+                      - generic [ref=e1797]:
+                        - generic [ref=e1798]: 
+                        - text: "43"
+                      - generic [ref=e1801]:
+                        - generic [ref=e1802]: "54"
+                        - generic [ref=e1803]: 通讯
+                    - generic [ref=e1804]:
+                      - generic [ref=e1806]:
+                        - 'link "Shortn: short viral video app" [ref=e1807] [cursor=pointer]':
+                          - /url: /app/njrimuk5g51lipy/googleplay?market=11&country=24
+                          - 'img "Shortn: short viral video app" [ref=e1808]'
+                        - 'link "Shortn: short viral video app" [ref=e1814] [cursor=pointer]':
+                          - /url: /app/njrimuk5g51lipy/googleplay?market=11&country=24
+                      - generic [ref=e1817]:
+                        - generic [ref=e1818]: 
+                        - text: "42"
+                      - generic [ref=e1821]:
+                        - generic [ref=e1822]: "95"
+                        - generic [ref=e1823]: 娱乐
+          - generic [ref=e1825]:
+            - generic [ref=e1828]: 下载/收入榜
+            - generic [ref=e1830]:
+              - generic [ref=e1831]:
+                - generic [ref=e1832]: 分类
+                - list [ref=e1834]:
+                  - listitem [ref=e1835]:
+                    - link "全部" [ref=e1837] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e1840]: 全部
+                  - listitem [ref=e1841]:
+                    - link "应用" [ref=e1843] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e1846]: 应用
+                  - listitem [ref=e1847]:
+                    - link "游戏" [ref=e1849] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e1852]: 游戏
+                - generic: 
+              - generic [ref=e1854]:
+                - generic [ref=e1856]:
+                  - generic: 
+                  - generic [ref=e1857]:
+                    - generic [ref=e1860]: 下载榜
+                    - link "更多" [ref=e1862] [cursor=pointer]:
+                      - /url: /rank/hotapp-0-4-0-1-0
+                      - text: 更多
+                      - generic [ref=e1863]: 
+                  - generic [ref=e1866]:
+                    - generic [ref=e1867]:
+                      - link "排名" [ref=e1873]:
+                        - /url: javascript:;
+                      - link "应用" [ref=e1879]:
+                        - /url: javascript:;
+                      - link "月下载量" [ref=e1885]:
+                        - /url: javascript:;
+                      - link "环比排名变动" [ref=e1891]:
+                        - /url: javascript:;
+                    - generic [ref=e1892]:
+                      - generic [ref=e1896]:
+                        - link "三角洲行动" [ref=e1897] [cursor=pointer]:
+                          - /url: /app/yo8uvujm9qx88f9/ios-downloads?market=1&country=75
+                          - img "三角洲行动" [ref=e1898]
+                        - generic [ref=e1899]:
+                          - link "三角洲行动" [ref=e1904] [cursor=pointer]:
+                            - /url: /app/yo8uvujm9qx88f9/ios-downloads?market=1&country=75
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e1909] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e1911]:
+                        - text: 669.41万
+                        - generic [ref=e1913] [cursor=pointer]: 
+                      - generic [ref=e1916]:
+                        - generic [ref=e1917]: 
+                        - text: "2"
+                    - generic [ref=e1918]:
+                      - generic [ref=e1922]:
+                        - link "豆包" [ref=e1923] [cursor=pointer]:
+                          - /url: /app/m0u2u8zo1zv77s5/ios-downloads?market=1&country=75
+                          - img "豆包" [ref=e1924]
+                        - generic [ref=e1925]:
+                          - link "豆包" [ref=e1930] [cursor=pointer]:
+                            - /url: /app/m0u2u8zo1zv77s5/ios-downloads?market=1&country=75
+                          - link "Beijing Chuntian Zhiyun Technology Co., Ltd." [ref=e1935] [cursor=pointer]:
+                            - /url: /developer/4f581a30dfcf3fd9aa7416562135dfdd/ios-app
+                      - generic [ref=e1937]:
+                        - text: 515.11万
+                        - generic [ref=e1939] [cursor=pointer]: 
+                      - generic [ref=e1942]:
+                        - generic [ref=e1943]: 
+                        - text: "1"
+                    - generic [ref=e1944]:
+                      - generic [ref=e1948]:
+                        - link "千问" [ref=e1949] [cursor=pointer]:
+                          - /url: /app/emupu8z36mve6hr/ios-downloads?market=1&country=75
+                          - img "千问" [ref=e1950]
+                        - generic [ref=e1951]:
+                          - link "千问" [ref=e1956] [cursor=pointer]:
+                            - /url: /app/emupu8z36mve6hr/ios-downloads?market=1&country=75
+                          - link "Shanghai Zhixin Puhui Technology Co., Ltd." [ref=e1961] [cursor=pointer]:
+                            - /url: /developer/18f52c3f9d11e0f40d646e38b58b8278/ios-app
+                      - generic [ref=e1963]:
+                        - text: 490.61万
+                        - generic [ref=e1965] [cursor=pointer]: 
+                      - generic [ref=e1968]:
+                        - generic [ref=e1969]: 
+                        - text: "12"
+                    - generic [ref=e1970]:
+                      - generic [ref=e1973]: "4"
+                      - generic [ref=e1975]:
+                        - link "中国移动" [ref=e1976] [cursor=pointer]:
+                          - /url: /app/njzumuk6oomz0ap/ios-downloads?market=1&country=75
+                          - img "中国移动" [ref=e1977]
+                        - generic [ref=e1978]:
+                          - link "中国移动" [ref=e1983] [cursor=pointer]:
+                            - /url: /app/njzumuk6oomz0ap/ios-downloads?market=1&country=75
+                          - link "中移在线" [ref=e1988] [cursor=pointer]:
+                            - /url: /developer/d27f81bbe092f2cf69f0e8b34d77d6de/ios-app
+                      - generic [ref=e1990]:
+                        - text: 460.85万
+                        - generic [ref=e1992] [cursor=pointer]: 
+                      - generic [ref=e1995]:
+                        - generic [ref=e1996]: 
+                        - text: "1"
+                    - generic [ref=e1997]:
+                      - generic [ref=e2000]: "5"
+                      - generic [ref=e2002]:
+                        - link "剪映" [ref=e2003] [cursor=pointer]:
+                          - /url: /app/np2uguj7961zqf7/ios-downloads?market=1&country=75
+                          - img "剪映" [ref=e2004]
+                        - generic [ref=e2005]:
+                          - link "剪映" [ref=e2010] [cursor=pointer]:
+                            - /url: /app/np2uguj7961zqf7/ios-downloads?market=1&country=75
+                          - link "深圳市脸萌科技有限公司" [ref=e2015] [cursor=pointer]:
+                            - /url: /developer/73980ea5f372256097c61b4dc8f610a5/ios-app
+                      - generic [ref=e2017]:
+                        - text: 445.01万
+                        - generic [ref=e2019] [cursor=pointer]: 
+                      - generic [ref=e2022]:
+                        - generic [ref=e2023]: 
+                        - text: "3"
+                    - generic [ref=e2024]:
+                      - generic [ref=e2027]: "6"
+                      - generic [ref=e2029]:
+                        - link "蚂蚁阿福" [ref=e2030] [cursor=pointer]:
+                          - /url: /app/emupu81mekw16br/ios-downloads?market=1&country=75
+                          - img "蚂蚁阿福" [ref=e2031]
+                        - generic [ref=e2032]:
+                          - link "蚂蚁阿福" [ref=e2037] [cursor=pointer]:
+                            - /url: /app/emupu81mekw16br/ios-downloads?market=1&country=75
+                          - link "Ant Yikang (Guangzhou) Information Technology Co., Ltd." [ref=e2042] [cursor=pointer]:
+                            - /url: /developer/e8aa5f3d9778ce0c458bd184e5445266/ios-app
+                      - generic [ref=e2044]:
+                        - text: 433.88万
+                        - generic [ref=e2046] [cursor=pointer]: 
+                      - generic [ref=e2049]:
+                        - generic [ref=e2050]: 
+                        - text: "2"
+                    - generic [ref=e2051]:
+                      - generic [ref=e2054]: "7"
+                      - generic [ref=e2056]:
+                        - link "元宝" [ref=e2057] [cursor=pointer]:
+                          - /url: /app/l8uruvz5e7wvocq/ios-downloads?market=1&country=75
+                          - img "元宝" [ref=e2058]
+                        - generic [ref=e2059]:
+                          - link "元宝" [ref=e2064] [cursor=pointer]:
+                            - /url: /app/l8uruvz5e7wvocq/ios-downloads?market=1&country=75
+                          - link "Tencent Technology (Shenzhen) Company Limited" [ref=e2069] [cursor=pointer]:
+                            - /url: /developer/aae5f4b34185eb5c678eda03a1c7928e/ios-app
+                      - generic [ref=e2071]:
+                        - text: 422.74万
+                        - generic [ref=e2073] [cursor=pointer]: 
+                      - generic [ref=e2076]:
+                        - generic [ref=e2077]: 
+                        - text: "7"
+                    - generic [ref=e2078]:
+                      - generic [ref=e2081]: "8"
+                      - generic [ref=e2083]:
+                        - link "王者荣耀" [ref=e2084] [cursor=pointer]:
+                          - /url: /app/492udu6wz9vvwij/ios-downloads?market=1&country=75
+                          - img "王者荣耀" [ref=e2085]
+                        - generic [ref=e2086]:
+                          - link "王者荣耀" [ref=e2091] [cursor=pointer]:
+                            - /url: /app/492udu6wz9vvwij/ios-downloads?market=1&country=75
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e2096] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e2098]:
+                        - text: 404.80万
+                        - generic [ref=e2100] [cursor=pointer]: 
+                      - generic [ref=e2103]:
+                        - generic [ref=e2104]: 
+                        - text: "1"
+                    - generic [ref=e2105]:
+                      - generic [ref=e2108]: "9"
+                      - generic [ref=e2110]:
+                        - link "汽水音乐" [ref=e2111] [cursor=pointer]:
+                          - /url: /app/ygguvu2mj2g65b6/ios-downloads?market=1&country=75
+                          - img "汽水音乐" [ref=e2112]
+                        - generic [ref=e2113]:
+                          - link "汽水音乐" [ref=e2118] [cursor=pointer]:
+                            - /url: /app/ygguvu2mj2g65b6/ios-downloads?market=1&country=75
+                          - link "Beijing Douyin Technology Co., Ltd." [ref=e2123] [cursor=pointer]:
+                            - /url: /developer/b15dbe103a0b4815599a920b91577aac/ios-app
+                      - generic [ref=e2125]:
+                        - text: 395.50万
+                        - generic [ref=e2127] [cursor=pointer]: 
+                      - generic [ref=e2130]:
+                        - generic [ref=e2131]: 
+                        - text: "1"
+                    - generic [ref=e2132]:
+                      - generic [ref=e2135]: "10"
+                      - generic [ref=e2137]:
+                        - link "红果短剧" [ref=e2138] [cursor=pointer]:
+                          - /url: /app/kxupur8x0r69kuw/ios-downloads?market=1&country=75
+                          - img "红果短剧" [ref=e2139]
+                        - generic [ref=e2140]:
+                          - link "红果短剧" [ref=e2145] [cursor=pointer]:
+                            - /url: /app/kxupur8x0r69kuw/ios-downloads?market=1&country=75
+                          - link "Beijing Bimo Liuxiang Technology Co., Ltd." [ref=e2150] [cursor=pointer]:
+                            - /url: /developer/546290c73b602195f26903763b26170e/ios-app
+                      - generic [ref=e2152]:
+                        - text: 389.62万
+                        - generic [ref=e2154] [cursor=pointer]: 
+                      - generic [ref=e2157]:
+                        - generic [ref=e2158]: 
+                        - text: "6"
+                - generic [ref=e2160]:
+                  - generic: 
+                  - generic [ref=e2161]:
+                    - generic [ref=e2164]: 收入榜
+                    - link "更多" [ref=e2166] [cursor=pointer]:
+                      - /url: /rank/hotapp-0-4-0-1-0
+                      - text: 更多
+                      - generic [ref=e2167]: 
+                  - generic [ref=e2170]:
+                    - generic [ref=e2171]:
+                      - link "排名" [ref=e2177]:
+                        - /url: javascript:;
+                      - link "应用" [ref=e2183]:
+                        - /url: javascript:;
+                      - link "月收入" [ref=e2189]:
+                        - /url: javascript:;
+                      - link "环比排名变动" [ref=e2195]:
+                        - /url: javascript:;
+                    - generic [ref=e2196]:
+                      - generic [ref=e2200]:
+                        - link "王者荣耀" [ref=e2201] [cursor=pointer]:
+                          - /url: /app/492udu6wz9vvwij/ios-income?market=1&country=75
+                          - img "王者荣耀" [ref=e2202]
+                        - generic [ref=e2203]:
+                          - link "王者荣耀" [ref=e2208] [cursor=pointer]:
+                            - /url: /app/492udu6wz9vvwij/ios-income?market=1&country=75
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e2213] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e2215]:
+                        - text: 1.17亿
+                        - generic [ref=e2217] [cursor=pointer]: 
+                      - generic [ref=e2220]:
+                        - generic [ref=e2221]: 
+                        - text: "0"
+                    - generic [ref=e2222]:
+                      - generic [ref=e2226]:
+                        - link "和平精英" [ref=e2227] [cursor=pointer]:
+                          - /url: /app/y8duju6eppdj9hq/ios-income?market=1&country=75
+                          - img "和平精英" [ref=e2228]
+                        - generic [ref=e2229]:
+                          - link "和平精英" [ref=e2234] [cursor=pointer]:
+                            - /url: /app/y8duju6eppdj9hq/ios-income?market=1&country=75
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e2239] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e2241]:
+                        - text: 8321.24万
+                        - generic [ref=e2243] [cursor=pointer]: 
+                      - generic [ref=e2246]:
+                        - generic [ref=e2247]: 
+                        - text: "0"
+                    - generic [ref=e2248]:
+                      - generic [ref=e2252]:
+                        - link "三角洲行动" [ref=e2253] [cursor=pointer]:
+                          - /url: /app/yo8uvujm9qx88f9/ios-income?market=1&country=75
+                          - img "三角洲行动" [ref=e2254]
+                        - generic [ref=e2255]:
+                          - link "三角洲行动" [ref=e2260] [cursor=pointer]:
+                            - /url: /app/yo8uvujm9qx88f9/ios-income?market=1&country=75
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e2265] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e2267]:
+                        - text: 5083.47万
+                        - generic [ref=e2269] [cursor=pointer]: 
+                      - generic [ref=e2272]:
+                        - generic [ref=e2273]: 
+                        - text: "1"
+                    - generic [ref=e2274]:
+                      - generic [ref=e2277]: "4"
+                      - generic [ref=e2279]:
+                        - link "抖音" [ref=e2280] [cursor=pointer]:
+                          - /url: /app/nd2u6udegmemeid/ios-income?market=1&country=75
+                          - img "抖音" [ref=e2281]
+                        - generic [ref=e2282]:
+                          - link "抖音" [ref=e2287] [cursor=pointer]:
+                            - /url: /app/nd2u6udegmemeid/ios-income?market=1&country=75
+                          - link "Beijing Douyin Technology Co., Ltd." [ref=e2292] [cursor=pointer]:
+                            - /url: /developer/b15dbe103a0b4815599a920b91577aac/ios-app
+                      - generic [ref=e2294]:
+                        - text: 4396.59万
+                        - generic [ref=e2296] [cursor=pointer]: 
+                      - generic [ref=e2299]:
+                        - generic [ref=e2300]: 
+                        - text: "1"
+                    - generic [ref=e2301]:
+                      - generic [ref=e2304]: "5"
+                      - generic [ref=e2306]:
+                        - link "金铲铲之战" [ref=e2307] [cursor=pointer]:
+                          - /url: /app/n7du9uo9w0d07uq/ios-income?market=1&country=75
+                          - img "金铲铲之战" [ref=e2308]
+                        - generic [ref=e2309]:
+                          - link "金铲铲之战" [ref=e2314] [cursor=pointer]:
+                            - /url: /app/n7du9uo9w0d07uq/ios-income?market=1&country=75
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e2319] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e2321]:
+                        - text: 3214.22万
+                        - generic [ref=e2323] [cursor=pointer]: 
+                      - generic [ref=e2326]:
+                        - generic [ref=e2327]: 
+                        - text: "4"
+                    - generic [ref=e2328]:
+                      - generic [ref=e2331]: "6"
+                      - generic [ref=e2333]:
+                        - link "无尽冬日" [ref=e2334] [cursor=pointer]:
+                          - /url: /app/xoupuzpmowm36tl/ios-income?market=1&country=75
+                          - img "无尽冬日" [ref=e2335]
+                        - generic [ref=e2336]:
+                          - link "无尽冬日" [ref=e2341] [cursor=pointer]:
+                            - /url: /app/xoupuzpmowm36tl/ios-income?market=1&country=75
+                          - link "Shanghai Qingdi Technology Company Limited" [ref=e2346] [cursor=pointer]:
+                            - /url: /developer/c376d41325dd617a50c448b3ea16e12d/ios-app
+                      - generic [ref=e2348]:
+                        - text: 2992.16万
+                        - generic [ref=e2350] [cursor=pointer]: 
+                      - generic [ref=e2353]:
+                        - generic [ref=e2354]: 
+                        - text: "1"
+                    - generic [ref=e2355]:
+                      - generic [ref=e2358]: "7"
+                      - generic [ref=e2360]:
+                        - link "梦幻西游" [ref=e2361] [cursor=pointer]:
+                          - /url: /app/np2ugu3295xvka7/ios-income?market=1&country=75
+                          - img "梦幻西游" [ref=e2362]
+                        - generic [ref=e2363]:
+                          - link "梦幻西游" [ref=e2368] [cursor=pointer]:
+                            - /url: /app/np2ugu3295xvka7/ios-income?market=1&country=75
+                          - link "网易移动游戏" [ref=e2373] [cursor=pointer]:
+                            - /url: /developer/b6a79425508c20a6f2faa42adc142438/ios-app
+                      - generic [ref=e2375]:
+                        - text: 2828.95万
+                        - generic [ref=e2377] [cursor=pointer]: 
+                      - generic [ref=e2380]:
+                        - generic [ref=e2381]: 
+                        - text: "1"
+                    - generic [ref=e2382]:
+                      - generic [ref=e2385]: "8"
+                      - generic [ref=e2387]:
+                        - link "火影忍者" [ref=e2388] [cursor=pointer]:
+                          - /url: /app/4xoupu633v2xwhl/ios-income?market=1&country=75
+                          - img "火影忍者" [ref=e2389]
+                        - generic [ref=e2390]:
+                          - link "火影忍者" [ref=e2395] [cursor=pointer]:
+                            - /url: /app/4xoupu633v2xwhl/ios-income?market=1&country=75
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e2400] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e2402]:
+                        - text: 2665.21万
+                        - generic [ref=e2404] [cursor=pointer]: 
+                      - generic [ref=e2407]:
+                        - generic [ref=e2408]: 
+                        - text: "2"
+                    - generic [ref=e2409]:
+                      - generic [ref=e2412]: "9"
+                      - generic [ref=e2414]:
+                        - link "腾讯视频" [ref=e2415] [cursor=pointer]:
+                          - /url: /app/ygguvuzm8m58dh6/ios-income?market=1&country=75
+                          - img "腾讯视频" [ref=e2416]
+                        - generic [ref=e2417]:
+                          - link "腾讯视频" [ref=e2422] [cursor=pointer]:
+                            - /url: /app/ygguvuzm8m58dh6/ios-income?market=1&country=75
+                          - link "Tencent Technology (Shenzhen) Company Limited" [ref=e2427] [cursor=pointer]:
+                            - /url: /developer/aae5f4b34185eb5c678eda03a1c7928e/ios-app
+                      - generic [ref=e2429]:
+                        - text: 2535.45万
+                        - generic [ref=e2431] [cursor=pointer]: 
+                      - generic [ref=e2434]:
+                        - generic [ref=e2435]: 
+                        - text: "1"
+                    - generic [ref=e2436]:
+                      - generic [ref=e2439]: "10"
+                      - generic [ref=e2441]:
+                        - link "无畏契约：源能行动" [ref=e2442] [cursor=pointer]:
+                          - /url: /app/21uluzwvjzmerb1/ios-income?market=1&country=75
+                          - img "无畏契约：源能行动" [ref=e2443]
+                        - generic [ref=e2444]:
+                          - link "无畏契约：源能行动" [ref=e2449] [cursor=pointer]:
+                            - /url: /app/21uluzwvjzmerb1/ios-income?market=1&country=75
+                          - link "Shenzhen Tencent Tianyou Technology Ltd" [ref=e2454] [cursor=pointer]:
+                            - /url: /developer/4ce20566d3aafb60f60996fbc2921157/ios-app
+                      - generic [ref=e2456]:
+                        - text: 2373.13万
+                        - generic [ref=e2458] [cursor=pointer]: 
+                      - generic [ref=e2461]:
+                        - generic [ref=e2462]: 
+                        - text: "1"
+          - generic [ref=e2464]:
+            - generic [ref=e2466]:
+              - generic [ref=e2467]: App Store 热搜
+              - generic [ref=e2469]:
+                - text:  
+                - generic [ref=e2471]:
+                  - generic [ref=e2474]: 中国
+                  - generic [ref=e2475]: 
+                - text: 
+                - generic: 
+            - generic [ref=e2479]:
+              - generic [ref=e2481]:
+                - generic [ref=e2483]:
+                  - link "iOS 16/15/14/13热搜" [ref=e2485] [cursor=pointer]:
+                    - /url: javascript:;
+                    - text: iOS 16/15/14/13热搜
+                    - generic [ref=e2486]: 
+                  - link "" [ref=e2488] [cursor=pointer]:
+                    - /url: /rank/hot-75
+                    - generic [ref=e2489]: 
+                - generic [ref=e2490]:
+                  - generic [ref=e2491]: 最新更新时间：今天22:07
+                  - generic [ref=e2492]:
+                    - generic [ref=e2493]:
+                      - generic [ref=e2494]: 探索更多
+                      - table [ref=e2498]:
+                        - rowgroup [ref=e2504]:
+                          - row "排名 关键词 搜索指数" [ref=e2505]:
+                            - columnheader "排名" [ref=e2506]:
+                              - generic [ref=e2507]: 排名
+                            - columnheader "关键词" [ref=e2508]:
+                              - generic [ref=e2509]: 关键词
+                            - columnheader "搜索指数" [ref=e2510]:
+                              - generic [ref=e2511]: 搜索指数
+                            - columnheader [ref=e2512]
+                        - rowgroup [ref=e2514]:
+                          - row "1 购物 4647 " [ref=e2515]:
+                            - cell "1" [ref=e2516]:
+                              - generic [ref=e2517]: "1"
+                              - text: 
+                            - cell "购物" [ref=e2518]:
+                              - link "购物" [ref=e2521] [cursor=pointer]:
+                                - /url: /search/ios-1-5-5-75-0-购物
+                                - generic [ref=e2522]: 购物
+                            - cell "4647" [ref=e2523]:
+                              - generic [ref=e2524]: "4647"
+                            - cell "" [ref=e2525]:
+                              - generic [ref=e2528] [cursor=pointer]: 
+                          - row "2 养成游戏 6192 " [ref=e2529]:
+                            - cell "2" [ref=e2530]:
+                              - generic [ref=e2531]: "2"
+                              - text: 
+                            - cell "养成游戏" [ref=e2532]:
+                              - link "养成游戏" [ref=e2535] [cursor=pointer]:
+                                - /url: /search/ios-1-5-5-75-0-养成游戏
+                                - generic [ref=e2536]: 养成游戏
+                            - cell "6192" [ref=e2537]:
+                              - generic [ref=e2538]: "6192"
+                            - cell "" [ref=e2539]:
+                              - generic [ref=e2542] [cursor=pointer]: 
+                          - row "3 儿童游戏 4642 " [ref=e2543]:
+                            - cell "3" [ref=e2544]:
+                              - generic [ref=e2545]: "3"
+                              - text: 
+                            - cell "儿童游戏" [ref=e2546]:
+                              - link "儿童游戏" [ref=e2549] [cursor=pointer]:
+                                - /url: /search/ios-1-5-5-75-0-儿童游戏
+                                - generic [ref=e2550]: 儿童游戏
+                            - cell "4642" [ref=e2551]:
+                              - generic [ref=e2552]: "4642"
+                            - cell "" [ref=e2553]:
+                              - generic [ref=e2556] [cursor=pointer]: 
+                          - row "4 日剧 4679 " [ref=e2557]:
+                            - cell "4" [ref=e2558]:
+                              - generic [ref=e2559]: "4"
+                              - text: 
+                            - cell "日剧" [ref=e2560]:
+                              - link "日剧" [ref=e2563] [cursor=pointer]:
+                                - /url: /search/ios-1-5-5-75-0-日剧
+                                - generic [ref=e2564]: 日剧
+                            - cell "4679" [ref=e2565]:
+                              - generic [ref=e2566]: "4679"
+                            - cell "" [ref=e2567]:
+                              - generic [ref=e2570] [cursor=pointer]: 
+                          - row "5 视频 6652 " [ref=e2571]:
+                            - cell "5" [ref=e2572]:
+                              - generic [ref=e2573]: "5"
+                              - text: 
+                            - cell "视频" [ref=e2574]:
+                              - link "视频" [ref=e2577] [cursor=pointer]:
+                                - /url: /search/ios-1-5-5-75-0-视频
+                                - generic [ref=e2578]:
+                                  - text: 视频
+                                  - img [ref=e2580]
+                            - cell "6652" [ref=e2582]:
+                              - generic [ref=e2583]: "6652"
+                            - cell "" [ref=e2584]:
+                              - generic [ref=e2587] [cursor=pointer]: 
+                          - row "6 相机 6062 " [ref=e2588]:
+                            - cell "6" [ref=e2589]:
+                              - generic [ref=e2590]: "6"
+                              - text: 
+                            - cell "相机" [ref=e2591]:
+                              - link "相机" [ref=e2594] [cursor=pointer]:
+                                - /url: /search/ios-1-5-5-75-0-相机
+                                - generic [ref=e2595]:
+                                  - text: 相机
+                                  - img [ref=e2597]
+                            - cell "6062" [ref=e2599]:
+                              - generic [ref=e2600]: "6062"
+                            - cell "" [ref=e2601]:
+                              - generic [ref=e2604] [cursor=pointer]: 
+                    - generic [ref=e2605]:
+                      - generic [ref=e2606]:
+                        - generic [ref=e2607]: 为你推荐
+                        - generic [ref=e2610]:
+                          - generic [ref=e2612]:
+                            - link "Video Star" [ref=e2613] [cursor=pointer]:
+                              - /url: /app/njzumu0o657kzfp/ios?market=1&country=75
+                              - img "Video Star" [ref=e2614]
+                            - generic [ref=e2615]:
+                              - link "Video Star" [ref=e2620] [cursor=pointer]:
+                                - /url: /app/njzumu0o657kzfp/ios?market=1&country=75
+                              - link "Frontier Design Group" [ref=e2625] [cursor=pointer]:
+                                - /url: /developer/7877602e361e215d440f49cc6ecdcf82/ios-app
+                          - generic [ref=e2627]:
+                            - link "日杂相机" [ref=e2628] [cursor=pointer]:
+                              - /url: /app/n31uru719gq8osg/ios?market=1&country=75
+                              - img "日杂相机" [ref=e2629]
+                            - generic [ref=e2630]:
+                              - link "日杂相机" [ref=e2635] [cursor=pointer]:
+                                - /url: /app/n31uru719gq8osg/ios?market=1&country=75
+                              - link "Guangzhou Mengdong Information Technology Co., Ltd." [ref=e2640] [cursor=pointer]:
+                                - /url: /developer/a8eb43dff831bb407efd3bd6b9c6113f/ios-app
+                          - generic [ref=e2642]:
+                            - link "开心消消乐" [ref=e2643] [cursor=pointer]:
+                              - /url: /app/np2ugu3zwkr5mi7/ios?market=1&country=75
+                              - img "开心消消乐" [ref=e2644]
+                            - generic [ref=e2645]:
+                              - link "开心消消乐" [ref=e2650] [cursor=pointer]:
+                                - /url: /app/np2ugu3zwkr5mi7/ios?market=1&country=75
+                              - link "乐元素" [ref=e2655] [cursor=pointer]:
+                                - /url: /developer/54720e29e8e952923d4cb6b85ba5034a/ios-app
+                          - generic [ref=e2657]:
+                            - 'link "Notability: 笔记, PDF" [ref=e2658] [cursor=pointer]':
+                              - /url: /app/492uduxrzeg00uj/ios?market=1&country=75
+                              - 'img "Notability: 笔记, PDF" [ref=e2659]'
+                            - generic [ref=e2660]:
+                              - 'link "Notability: 笔记, PDF" [ref=e2665] [cursor=pointer]':
+                                - /url: /app/492uduxrzeg00uj/ios?market=1&country=75
+                              - link "Ginger Labs" [ref=e2670] [cursor=pointer]:
+                                - /url: /developer/d7d22f13842272a9bd4b2edd1334eecf/ios-app
+                      - generic [ref=e2672] [cursor=pointer]: 显示全部
+              - generic [ref=e2674]:
+                - generic [ref=e2676]:
+                  - link "iOS 12/11热搜" [ref=e2678] [cursor=pointer]:
+                    - /url: javascript:;
+                    - text: iOS 12/11热搜
+                    - generic [ref=e2679]: 
+                  - link "" [ref=e2681] [cursor=pointer]:
+                    - /url: /rank/hot-75?systemhotsearch=2
+                    - generic [ref=e2682]: 
+                - generic [ref=e2685]:
+                  - img [ref=e2687]
+                  - generic [ref=e2689]: App Store的实时热搜榜数据更新截止到2025年 12 月 12 日
+              - generic [ref=e2691]:
+                - generic [ref=e2693]:
+                  - link "iOS 10热搜" [ref=e2695] [cursor=pointer]:
+                    - /url: javascript:;
+                  - link "" [ref=e2697] [cursor=pointer]:
+                    - /url: /rank/hot-75?systemhotsearch=3
+                    - generic [ref=e2698]: 
+                - generic [ref=e2699]:
+                  - generic [ref=e2700]: 最新更新时间：2026-01-04 10:51
+                  - generic [ref=e2702]:
+                    - generic [ref=e2703]: 探索更多
+                    - table [ref=e2707]:
+                      - rowgroup [ref=e2712]:
+                        - row "排名 关键词 搜索指数" [ref=e2713]:
+                          - columnheader "排名" [ref=e2714]:
+                            - generic [ref=e2715]: 排名
+                          - columnheader "关键词" [ref=e2716]:
+                            - generic [ref=e2717]: 关键词
+                          - columnheader "搜索指数" [ref=e2718]:
+                            - generic [ref=e2719]: 搜索指数
+                      - rowgroup [ref=e2720]:
+                        - row "1 购物 4647" [ref=e2721]:
+                          - cell "1" [ref=e2722]:
+                            - generic [ref=e2723]: "1"
+                            - text: 
+                          - cell "购物" [ref=e2724]:
+                            - generic [ref=e2726]: 购物
+                          - cell "4647" [ref=e2727]:
+                            - generic [ref=e2728]: "4647"
+                        - row "2 养成游戏 6192" [ref=e2729]:
+                          - cell "2" [ref=e2730]:
+                            - generic [ref=e2731]: "2"
+                            - text: 
+                          - cell "养成游戏" [ref=e2732]:
+                            - generic [ref=e2734]: 养成游戏
+                          - cell "6192" [ref=e2735]:
+                            - generic [ref=e2736]: "6192"
+                        - row "3 儿童游戏 4642" [ref=e2737]:
+                          - cell "3" [ref=e2738]:
+                            - generic [ref=e2739]: "3"
+                            - text: 
+                          - cell "儿童游戏" [ref=e2740]:
+                            - generic [ref=e2742]: 儿童游戏
+                          - cell "4642" [ref=e2743]:
+                            - generic [ref=e2744]: "4642"
+                        - row "4 日剧 4679" [ref=e2745]:
+                          - cell "4" [ref=e2746]:
+                            - generic [ref=e2747]: "4"
+                            - text: 
+                          - cell "日剧" [ref=e2748]:
+                            - generic [ref=e2750]: 日剧
+                          - cell "4679" [ref=e2751]:
+                            - generic [ref=e2752]: "4679"
+                        - row "5 视频 6652" [ref=e2753]:
+                          - cell "5" [ref=e2754]:
+                            - generic [ref=e2755]: "5"
+                            - text: 
+                          - cell "视频" [ref=e2756]:
+                            - generic [ref=e2758]: 视频
+                          - cell "6652" [ref=e2759]:
+                            - generic [ref=e2760]: "6652"
+                        - row "6 相机 6062" [ref=e2761]:
+                          - cell "6" [ref=e2762]:
+                            - generic [ref=e2763]: "6"
+                            - text: 
+                          - cell "相机" [ref=e2764]:
+                            - generic [ref=e2766]: 相机
+                          - cell "6062" [ref=e2767]:
+                            - generic [ref=e2768]: "6062"
+    - generic [ref=e2770]:
+      - generic [ref=e2771]:
+        - generic [ref=e2772]:
+          - generic [ref=e2773]:
+            - generic [ref=e2774]: App榜单
+            - generic [ref=e2775]:
+              - link "AppStore畅销榜" [ref=e2777] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/ios/1-4-0-75-4
+              - link "GooglePlay畅销榜" [ref=e2779] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/googleplay/11-4-0-24-2
+              - link "TapTap热门榜" [ref=e2781] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/taptap/
+              - link "AppStore排行榜" [ref=e2783] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/ios/
+              - link "GooglePlay排行榜" [ref=e2785] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/googleplay/
+              - link "TapTap热玩榜" [ref=e2787] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/taptap/2-5
+              - link "AppStore付费榜" [ref=e2789] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/ios/1-4-0-75-3
+              - link "GooglePlay付费榜" [ref=e2791] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/googleplay/11-4-0-24-3
+              - link "TapTap预约榜" [ref=e2793] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/taptap/2-2
+              - link "AppStore全球榜" [ref=e2795] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/global/ios
+              - link "GooglePlay全球榜" [ref=e2797] [cursor=pointer]:
+                - /url: //app.diandian.com/rank/global/googleplay
+          - generic [ref=e2798]:
+            - generic [ref=e2799]: 关于点点
+            - generic [ref=e2800]:
+              - link "关于我们" [ref=e2802] [cursor=pointer]:
+                - /url: //www.diandian.com/aboutus
+              - link "常见问题" [ref=e2804] [cursor=pointer]:
+                - /url: //www.diandian.com/problem
+              - link "术语解释" [ref=e2806] [cursor=pointer]:
+                - /url: //www.diandian.com/terminology
+              - link "网站地图" [ref=e2808] [cursor=pointer]:
+                - /url: //www.diandian.com/map
+              - link "版本记录" [ref=e2810] [cursor=pointer]:
+                - /url: //www.diandian.com/version
+              - link "协议&政策" [ref=e2812] [cursor=pointer]:
+                - /url: //www.diandian.com/protocolPolicy
+        - generic [ref=e2814]:
+          - generic [ref=e2815]: 联系我们
+          - generic [ref=e2816]:
+            - generic [ref=e2817]:
+              - generic [ref=e2819]: 业务咨询/申请演示
+              - generic [ref=e2820]: service@diandian.com
+            - generic [ref=e2821]:
+              - generic [ref=e2823]: 市场/媒体/渠道合作
+              - generic [ref=e2824]: chenjinzhu@nana.cn
+            - generic [ref=e2827]: 点点服务号
+      - generic [ref=e2829]:
+        - link "沪ICP备2021010088号-1" [ref=e2830] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - text: 丨Copyright © 2024 Diandian.All Rights Reserved.丨归因（上海）科技有限公司
+  - generic:
+    - generic: 
+    - generic [ref=e2832]:
+      - generic [ref=e2834] [cursor=pointer]: 
+      - generic [ref=e2836] [cursor=pointer]: 
+      - generic [ref=e2838] [cursor=pointer]: 
+      - generic [ref=e2840] [cursor=pointer]: 
+  - generic: 
+  - text: 

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDFReader 新用户 OOBE 完成漏斗分析</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --ink: #14212b;
+      --muted: #5c6b78;
+      --line: #d8e0e7;
+      --brand: #1f6f8b;
+      --good: #1f8a5b;
+      --warn: #b86d00;
+      --bad: #b42318;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 20px 40px;
+    }
+    h1 { margin: 0 0 8px; font-size: 30px; letter-spacing: 0; }
+    h2 { margin: 28px 0 12px; font-size: 20px; }
+    .meta { color: var(--muted); margin-bottom: 22px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin: 20px 0 28px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .card .label { color: var(--muted); font-size: 13px; }
+    .card .value { font-size: 24px; font-weight: 700; margin-top: 6px; }
+    .good { color: var(--good); }
+    .warn { color: var(--warn); }
+    .bad { color: var(--bad); }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      background: var(--card);
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 8px;
+      text-align: right;
+      vertical-align: top;
+    }
+    th:first-child, td:first-child,
+    th:nth-child(2), td:nth-child(2),
+    th:last-child, td:last-child { text-align: left; }
+    th { color: var(--muted); font-weight: 600; }
+    tr:last-child td { border-bottom: 0; }
+    ul, ol { padding-left: 22px; }
+    code { background: #edf2f5; border-radius: 4px; padding: 1px 5px; }
+    footer {
+      margin-top: 20px;
+      padding-top: 16px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--line);
+    }
+    @media (max-width: 780px) {
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      main { padding: 24px 12px; }
+      section { padding: 14px; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PDFReader 新用户 OOBE 完成漏斗分析</h1>
+    <div class="meta">项目 A115 / PDFReader · 2026-06-21 至 2026-06-25 · first_open -> th_oobe_done · 排除当天未闭合数据</div>
+
+    <div class="cards">
+      <div class="card"><div class="label">first_open</div><div class="value">74,505</div></div>
+      <div class="card"><div class="label">th_oobe_done</div><div class="value">31,109</div></div>
+      <div class="card"><div class="label">总转化率</div><div class="value warn">41.75%</div></div>
+      <div class="card"><div class="label">流失人数</div><div class="value bad">43,396</div></div>
+    </div>
+
+    <section>
+      <h2>总体结论</h2>
+      <ol>
+        <li>近 5 个完整自然日内，<code>first_open</code> 用户数为 74,505，完成 <code>th_oobe_done</code> 用户数为 31,109。</li>
+        <li>加权总转化率为 41.75%，流失 43,396 人，流失率 58.25%。</li>
+        <li>最低转化出现在 2026-06-21，为 36.45%；最高转化出现在 2026-06-23，为 43.98%。</li>
+        <li>2026-06-25 首开量升至 23,644，但转化率降至 40.76%，新增流量质量或初始化体验需要重点复查。</li>
+        <li>Snowball 返回中额外包含 2026-06-26 当天 5 个首开样本，因当天数据未闭合，本报告不纳入结论计算。</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>漏斗汇总</h2>
+      <table>
+        <thead><tr><th>步骤</th><th>事件</th><th>用户数</th><th>步骤转化率</th><th>流失人数</th><th>流失率</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><code>first_open</code></td><td>74,505</td><td>100.00%</td><td>-</td><td>-</td></tr>
+          <tr><td>2</td><td><code>th_oobe_done</code></td><td>31,109</td><td>41.75%</td><td>43,396</td><td>58.25%</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>每日趋势</h2>
+      <table>
+        <thead><tr><th>日期</th><th>first_open</th><th>th_oobe_done</th><th>总转化率</th><th>流失人数</th><th>观察</th></tr></thead>
+        <tbody>
+          <tr><td>2026-06-21</td><td>7,330</td><td>2,672</td><td>36.45%</td><td>4,658</td><td>低点，首日初始化完成偏弱</td></tr>
+          <tr><td>2026-06-22</td><td>10,609</td><td>4,534</td><td>42.74%</td><td>6,075</td><td>转化恢复到 42% 以上</td></tr>
+          <tr><td>2026-06-23</td><td>14,723</td><td>6,475</td><td>43.98%</td><td>8,248</td><td>5 日内最高转化</td></tr>
+          <tr><td>2026-06-24</td><td>18,199</td><td>7,791</td><td>42.81%</td><td>10,408</td><td>首开继续上升，转化基本稳定</td></tr>
+          <tr><td>2026-06-25</td><td>23,644</td><td>9,637</td><td>40.76%</td><td>14,007</td><td>首开最高但转化回落</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>异常与风险定位</h2>
+      <ul>
+        <li>最大绝对流失：<code>first_open -> th_oobe_done</code>，5 日合计流失 43,396 人。</li>
+        <li>最大比例流失：同一段路径，流失率 58.25%。</li>
+        <li>2026-06-25 的首开量较 2026-06-21 增加 222.56%，但转化率只比 2026-06-21 高 4.31 个百分点，且低于 2026-06-23 的峰值 3.22 个百分点。</li>
+        <li>因本次是两步漏斗，无法直接判断流失发生在权限弹窗、Landing 页、存储权限页还是其它 OOBE 中间步骤。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>动作建议</h2>
+      <ul>
+        <li><strong>P0</strong>：用已有“初始化流程”完整漏斗拆解 <code>first_open -> LandingActivity -> notification permission -> storage permission -> th_oobe_done</code>，定位具体掉点。</li>
+        <li><strong>P1</strong>：按国家、版本、渠道拆分 2026-06-25，确认转化回落是否来自新增买量流量、版本分布变化或特定国家。</li>
+        <li><strong>P2</strong>：对 <code>th_oobe_done</code> 的埋点触发条件做一次客户端核对，确认跳过权限、拒绝权限、异常退出等路径是否都符合预期。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>方法与置信度</h2>
+      <ul>
+        <li>本报告只使用 Snowball MCP 正式查询返回的事件漏斗数据。</li>
+        <li>汇总转化率使用 2026-06-21 至 2026-06-25 的用户数加权计算，不平均每日转化率。</li>
+        <li>Snowball 返回字段含 <code>exampling=true</code>，说明结果可能为采样口径；结论适合方向判断，若用于上线验收建议进一步用固定过滤条件复查。</li>
+      </ul>
+    </section>
+
+    <footer>Generated from /Users/suacker/dev/DataAnalysis/BI/reports/event_funnel/A115_PDFReader_first_open_to_th_oobe_done_2026-06-21_2026-06-25.md</footer>
+  </main>
+</body>
+</html>

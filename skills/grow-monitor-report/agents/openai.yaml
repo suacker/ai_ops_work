@@ -1,0 +1,3 @@
+interface:
+  display_name: "5天增长监控"
+  short_description: "按 grow_base 阈值生成近5天国家监控 MD/HTML 报告"

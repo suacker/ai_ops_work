@@ -1,0 +1,976 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "BOSS直聘" [ref=e6] [cursor=pointer]:
+        - /url: https://www.zhipin.com/
+      - paragraph [ref=e8] [cursor=pointer]:
+        - generic [ref=e10]: 南京
+        - text: "[切换]"
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "首页" [ref=e14] [cursor=pointer]:
+            - /url: https://www.zhipin.com/nanjing/
+        - listitem [ref=e15]:
+          - link "职位" [ref=e16] [cursor=pointer]:
+            - /url: https://www.zhipin.com/web/geek/jobs
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - link "公司" [ref=e19] [cursor=pointer]:
+              - /url: https://www.zhipin.com/gongsi/
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "校园" [ref=e22] [cursor=pointer]:
+              - /url: https://www.zhipin.com/school/
+          - listitem [ref=e24]:
+            - link "海归" [ref=e25] [cursor=pointer]:
+              - /url: https://www.zhipin.com/returnee_jobs/
+        - listitem [ref=e26]:
+          - link "APP" [ref=e27] [cursor=pointer]:
+            - /url: https://app.zhipin.com/
+        - listitem [ref=e28]:
+          - link "有了" [ref=e29] [cursor=pointer]:
+            - /url: https://youle.zhipin.com/recommend/selected/
+        - listitem [ref=e30]:
+          - link "海外" [ref=e31] [cursor=pointer]:
+            - /url: https://www.zhipin.com/overseas/
+        - listitem [ref=e32]:
+          - link "无障碍专区" [ref=e33] [cursor=pointer]:
+            - /url: https://www.zhipin.com/accessible_job/
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - link "我要招聘" [ref=e37] [cursor=pointer]:
+            - /url: https://www.zhipin.com/web/user/?intent=1
+          - link "我要找工作" [ref=e38] [cursor=pointer]:
+            - /url: https://www.zhipin.com/web/user/?intent=0
+        - link "登录/注册" [ref=e39] [cursor=pointer]:
+          - /url: https://www.zhipin.com/web/user/
+    - text: 正在加载中
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic:
+            - generic [ref=e44]:
+              - generic [ref=e47] [cursor=pointer]: 职位类型
+              - paragraph [ref=e49]:
+                - textbox "搜索职位、公司" [ref=e50]
+            - link "地图" [ref=e51] [cursor=pointer]:
+              - /url: javascript:;
+            - button "搜索" [ref=e52] [cursor=pointer]
+        - generic [ref=e53]:
+          - generic [ref=e54]: "热门职位:"
+          - link "Java" [ref=e55] [cursor=pointer]:
+            - /url: /c101190100/?query=Java&industry=&position=
+          - link "运维工程师" [ref=e56] [cursor=pointer]:
+            - /url: /c101190100/?query=%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88&industry=&position=
+          - link "IT技术支持" [ref=e57] [cursor=pointer]:
+            - /url: /c101190100/?query=IT%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81&industry=&position=
+          - link "网络安全" [ref=e58] [cursor=pointer]:
+            - /url: /c101190100/?query=%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8&industry=&position=
+          - link "自动化工程师" [ref=e59] [cursor=pointer]:
+            - /url: /c101190100/?query=%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E7%A8%8B%E5%B8%88&industry=&position=
+          - link "前端开发工程师" [ref=e60] [cursor=pointer]:
+            - /url: /c101190100/?query=%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88&industry=&position=
+          - link "售后技术支持" [ref=e61] [cursor=pointer]:
+            - /url: /c101190100/?query=%E5%94%AE%E5%90%8E%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81&industry=&position=
+          - link "电气工程师" [ref=e62] [cursor=pointer]:
+            - /url: /c101190100/?query=%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%B8%88&industry=&position=
+          - link "美工" [ref=e63] [cursor=pointer]:
+            - /url: /c101190100/?query=%E7%BE%8E%E5%B7%A5&industry=&position=
+          - link "新媒体运营" [ref=e64] [cursor=pointer]:
+            - /url: /c101190100/?query=%E6%96%B0%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5&industry=&position=
+      - text: 正在加载中
+    - generic [ref=e66]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - definition [ref=e71]:
+            - generic [ref=e73]: 互联网/AI
+            - link "Java" [ref=e74] [cursor=pointer]:
+              - /url: /c101190100-p100101/
+            - link "C/C++" [ref=e75] [cursor=pointer]:
+              - /url: /c101190100-p100102/
+            - link "PHP" [ref=e76] [cursor=pointer]:
+              - /url: /c101190100-p100103/
+          - definition [ref=e78]:
+            - generic [ref=e80]: 电子/电气/通信
+            - link "电子工程师" [ref=e81] [cursor=pointer]:
+              - /url: /c101190100-p101401/
+            - link "硬件工程师" [ref=e82] [cursor=pointer]:
+              - /url: /c101190100-p100801/
+            - link "嵌入式软件工程师" [ref=e83] [cursor=pointer]:
+              - /url: /c101190100-p100802/
+          - definition [ref=e85]:
+            - generic [ref=e87]: 产品
+            - link "产品经理" [ref=e88] [cursor=pointer]:
+              - /url: /c101190100-p110101/
+            - link "产品专员/助理" [ref=e89] [cursor=pointer]:
+              - /url: /c101190100-p110108/
+            - link "产品总监" [ref=e90] [cursor=pointer]:
+              - /url: /c101190100-p110302/
+          - definition [ref=e92]:
+            - generic [ref=e94]: 客服/运营
+            - link "客服专员" [ref=e95] [cursor=pointer]:
+              - /url: /c101190100-p130305/
+            - link "客服主管" [ref=e96] [cursor=pointer]:
+              - /url: /c101190100-p130306/
+            - link "客服经理" [ref=e97] [cursor=pointer]:
+              - /url: /c101190100-p130304/
+          - definition [ref=e99]:
+            - generic [ref=e101]: 销售
+            - link "销售专员" [ref=e102] [cursor=pointer]:
+              - /url: /c101190100-p140301/
+            - link "电话销售" [ref=e103] [cursor=pointer]:
+              - /url: /c101190100-p140310/
+            - link "网络销售" [ref=e104] [cursor=pointer]:
+              - /url: /c101190100-p140314/
+          - definition [ref=e106]:
+            - generic [ref=e108]: 人力/行政/法务
+            - link "人力资源专员/助理" [ref=e109] [cursor=pointer]:
+              - /url: /c101190100-p150104/
+            - link "人力资源经理/主管" [ref=e110] [cursor=pointer]:
+              - /url: /c101190100-p150403/
+            - link "人力资源总监" [ref=e111] [cursor=pointer]:
+              - /url: /c101190100-p150108/
+          - definition [ref=e113]:
+            - generic [ref=e115]: 财务/审计/税务
+            - link "会计" [ref=e116] [cursor=pointer]:
+              - /url: /c101190100-p150301/
+            - link "总账会计" [ref=e117] [cursor=pointer]:
+              - /url: /c101190100-p150311/
+            - link "成本会计" [ref=e118] [cursor=pointer]:
+              - /url: /c101190100-p150310/
+          - definition [ref=e120]:
+            - generic [ref=e122]: 生产制造
+            - link "普工/操作工" [ref=e123] [cursor=pointer]:
+              - /url: /c101190100-p300601/
+            - link "包装工" [ref=e124] [cursor=pointer]:
+              - /url: /c101190100-p300624/
+            - link "学徒工" [ref=e125] [cursor=pointer]:
+              - /url: /c101190100-p300628/
+          - definition [ref=e127]:
+            - generic [ref=e129]: 零售/生活服务
+            - link "店员/营业员" [ref=e130] [cursor=pointer]:
+              - /url: /c101190100-p290303/
+            - link "收银" [ref=e131] [cursor=pointer]:
+              - /url: /c101190100-p290201/
+            - link "导购" [ref=e132] [cursor=pointer]:
+              - /url: /c101190100-p290302/
+          - definition [ref=e134]:
+            - generic [ref=e136]: 餐饮
+            - link "服务员" [ref=e137] [cursor=pointer]:
+              - /url: /c101190100-p290202/
+            - link "收银" [ref=e138] [cursor=pointer]:
+              - /url: /c101190100-p290201/
+            - link "礼仪/迎宾/接待" [ref=e139] [cursor=pointer]:
+              - /url: /c101190100-p290107/
+          - definition [ref=e141]:
+            - generic [ref=e143]: 酒店/旅游
+            - link "酒店前台" [ref=e144] [cursor=pointer]:
+              - /url: /c101190100-p290102/
+            - link "礼仪/迎宾/接待" [ref=e145] [cursor=pointer]:
+              - /url: /c101190100-p290107/
+            - link "客房服务员" [ref=e146] [cursor=pointer]:
+              - /url: /c101190100-p290103/
+          - definition [ref=e148]:
+            - generic [ref=e150]: 教育培训
+            - link "教师" [ref=e151] [cursor=pointer]:
+              - /url: /c101190100-p190301/
+            - link "英语教师" [ref=e152] [cursor=pointer]:
+              - /url: /c101190100-p190309/
+            - link "助教" [ref=e153] [cursor=pointer]:
+              - /url: /c101190100-p190302/
+          - definition [ref=e155]:
+            - generic [ref=e157]: 设计
+            - link "平面设计" [ref=e158] [cursor=pointer]:
+              - /url: /c101190100-p120106/
+            - link "美工" [ref=e159] [cursor=pointer]:
+              - /url: /c101190100-p120117/
+            - link "设计师助理" [ref=e160] [cursor=pointer]:
+              - /url: /c101190100-p120119/
+          - definition [ref=e162]:
+            - generic [ref=e164]: 房地产/建筑
+            - link "建筑施工项目经理" [ref=e165] [cursor=pointer]:
+              - /url: /c101190100-p220212/
+            - link "工程造价" [ref=e166] [cursor=pointer]:
+              - /url: /c101190100-p220209/
+            - link "工程监理" [ref=e167] [cursor=pointer]:
+              - /url: /c101190100-p220208/
+          - definition [ref=e169]:
+            - generic [ref=e171]: 直播/影视/传媒
+            - link "主播" [ref=e172] [cursor=pointer]:
+              - /url: /c101190100-p170610/
+            - link "带货主播" [ref=e173] [cursor=pointer]:
+              - /url: /c101190100-p170625/
+            - link "直播运营" [ref=e174] [cursor=pointer]:
+              - /url: /c101190100-p130122/
+          - definition [ref=e176]:
+            - generic [ref=e178]: 市场/公关/广告
+            - link "市场营销策划" [ref=e179] [cursor=pointer]:
+              - /url: /c101190100-p140101/
+            - link "海外市场" [ref=e180] [cursor=pointer]:
+              - /url: /c101190100-p140111/
+            - link "活动策划执行" [ref=e181] [cursor=pointer]:
+              - /url: /c101190100-p140109/
+          - definition [ref=e183]:
+            - generic [ref=e185]: 物流/仓储/司机
+            - link "物流专员" [ref=e186] [cursor=pointer]:
+              - /url: /c101190100-p240103/
+            - link "物流经理" [ref=e187] [cursor=pointer]:
+              - /url: /c101190100-p240104/
+            - link "物流总监" [ref=e188] [cursor=pointer]:
+              - /url: /c101190100-p240402/
+          - definition [ref=e190]:
+            - generic [ref=e192]: 采购/贸易
+            - link "采购专员/助理" [ref=e193] [cursor=pointer]:
+              - /url: /c101190100-p250103/
+            - link "采购经理/主管" [ref=e194] [cursor=pointer]:
+              - /url: /c101190100-p250102/
+            - link "采购工程师" [ref=e195] [cursor=pointer]:
+              - /url: /c101190100-p250105/
+          - definition [ref=e197]:
+            - generic [ref=e199]: 汽车
+            - link "电池工程师" [ref=e200] [cursor=pointer]:
+              - /url: /c101190100-p300801/
+            - link "电机工程师" [ref=e201] [cursor=pointer]:
+              - /url: /c101190100-p300802/
+            - link "汽车项目管理" [ref=e202] [cursor=pointer]:
+              - /url: /c101190100-p230108/
+          - definition [ref=e204]:
+            - generic [ref=e206]: 医疗健康
+            - link "护士" [ref=e207] [cursor=pointer]:
+              - /url: /c101190100-p210201/
+            - link "导医" [ref=e208] [cursor=pointer]:
+              - /url: /c101190100-p210503/
+            - link "护士长" [ref=e209] [cursor=pointer]:
+              - /url: /c101190100-p210202/
+          - definition [ref=e211]:
+            - generic [ref=e213]: 金融
+            - link "柜员" [ref=e214] [cursor=pointer]:
+              - /url: /c101190100-p180402/
+            - link "银行大堂经理" [ref=e215] [cursor=pointer]:
+              - /url: /c101190100-p180404/
+            - link "客户经理" [ref=e216] [cursor=pointer]:
+              - /url: /c101190100-p180403/
+          - definition [ref=e218]:
+            - generic [ref=e220]: 项目管理
+            - link "项目经理/主管" [ref=e221] [cursor=pointer]:
+              - /url: /c101190100-p100601/
+            - link "项目专员/助理" [ref=e222] [cursor=pointer]:
+              - /url: /c101190100-p100603/
+            - link "建筑施工项目经理" [ref=e223] [cursor=pointer]:
+              - /url: /c101190100-p220212/
+          - definition [ref=e225]:
+            - generic [ref=e227]: 咨询/翻译/法律
+            - link "知识产权/专利/商标代理人" [ref=e228] [cursor=pointer]:
+              - /url: /c101190100-p260111/
+            - link "项目申报专员" [ref=e229] [cursor=pointer]:
+              - /url: /c101190100-p140804/
+            - link "咨询项目管理" [ref=e230] [cursor=pointer]:
+              - /url: /c101190100-p260106/
+          - definition [ref=e232]:
+            - generic [ref=e234]: 能源/环保/农业
+            - link "光伏系统工程师" [ref=e235] [cursor=pointer]:
+              - /url: /c101190100-p301002/
+            - link "风电/光伏运维工程师" [ref=e236] [cursor=pointer]:
+              - /url: /c101190100-p301003/
+            - link "水利工程师" [ref=e237] [cursor=pointer]:
+              - /url: /c101190100-p301004/
+          - definition [ref=e239]:
+            - generic [ref=e241]: 高级管理
+            - link "总裁/总经理/CEO" [ref=e242] [cursor=pointer]:
+              - /url: /c101190100-p150407/
+            - link "副总裁/副总经理/VP" [ref=e243] [cursor=pointer]:
+              - /url: /c101190100-p150408/
+            - link "总助/CEO助理/董事长助理" [ref=e244] [cursor=pointer]:
+              - /url: /c101190100-p150411/
+          - definition [ref=e246]:
+            - generic [ref=e248]: 其他
+            - link "其他职位" [ref=e249] [cursor=pointer]:
+              - /url: /c101190100-p200101/
+        - generic [ref=e251]:
+          - emphasis [ref=e252]: "1"
+          - text: / 4
+      - generic [ref=e261]:
+        - link [ref=e262] [cursor=pointer]:
+          - /url: https://cv.zhipin.com
+          - img [ref=e263]
+        - link [ref=e264] [cursor=pointer]:
+          - /url: https://www.zhipin.com/web/geek/job?query=%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88
+          - img [ref=e265]
+        - link [ref=e266] [cursor=pointer]:
+          - /url: https://www.zhipin.com/web/geek/job?query=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88
+          - img [ref=e267]
+        - link [ref=e268] [cursor=pointer]:
+          - /url: https://www.zhipin.com/web/geek/job?query=java%E5%B7%A5%E7%A8%8B%E5%B8%88
+          - img [ref=e269]
+      - generic [ref=e270]:
+        - generic [ref=e271]: 热招职位
+        - heading "销售 客服/运营 供应链/物流 人力/财务/行政 直播/影视/传媒 金融 市场/公关/广告 服务业 教育培训" [level=3] [ref=e272]:
+          - generic [ref=e273] [cursor=pointer]: 销售
+          - generic [ref=e274] [cursor=pointer]: 客服/运营
+          - generic [ref=e275] [cursor=pointer]: 供应链/物流
+          - generic [ref=e276] [cursor=pointer]: 人力/财务/行政
+          - generic [ref=e277] [cursor=pointer]: 直播/影视/传媒
+          - generic [ref=e278] [cursor=pointer]: 金融
+          - generic [ref=e279] [cursor=pointer]: 市场/公关/广告
+          - generic [ref=e280] [cursor=pointer]: 服务业
+          - generic [ref=e281] [cursor=pointer]: 教育培训
+        - list [ref=e282]:
+          - listitem [ref=e283]:
+            - generic [ref=e284]:
+              - link "国企高薪销售+双休朝九晚五+拒绝加班~ 南京 经验不限 大专 高薪 不接受居家办公" [ref=e285] [cursor=pointer]:
+                - /url: /job_detail/a9c7e899fce97cbb03R_29u5FVJR.html
+                - generic [ref=e286]:
+                  - paragraph [ref=e288]: 国企高薪销售+双休朝九晚五+拒绝加班~
+                  - paragraph
+                - paragraph [ref=e290]:
+                  - generic [ref=e291]: 南京
+                  - generic [ref=e292]: 经验不限
+                  - generic [ref=e293]: 大专
+                  - generic [ref=e294]: 高薪
+                  - generic [ref=e295]: 不接受居家办公
+              - link "中国人寿 中国人寿 互联网金融 已上市" [ref=e297] [cursor=pointer]:
+                - /url: /gongsi/77d5d81da79d7d461Xd60g~~.html
+                - paragraph [ref=e298]:
+                  - img "中国人寿" [ref=e299]
+                  - generic [ref=e300]: 中国人寿
+                - paragraph [ref=e301]:
+                  - generic [ref=e302]: 互联网金融
+                  - generic [ref=e304]: 已上市
+          - listitem [ref=e305]:
+            - generic [ref=e306]:
+              - link "销售专员 在线 南京 经验不限 大专 金融销售 电话销售" [ref=e307] [cursor=pointer]:
+                - /url: /job_detail/d46d687169a898a21n1429m7EVA~.html
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - paragraph [ref=e310]: 销售专员
+                    - generic [ref=e312]: 在线
+                  - paragraph
+                - paragraph [ref=e313]:
+                  - generic [ref=e314]: 南京
+                  - generic [ref=e315]: 经验不限
+                  - generic [ref=e316]: 大专
+                  - generic [ref=e317]: 金融销售
+                  - generic [ref=e318]: 电话销售
+              - link "平安 平安 互联网金融 已上市" [ref=e320] [cursor=pointer]:
+                - /url: /gongsi/50d7f2063a93051e1nR70925.html
+                - paragraph [ref=e321]:
+                  - img "平安" [ref=e322]
+                  - generic [ref=e323]: 平安
+                - paragraph [ref=e324]:
+                  - generic [ref=e325]: 互联网金融
+                  - generic [ref=e327]: 已上市
+          - listitem [ref=e328]:
+            - generic [ref=e329]:
+              - link "没经验我也要+无责底薪5000元+比进厂香 在线 南京 经验不限 学历不限 电话销售 个人（To C）" [ref=e330] [cursor=pointer]:
+                - /url: /job_detail/a002f4d6cda2caf803J-3tm0EVtX.html
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - paragraph [ref=e333]: 没经验我也要+无责底薪5000元+比进厂香
+                    - generic [ref=e335]: 在线
+                  - paragraph
+                - paragraph [ref=e336]:
+                  - generic [ref=e337]: 南京
+                  - generic [ref=e338]: 经验不限
+                  - generic [ref=e339]: 学历不限
+                  - generic [ref=e340]: 电话销售
+                  - generic [ref=e341]: 个人（To C）
+              - link "南京今日必成商务咨询 南京今日必成商务咨询 互联网金融 未融资" [ref=e343] [cursor=pointer]:
+                - /url: /gongsi/7662a3002f650f711HR639y4EVQ~.html
+                - paragraph [ref=e344]:
+                  - img "南京今日必成商务咨询" [ref=e345]
+                  - generic [ref=e346]: 南京今日必成商务咨询
+                - paragraph [ref=e347]:
+                  - generic [ref=e348]: 互联网金融
+                  - generic [ref=e350]: 未融资
+          - listitem [ref=e351]:
+            - generic [ref=e352]:
+              - link "双休 中国人寿收展员 南京 经验不限 高中 个人（To C） 不接受居家办公" [ref=e353] [cursor=pointer]:
+                - /url: /job_detail/6d5d38571d96d7ae03J82d64FlpW.html
+                - generic [ref=e354]:
+                  - paragraph [ref=e356]: 双休 中国人寿收展员
+                  - paragraph
+                - paragraph [ref=e358]:
+                  - generic [ref=e359]: 南京
+                  - generic [ref=e360]: 经验不限
+                  - generic [ref=e361]: 高中
+                  - generic [ref=e362]: 个人（To C）
+                  - generic [ref=e363]: 不接受居家办公
+              - link "中国人寿南京浦口公司 中国人寿南京浦口公司 保险 已上市" [ref=e365] [cursor=pointer]:
+                - /url: /gongsi/a52103c6d075107b1XV909m0EFE~.html
+                - paragraph [ref=e366]:
+                  - img "中国人寿南京浦口公司" [ref=e367]
+                  - generic [ref=e368]: 中国人寿南京浦口公司
+                - paragraph [ref=e369]:
+                  - generic [ref=e370]: 保险
+                  - generic [ref=e372]: 已上市
+          - listitem [ref=e373]:
+            - generic [ref=e374]:
+              - link "销售专员 南京 1-3年 大专 电话销售 面销/陌拜" [ref=e375] [cursor=pointer]:
+                - /url: /job_detail/4cf06b1f2d1f068c03R73tq9GFdQ.html
+                - generic [ref=e376]:
+                  - paragraph [ref=e378]: 销售专员
+                  - paragraph
+                - paragraph [ref=e380]:
+                  - generic [ref=e381]: 南京
+                  - generic [ref=e382]: 1-3年
+                  - generic [ref=e383]: 大专
+                  - generic [ref=e384]: 电话销售
+                  - generic [ref=e385]: 面销/陌拜
+              - link "跨越速运 跨越速运 快递 不需要融资" [ref=e387] [cursor=pointer]:
+                - /url: /gongsi/0337157f44d9131a1X1539W0.html
+                - paragraph [ref=e388]:
+                  - img "跨越速运" [ref=e389]
+                  - generic [ref=e390]: 跨越速运
+                - paragraph [ref=e391]:
+                  - generic [ref=e392]: 快递
+                  - generic [ref=e394]: 不需要融资
+          - listitem [ref=e395]:
+            - generic [ref=e396]:
+              - link "医保局值班员 南京 经验不限 大专 电话销售 门店/柜台销售" [ref=e397] [cursor=pointer]:
+                - /url: /job_detail/0b797fba1d10b7b303Zy3dy5GFNU.html
+                - generic [ref=e398]:
+                  - paragraph [ref=e400]: 医保局值班员
+                  - paragraph
+                - paragraph [ref=e402]:
+                  - generic [ref=e403]: 南京
+                  - generic [ref=e404]: 经验不限
+                  - generic [ref=e405]: 大专
+                  - generic [ref=e406]: 电话销售
+                  - generic [ref=e407]: 门店/柜台销售
+              - link "中国人寿保险 中国人寿保险 保险 已上市" [ref=e409] [cursor=pointer]:
+                - /url: /gongsi/2abfc5ebb2a78c701XV62Ni5FVU~.html
+                - paragraph [ref=e410]:
+                  - img "中国人寿保险" [ref=e411]
+                  - generic [ref=e412]: 中国人寿保险
+                - paragraph [ref=e413]:
+                  - generic [ref=e414]: 保险
+                  - generic [ref=e416]: 已上市
+          - listitem [ref=e417]:
+            - generic [ref=e418]:
+              - link "电销保底1万（健康、海量客资、六险一金） 南京 1年以内 大专 个人（To C） 快消品" [ref=e419] [cursor=pointer]:
+                - /url: /job_detail/a0a49d811cd098da03V-2tm9EFNW.html
+                - generic [ref=e420]:
+                  - paragraph [ref=e422]: 电销保底1万（健康、海量客资、六险一金）
+                  - paragraph
+                - paragraph [ref=e424]:
+                  - generic [ref=e425]: 南京
+                  - generic [ref=e426]: 1年以内
+                  - generic [ref=e427]: 大专
+                  - generic [ref=e428]: 个人（To C）
+                  - generic [ref=e429]: 快消品
+              - link "享佳健康 享佳健康 批发/零售 未融资" [ref=e431] [cursor=pointer]:
+                - /url: /gongsi/753cd289f01e611903B-2tq5EFs~.html
+                - paragraph [ref=e432]:
+                  - img "享佳健康" [ref=e433]
+                  - generic [ref=e434]: 享佳健康
+                - paragraph [ref=e435]:
+                  - generic [ref=e436]: 批发/零售
+                  - generic [ref=e438]: 未融资
+          - listitem [ref=e439]:
+            - generic [ref=e440]:
+              - link "早十晚六 双休 高薪销售 在线 南京 经验不限 学历不限 个人（To C） 不限" [ref=e441] [cursor=pointer]:
+                - /url: /job_detail/ccc22566688077331X182t24FlNQ.html
+                - generic [ref=e442]:
+                  - generic [ref=e443]:
+                    - paragraph [ref=e444]: 早十晚六 双休 高薪销售
+                    - generic [ref=e446]: 在线
+                  - paragraph
+                - paragraph [ref=e447]:
+                  - generic [ref=e448]: 南京
+                  - generic [ref=e449]: 经验不限
+                  - generic [ref=e450]: 学历不限
+                  - generic [ref=e451]: 个人（To C）
+                  - generic [ref=e452]: 不限
+              - link "南京方圆科技有限公司 南京方圆科技有限公司 房地产中介/租赁 不需要融资" [ref=e454] [cursor=pointer]:
+                - /url: /gongsi/830dabca54f5bfbb1nJ50tu8GVI~.html
+                - paragraph [ref=e455]:
+                  - img "南京方圆科技有限公司" [ref=e456]
+                  - generic [ref=e457]: 南京方圆科技有限公司
+                - paragraph [ref=e458]:
+                  - generic [ref=e459]: 房地产中介/租赁
+                  - generic [ref=e461]: 不需要融资
+          - listitem [ref=e462]:
+            - generic [ref=e463]:
+              - link "差人 可带朋友 五险一金 无责底薪销售 南京 经验不限 学历不限 电话销售 不接受居家办公" [ref=e464] [cursor=pointer]:
+                - /url: /job_detail/a79b3ead5c1494fb03d-3NW8E1pV.html
+                - generic [ref=e465]:
+                  - paragraph [ref=e467]: 差人 可带朋友 五险一金 无责底薪销售
+                  - paragraph
+                - paragraph [ref=e469]:
+                  - generic [ref=e470]: 南京
+                  - generic [ref=e471]: 经验不限
+                  - generic [ref=e472]: 学历不限
+                  - generic [ref=e473]: 电话销售
+                  - generic [ref=e474]: 不接受居家办公
+              - link "苏州博仁 苏州博仁 互联网 未融资" [ref=e476] [cursor=pointer]:
+                - /url: /gongsi/91e86266e33b9c050HF52A~~.html
+                - paragraph [ref=e477]:
+                  - img "苏州博仁" [ref=e478]
+                  - generic [ref=e479]: 苏州博仁
+                - paragraph [ref=e480]:
+                  - generic [ref=e481]: 互联网
+                  - generic [ref=e483]: 未融资
+        - paragraph [ref=e484]:
+          - link "查看更多" [ref=e485] [cursor=pointer]:
+            - /url: /web/geek/job-recommend
+      - generic [ref=e486]:
+        - generic [ref=e487]: 热门企业
+        - list [ref=e488]:
+          - listitem [ref=e489]:
+            - link "盒马鲜生 盒马鲜生 不需要融资 10000人以上 生活服务(O2O)" [ref=e490] [cursor=pointer]:
+              - /url: /gongsi/b3eeae786aedaa270XFz09m0.html
+              - img "盒马鲜生" [ref=e492]
+              - generic [ref=e493]:
+                - heading "盒马鲜生" [level=3] [ref=e494]
+                - paragraph [ref=e495]:
+                  - text: 不需要融资
+                  - text: 10000人以上
+                  - text: 生活服务(O2O)
+            - list [ref=e498]:
+              - listitem [ref=e499]:
+                - link "超市营业员6千以上 南京 建邺区 西善桥 经验不限 学历不限" [ref=e500] [cursor=pointer]:
+                  - /url: /job_detail/38c7f420c6101d9f03F9296_FVVV.html
+                  - generic [ref=e501]:
+                    - paragraph [ref=e502]: 超市营业员6千以上
+                    - paragraph
+                  - paragraph [ref=e504]:
+                    - generic [ref=e505]: 南京 建邺区 西善桥
+                    - generic [ref=e506]: 经验不限
+                    - generic [ref=e507]: 学历不限
+              - listitem [ref=e508]:
+                - link "物流经理助理 南京 建邺区 江东 1-3年 大专" [ref=e509] [cursor=pointer]:
+                  - /url: /job_detail/214fa6736f3313f603J_09-9FFNW.html
+                  - generic [ref=e510]:
+                    - paragraph [ref=e511]: 物流经理助理
+                    - paragraph
+                  - paragraph [ref=e513]:
+                    - generic [ref=e514]: 南京 建邺区 江东
+                    - generic [ref=e515]: 1-3年
+                    - generic [ref=e516]: 大专
+              - listitem [ref=e517]:
+                - link "250-350一天超市打包员 南京 栖霞区 和燕路 经验不限 学历不限" [ref=e518] [cursor=pointer]:
+                  - /url: /job_detail/c2982383a2e3d4221HFz3dq7FlpY.html
+                  - generic [ref=e519]:
+                    - paragraph [ref=e520]: 250-350一天超市打包员
+                    - paragraph
+                  - paragraph [ref=e522]:
+                    - generic [ref=e523]: 南京 栖霞区 和燕路
+                    - generic [ref=e524]: 经验不限
+                    - generic [ref=e525]: 学历不限
+            - link "查看更多职位" [ref=e526] [cursor=pointer]:
+              - /url: /gongsi/job/b3eeae786aedaa270XFz09m0.html
+          - listitem [ref=e527]:
+            - link "南京中材锂膜有限公司 南京中材锂膜有限公司 500-999人 汽车零部件" [ref=e528] [cursor=pointer]:
+              - /url: /gongsi/d8fc2c1b49c9ce011XF42960GFY~.html
+              - img "南京中材锂膜有限公司" [ref=e530]
+              - generic [ref=e531]:
+                - heading "南京中材锂膜有限公司" [level=3] [ref=e532]
+                - paragraph [ref=e533]:
+                  - text: 500-999人
+                  - text: 汽车零部件
+            - list [ref=e535]:
+              - listitem [ref=e536]:
+                - link "生产班长 南京 江宁区 禄口机场 1-3年 中专/中技" [ref=e537] [cursor=pointer]:
+                  - /url: /job_detail/04d232eb52dbc08203d92dW0EFJW.html
+                  - generic [ref=e538]:
+                    - paragraph [ref=e539]: 生产班长
+                    - paragraph
+                  - paragraph [ref=e541]:
+                    - generic [ref=e542]: 南京 江宁区 禄口机场
+                    - generic [ref=e543]: 1-3年
+                    - generic [ref=e544]: 中专/中技
+              - listitem [ref=e545]:
+                - link "生产操作 南京 江宁区 江宁滨江 经验不限 初中及以下" [ref=e546] [cursor=pointer]:
+                  - /url: /job_detail/8367144faa20cd4403Z63t26EltZ.html
+                  - generic [ref=e547]:
+                    - paragraph [ref=e548]: 生产操作
+                    - paragraph
+                  - paragraph [ref=e550]:
+                    - generic [ref=e551]: 南京 江宁区 江宁滨江
+                    - generic [ref=e552]: 经验不限
+                    - generic [ref=e553]: 初中及以下
+              - listitem [ref=e554]:
+                - link "南京中材锂膜有限公司招聘普工/操作工 南京 江宁区 禄口机场 经验不限 大专" [ref=e555] [cursor=pointer]:
+                  - /url: /job_detail/773dd1d4c4fffd4e03N-092_F1BZ.html
+                  - generic [ref=e556]:
+                    - paragraph [ref=e557]: 南京中材锂膜有限公司招聘普工/操作工
+                    - paragraph
+                  - paragraph [ref=e559]:
+                    - generic [ref=e560]: 南京 江宁区 禄口机场
+                    - generic [ref=e561]: 经验不限
+                    - generic [ref=e562]: 大专
+            - link "查看更多职位" [ref=e563] [cursor=pointer]:
+              - /url: /gongsi/job/d8fc2c1b49c9ce011XF42960GFY~.html
+          - listitem [ref=e564]:
+            - link "菲尼克斯 菲尼克斯 1000-9999人 电子/半导体/集成电路" [ref=e565] [cursor=pointer]:
+              - /url: /gongsi/70a3a9a5f13f7e930HN40ty7FQ~~.html
+              - img "菲尼克斯" [ref=e567]
+              - generic [ref=e568]:
+                - heading "菲尼克斯" [level=3] [ref=e569]
+                - paragraph [ref=e570]:
+                  - text: 1000-9999人
+                  - text: 电子/半导体/集成电路
+            - list [ref=e572]:
+              - listitem [ref=e573]:
+                - link "设备维修工 南京 江宁区 秣陵 3-5年 大专" [ref=e574] [cursor=pointer]:
+                  - /url: /job_detail/ba6d9d95cd2488f91HN_3d-_FFdQ.html
+                  - generic [ref=e575]:
+                    - paragraph [ref=e576]: 设备维修工
+                    - paragraph
+                  - paragraph [ref=e578]:
+                    - generic [ref=e579]: 南京 江宁区 秣陵
+                    - generic [ref=e580]: 3-5年
+                    - generic [ref=e581]: 大专
+              - listitem [ref=e582]:
+                - link "菲尼克斯招聘注塑工 南京 江宁区 百家湖 3-5年 学历不限" [ref=e583] [cursor=pointer]:
+                  - /url: /job_detail/fbbf87040761c12203d-29i1FFdV.html
+                  - generic [ref=e584]:
+                    - paragraph [ref=e585]: 菲尼克斯招聘注塑工
+                    - paragraph
+                  - paragraph [ref=e587]:
+                    - generic [ref=e588]: 南京 江宁区 百家湖
+                    - generic [ref=e589]: 3-5年
+                    - generic [ref=e590]: 学历不限
+              - listitem [ref=e591]:
+                - link "自动装配操作工 南京 江宁区 秣陵 1-3年 学历不限" [ref=e592] [cursor=pointer]:
+                  - /url: /job_detail/97378e599d10ee081Hx63t25GFZT.html
+                  - generic [ref=e593]:
+                    - paragraph [ref=e594]: 自动装配操作工
+                    - paragraph
+                  - paragraph [ref=e596]:
+                    - generic [ref=e597]: 南京 江宁区 秣陵
+                    - generic [ref=e598]: 1-3年
+                    - generic [ref=e599]: 学历不限
+            - link "查看更多职位" [ref=e600] [cursor=pointer]:
+              - /url: /gongsi/job/70a3a9a5f13f7e930HN40ty7FQ~~.html
+          - listitem [ref=e601]:
+            - link "满帮集团 满帮集团 已上市 1000-9999人 互联网" [ref=e602] [cursor=pointer]:
+              - /url: /gongsi/9ea9a955b7b33c1a03V62dW9EVU~.html
+              - img "满帮集团" [ref=e604]
+              - generic [ref=e605]:
+                - heading "满帮集团" [level=3] [ref=e606]
+                - paragraph [ref=e607]:
+                  - text: 已上市
+                  - text: 1000-9999人
+                  - text: 互联网
+            - list [ref=e610]:
+              - listitem [ref=e611]:
+                - link "Java开发实习生 南京 雨花台区 宁南 4天/周 6个月 本科" [ref=e612] [cursor=pointer]:
+                  - /url: /job_detail/e22bf831af07b96303dy3t-0F1tQ.html
+                  - generic [ref=e613]:
+                    - paragraph [ref=e614]: Java开发实习生
+                    - paragraph
+                  - paragraph [ref=e616]:
+                    - generic [ref=e617]: 南京 雨花台区 宁南
+                    - generic [ref=e618]: 4天/周
+                    - generic [ref=e619]: 6个月
+                    - generic [ref=e620]: 本科
+              - listitem [ref=e621]:
+                - link "物流客服专员 南京 雨花台区 宁南 经验不限 大专" [ref=e622] [cursor=pointer]:
+                  - /url: /job_detail/f9700063065a145103V_39u7F1dW.html
+                  - generic [ref=e623]:
+                    - paragraph [ref=e624]: 物流客服专员
+                    - paragraph
+                  - paragraph [ref=e626]:
+                    - generic [ref=e627]: 南京 雨花台区 宁南
+                    - generic [ref=e628]: 经验不限
+                    - generic [ref=e629]: 大专
+              - listitem [ref=e630]:
+                - link "客服专员 南京 雨花台区 宁南 经验不限 学历不限" [ref=e631] [cursor=pointer]:
+                  - /url: /job_detail/6ad7db9380be02931nx_2tm5EFJV.html
+                  - generic [ref=e632]:
+                    - paragraph [ref=e633]: 客服专员
+                    - paragraph
+                  - paragraph [ref=e635]:
+                    - generic [ref=e636]: 南京 雨花台区 宁南
+                    - generic [ref=e637]: 经验不限
+                    - generic [ref=e638]: 学历不限
+            - link "查看更多职位" [ref=e639] [cursor=pointer]:
+              - /url: /gongsi/job/9ea9a955b7b33c1a03V62dW9EVU~.html
+          - listitem [ref=e640]:
+            - link "作业帮 作业帮 D轮及以上 10000人以上 互联网" [ref=e641] [cursor=pointer]:
+              - /url: /gongsi/aa456cb60b5eb9e81ndz3ty1.html
+              - img "作业帮" [ref=e643]
+              - generic [ref=e644]:
+                - heading "作业帮" [level=3] [ref=e645]
+                - paragraph [ref=e646]:
+                  - text: D轮及以上
+                  - text: 10000人以上
+                  - text: 互联网
+            - list [ref=e649]:
+              - listitem [ref=e650]:
+                - link "【本科免笔试】双休！！学管师/批改作业 南京 雨花台区 铁心桥 经验不限 大专" [ref=e651] [cursor=pointer]:
+                  - /url: /job_detail/620e23e88bd1e90e03V439i4E1dY.html
+                  - generic [ref=e652]:
+                    - paragraph [ref=e653]: 【本科免笔试】双休！！学管师/批改作业
+                    - paragraph
+                  - paragraph [ref=e655]:
+                    - generic [ref=e656]: 南京 雨花台区 铁心桥
+                    - generic [ref=e657]: 经验不限
+                    - generic [ref=e658]: 大专
+              - listitem [ref=e659]:
+                - link "HRBP 南京 雨花台区 宁南 5-10年 本科" [ref=e660] [cursor=pointer]:
+                  - /url: /job_detail/69a1b6d39604b50b1H1-39y_GVpU.html
+                  - generic [ref=e661]:
+                    - paragraph [ref=e662]: HRBP
+                    - paragraph
+                  - paragraph [ref=e664]:
+                    - generic [ref=e665]: 南京 雨花台区 宁南
+                    - generic [ref=e666]: 5-10年
+                    - generic [ref=e667]: 本科
+              - listitem [ref=e668]:
+                - link "无责5500 作业帮急招 南京 雨花台区 宁南 经验不限 大专" [ref=e669] [cursor=pointer]:
+                  - /url: /job_detail/ef61f334f06aead903Ny29W-EVpV.html
+                  - generic [ref=e670]:
+                    - paragraph [ref=e671]: 无责5500 作业帮急招
+                    - paragraph
+                  - paragraph [ref=e673]:
+                    - generic [ref=e674]: 南京 雨花台区 宁南
+                    - generic [ref=e675]: 经验不限
+                    - generic [ref=e676]: 大专
+            - link "查看更多职位" [ref=e677] [cursor=pointer]:
+              - /url: /gongsi/job/aa456cb60b5eb9e81ndz3ty1.html
+          - listitem [ref=e678]:
+            - link "小米 小米 已上市 10000人以上 互联网" [ref=e679] [cursor=pointer]:
+              - /url: /gongsi/6f1aa1d6b1d033ad33B43N0~.html
+              - img "小米" [ref=e681]
+              - generic [ref=e682]:
+                - heading "小米" [level=3] [ref=e683]
+                - paragraph [ref=e684]:
+                  - text: 已上市
+                  - text: 10000人以上
+                  - text: 互联网
+            - list [ref=e687]:
+              - listitem [ref=e688]:
+                - link "Linux系统工程师 南京 建邺区 西善桥 5-10年 本科" [ref=e689] [cursor=pointer]:
+                  - /url: /job_detail/3ef350d3316a01da03d-2NW1F1JW.html
+                  - generic [ref=e690]:
+                    - paragraph [ref=e691]: Linux系统工程师
+                    - paragraph
+                  - paragraph [ref=e693]:
+                    - generic [ref=e694]: 南京 建邺区 西善桥
+                    - generic [ref=e695]: 5-10年
+                    - generic [ref=e696]: 本科
+              - listitem [ref=e697]:
+                - link "体验设计专家 南京 建邺区 西善桥 5-10年 本科" [ref=e698] [cursor=pointer]:
+                  - /url: /job_detail/630b2a85b46ebb7c03J_3965FlpV.html
+                  - generic [ref=e699]:
+                    - paragraph [ref=e700]: 体验设计专家
+                    - paragraph
+                  - paragraph [ref=e702]:
+                    - generic [ref=e703]: 南京 建邺区 西善桥
+                    - generic [ref=e704]: 5-10年
+                    - generic [ref=e705]: 本科
+              - listitem [ref=e706]:
+                - link "汽车嵌入式软件开发实习生 南京 建邺区 西善桥 5天/周 6个月 硕士" [ref=e707] [cursor=pointer]:
+                  - /url: /job_detail/113823167c19d0e003V93tm8E1pV.html
+                  - generic [ref=e708]:
+                    - paragraph [ref=e709]: 汽车嵌入式软件开发实习生
+                    - paragraph
+                  - paragraph [ref=e711]:
+                    - generic [ref=e712]: 南京 建邺区 西善桥
+                    - generic [ref=e713]: 5天/周
+                    - generic [ref=e714]: 6个月
+                    - generic [ref=e715]: 硕士
+            - link "查看更多职位" [ref=e716] [cursor=pointer]:
+              - /url: /gongsi/job/6f1aa1d6b1d033ad33B43N0~.html
+          - listitem [ref=e717]:
+            - link "新东方 新东方 已上市 10000人以上 在线教育" [ref=e718] [cursor=pointer]:
+              - /url: /gongsi/78d37a40ee3fb9150HVz39S5Ew~~.html
+              - img "新东方" [ref=e720]
+              - generic [ref=e721]:
+                - heading "新东方" [level=3] [ref=e722]
+                - paragraph [ref=e723]:
+                  - text: 已上市
+                  - text: 10000人以上
+                  - text: 在线教育
+            - list [ref=e726]:
+              - listitem [ref=e727]:
+                - link "助教实习生 南京 建邺区 西善桥 5天/周 3个月 本科" [ref=e728] [cursor=pointer]:
+                  - /url: /job_detail/5645a9ca3b766f8903N43tu1EFtY.html
+                  - generic [ref=e729]:
+                    - paragraph [ref=e730]: 助教实习生
+                    - paragraph
+                  - paragraph [ref=e732]:
+                    - generic [ref=e733]: 南京 建邺区 西善桥
+                    - generic [ref=e734]: 5天/周
+                    - generic [ref=e735]: 3个月
+                    - generic [ref=e736]: 本科
+              - listitem [ref=e737]:
+                - link "26届校招南京-市场专员 南京 在校/应届 大专" [ref=e738] [cursor=pointer]:
+                  - /url: /job_detail/f0d73205004c96fe03F929-0GFRX.html
+                  - generic [ref=e739]:
+                    - paragraph [ref=e740]: 26届校招南京-市场专员
+                    - paragraph
+                  - paragraph [ref=e742]:
+                    - generic [ref=e743]: 南京
+                    - generic [ref=e744]: 在校/应届
+                    - generic [ref=e745]: 大专
+              - listitem [ref=e746]:
+                - link "新东方招聘保安 南京 秦淮区 新街口 经验不限 学历不限" [ref=e747] [cursor=pointer]:
+                  - /url: /job_detail/3c9bf3e5f2cba81703J43Nu6FVtZ.html
+                  - generic [ref=e748]:
+                    - paragraph [ref=e749]: 新东方招聘保安
+                    - paragraph
+                  - paragraph [ref=e751]:
+                    - generic [ref=e752]: 南京 秦淮区 新街口
+                    - generic [ref=e753]: 经验不限
+                    - generic [ref=e754]: 学历不限
+            - link "查看更多职位" [ref=e755] [cursor=pointer]:
+              - /url: /gongsi/job/78d37a40ee3fb9150HVz39S5Ew~~.html
+          - listitem [ref=e756]:
+            - link "美团 美团 不需要融资 10000人以上 互联网" [ref=e757] [cursor=pointer]:
+              - /url: /gongsi/b633a34f787d94f21nZ_0929E1I~.html
+              - img "美团" [ref=e759]
+              - generic [ref=e760]:
+                - heading "美团" [level=3] [ref=e761]
+                - paragraph [ref=e762]:
+                  - text: 不需要融资
+                  - text: 10000人以上
+                  - text: 互联网
+            - list [ref=e765]:
+              - listitem [ref=e766]:
+                - link "南京江宁美团分拣员 南京 江宁区 大学城 经验不限 学历不限" [ref=e767] [cursor=pointer]:
+                  - /url: /job_detail/975bd0df350ea4f803J-2di9E1BW.html
+                  - generic [ref=e768]:
+                    - paragraph [ref=e769]: 南京江宁美团分拣员
+                    - paragraph
+                  - paragraph [ref=e771]:
+                    - generic [ref=e772]: 南京 江宁区 大学城
+                    - generic [ref=e773]: 经验不限
+                    - generic [ref=e774]: 学历不限
+              - listitem [ref=e775]:
+                - link "OTA酒店区域经理 南京 秦淮区 汉中路 5-10年 本科" [ref=e776] [cursor=pointer]:
+                  - /url: /job_detail/9f32d90a22ef801e1nV-29S5EFNR.html
+                  - generic [ref=e777]:
+                    - paragraph [ref=e778]: OTA酒店区域经理
+                    - paragraph
+                  - paragraph [ref=e780]:
+                    - generic [ref=e781]: 南京 秦淮区 汉中路
+                    - generic [ref=e782]: 5-10年
+                    - generic [ref=e783]: 本科
+              - listitem [ref=e784]:
+                - link "南京饭店食材配送 南京 经验不限 学历不限" [ref=e785] [cursor=pointer]:
+                  - /url: /job_detail/92c7140fb3ba8f9403d62t-_GVJY.html
+                  - generic [ref=e786]:
+                    - paragraph [ref=e787]: 南京饭店食材配送
+                    - paragraph
+                  - paragraph [ref=e789]:
+                    - generic [ref=e790]: 南京
+                    - generic [ref=e791]: 经验不限
+                    - generic [ref=e792]: 学历不限
+            - link "查看更多职位" [ref=e793] [cursor=pointer]:
+              - /url: /gongsi/job/b633a34f787d94f21nZ_0929E1I~.html
+          - listitem [ref=e794]:
+            - link "海寓租房 海寓租房 不需要融资 100-499人 房地产中介/租赁" [ref=e795] [cursor=pointer]:
+              - /url: /gongsi/b9de6dd95f25b7bb1HJ-2ty4E1U~.html
+              - img "海寓租房" [ref=e797]
+              - generic [ref=e798]:
+                - heading "海寓租房" [level=3] [ref=e799]
+                - paragraph [ref=e800]:
+                  - text: 不需要融资
+                  - text: 100-499人
+                  - text: 房地产中介/租赁
+            - list [ref=e803]:
+              - listitem [ref=e804]:
+                - link "租房管理员 经验不限 早9晚6 +双休不加班 南京 栖霞区 马群 经验不限 学历不限" [ref=e805] [cursor=pointer]:
+                  - /url: /job_detail/887ea01a928dac4f03N-09W9FFZV.html
+                  - generic [ref=e806]:
+                    - paragraph [ref=e807]: 租房管理员 经验不限 早9晚6 +双休不加班
+                    - paragraph
+                  - paragraph [ref=e809]:
+                    - generic [ref=e810]: 南京 栖霞区 马群
+                    - generic [ref=e811]: 经验不限
+                    - generic [ref=e812]: 学历不限
+              - listitem [ref=e813]:
+                - link "房屋带看管家 南京 栖霞区 马群 1-3年 学历不限" [ref=e814] [cursor=pointer]:
+                  - /url: /job_detail/2a9204a34dd11b6c03B82t2-GVZV.html
+                  - generic [ref=e815]:
+                    - paragraph [ref=e816]: 房屋带看管家
+                    - paragraph
+                  - paragraph [ref=e818]:
+                    - generic [ref=e819]: 南京 栖霞区 马群
+                    - generic [ref=e820]: 1-3年
+                    - generic [ref=e821]: 学历不限
+              - listitem [ref=e822]:
+                - link "民宿运营专员朝九晚五双休接受小白月入过万 南京 浦口区 泰山 经验不限 学历不限" [ref=e823] [cursor=pointer]:
+                  - /url: /job_detail/32b478a8d036ffd003J90tq4FlJV.html
+                  - generic [ref=e824]:
+                    - paragraph [ref=e825]: 民宿运营专员朝九晚五双休接受小白月入过万
+                    - paragraph
+                  - paragraph [ref=e827]:
+                    - generic [ref=e828]: 南京 浦口区 泰山
+                    - generic [ref=e829]: 经验不限
+                    - generic [ref=e830]: 学历不限
+            - link "查看更多职位" [ref=e831] [cursor=pointer]:
+              - /url: /gongsi/job/b9de6dd95f25b7bb1HJ-2ty4E1U~.html
+        - paragraph [ref=e832]:
+          - link "查看更多" [ref=e833] [cursor=pointer]:
+            - /url: /gongsi/_zzz_c101190100/
+    - generic [ref=e835]:
+      - generic [ref=e836]:
+        - paragraph [ref=e837]: 企业服务热线和算法/未成年人等举报渠道 400 065 5799
+        - paragraph [ref=e838]: 老年人直连热线400 661 6030
+        - paragraph [ref=e839]: 工作日 8:00 - 22:00
+        - paragraph [ref=e840]: 休息日 8:00 - 22:00
+        - paragraph [ref=e841]:
+          - link [ref=e842] [cursor=pointer]:
+            - /url: https://www.weibo.com/bosszhipin
+          - link [ref=e843] [cursor=pointer]:
+            - /url: javascript:;
+          - link [ref=e844] [cursor=pointer]:
+            - /url: https://app.zhipin.com
+          - link "boss直聘电脑端下载" [ref=e845] [cursor=pointer]:
+            - /url: https://www.zhipin.com/desktop/
+      - generic [ref=e846]:
+        - generic [ref=e847]:
+          - term [ref=e848]: 企业服务
+          - definition [ref=e849]:
+            - link "职位搜索" [ref=e850] [cursor=pointer]:
+              - /url: https://www.zhipin.com/job_detail/
+            - link "BOSS直聘APP" [ref=e851] [cursor=pointer]:
+              - /url: https://app.zhipin.com/
+            - link "投资者关系 Investor Relations" [ref=e852] [cursor=pointer]:
+              - /url: https://ir.zhipin.com/
+            - link "直品公益基金会" [ref=e853] [cursor=pointer]:
+              - /url: https://gongyi.zhipin.com/home
+        - generic [ref=e854]:
+          - term [ref=e855]: 使用与帮助
+          - definition [ref=e856]:
+            - link "协议与规则" [ref=e857] [cursor=pointer]:
+              - /url: https://about.zhipin.com/agreement
+            - link "隐私政策" [ref=e858] [cursor=pointer]:
+              - /url: https://about.zhipin.com/agreement?id=personalinfopro
+            - link "防骗指南" [ref=e859] [cursor=pointer]:
+              - /url: https://www.zhipin.com/web/common/protocol/cheat-guide.html
+            - link "使用帮助" [ref=e860] [cursor=pointer]:
+              - /url: https://www.zhipin.com/web/common/protocol/use-help.html
+        - generic [ref=e861]:
+          - term [ref=e862]: 联系BOSS直聘
+          - definition [ref=e863]:
+            - paragraph [ref=e864]: 北京华品博睿网络技术有限公司
+            - paragraph [ref=e865]: 公司地址 北京市朝阳区太阳宫中路16号院1号楼18层1801内09
+            - paragraph [ref=e866]:
+              - text: 违法和不良信息举报邮箱/未成年人举报渠道
+              - link "jubao@kanzhun.com" [ref=e867] [cursor=pointer]:
+                - /url: mailto:jubao@kanzhun.com
+      - paragraph [ref=e869]:
+        - generic [ref=e870]: Copyright © 2026 BOSS直聘
+        - link "京ICP备14013441号-5" [ref=e872] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/
+        - generic [ref=e873]: 京ICP证150923号
+        - link "电子营业执照" [ref=e875] [cursor=pointer]:
+          - /url: https://www.zhipin.com/web/common/protocol/business-license.html
+        - link "京公网安备11010502032801" [ref=e877] [cursor=pointer]:
+          - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502032801
+        - link "朝阳网警" [ref=e879] [cursor=pointer]:
+          - /url: https://sdwj.zhipin.com/web/index.html
+        - link "人力资源服务许可证" [ref=e881] [cursor=pointer]:
+          - /url: https://www.zhipin.com/web/common/protocol/hr-service.html
+        - link "网上有害信息举报专区" [ref=e883] [cursor=pointer]:
+          - /url: https://www.12377.cn
+        - generic [ref=e884] [cursor=pointer]: 朝阳区人社局监督电话
+        - link "算法备案信息" [ref=e886] [cursor=pointer]:
+          - /url: https://about.zhipin.com/agreement?id=b9f73536711c4928bde84337cb53aa91
+    - text: 正在加载中 正在加载中
+  - iframe

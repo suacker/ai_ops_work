@@ -1,0 +1,20 @@
+[    3599ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://local.info.g9hc4.cn:54360/?callback=uuidjsonpcb2020&t=1773763980386:0
+[    5825ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://local.info.g9hc4.cn:51360/?callback=uuidjsonpcb2020&t=1773763983011:0
+[   19306ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://local.info.g9hc4.cn:54360/?callback=uuidjsonpcb2020&t=1773763996629:0
+[   21391ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://local.info.g9hc4.cn:51360/?callback=uuidjsonpcb2020&t=1773763998718:0
+[   75479ms] [WARNING] Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: Invalid Date, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at o.createFromInputFallback (https://static.diandian.com/_app/app~8d1b97e4.56521eb.js:2:3300)
+    at https://static.diandian.com/_app/app~8d1b97e4.56521eb.js:2:25301
+    at https://static.diandian.com/_app/app~8d1b97e4.56521eb.js:2:25352
+    at Rt (https://static.diandian.com/_app/app~8d1b97e4.56521eb.js:2:25688)
+    at Ct (https://static.diandian.com/_app/app~8d1b97e4.56521eb.js:2:25977)
+    at Ut (https://static.diandian.com/_app/app~8d1b97e4.56521eb.js:2:26063)
+    at o (https://static.diandian.com/_app/app~8d1b97e4.56521eb.js:2:156)
+    at https://static.diandian.com/_app/app~dd5d8511.59d1bc3.js:1:12737
+    at v (https://static.diandian.com/_app/app~06e40da7.cb22490.js:1:83898)
+    at l.data (https://static.diandian.com/_app/styles~80ce76d3.93677f6.js:1:46343) @ https://static.diandian.com/_app/app~8d1b97e4.56521eb.js:1
+[   77622ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://local.info.g9hc4.cn:54360/?callback=uuidjsonpcb2020&t=1773764054937:0
+[   79710ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://local.info.g9hc4.cn:51360/?callback=uuidjsonpcb2020&t=1773764057034:0

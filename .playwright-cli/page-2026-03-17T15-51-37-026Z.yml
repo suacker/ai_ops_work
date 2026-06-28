@@ -1,0 +1,461 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e8] [cursor=pointer]: 答问卷，赢好礼！点点数据会员免费领！
+    - generic [ref=e9]:
+      - generic [ref=e10] [cursor=pointer]: 立即参与
+      - generic [ref=e12] [cursor=pointer]: 
+  - generic: 
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - link [ref=e16] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e17] [cursor=pointer]: 核心功能
+      - generic [ref=e18] [cursor=pointer]: 解决方案
+      - generic [ref=e19] [cursor=pointer]: 数据研究院
+      - generic [ref=e20] [cursor=pointer]: 产品服务
+      - generic [ref=e21] [cursor=pointer]: 关于我们
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /annual-list
+        - img [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31] [cursor=pointer]: 全局
+          - generic [ref=e32] [cursor=pointer]: 商店
+        - combobox [ref=e34]:
+          - generic [ref=e35]:
+            - textbox "搜索应用名称/App ID" [ref=e36]
+            - generic [ref=e37]:
+              - button "" [ref=e41]:
+                - generic [ref=e43]: 
+              - generic [ref=e45]:
+                - generic [ref=e49]: 
+                - generic: 
+            - generic [ref=e52] [cursor=pointer]: 
+      - generic [ref=e53]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: 切换语言版本
+          - generic [ref=e58] [cursor=pointer]: 
+        - generic [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 文
+          - generic [ref=e63]: A
+      - link "申请演示 申 请 演 示" [ref=e65] [cursor=pointer]:
+        - /url: /apply?source=1
+        - generic [ref=e66]:
+          - text: 申请演示
+          - generic [ref=e67]: 申
+          - generic [ref=e68]: 请
+          - generic [ref=e69]: 演
+          - generic [ref=e70]: 示
+      - link "登录 登 录" [ref=e72] [cursor=pointer]:
+        - /url: javascript:;
+        - generic [ref=e73]:
+          - text: 登录
+          - generic [ref=e74]: 登
+          - generic [ref=e75]: 录
+  - main [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e82]:
+        - heading "专业移动应用/游戏数据分析平台" [level=1] [ref=e83]
+        - generic [ref=e84]:
+          - heading "助力" [level=2] [ref=e85]
+          - heading "全球增长" [level=2] [ref=e86]
+        - heading "值得信赖的移动市场数据，发掘市场潜力，洞悉产品模式" [level=3] [ref=e87]
+        - generic [ref=e88]:
+          - link "立即注册 立 即 注 册" [ref=e89] [cursor=pointer]:
+            - /url: https://app.diandian.com/login
+            - generic [ref=e90]:
+              - text: 立即注册
+              - generic [ref=e91]: 立
+              - generic [ref=e92]: 即
+              - generic [ref=e93]: 注
+              - generic [ref=e94]: 册
+          - link "申请演示 申 请 演 示" [ref=e95] [cursor=pointer]:
+            - /url: /apply?source=1
+            - generic [ref=e96]:
+              - text: 申请演示
+              - generic [ref=e97]: 申
+              - generic [ref=e98]: 请
+              - generic [ref=e99]: 演
+              - generic [ref=e100]: 示
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e105]:
+            - generic [ref=e548] [cursor=pointer]:
+              - generic [ref=e550]: 用户使用
+              - generic [ref=e551]: 精准预估各项用户行为数据
+            - generic [ref=e555] [cursor=pointer]:
+              - generic [ref=e557]: SDK数据
+              - generic [ref=e558]: SDK安装统计分析
+            - generic [ref=e562] [cursor=pointer]:
+              - generic [ref=e564]: 竞品对比
+              - generic [ref=e565]: 丰富维度对比多款竞品应用
+            - generic [ref=e569] [cursor=pointer]:
+              - generic [ref=e571]: App监控
+              - generic [ref=e572]: App应用与关键词数据监控
+            - generic [ref=e137] [cursor=pointer]:
+              - generic [ref=e139]: 应用情报
+              - generic [ref=e140]: 移动应用情报实时追踪
+            - generic [ref=e144] [cursor=pointer]:
+              - generic [ref=e146]: 市场情报
+              - generic [ref=e147]: 全球应用市场趋势统计
+            - generic [ref=e151] [cursor=pointer]:
+              - generic [ref=e153]: ASO/ASA
+              - generic [ref=e154]: 关键词指数与竞价关键词
+            - generic [ref=e158] [cursor=pointer]:
+              - generic [ref=e160]: 下载/收入
+              - generic [ref=e161]: App下载与收入走势预估
+            - generic [ref=e165] [cursor=pointer]:
+              - generic [ref=e167]: 用户使用
+              - generic [ref=e168]: 精准预估各项用户行为数据
+            - generic [ref=e172] [cursor=pointer]:
+              - generic [ref=e174]: SDK数据
+              - generic [ref=e175]: SDK安装统计分析
+            - generic [ref=e179] [cursor=pointer]:
+              - generic [ref=e181]: 竞品对比
+              - generic [ref=e182]: 丰富维度对比多款竞品应用
+            - generic [ref=e186] [cursor=pointer]:
+              - generic [ref=e188]: App监控
+              - generic [ref=e189]: App应用与关键词数据监控
+            - generic [ref=e576] [cursor=pointer]:
+              - generic [ref=e578]: 应用情报
+              - generic [ref=e579]: 移动应用情报实时追踪
+            - generic [ref=e583] [cursor=pointer]:
+              - generic [ref=e585]: 市场情报
+              - generic [ref=e586]: 全球应用市场趋势统计
+            - generic [ref=e590] [cursor=pointer]:
+              - generic [ref=e592]: ASO/ASA
+              - generic [ref=e593]: 关键词指数与竞价关键词
+            - generic [ref=e597] [cursor=pointer]:
+              - generic [ref=e599]: 下载/收入
+              - generic [ref=e600]: App下载与收入走势预估
+          - button "Previous slide" [ref=e218] [cursor=pointer]:
+            - generic [ref=e220]: 
+          - button "Next slide" [ref=e221] [cursor=pointer]:
+            - generic [ref=e223]: 
+        - generic [ref=e224]: 全球 8 大平台实时监控
+        - generic [ref=e225]: 在线应用/游戏监控 ｜23:27 更新
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e229] [cursor=pointer]:
+              - generic [ref=e231]: App Store
+              - generic [ref=e601]:
+                - generic [ref=e602]: 267.6w
+                - generic [ref=e603]: +1,699
+            - generic [ref=e233] [cursor=pointer]:
+              - generic [ref=e235]: Google Play
+              - generic [ref=e604]:
+                - generic [ref=e605]: 403.9w
+                - generic [ref=e606]: +4,306
+            - generic [ref=e237] [cursor=pointer]:
+              - generic [ref=e239]: Android
+              - generic [ref=e607]:
+                - generic [ref=e608]: 885,142
+                - generic [ref=e609]: "+312"
+            - generic [ref=e241] [cursor=pointer]:
+              - generic [ref=e243]: TapTap
+              - generic [ref=e610]:
+                - generic [ref=e611]: 275,132
+                - generic [ref=e612]: "+443"
+            - generic [ref=e245] [cursor=pointer]:
+              - generic [ref=e247]: PlayStation
+              - generic [ref=e613]:
+                - generic [ref=e614]: 143,320
+                - generic [ref=e615]: "+32"
+            - generic [ref=e249] [cursor=pointer]:
+              - generic [ref=e251]: Xbox
+              - generic [ref=e616]:
+                - generic [ref=e617]: 1,400+
+                - generic [ref=e618]: "-"
+            - generic [ref=e253] [cursor=pointer]:
+              - generic [ref=e255]: Switch
+              - generic [ref=e619]:
+                - generic [ref=e620]: 5,000+
+                - generic [ref=e621]: "-"
+            - generic [ref=e257] [cursor=pointer]:
+              - generic [ref=e259]: Steam
+              - generic [ref=e622]:
+                - generic [ref=e623]: 152,802
+                - generic [ref=e624]: "+62"
+          - generic [ref=e260]:
+            - generic [ref=e263]: App Store
+            - generic [ref=e268]: Google Play
+            - generic [ref=e273]: Android
+            - generic [ref=e278]: TapTap
+            - generic [ref=e283]: PlayStation
+            - generic [ref=e288]: Xbox
+            - generic [ref=e293]: Switch
+            - generic [ref=e298]: Steam
+      - generic [ref=e305]: 合作客户
+      - generic [ref=e311]:
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - generic [ref=e314] [cursor=pointer]: 移动应用
+            - generic [ref=e315] [cursor=pointer]: 游戏赋能
+            - generic [ref=e316] [cursor=pointer]: 投资决策
+          - generic [ref=e317]:
+            - generic [ref=e319] [cursor=pointer]:
+              - generic [ref=e321]: 应用探索
+              - generic [ref=e322]: 揭示全球地区和应用类别的增长机会
+            - generic [ref=e324] [cursor=pointer]:
+              - generic [ref=e326]: 获客策略
+              - generic [ref=e327]: 洞悉投放策略/功能更迭
+            - generic [ref=e329] [cursor=pointer]:
+              - generic [ref=e331]: 用户参与
+              - generic [ref=e332]: 挖掘用户属性/制定互动策略
+            - generic [ref=e334] [cursor=pointer]:
+              - generic [ref=e336]: 变现模式
+              - generic [ref=e337]: 评估营利现状/分析竞品收入方案
+            - generic [ref=e339] [cursor=pointer]:
+              - generic [ref=e341]: 辅助分析
+              - generic [ref=e342]: 多方位分析产品逻辑
+        - generic [ref=e346]:
+          - generic [ref=e349] [cursor=pointer]:
+            - generic [ref=e350]: 应用排行
+            - generic [ref=e351]: 通过不同维度排行榜更加直观了解应用现状，分析应用市场趋势，快速锁定潜力市场，抓住增长机会
+          - generic [ref=e354] [cursor=pointer]:
+            - generic [ref=e355]: 市场跟踪
+            - generic [ref=e356]: 透过全球各大应用商店聚合数据，进行全行业规模分布和市场跟踪
+          - generic [ref=e359] [cursor=pointer]:
+            - generic [ref=e360]: 全球增长
+            - generic [ref=e361]: 借助全球应用下载收入、用户分布趋势，精准定位全球增长趋势和市场
+      - generic [ref=e365]:
+        - generic [ref=e366]:
+          - generic [ref=e367] [cursor=pointer]: 行业资讯
+          - generic [ref=e368] [cursor=pointer]: 专题报告
+        - generic [ref=e369]:
+          - link "点点编辑部 点点编辑部 | 2026-03-09 OpenAI发布GPT-5.4；Google Play下调开发者抽成并开放三方支付； 盘点一周要闻 查看资讯 " [ref=e625] [cursor=pointer]:
+            - /url: /news/6K14eb1oRQNCEVz2BtwF
+            - generic [ref=e627]:
+              - generic [ref=e628]:
+                - generic [ref=e630]:
+                  - link "点点编辑部" [ref=e632]:
+                    - /url: javascript:;
+                  - link "点点编辑部" [ref=e634]:
+                    - /url: javascript:;
+                - text: "|"
+                - generic [ref=e635]: 2026-03-09
+              - generic [ref=e636]: OpenAI发布GPT-5.4；Google Play下调开发者抽成并开放三方支付；
+              - generic [ref=e637]: 盘点一周要闻
+              - generic [ref=e638]:
+                - generic [ref=e639]: 查看资讯
+                - generic [ref=e640]: 
+          - link "点点编辑部 点点编辑部 | 2026-02-27 出海厂商丨2026年1月中国应用/游戏厂商出海收入Top30榜 本文统计周期为2026年1月1日到2026年1月31日 查看资讯 " [ref=e641] [cursor=pointer]:
+            - /url: /news/nJrNYB0U9STXrgksHWcg
+            - generic [ref=e643]:
+              - generic [ref=e644]:
+                - generic [ref=e646]:
+                  - link "点点编辑部" [ref=e648]:
+                    - /url: javascript:;
+                  - link "点点编辑部" [ref=e650]:
+                    - /url: javascript:;
+                - text: "|"
+                - generic [ref=e651]: 2026-02-27
+              - generic [ref=e652]: 出海厂商丨2026年1月中国应用/游戏厂商出海收入Top30榜
+              - generic [ref=e653]: 本文统计周期为2026年1月1日到2026年1月31日
+              - generic [ref=e654]:
+                - generic [ref=e655]: 查看资讯
+                - generic [ref=e656]: 
+          - link "点点编辑部 点点编辑部 | 2026-02-12 25Q4墨西哥现金贷市场丨行业下载规模环比下滑5.45%，Banxico修订CAT规则推动金融机构提 2025年第四季度，墨西哥线上消费市场表现强劲。在“El Buen Fin”等系列购物节的刺激下，11月零售销售额同比增长4.4%，创下两年新高。 查看资讯 " [ref=e657] [cursor=pointer]:
+            - /url: /news/b0HVnxVcpMPD2J6GQFeL
+            - generic [ref=e659]:
+              - generic [ref=e660]:
+                - generic [ref=e662]:
+                  - link "点点编辑部" [ref=e664]:
+                    - /url: javascript:;
+                  - link "点点编辑部" [ref=e666]:
+                    - /url: javascript:;
+                - text: "|"
+                - generic [ref=e667]: 2026-02-12
+              - generic [ref=e668]: 25Q4墨西哥现金贷市场丨行业下载规模环比下滑5.45%，Banxico修订CAT规则推动金融机构提
+              - generic [ref=e669]: 2025年第四季度，墨西哥线上消费市场表现强劲。在“El Buen Fin”等系列购物节的刺激下，11月零售销售额同比增长4.4%，创下两年新高。
+              - generic [ref=e670]:
+                - generic [ref=e671]: 查看资讯
+                - generic [ref=e672]: 
+          - link "点点编辑部 点点编辑部 | 2026-03-17 出海厂商丨2026年2月中国应用/游戏厂商出海收入Top30榜 本文统计周期为2026年2月1日到2026年2月28日 查看资讯 " [ref=e673] [cursor=pointer]:
+            - /url: /news/TL5Zy7IcqLfBvM7Ru7Xm
+            - generic [ref=e675]:
+              - generic [ref=e676]:
+                - generic [ref=e678]:
+                  - link "点点编辑部" [ref=e680]:
+                    - /url: javascript:;
+                  - link "点点编辑部" [ref=e682]:
+                    - /url: javascript:;
+                - text: "|"
+                - generic [ref=e683]: 2026-03-17
+              - generic [ref=e684]: 出海厂商丨2026年2月中国应用/游戏厂商出海收入Top30榜
+              - generic [ref=e685]: 本文统计周期为2026年2月1日到2026年2月28日
+              - generic [ref=e686]:
+                - generic [ref=e687]: 查看资讯
+                - generic [ref=e688]: 
+        - link "查看更多 查 看 更 多" [ref=e386] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e387]:
+            - text: 查看更多
+            - generic [ref=e388]: 查
+            - generic [ref=e389]: 看
+            - generic [ref=e390]: 更
+            - generic [ref=e391]: 多
+      - generic [ref=e393]:
+        - generic [ref=e394]: 点点数据辅助您进行高效的数据挖掘,更快的决策制定！
+        - generic [ref=e395]:
+          - generic [ref=e396] [cursor=pointer]:
+            - generic [ref=e397]: 全球应用/游戏数据更新
+            - generic [ref=e398]: 全球各大应用市场数百万款应用/游戏信息实时更新
+          - generic [ref=e399] [cursor=pointer]:
+            - generic [ref=e400]: 多维度/定制化榜单
+            - generic [ref=e401]: 查看数百万款应用的估算数据，了解是哪个商店、哪个国家/地区、哪类应用或什么设备在推动增长。
+          - generic [ref=e402] [cursor=pointer]:
+            - generic [ref=e403]: ASO/ASA策略分析
+            - generic [ref=e404]: 充分了解竞品关键词策略，通过付费搜索广告提升APP下载，全方位提升产品排名，以更低成本驱动用户精准获取。
+          - generic [ref=e405] [cursor=pointer]:
+            - generic [ref=e406]: 技术集成
+            - generic [ref=e407]: 通过分析技术集成、服务支持，深刻剖析应用辅助手段，缩小甚至超越竞品的用户体验
+          - generic [ref=e408] [cursor=pointer]:
+            - generic [ref=e409]: 下载/收入
+            - generic [ref=e410]: 结合应用/游戏在全球不同国家/地区的预估下载收入数据，分析应用市场趋势，锁定快速增长的市场
+          - generic [ref=e411] [cursor=pointer]:
+            - generic [ref=e412]: 用户粘性
+            - generic [ref=e413]: 通过活跃用户数、市场渗透率、使用时长和使用频率等了解用户参与度指标
+          - generic [ref=e414] [cursor=pointer]:
+            - generic [ref=e415]: 用户画像&行为分析
+            - generic [ref=e416]: 基于用户特征和用户行为分析，辅助产品运营和品牌传播，提升应用口碑直观分析您和竞品的用户重叠情况，取长补短，吸引更多用户
+          - generic [ref=e417] [cursor=pointer]:
+            - generic [ref=e418]: 竞品分析
+            - generic [ref=e419]: 追踪和监控竞争对手的市场占有率、增长趋势以及排名趋势
+      - generic [ref=e420]:
+        - generic [ref=e421]: 利用全面的应用市场数据不断改进您的 App 产品策略
+        - link "免费使用 免 费 使 用" [ref=e422] [cursor=pointer]:
+          - /url: https://app.diandian.com
+          - generic [ref=e423]:
+            - text: 免费使用
+            - generic [ref=e424]: 免
+            - generic [ref=e425]: 费
+            - generic [ref=e426]: 使
+            - generic [ref=e427]: 用
+  - generic [ref=e429]:
+    - generic [ref=e431]: 互联网大数据中心
+    - generic [ref=e433]:
+      - generic [ref=e434]:
+        - generic [ref=e435]: 核心功能
+        - generic [ref=e436]:
+          - link "应用情报" [ref=e438] [cursor=pointer]:
+            - /url: https://app.diandian.com/rank/ios/
+          - link "市场情报" [ref=e440] [cursor=pointer]:
+            - /url: https://app.diandian.com/control/appstore
+          - link "ASO/ASA" [ref=e442] [cursor=pointer]:
+            - /url: https://app.diandian.com/search/ios-1-5-5-75-0-斗鱼
+          - link "下载/收入" [ref=e444] [cursor=pointer]:
+            - /url: https://app.diandian.com/rank/hotapp-0-4-0-1-0
+          - link "用户使用" [ref=e446] [cursor=pointer]:
+            - /url: https://app.diandian.com/app/nd2u6udegmemeid/ios-au?id=1142110895
+          - link "SDK数据" [ref=e448] [cursor=pointer]:
+            - /url: https://app.diandian.com/sdk/rank/install/0-1-75-4-0
+          - link "竞品对比" [ref=e450] [cursor=pointer]:
+            - /url: https://app.diandian.com/pk/1-75/appInfo
+          - link "App监控" [ref=e452] [cursor=pointer]:
+            - /url: https://app.diandian.com/account/controlnews/
+      - generic [ref=e453]:
+        - generic [ref=e454]: 解决方案
+        - generic [ref=e455]:
+          - link "应用方案" [ref=e457] [cursor=pointer]:
+            - /url: /solutions/app
+          - link "游戏方案" [ref=e459] [cursor=pointer]:
+            - /url: /solutions/game
+          - link "品牌方案" [ref=e461] [cursor=pointer]:
+            - /url: /solutions/brand
+          - link "增长方案" [ref=e463] [cursor=pointer]:
+            - /url: /solutions/growth
+          - link "营销方案" [ref=e465] [cursor=pointer]:
+            - /url: /solutions/marketing
+          - link "金融方案" [ref=e467] [cursor=pointer]:
+            - /url: /solutions/finance
+          - link "企业发展方案" [ref=e469] [cursor=pointer]:
+            - /url: /solutions/enterprise
+      - generic [ref=e470]:
+        - generic [ref=e471]: 数据研究院
+        - generic [ref=e472]:
+          - link "行业资讯" [ref=e474] [cursor=pointer]:
+            - /url: /news
+          - link "专题报告" [ref=e476] [cursor=pointer]:
+            - /url: /reports
+      - generic [ref=e477]:
+        - generic [ref=e478]: 产品服务
+        - generic [ref=e479]:
+          - link "ASO优化" [ref=e481] [cursor=pointer]:
+            - /url: https://aso.diandian.com
+          - link "ASA代投" [ref=e483] [cursor=pointer]:
+            - /url: https://asa.diandian.com
+          - link "API数据" [ref=e485] [cursor=pointer]:
+            - /url: https://app.diandian.com/service/api
+          - link "会员中心" [ref=e487] [cursor=pointer]:
+            - /url: https://app.diandian.com/vip/authority/
+      - generic [ref=e488]:
+        - generic [ref=e489]: 关于点点
+        - generic [ref=e490]:
+          - link "关于我们" [ref=e492] [cursor=pointer]:
+            - /url: /aboutus
+          - link "版本更新" [ref=e494] [cursor=pointer]:
+            - /url: /version
+          - link "常见问题" [ref=e496] [cursor=pointer]:
+            - /url: /problem
+          - link "术语解释" [ref=e498] [cursor=pointer]:
+            - /url: /terminology
+          - link "协议&政策" [ref=e500] [cursor=pointer]:
+            - /url: /protocolPolicy
+          - link "网站地图" [ref=e502] [cursor=pointer]:
+            - /url: /map
+      - generic [ref=e503]:
+        - generic [ref=e504]: 联系我们
+        - generic [ref=e505]:
+          - generic [ref=e506]:
+            - generic [ref=e507]: 业务咨询/申请演示
+            - generic [ref=e508]: service@diandian.com
+          - generic [ref=e509]:
+            - generic [ref=e510]: 市场/媒体/渠道合作
+            - generic [ref=e511]: chenjinzhu@nana.cn
+          - generic [ref=e513]: 点点服务号
+    - generic [ref=e514]:
+      - generic [ref=e516]: 覆盖全球移动市场
+      - generic [ref=e518]: 应用市场实时监控
+      - generic [ref=e520]: 专业数据分析团队
+      - generic [ref=e522]: 灵活高效数据服务
+    - generic [ref=e523]:
+      - text: "友情链接:"
+      - link "百度" [ref=e524] [cursor=pointer]:
+        - /url: https://www.baidu.com/
+      - link "微博" [ref=e525] [cursor=pointer]:
+        - /url: https://weibo.com/
+      - link "抖音" [ref=e526] [cursor=pointer]:
+        - /url: https://www.douyin.com/
+      - link "最新APP" [ref=e527] [cursor=pointer]:
+        - /url: https://app.diandian.com/rank/line-1-0-0-75-0-3-0?upkind=1
+      - link "Google Play上架" [ref=e528] [cursor=pointer]:
+        - /url: " https://app.diandian.com/rank/line-11-0-0-75-0-3-0"
+      - link "90设计" [ref=e529] [cursor=pointer]:
+        - /url: https://90sheji.com/
+      - link "有赞CRM客户运营系统" [ref=e530] [cursor=pointer]:
+        - /url: https://www.youzan.com/
+      - link "超凡电竞" [ref=e531] [cursor=pointer]:
+        - /url: https://www.chaofan.com/
+    - generic [ref=e532]:
+      - link "沪ICP备2021010088号-1" [ref=e533] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn
+      - link "丨Copyright © 2020 Diandian.All Rights Reserved.丨" [ref=e534]:
+        - /url: javascript:;
+      - link "沪公网安备 31010902003223号丨" [ref=e535] [cursor=pointer]:
+        - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010902003223
+      - link "归因（上海）科技有限公司" [ref=e536]:
+        - /url: javascript:;
+  - text: 
+  - generic [ref=e690]:
+    - generic [ref=e692]: 《2026年全球移动游戏行业白皮书》现已发布！点击下载 获悉行业现状
+    - generic [ref=e693]:
+      - generic [ref=e694] [cursor=pointer]:
+        - text: 立即了解
+        - generic [ref=e695]: ">"
+      - generic [ref=e697] [cursor=pointer]: 
+  - generic [ref=e538]:
+    - generic [ref=e540] [cursor=pointer]: 
+    - generic [ref=e542] [cursor=pointer]: 
+    - generic [ref=e544] [cursor=pointer]: 

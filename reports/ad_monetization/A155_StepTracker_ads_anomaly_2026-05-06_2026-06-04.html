@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StepTracker 广告变现诊断</title>
+  <style>
+    :root {
+      --bg: #eef3ff; --card: #ffffff; --ink: #111a2e; --muted: #657184; --line: #dfe6f3;
+      --blue: #2f73e0; --green: #16a05d; --orange: #ed8a00; --red: #d93a2f; --slate: #516174;
+      --shadow: 0 18px 45px rgba(33, 48, 82, .08);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: linear-gradient(180deg, #e7eefc 0%, #f7f9ff 45%, #f3f6fb 100%); color: var(--ink); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; }
+    .page { max-width: 1320px; margin: 0 auto; padding: 54px 54px 64px; }
+    .hero { display: grid; grid-template-columns: 1fr 330px; gap: 28px; align-items: start; margin-bottom: 34px; }
+    h1 { margin: 0; font-size: 52px; line-height: 1.08; letter-spacing: 0; font-weight: 900; }
+    .subtitle { margin: 18px 0 0; max-width: 850px; color: var(--muted); font-size: 24px; line-height: 1.55; font-weight: 560; }
+    .source-box { justify-self: end; min-width: 320px; background: rgba(255,255,255,.86); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; text-align: right; color: var(--muted); box-shadow: var(--shadow); font-size: 18px; font-weight: 800; }
+    .grid-2 { display: grid; grid-template-columns: 1.1fr .9fr; gap: 24px; margin-bottom: 30px; }
+    .grid-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); padding: 26px; }
+    .core { min-height: 292px; }
+    .eyebrow { color: var(--blue); font-size: 18px; font-weight: 900; margin-bottom: 12px; }
+    .core h2 { margin: 0; font-size: 34px; line-height: 1.25; letter-spacing: 0; }
+    .core p { margin: 18px 0 0; color: var(--muted); font-size: 19px; line-height: 1.7; }
+    .bars h3, .card h3 { margin: 0 0 18px; font-size: 25px; line-height: 1.2; }
+    .bar-row { display: grid; grid-template-columns: 105px 1fr 92px; gap: 14px; align-items: center; margin: 15px 0; font-weight: 800; }
+    .bar-track { height: 14px; background: #e4ebf8; border-radius: 999px; overflow: hidden; }
+    .bar-fill { height: 100%; background: var(--blue); border-radius: 999px; }
+    .section-title { display: flex; align-items: center; gap: 14px; margin: 28px 0 16px; }
+    .pill { display: inline-flex; align-items: center; border-radius: 999px; padding: 6px 14px; color: #fff; font-weight: 900; font-size: 17px; }
+    .pill.green { background: var(--green); } .pill.orange { background: var(--orange); } .pill.slate { background: var(--slate); }
+    .section-title h2 { margin: 0; font-size: 34px; line-height: 1.2; }
+    .format-title { display: flex; justify-content: space-between; gap: 18px; align-items: start; margin-bottom: 18px; }
+    .format-title h3 { margin: 0; font-size: 34px; }
+    .tag { background: #eef4ff; color: var(--blue); border-radius: 999px; padding: 7px 13px; font-weight: 900; white-space: nowrap; }
+    .tag.red { background: #fff1ef; color: var(--red); } .tag.green { background: #ecfff4; color: var(--green); }
+    .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
+    .metric { border: 1px solid var(--line); border-radius: 8px; padding: 12px 13px; background: #fbfcff; }
+    .metric .label { color: var(--muted); font-size: 15px; font-weight: 650; }
+    .metric .value { margin-top: 2px; font-size: 24px; font-weight: 900; }
+    .desc { color: #3f4a5b; font-size: 20px; line-height: 1.65; margin: 0; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border-bottom: 1px solid var(--line); padding: 12px 10px; text-align: right; white-space: nowrap; }
+    th:first-child, td:first-child { text-align: left; }
+    th { color: var(--muted); background: #f3f6fb; font-weight: 900; }
+    .down { color: var(--red); font-weight: 900; } .up { color: var(--green); font-weight: 900; }
+    .scene-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .scene { border: 1px solid var(--line); border-radius: 9px; background: #fff; padding: 18px; }
+    .scene h4 { margin: 0 0 10px; font-size: 23px; }
+    .small { color: var(--muted); font-weight: 800; }
+    .scene .numbers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 14px 0; }
+    .mini { background: #f7f9fd; border: 1px solid var(--line); border-radius: 7px; padding: 9px; }
+    .mini span { display: block; color: var(--muted); font-size: 12px; font-weight: 750; }
+    .mini b { display: block; margin-top: 2px; font-size: 18px; }
+    .rank { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+    .rank-card { text-align: center; background: var(--card); border: 1px solid var(--line); border-radius: 9px; padding: 20px 14px; box-shadow: var(--shadow); }
+    .rank-card .level { color: var(--muted); font-weight: 800; margin-bottom: 6px; }
+    .rank-card .name { font-size: 23px; font-weight: 950; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; text-align: center; }
+    @media (max-width: 980px) { .page { padding: 34px 18px 42px; } .hero, .grid-2, .grid-cards, .scene-grid, .rank { grid-template-columns: 1fr; } .source-box { justify-self: stretch; text-align: left; } h1 { font-size: 38px; } .subtitle { font-size: 19px; } .metrics { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div>
+        <h1>StepTracker 广告变现诊断</h1>
+        <p class="subtitle">按统一方法检查近 30 日主窗口与近 60 日格式趋势：StepTracker 当前不是收入塌陷，主风险是 05-27 后 Interstitial eCPM 下台阶。</p>
+      </div>
+      <div class="source-box">数据口径<br>主窗口 2026-05-06~06-04<br>扩展 2026-04-06~06-04</div>
+    </section>
+
+    <section class="grid-2">
+      <div class="card core">
+        <div class="eyebrow">核心结论</div>
+        <h2>新增没有明显走弱，收入小幅回落主要由插屏 eCPM 下滑驱动；先查 Interstitial 的平台链路。</h2>
+        <p>近 30 日广告收入合计 $14,900.23。最近 7 日 DNU 较前 7 日 -1.33%，DAU +7.66%，广告收入 -6.55%。整体 eCPM -15.31%，其中 Interstitial 最近 7 日 eCPM 较前 7 日 -18.19%。</p>
+      </div>
+      <div class="card bars">
+        <h3>广告格式收入贡献</h3>
+        <div class="bar-row"><span>Interstitial</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span>$10,608</span></div>
+        <div class="bar-row"><span>AppOpen</span><div class="bar-track"><div class="bar-fill" style="width:35%"></div></div><span>$3,748</span></div>
+        <div class="bar-row"><span>Native</span><div class="bar-track"><div class="bar-fill" style="width:4%"></div></div><span>$359</span></div>
+        <div class="bar-row"><span>Banner</span><div class="bar-track"><div class="bar-fill" style="width:2%"></div></div><span>$185</span></div>
+      </div>
+    </section>
+
+    <div class="section-title"><span class="pill green">优先排查</span><h2>核心广告格式</h2></div>
+    <section class="grid-cards">
+      <article class="card"><div class="format-title"><h3>Interstitial 插屏</h3><span class="tag red">最高优先级</span></div><div class="metrics"><div class="metric"><div class="label">30 日收入</div><div class="value">$10,608.03</div></div><div class="metric"><div class="label">最近 7 日 eCPM</div><div class="value">$153.33</div></div><div class="metric"><div class="label">最近 7 日 IPU</div><div class="value">1.18</div></div></div><p class="desc">插屏贡献 71.2% 收入，最近 7 日收入 -8.91%。当前主因是 eCPM 下滑，不是展示频次继续下降。</p></article>
+      <article class="card"><div class="format-title"><h3>AppOpen 开屏</h3><span class="tag green">稳定</span></div><div class="metrics"><div class="metric"><div class="label">30 日收入</div><div class="value">$3,748.27</div></div><div class="metric"><div class="label">最近 7 日 eCPM</div><div class="value">$68.41</div></div><div class="metric"><div class="label">最近 7 日 IPU</div><div class="value">0.96</div></div></div><p class="desc">AppOpen 收入最近 7 日基本持平，暂不作为第一故障点，但可跟随插屏检查平台侧同源波动。</p></article>
+      <article class="card"><div class="format-title"><h3>Native 原生</h3><span class="tag">观察</span></div><div class="metrics"><div class="metric"><div class="label">30 日收入</div><div class="value">$358.85</div></div><div class="metric"><div class="label">最近 7 日 eCPM</div><div class="value">$8.94</div></div><div class="metric"><div class="label">最近 7 日 IPU</div><div class="value">0.71</div></div></div><p class="desc">Native 体量较小，收入占比 2.4%，不解释整体变化。</p></article>
+      <article class="card"><div class="format-title"><h3>Banner 横幅</h3><span class="tag">低体量</span></div><div class="metrics"><div class="metric"><div class="label">30 日收入</div><div class="value">$185.08</div></div><div class="metric"><div class="label">最近 7 日 eCPM</div><div class="value">$5.19</div></div><div class="metric"><div class="label">最近 7 日 IPU</div><div class="value">0.40</div></div></div><p class="desc">Banner 样本和场景结构变化大，收入占比仅 1.2%，不作为主因。</p></article>
+    </section>
+
+    <div class="section-title"><span class="pill orange">转折点</span><h2>60 日格式级 IPU / eCPM</h2></div>
+    <section class="card">
+      <table><thead><tr><th>广告格式</th><th>指标</th><th>主要转折日期</th><th>前 7 日均值</th><th>后 7 日均值</th><th>变化</th><th>判断</th></tr></thead><tbody>
+        <tr><td>Interstitial</td><td>eCPM</td><td>2026-05-27</td><td>$204.55</td><td>$151.56</td><td class="down">-25.91%</td><td>核心单价下台阶</td></tr>
+        <tr><td>Interstitial</td><td>IPU</td><td>2026-05-07</td><td>1.25</td><td>1.04</td><td class="down">-16.81%</td><td>早期变化，近期已恢复</td></tr>
+        <tr><td>AppOpen</td><td>eCPM</td><td>2026-05-25</td><td>$86.47</td><td>$65.72</td><td class="down">-24.00%</td><td>需跟随观察</td></tr>
+        <tr><td>Native</td><td>eCPM</td><td>2026-05-04</td><td>$14.38</td><td>$9.81</td><td class="down">-31.78%</td><td>体量小</td></tr>
+        <tr><td>Banner</td><td>eCPM</td><td>2026-05-15</td><td>$9.72</td><td>$4.72</td><td class="down">-51.43%</td><td>低体量结构变化</td></tr>
+      </tbody></table>
+    </section>
+
+    <div class="section-title"><span class="pill green">广告场景</span><h2>重点场景定位</h2></div>
+    <section class="scene-grid">
+      <div class="scene"><h4>I_AppStart</h4><div class="small">最大插屏场景</div><div class="numbers"><div class="mini"><span>30 日收入</span><b>$3,066</b></div><div class="mini"><span>06-04 eCPM</span><b>$383</b></div><div class="mini"><span>06-04 IPU</span><b>0.15</b></div></div><p class="desc">单价很高，优先看平台填充和新用户曝光。</p></div>
+      <div class="scene"><h4>I_EnterMainPage</h4><div class="small">第二插屏场景</div><div class="numbers"><div class="mini"><span>30 日收入</span><b>$2,776</b></div><div class="mini"><span>06-04 eCPM</span><b>$141</b></div><div class="mini"><span>06-04 IPU</span><b>0.30</b></div></div><p class="desc">贡献大，适合作为插屏链路排查样本。</p></div>
+      <div class="scene"><h4>O_AppStart</h4><div class="small">AppOpen 主场景</div><div class="numbers"><div class="mini"><span>30 日收入</span><b>$2,145</b></div><div class="mini"><span>06-04 eCPM</span><b>$79</b></div><div class="mini"><span>06-04 IPU</span><b>0.54</b></div></div><p class="desc">当前稳定，跟随观察即可。</p></div>
+      <div class="scene"><h4>O_AppBackToFront</h4><div class="small">回前台场景</div><div class="numbers"><div class="mini"><span>30 日收入</span><b>$1,604</b></div><div class="mini"><span>06-04 eCPM</span><b>$62</b></div><div class="mini"><span>06-04 IPU</span><b>0.51</b></div></div><p class="desc">可与 O_AppStart 对比平台侧变化。</p></div>
+      <div class="scene"><h4>I_ChangeTab</h4><div class="small">插屏正向对照</div><div class="numbers"><div class="mini"><span>30 日收入</span><b>$1,171</b></div><div class="mini"><span>06-04 eCPM</span><b>$143</b></div><div class="mini"><span>06-04 IPU</span><b>0.23</b></div></div><p class="desc">06-04 收入较高，可作为对照。</p></div>
+      <div class="scene"><h4>I_ReadyExercise</h4><div class="small">运动流程插屏</div><div class="numbers"><div class="mini"><span>30 日收入</span><b>$713</b></div><div class="mini"><span>06-04 eCPM</span><b>$147</b></div><div class="mini"><span>06-04 IPU</span><b>0.09</b></div></div><p class="desc">中等贡献，检查流程触发。</p></div>
+    </section>
+
+    <div class="section-title"><span class="pill slate">最终建议</span><h2>排查排序</h2></div>
+    <section class="rank">
+      <div class="rank-card"><div class="level">第一优先级</div><div class="name">Interstitial</div><div class="small">05-27 eCPM 下台阶</div></div>
+      <div class="rank-card"><div class="level">第二优先级</div><div class="name">I_AppStart</div><div class="small">最大收入场景</div></div>
+      <div class="rank-card"><div class="level">第三优先级</div><div class="name">AppOpen</div><div class="small">稳定监控</div></div>
+      <div class="rank-card"><div class="level">观察项</div><div class="name">Banner / Native</div><div class="small">低体量</div></div>
+    </section>
+
+    <section class="card" style="margin-top:22px">
+      <h3>需要回查的日期窗口</h3>
+      <table><thead><tr><th>窗口</th><th>优先检查</th><th>原因</th></tr></thead><tbody>
+        <tr><td>2026-05-26~2026-05-28</td><td>AdMob、Waterfall、价格规则、变现平台 eCPM</td><td>Interstitial eCPM 在此后从高位下台阶。</td></tr>
+        <tr><td>2026-05-06~2026-05-08</td><td>展示频控、触发策略</td><td>早期 IPU 有下降，但当前已恢复，优先级低于 05-27。</td></tr>
+      </tbody></table>
+    </section>
+
+    <footer>Generated from /Users/suacker/dev/DataAnalysis/BI/reports/ad_monetization/A155_StepTracker_ads_anomaly_2026-05-06_2026-06-04.md</footer>
+  </main>
+</body>
+</html>

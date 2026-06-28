@@ -1,0 +1,373 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - img "snowball-logo" [ref=e21] [cursor=pointer]
+        - generic [ref=e25] [cursor=pointer]:
+          - img "project logo" [ref=e238]
+          - generic [ref=e33]:
+            - generic [ref=e34]: MessageHome
+            - img "arrow icon" [ref=e35]
+        - link "android icon" [ref=e239] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=sms.messenger.mms.text.ai.home
+          - img "android icon" [ref=e240]
+      - generic [ref=e37]:
+        - link "综合" [ref=e38] [cursor=pointer]:
+          - /url: /bi/A182
+        - link "事件分析" [ref=e39] [cursor=pointer]:
+          - /url: /event/A182
+        - link "消息推送" [ref=e40] [cursor=pointer]:
+          - /url: /push/A182
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - link "store manage" [ref=e43] [cursor=pointer]:
+            - /url: https://reviews.thinkyeah.com/A182
+            - img "store manage" [ref=e44]
+          - link "store manage" [ref=e45] [cursor=pointer]:
+            - /url: https://store-manage.thinkyeah.com/project/list?pid=A182
+            - img "store manage" [ref=e46]
+        - generic [ref=e48]:
+          - img "icon" [ref=e242] [cursor=pointer]
+          - img "icon" [ref=e245] [cursor=pointer]
+          - img "feedback" [ref=e50] [cursor=pointer]
+          - img "language" [ref=e54] [cursor=pointer]
+          - img "setting" [ref=e55] [cursor=pointer]
+        - img [ref=e61] [cursor=pointer]
+    - generic [ref=e62]:
+      - generic [ref=e248]:
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - list [ref=e256]:
+              - generic [ref=e258] [cursor=pointer]:
+                - img [ref=e259]
+                - generic [ref=e260]: 新建看板
+              - listitem [ref=e262]:
+                - generic [ref=e263] [cursor=pointer]:
+                  - img [ref=e265]
+                  - generic [ref=e267]: 分析
+                  - generic [ref=e268]: 
+                - list [ref=e269]:
+                  - generic [ref=e270]:
+                    - listitem [ref=e272] [cursor=pointer]:
+                      - link "事件分析" [ref=e273]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/event_analysis
+                        - generic "事件分析" [ref=e274]
+                    - listitem [ref=e276] [cursor=pointer]:
+                      - link "事件分布" [ref=e277]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/event_distribution
+                        - generic "事件分布" [ref=e278]
+                    - listitem [ref=e280] [cursor=pointer]:
+                      - link "留存分析" [ref=e281]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/retention_analysis
+                        - generic "留存分析" [ref=e282]
+                    - listitem [ref=e284] [cursor=pointer]:
+                      - link "漏斗分析" [ref=e285]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/funnel_analysis
+                        - generic "漏斗分析" [ref=e286]
+                    - listitem [ref=e288] [cursor=pointer]:
+                      - link "路径分析" [ref=e289]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/path_analysis
+                        - generic "路径分析" [ref=e290]
+                    - listitem [ref=e292] [cursor=pointer]:
+                      - link "用户时长" [ref=e293]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/user_engagement_time/create
+                        - generic "用户时长" [ref=e294]
+                    - listitem [ref=e296] [cursor=pointer]:
+                      - link "相关性分析" [ref=e297]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/analysis/correlation_analysis
+                        - generic "相关性分析" [ref=e298]
+              - listitem [ref=e300]:
+                - generic [ref=e301] [cursor=pointer]:
+                  - img [ref=e303]
+                  - generic [ref=e305]: 用户
+                  - generic [ref=e306]: 
+                - list [ref=e307]:
+                  - generic [ref=e308]:
+                    - listitem [ref=e310] [cursor=pointer]:
+                      - link "用户分群" [ref=e311]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/user/group
+                        - generic "用户分群" [ref=e312]
+                    - listitem [ref=e314] [cursor=pointer]:
+                      - link "用户信息" [ref=e315]:
+                        - /url: https://snowball.thinkyeah.com/event/A182/user/search
+                        - generic "用户信息" [ref=e316]
+              - listitem [ref=e318]:
+                - generic [ref=e319] [cursor=pointer]:
+                  - img [ref=e321]
+                  - generic [ref=e323]: 数据查询
+                  - generic [ref=e324]: 
+                - list [ref=e325]:
+                  - listitem [ref=e328] [cursor=pointer]:
+                    - link "SQL查询" [ref=e329]:
+                      - /url: https://snowball.thinkyeah.com/event/A182/data_query/sql
+                      - generic "SQL查询" [ref=e330]
+            - img [ref=e333] [cursor=pointer]
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - generic [ref=e371]:
+                - img "Return icon" [ref=e372] [cursor=pointer]
+                - generic [ref=e373]: 创建漏斗
+              - generic [ref=e374]:
+                - button "save 保存" [ref=e376] [cursor=pointer]:
+                  - generic [ref=e377]:
+                    - img "save" [ref=e378]
+                    - generic [ref=e379]: 保存
+                - generic [ref=e381] [cursor=pointer]:
+                  - img "list" [ref=e382]
+                  - generic [ref=e383]: 报告列表(0)
+            - generic [ref=e384]:
+              - generic [ref=e385]:
+                - generic [ref=e388]: 创建漏斗
+                - generic [ref=e389] [cursor=pointer]:
+                  - text: 收起
+                  - generic [ref=e390]: 
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - generic [ref=e393]:
+                    - generic [ref=e395]: 选择步骤
+                    - generic [ref=e397]:
+                      - generic [ref=e398]:
+                        - generic [ref=e401]:
+                          - generic [ref=e402]: "1"
+                          - generic [ref=e407] [cursor=pointer]:
+                            - generic [ref=e652]: first_open
+                            - generic [ref=e409]: 
+                            - text: 
+                        - generic [ref=e413]:
+                          - generic [ref=e414]: "2"
+                          - generic [ref=e419] [cursor=pointer]:
+                            - generic [ref=e762]: ACT_SetDefaultSuccess
+                            - generic [ref=e421]: 
+                            - text: 
+                      - generic [ref=e423]:
+                        - button " 添加步骤" [ref=e424] [cursor=pointer]:
+                          - generic [ref=e425]:
+                            - generic [ref=e426]: 
+                            - text: 添加步骤
+                        - button " 批量添加" [ref=e427] [cursor=pointer]:
+                          - generic [ref=e428]:
+                            - generic [ref=e429]: 
+                            - text: 批量添加
+                  - generic [ref=e430]:
+                    - generic [ref=e432]: 单步转化周期
+                    - generic [ref=e434]:
+                      - generic [ref=e435]:
+                        - generic [ref=e436]:
+                          - generic [ref=e438] [cursor=pointer]: 
+                          - generic [ref=e440]: 
+                        - textbox [ref=e442]: "1"
+                      - generic [ref=e446] [cursor=pointer]:
+                        - generic [ref=e447]: 天
+                        - generic [ref=e448]: 
+                        - text: 
+                  - generic [ref=e449]:
+                    - generic [ref=e451]: 整体转化周期
+                    - generic [ref=e453]:
+                      - generic [ref=e454]:
+                        - generic [ref=e455]:
+                          - generic [ref=e457] [cursor=pointer]: 
+                          - generic [ref=e459]: 
+                        - textbox [ref=e461]: "1"
+                      - generic [ref=e465] [cursor=pointer]:
+                        - generic [ref=e466]: 天
+                        - generic [ref=e467]: 
+                        - text: 
+                  - generic [ref=e468]:
+                    - generic [ref=e470]: 行为筛选
+                    - button " 添加行为" [ref=e474] [cursor=pointer]:
+                      - generic [ref=e475]:
+                        - generic [ref=e476]: 
+                        - text: 添加行为
+                  - generic [ref=e477]:
+                    - generic [ref=e479]: 全局筛选
+                    - button " 添加条件" [ref=e483] [cursor=pointer]:
+                      - generic [ref=e484]:
+                        - generic [ref=e485]: 
+                        - text: 添加条件
+                  - generic [ref=e486]:
+                    - generic [ref=e488]: 用户分群
+                    - button " 添加用户分群" [ref=e492] [cursor=pointer]:
+                      - generic [ref=e493]:
+                        - generic [ref=e494]: 
+                        - text: 添加用户分群
+                  - generic [ref=e495]:
+                    - generic [ref=e497]: AB 测试组
+                    - button " 添加 AB 测试组" [ref=e500] [cursor=pointer]:
+                      - generic [ref=e501]:
+                        - generic [ref=e502]: 
+                        - text: 添加 AB 测试组
+                  - generic [ref=e503]:
+                    - generic [ref=e505]: 日期范围
+                    - generic [ref=e508]:
+                      - generic [ref=e514] [cursor=pointer]:
+                        - generic [ref=e515]: 
+                        - generic [ref=e516]: 最近7天
+                        - img "Filter arrow" [ref=e517]
+                      - button " 时间对比" [ref=e520] [cursor=pointer]:
+                        - generic [ref=e521]:
+                          - generic [ref=e522]: 
+                          - text: 时间对比
+                - generic [ref=e523]:
+                  - button "开始分析" [ref=e524] [cursor=pointer]:
+                    - generic [ref=e526]: 开始分析
+                  - generic [ref=e527] [cursor=pointer]:
+                    - img [ref=e528]
+                    - generic [ref=e530]: 重置
+                  - generic [ref=e1378]:
+                    - img [ref=e1379] [cursor=pointer]
+                    - generic [ref=e1381]: 此查询运行时将处理 20.48MB 的数据，预计花费 $0.0001
+            - generic [ref=e532]:
+              - generic [ref=e533]:
+                - generic [ref=e536]: 漏斗分析图表
+                - generic [ref=e1382]:
+                  - generic [ref=e1383]:
+                    - generic [ref=e1384] [cursor=pointer]:
+                      - generic:
+                        - radio "漏斗图"
+                      - text: 漏斗图
+                    - generic [ref=e1386] [cursor=pointer]:
+                      - generic:
+                        - radio "每日转化趋势图" [checked]
+                      - text: 每日转化趋势图
+                  - img [ref=e1388] [cursor=pointer]
+                  - button [ref=e1389] [cursor=pointer]:
+                    - img [ref=e1390]
+              - generic [ref=e537]:
+                - generic [ref=e1393]:
+                  - generic [ref=e1398] [cursor=pointer]:
+                    - generic [ref=e1399]: 整体转化率
+                    - generic [ref=e1400]: 
+                  - generic [ref=e1410]:
+                    - generic [ref=e1412] [cursor=pointer]:
+                      - generic "第1步：first_open" [ref=e1414]
+                      - img "高亮/取消高亮" [ref=e1416]
+                    - generic [ref=e1424] [cursor=pointer]:
+                      - generic "第2步：ACT_SetDefaultSuccess" [ref=e1426]
+                      - img "高亮/取消高亮" [ref=e1428]
+                - generic [ref=e1437]:
+                  - generic [ref=e1438]: 加载中...
+                  - grid [ref=e1439]:
+                    - rowgroup [ref=e1440]:
+                      - row "日期 整体转化率" [ref=e1441]:
+                        - columnheader "日期" [ref=e1442]:
+                          - generic [ref=e1448]: 日期
+                        - columnheader "整体转化率" [ref=e1449]:
+                          - generic [ref=e1455]: 整体转化率
+                    - rowgroup [ref=e1456]:
+                      - row "第1步：first_open 第2步：ACT_SetDefaultSuccess" [ref=e1457]:
+                        - columnheader "第1步：first_open" [ref=e1458]:
+                          - generic [ref=e1464]: 第1步：first_open
+                        - columnheader "第2步：ACT_SetDefaultSuccess" [ref=e1465]:
+                          - generic [ref=e1471]: 第2步：ACT_SetDefaultSuccess
+                    - rowgroup [ref=e1472]:
+                      - row "总计 0.35%" [ref=e1473]:
+                        - gridcell "总计" [ref=e1474]:
+                          - paragraph [ref=e1477]: 总计
+                        - gridcell "0.35%" [ref=e1478]:
+                          - paragraph [ref=e1480]: 0.35%
+                      - row "2026-05-31 0.00%" [ref=e1481]:
+                        - gridcell "2026-05-31" [ref=e1482]:
+                          - paragraph [ref=e1485]: 2026-05-31
+                        - gridcell "0.00%" [ref=e1486]:
+                          - paragraph [ref=e1488]: 0.00%
+                      - row "2026-05-30 0.80%" [ref=e1489]:
+                        - gridcell "2026-05-30" [ref=e1490]:
+                          - paragraph [ref=e1493]: 2026-05-30
+                        - gridcell "0.80%" [ref=e1494]:
+                          - paragraph [ref=e1496]: 0.80%
+                      - row "2026-05-29 0.89%" [ref=e1497]:
+                        - gridcell "2026-05-29" [ref=e1498]:
+                          - paragraph [ref=e1501]: 2026-05-29
+                        - gridcell "0.89%" [ref=e1502]:
+                          - paragraph [ref=e1504]: 0.89%
+                      - row "2026-05-28 0.00%" [ref=e1505]:
+                        - gridcell "2026-05-28" [ref=e1506]:
+                          - paragraph [ref=e1509]: 2026-05-28
+                        - gridcell "0.00%" [ref=e1510]:
+                          - paragraph [ref=e1512]: 0.00%
+                      - row "2026-05-27 0.00%" [ref=e1513]:
+                        - gridcell "2026-05-27" [ref=e1514]:
+                          - paragraph [ref=e1517]: 2026-05-27
+                        - gridcell "0.00%" [ref=e1518]:
+                          - paragraph [ref=e1520]: 0.00%
+                      - row "2026-05-26 0.00%" [ref=e1521]:
+                        - gridcell "2026-05-26" [ref=e1522]:
+                          - paragraph [ref=e1525]: 2026-05-26
+                        - gridcell "0.00%" [ref=e1526]:
+                          - paragraph [ref=e1528]: 0.00%
+                      - row "2026-05-25 0.00%" [ref=e1529]:
+                        - gridcell "2026-05-25" [ref=e1530]:
+                          - paragraph [ref=e1533]: 2026-05-25
+                        - gridcell "0.00%" [ref=e1534]:
+                          - paragraph [ref=e1536]: 0.00%
+                    - rowgroup [ref=e1537]:
+                      - row "565 2 0.35%" [ref=e1538]:
+                        - gridcell "565" [ref=e1539]:
+                          - paragraph [ref=e1542]: "565"
+                        - gridcell "2 0.35%" [ref=e1543]:
+                          - generic [ref=e1545]:
+                            - paragraph [ref=e1546]: "2"
+                            - paragraph [ref=e1547]: 0.35%
+                      - row "143 0 0%" [ref=e1548]:
+                        - gridcell "143" [ref=e1549]:
+                          - paragraph [ref=e1552] [cursor=pointer]: "143"
+                        - gridcell "0 0%" [ref=e1553]:
+                          - generic [ref=e1555]:
+                            - paragraph [ref=e1556]: "0"
+                            - paragraph [ref=e1557]: 0%
+                      - row "125 1 0.8%" [ref=e1558]:
+                        - gridcell "125" [ref=e1559]:
+                          - paragraph [ref=e1562] [cursor=pointer]: "125"
+                        - gridcell "1 0.8%" [ref=e1563]:
+                          - generic [ref=e1565]:
+                            - paragraph [ref=e1566] [cursor=pointer]: "1"
+                            - paragraph [ref=e1567]: 0.8%
+                      - row "112 1 0.89%" [ref=e1568]:
+                        - gridcell "112" [ref=e1569]:
+                          - paragraph [ref=e1572] [cursor=pointer]: "112"
+                        - gridcell "1 0.89%" [ref=e1573]:
+                          - generic [ref=e1575]:
+                            - paragraph [ref=e1576] [cursor=pointer]: "1"
+                            - paragraph [ref=e1577]: 0.89%
+                      - row "66 0 0%" [ref=e1578]:
+                        - gridcell "66" [ref=e1579]:
+                          - paragraph [ref=e1582] [cursor=pointer]: "66"
+                        - gridcell "0 0%" [ref=e1583]:
+                          - generic [ref=e1585]:
+                            - paragraph [ref=e1586]: "0"
+                            - paragraph [ref=e1587]: 0%
+                      - row "101 0 0%" [ref=e1588]:
+                        - gridcell "101" [ref=e1589]:
+                          - paragraph [ref=e1592] [cursor=pointer]: "101"
+                        - gridcell "0 0%" [ref=e1593]:
+                          - generic [ref=e1595]:
+                            - paragraph [ref=e1596]: "0"
+                            - paragraph [ref=e1597]: 0%
+                      - row "13 0 0%" [ref=e1598]:
+                        - gridcell "13" [ref=e1599]:
+                          - paragraph [ref=e1602] [cursor=pointer]: "13"
+                        - gridcell "0 0%" [ref=e1603]:
+                          - generic [ref=e1605]:
+                            - paragraph [ref=e1606]: "0"
+                            - paragraph [ref=e1607]: 0%
+                      - row "5 0 0%" [ref=e1608]:
+                        - gridcell "5" [ref=e1609]:
+                          - paragraph [ref=e1612] [cursor=pointer]: "5"
+                        - gridcell "0 0%" [ref=e1613]:
+                          - generic [ref=e1615]:
+                            - paragraph [ref=e1616]: "0"
+                            - paragraph [ref=e1617]: 0%
+                    - rowgroup
+                    - rowgroup
+                    - rowgroup
+                    - rowgroup
+        - img:
+          - generic "切片"
+          - generic "logo_browser_event"
+        - generic:   
+        - text: "* "
+        - generic:  
+        - text: "*                           "
+      - img "feedback" [ref=e237] [cursor=pointer]
+  - img
+  - text:    

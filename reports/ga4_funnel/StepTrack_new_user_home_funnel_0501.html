@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StepTrack 新用户进入主界面漏斗报告</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --ink: #14212b;
+      --muted: #5c6b78;
+      --line: #d8e0e7;
+      --brand: #1f6f8b;
+      --brand-soft: #e6f2f7;
+      --good: #1f8a5b;
+      --warn: #b86d00;
+      --bad: #b42318;
+      --shadow: 0 8px 24px rgba(16, 24, 40, 0.08);
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "SF Pro Text", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 80% -20%, #d7eef9 0%, transparent 45%),
+        radial-gradient(circle at 0% 120%, #e9f7ef 0%, transparent 42%),
+        var(--bg);
+      line-height: 1.45;
+    }
+    .container { width: min(1200px, 92vw); margin: 28px auto 40px; }
+    .header {
+      background: linear-gradient(130deg, #10384c 0%, #1f6f8b 58%, #4a9fb4 100%);
+      color: #fff;
+      border-radius: 18px;
+      padding: 24px 26px;
+      box-shadow: var(--shadow);
+    }
+    .title { margin: 0; font-size: 28px; letter-spacing: .2px; }
+    .subtitle { margin: 8px 0 0; color: #d8edf5; font-size: 14px; }
+    .section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-top: 16px;
+      padding: 18px 18px 14px;
+    }
+    .section h2 { margin: 0 0 12px; font-size: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    .metric { border: 1px solid var(--line); border-radius: 12px; background: #fbfdff; padding: 12px; }
+    .metric .k { color: var(--muted); font-size: 12px; }
+    .metric .v { margin-top: 6px; font-size: 20px; font-weight: 700; }
+    .metric .sub { margin-top: 4px; font-size: 12px; color: var(--muted); }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 2px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid transparent;
+    }
+    .b-good { color: var(--good); background: #eafaf2; border-color: #bfe8d2; }
+    .b-warn { color: var(--warn); background: #fff6e8; border-color: #f2d5a2; }
+    .b-bad { color: var(--bad); background: #fff0ef; border-color: #f2b8b5; }
+    .num-good { color: var(--good); font-weight: 700; }
+    .num-bad { color: var(--bad); font-weight: 700; }
+    .table-wrap { overflow: auto; border: 1px solid var(--line); border-radius: 12px; }
+    table { width: 100%; border-collapse: collapse; min-width: 900px; background: #fff; }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 10px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 13px;
+    }
+    th { background: #f3f8fb; color: #1f4f63; font-weight: 700; white-space: nowrap; }
+    tr:last-child td { border-bottom: none; }
+    .mono { font-variant-numeric: tabular-nums; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .note {
+      border-left: 4px solid var(--brand);
+      background: var(--brand-soft);
+      color: #184356;
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+    .muted { color: var(--muted); }
+    ul { margin: 8px 0 0 0; padding-left: 20px; }
+    li { margin: 6px 0; }
+    .trend {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 12px;
+      align-items: end;
+      min-height: 220px;
+      padding: 12px 8px 0;
+    }
+    .bar-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .bar-value {
+      font-size: 12px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+    .bar {
+      width: 56px;
+      border-radius: 12px 12px 0 0;
+      background: linear-gradient(180deg, #68b3ca 0%, #1f6f8b 100%);
+      box-shadow: inset 0 -1px 0 rgba(255,255,255,0.24);
+    }
+    .bar-label {
+      font-size: 12px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+      .trend { grid-template-columns: repeat(2, minmax(0, 1fr)); min-height: auto; }
+      .title { font-size: 22px; }
+      .section { padding: 14px 14px 10px; }
+      .bar { width: 100%; max-width: 72px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 class="title">StepTrack 新用户进入主界面漏斗报告</h1>
+      <p class="subtitle">GA4 Funnel Report · 统计周期：2026-04-25 ~ 2026-05-01 · 生成日期：2026-05-02</p>
+    </header>
+
+    <section class="section">
+      <h2>总体结论</h2>
+      <div class="grid">
+        <div class="metric"><div class="k">7日累计新用户</div><div class="v mono">3,856</div><div class="sub">事件：first_open</div></div>
+        <div class="metric"><div class="k">日均新用户</div><div class="v mono">550.9</div><div class="sub">用于衡量首启流量规模</div></div>
+        <div class="metric"><div class="k">7日累计主界面到达</div><div class="v mono">2,713</div><div class="sub">事件：ACT_EnterHomePage</div></div>
+        <div class="metric"><div class="k">7日整体转化率</div><div class="v mono">70.36%</div><div class="sub">闭漏斗：首启后进入主界面</div></div>
+      </div>
+      <ul><li>监控期内新用户进入主界面整体转化率为 `70.36%`，7 日累计有 `1143` 名新用户在主界面前流失。</li><li>最佳单日出现在 `2026-04-28`，转化率 `73.06%`；最弱单日为 `2026-04-27`，转化率 `66.40%`。</li><li>首尾两日对比，转化率下滑 `3.98` 个百分点，需优先排查首启链路或首页前置拦截。</li><li>低于区间均值的日期有：`2026-04-26`(70.14%)、`2026-04-27`(66.40%)、`2026-05-01`(67.41%)。</li></ul>
+    </section>
+
+    <section class="section">
+      <h2>监控口径</h2>
+      <div class="note">GA4 Property ID：<span class="mono">509028946</span>；漏斗定义：<span class="mono">first_open → ACT_EnterHomePage</span>；目标事件参数：<span class="mono">无</span>。</div>
+      <div class="grid">
+        <div class="metric"><div class="k">最佳单日</div><div class="v mono">2026-04-28</div><div class="sub num-good">73.06%</div></div>
+        <div class="metric"><div class="k">最弱单日</div><div class="v mono">2026-04-27</div><div class="sub num-bad">66.40%</div></div>
+        <div class="metric"><div class="k">累计流失用户</div><div class="v mono">1,143</div><div class="sub">未进入主界面的新用户</div></div>
+        <div class="metric"><div class="k">首尾日变化</div><div class="v mono">-3.98pp</div><div class="sub">用于观察短期修复趋势</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>每日转化率趋势</h2>
+      <div class="trend">
+        
+            <div class="bar-item">
+              <div class="bar-value">71.39%</div>
+              <div class="bar" style="height:156px"></div>
+              <div class="bar-label">04-25</div>
+            </div>
+            
+            <div class="bar-item">
+              <div class="bar-value">70.14%</div>
+              <div class="bar" style="height:154px"></div>
+              <div class="bar-label">04-26</div>
+            </div>
+            
+            <div class="bar-item">
+              <div class="bar-value">66.40%</div>
+              <div class="bar" style="height:145px"></div>
+              <div class="bar-label">04-27</div>
+            </div>
+            
+            <div class="bar-item">
+              <div class="bar-value">73.06%</div>
+              <div class="bar" style="height:160px"></div>
+              <div class="bar-label">04-28</div>
+            </div>
+            
+            <div class="bar-item">
+              <div class="bar-value">70.92%</div>
+              <div class="bar" style="height:155px"></div>
+              <div class="bar-label">04-29</div>
+            </div>
+            
+            <div class="bar-item">
+              <div class="bar-value">70.51%</div>
+              <div class="bar" style="height:154px"></div>
+              <div class="bar-label">04-30</div>
+            </div>
+            
+            <div class="bar-item">
+              <div class="bar-value">67.41%</div>
+              <div class="bar" style="height:148px"></div>
+              <div class="bar-label">05-01</div>
+            </div>
+            
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>每日趋势明细</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>日期</th><th>新用户数</th><th>进入主界面用户数</th><th>流失用户数</th><th>转化率</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2026-04-25</td><td class="mono">360</td><td class="mono">257</td><td class="mono">103</td><td class="mono num-good">71.39%</td></tr><tr><td>2026-04-26</td><td class="mono">288</td><td class="mono">202</td><td class="mono">86</td><td class="mono num-bad">70.14%</td></tr><tr><td>2026-04-27</td><td class="mono">381</td><td class="mono">253</td><td class="mono">128</td><td class="mono num-bad">66.40%</td></tr><tr><td>2026-04-28</td><td class="mono">620</td><td class="mono">453</td><td class="mono">167</td><td class="mono num-good">73.06%</td></tr><tr><td>2026-04-29</td><td class="mono">1059</td><td class="mono">751</td><td class="mono">308</td><td class="mono num-good">70.92%</td></tr><tr><td>2026-04-30</td><td class="mono">746</td><td class="mono">526</td><td class="mono">220</td><td class="mono num-good">70.51%</td></tr><tr><td>2026-05-01</td><td class="mono">402</td><td class="mono">271</td><td class="mono">131</td><td class="mono num-bad">67.41%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>动作建议</h2>
+      <ul><li><strong>P0：</strong>对 `2026-04-27` 前后版本、首启权限弹窗、远端配置和首页加载链路做逐步排查，优先确认 `ACT_EnterHomePage` 是否因崩溃、卡顿或埋点缺失导致转化下探。</li><li><strong>P1：</strong>将新用户进入主界面转化率设为日监控 KPI，建议预警线先设在 `70.36%` 以下 `3` 个百分点，即 `67.36%`。</li><li><strong>P2：</strong>补充首启关键节点事件，如权限弹窗展示/确认、冷启动完成、首页接口成功返回，以便拆解流失到底发生在启动、鉴权还是首页渲染阶段。</li></ul>
+    </section>
+
+    <section class="section">
+      <h2>方法与置信度说明</h2>
+      <ul>
+        <li>数据直接来自 GA4 Data API Funnel Report，无本地估算或人工补值。</li>
+        <li>新用户口径使用 <span class="mono">first_open</span>，结果反映的是“首次打开后进入主界面”的转化，而非严格安装归因口径。</li>
+        <li>若 <span class="mono">ACT_EnterHomePage</span> 存在埋点缺失、延迟、跨端不一致或重命名，报告会低估真实转化率。</li>
+        <li>当前未按平台、版本、国家、渠道拆分，因此适合做总盘监控，不适合作为单版本归因的最终结论。</li>
+      </ul>
+      <p class="muted" style="margin:10px 0 4px; font-size:12px;">Generated from /Users/suacker/dev/DataAnalysis/BI/reports/ga4_funnel/StepTrack_new_user_home_funnel_0501.md</p>
+    </section>
+  </main>
+</body>
+</html>
