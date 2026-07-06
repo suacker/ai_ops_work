@@ -5,13 +5,15 @@ const path = require("path");
 
 const ROOT = "/Users/suacker/dev/DataAnalysis/BI";
 const OUT_DIR = path.join(ROOT, "reports/ad_monetization");
-const DATE_START = "2026-05-13";
-const DATE_END = "2026-06-11";
-const EXT_START = "2026-04-13";
-const EXT_END = "2026-06-11";
+const DATE_START = process.env.DATE_START || "2026-05-13";
+const DATE_END = process.env.DATE_END || "2026-06-11";
+const EXT_START = process.env.EXT_START || "2026-04-13";
+const EXT_END = process.env.EXT_END || "2026-06-11";
 const MCP_URL = "https://snowball-ai-api.thinkyeah.com/mcp";
 
-const SEARCHES = [
+const SEARCHES = process.env.PROJECT_QUERY ? [
+  { family: process.env.PROJECT_FAMILY || "Weather/News", query: process.env.PROJECT_QUERY },
+] : [
   { family: "Message", query: "Message" },
   { family: "Photo", query: "Photo" },
   { family: "Weather", query: "Weather" },
@@ -278,7 +280,7 @@ function calcScenes(sceneData) {
       avgIpu: avg(rows.map((r) => r.ipu)),
       first7Revenue: avg(first7.map((r) => r.ads_revenue)),
       last7Revenue: avg(last7.map((r) => r.ads_revenue)),
-      changeRevenue: pct(avg(last7.map((r) => r.ads_revenue)), avg(first7.map((r) => r.ads_revenue))),
+      changeRevenue: rows.length > 7 ? pct(avg(last7.map((r) => r.ads_revenue)), avg(first7.map((r) => r.ads_revenue))) : null,
     });
   }
   scenes.sort((a, b) => b.totalRevenue - a.totalRevenue);
@@ -300,13 +302,18 @@ function buildConclusion(project, summary, formats, scenes) {
   lines.push(`30 日广告收入 ${money(summary.totalRevenue)}，日均广告收入 ${money(summary.avgRevenue)}；最近 7 日较前 7 日收入 ${pctFmt(summary.lastVsPrevRevenue)}。`);
   lines.push(`新增用户最近 7 日较前 7 日 ${pctFmt(summary.lastVsPrevDnu)}，展示数 ${pctFmt(summary.lastVsPrevImpressions)}，IPU ${pctFmt(summary.lastVsPrevIpu)}，eCPM ${pctFmt(summary.lastVsPrevEcpm)}。`);
   if (topFormat) lines.push(`收入最高广告格式为 ${topFormat.name}，贡献 ${pctShare(topFormat.revenueShare)}，其最近 7 日 IPU ${pctFmt(topFormat.lastVsPrevIpu)}、eCPM ${pctFmt(topFormat.lastVsPrevEcpm)}。`);
-  if (topScene) lines.push(`收入最高场景为 ${topScene.name}，贡献 ${pctShare(topScene.revenueShare)}，末 7 日较首 7 日收入 ${pctFmt(topScene.changeRevenue)}。`);
+  if (topScene) {
+    const sceneChange = Number.isFinite(topScene.changeRevenue)
+      ? `末 7 日较首 7 日收入 ${pctFmt(topScene.changeRevenue)}`
+      : "场景趋势比较数据缺失，仅用于窗口贡献排序";
+    lines.push(`收入最高场景为 ${topScene.name}，贡献 ${pctShare(topScene.revenueShare)}，${sceneChange}。`);
+  }
   const risk = riskLabel(summary);
   lines.push(`综合判断：${risk}；所有后台政策、无效流量、Waterfall/出价问题仍需 AdMob 或聚合后台复核。`);
   return lines.slice(0, 5);
 }
 
-function writeReport(project, family, summary, formats, scenes) {
+function writeReport(project, family, summary, formats, scenes, sceneWindow = `${DATE_START} ~ ${DATE_END}`) {
   const safe = slugName(project.project_name);
   const mdPath = path.join(OUT_DIR, `${project.project_id}_${safe}_ads_anomaly_${DATE_START}_${DATE_END}.md`);
   const htmlPath = path.join(OUT_DIR, `${project.project_id}_${safe}_ads_anomaly_${DATE_START}_${DATE_END}.html`);
@@ -323,7 +330,7 @@ function writeReport(project, family, summary, formats, scenes) {
 - 包名 / Store ID：${project.store_app_id || project.apple_id || "数据缺失"}
 - 主分析周期：${DATE_START} ~ ${DATE_END}，30 个完整自然日
 - 扩展观察周期：${EXT_START} ~ ${EXT_END}，60 个完整自然日
-- 数据源：SnowBall MCP \`get_est_ads_revenue_chart_data\`、\`get_est_ads_revenue_table_data\`
+- 数据源：SnowBall MCP \`view_estimated_ads_revenue_report\`
 
 ## 总体结论
 
@@ -366,7 +373,9 @@ ${topFormats.map((f) => `| ${f.name} | IPU | ${f.turnIpu.date} | ${numFmt(f.turn
 
 ## 广告场景诊断
 
-| 场景 | 30 日收入 | 收入占比 | 展示数 | 加权 eCPM | 平均 IPU | 末 7 日 vs 首 7 日收入 |
+- 场景拆解窗口：${sceneWindow}
+
+| 场景 | 场景窗口收入 | 收入占比 | 展示数 | 加权 eCPM | 平均 IPU | 末 7 日 vs 首 7 日收入 |
 |---|---:|---:|---:|---:|---:|---:|
 ${topScenes.length ? topScenes.map((s) => `| ${s.name} | ${money(s.totalRevenue)} | ${pctShare(s.revenueShare)} | ${intFmt(s.totalImpressions)} | ${money(s.weightedEcpm)} | ${numFmt(s.avgIpu)} | ${pctFmt(s.changeRevenue)} |`).join("\n") : "| 数据缺失 | 数据缺失 | 数据缺失 | 数据缺失 | 数据缺失 | 数据缺失 | 数据缺失 |"}
 
@@ -391,6 +400,7 @@ ${topScenes.length ? topScenes.map((s) => `| ${s.name} | ${money(s.totalRevenue)
 
 - 本报告只使用 SnowBall MCP 返回数据，不使用本地缓存或手工补数。
 - \`-1\`、缺失、样本过小统一标记为“数据缺失/低置信度”。
+- 场景拆解窗口：${sceneWindow}。
 - 当前报告不包含 ${DATE_END} 之后的实时数据。
 `;
 
@@ -415,7 +425,7 @@ ${topScenes.length ? topScenes.map((s) => `| ${s.name} | ${money(s.totalRevenue)
           <tr><td>${escapeHtml(f.name)}</td><td>eCPM</td><td>${f.turnEcpm.date}</td><td>${money(f.turnEcpm.before)}</td><td>${money(f.turnEcpm.after)}</td><td>${pctFmt(f.turnEcpm.change)}</td><td>${Math.abs(f.turnEcpm.change || 0) >= 15 ? "需复核" : "观察"}</td></tr>`).join("");
 
   const sceneCards = topScenes.slice(0, 8).map((s) => `
-      <div class="scene"><div><div class="scene-name">${escapeHtml(s.name)}</div><div class="scene-note">占比 ${pctShare(s.revenueShare)}，末7日 vs 首7日 ${pctFmt(s.changeRevenue)}</div></div><div class="scene-value">${money(s.totalRevenue, 0)}</div></div>`).join("") || `<div class="scene"><div><div class="scene-name">数据缺失</div><div class="scene-note">SnowBall 未返回有效场景数据</div></div><div class="scene-value">低置信度</div></div>`;
+      <div class="scene"><div><div class="scene-name">${escapeHtml(s.name)}</div><div class="scene-note">占比 ${pctShare(s.revenueShare)}${Number.isFinite(s.changeRevenue) ? `，末7日 vs 首7日 ${pctFmt(s.changeRevenue)}` : "，趋势比较数据缺失"}</div></div><div class="scene-value">${money(s.totalRevenue, 0)}</div></div>`).join("") || `<div class="scene"><div><div class="scene-name">数据缺失</div><div class="scene-note">SnowBall 未返回有效场景数据</div></div><div class="scene-value">低置信度</div></div>`;
 
   const html = `<!doctype html>
 <html lang="zh-CN">
@@ -527,8 +537,9 @@ async function getProjects() {
   const projects = new Map();
   const familyByProject = new Map();
   for (const item of SEARCHES) {
-    const data = await callTool("get_projects", { project_name: item.query, use_cache: false });
-    for (const project of data.matched_projects || []) {
+    const data = await callTool("list_projects", { project_name: item.query, use_cache: false });
+    const matchedProjects = data.project ? [data.project] : (data.matched_projects || []);
+    for (const project of matchedProjects) {
       if (project.is_archive) continue;
       if (!projects.has(project.project_id)) projects.set(project.project_id, project);
       const families = familyByProject.get(project.project_id) || new Set();
@@ -543,7 +554,7 @@ async function getProjects() {
 
 async function generateOne(project, family) {
   console.log(`[${project.project_id}] fetching main overview`);
-  const mainData = await callTool("get_est_ads_revenue_chart_data", {
+  const mainData = await callTool("view_estimated_ads_revenue_report", {
     project_id: project.project_id,
     date_start: DATE_START,
     date_end: DATE_END,
@@ -552,11 +563,12 @@ async function generateOne(project, family) {
     indexes: METRICS,
     use_ck: 1,
     is_all_data: 1,
+    analysis_mode: "trend",
   });
   const summary = calcMain(mainData);
 
   console.log(`[${project.project_id}] fetching format trend`);
-  const formatData = await callTool("get_est_ads_revenue_chart_data", {
+  const formatData = await callTool("view_estimated_ads_revenue_report", {
     project_id: project.project_id,
     date_start: EXT_START,
     date_end: EXT_END,
@@ -565,24 +577,47 @@ async function generateOne(project, family) {
     indexes: FORMAT_METRICS,
     use_ck: 1,
     is_all_data: 1,
+    analysis_mode: "trend",
   });
   const formats = calcFormats(formatData, summary.dates || []);
 
   console.log(`[${project.project_id}] fetching scene table`);
   let scenes = [];
+  let sceneWindow = `${DATE_START} ~ ${DATE_END}`;
   try {
-    const sceneData = await callTool("get_est_ads_revenue_table_data", {
+    const sceneData = await callTool("view_estimated_ads_revenue_report", {
       project_id: project.project_id,
       date_start: DATE_START,
       date_end: DATE_END,
       dimension_list: ["scene"],
+      indexes: ["ads_revenue", "impressions", "ecpm", "ipu"],
+      analysis_mode: "breakdown",
     });
     scenes = calcScenes(sceneData);
   } catch (error) {
     console.warn(`[${project.project_id}] scene table failed: ${error.message}`);
+    const fallbackStart = summary.dates?.slice(-7)?.[0];
+    const fallbackEnd = summary.dates?.slice(-1)?.[0];
+    if (fallbackStart && fallbackEnd) {
+      try {
+        const sceneData = await callTool("view_estimated_ads_revenue_report", {
+          project_id: project.project_id,
+          date_start: fallbackStart,
+          date_end: fallbackEnd,
+          dimension_list: ["date", "scene"],
+          indexes: ["ads_revenue", "impressions", "ecpm", "ipu"],
+          analysis_mode: "breakdown",
+          is_all_data: 1,
+        });
+        scenes = calcScenes(sceneData);
+        sceneWindow = `${fallbackStart} ~ ${fallbackEnd}（30 日场景全量超限，已降级最近 7 日）`;
+      } catch (fallbackError) {
+        console.warn(`[${project.project_id}] fallback scene table failed: ${fallbackError.message}`);
+      }
+    }
   }
 
-  return writeReport(project, family, summary, formats, scenes);
+  return writeReport(project, family, summary, formats, scenes, sceneWindow);
 }
 
 function writeIndex(results) {
