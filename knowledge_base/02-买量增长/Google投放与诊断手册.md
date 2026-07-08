@@ -106,6 +106,8 @@
 
 生命周期通用定义（`testing / scaling / mature / fatigue / pause_candidate` 五阶段）见 [[广告系列生命周期诊断模板]]。Google 场景必须附加 `learning` 标记：`learning` 不是独立的最终状态，最终输出可写成 `testing + learning`、`scaling + learning_risk`、`mature` 等组合。
 
+止损、放量验证、放量成功/失败和衰退主因的量化阈值见 [[Google_Meta_Campaign生命周期投放优化决策指南]]；Google 侧执行要点：先判断是否个别广告组问题（弱广告组换素材、复制优胜广告组小预算测试），再考虑 campaign 整盘回退预算；最早正式复核默认第 6 天，value / lag-heavy 目标必须等完整 conversion cycle，不用 12-24h 波动做强判断。
+
 ### 5.1 Google Ads 生命周期判断标准
 
 | 状态 | Google Ads 判断标准 | Snowball / BI 判断标准 | 主要风险 | 默认动作 |
